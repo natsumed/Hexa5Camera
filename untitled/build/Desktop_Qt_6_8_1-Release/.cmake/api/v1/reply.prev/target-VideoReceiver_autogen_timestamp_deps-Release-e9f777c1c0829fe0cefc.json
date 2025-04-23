@@ -1,0 +1,27 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"VideoReceiver/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "VideoReceiver_autogen_timestamp_deps::@a29df6a01e31ff8cf8b9",
+	"isGeneratorProvided" : true,
+	"name" : "VideoReceiver_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "VideoReceiver",
+		"source" : "VideoReceiver"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

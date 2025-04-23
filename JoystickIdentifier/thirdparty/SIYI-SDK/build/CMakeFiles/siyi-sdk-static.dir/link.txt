@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsiyi-sdk-static.a "CMakeFiles/siyi-sdk-static.dir/src/crc16.cpp.o" "CMakeFiles/siyi-sdk-static.dir/src/message.cpp.o" "CMakeFiles/siyi-sdk-static.dir/src/sdk.cpp.o"
+/usr/bin/ranlib libsiyi-sdk-static.a

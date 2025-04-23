@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "chrono": "cpp",
+        "compare": "cpp",
+        "memory": "cpp",
+        "sstream": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp"
+    }
+}

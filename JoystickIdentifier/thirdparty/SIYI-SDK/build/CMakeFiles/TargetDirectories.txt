@@ -1,0 +1,3 @@
+/home/med/control-binary/thirdparty/SIYI-SDK/build/CMakeFiles/siyi-sdk-static.dir
+/home/med/control-binary/thirdparty/SIYI-SDK/build/CMakeFiles/edit_cache.dir
+/home/med/control-binary/thirdparty/SIYI-SDK/build/CMakeFiles/rebuild_cache.dir
