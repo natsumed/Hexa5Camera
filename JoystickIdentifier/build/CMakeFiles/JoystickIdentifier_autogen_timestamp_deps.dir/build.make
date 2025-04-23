@@ -66,14 +66,14 @@ include CMakeFiles/JoystickIdentifier_autogen_timestamp_deps.dir/compiler_depend
 # Include the progress variables for this target.
 include CMakeFiles/JoystickIdentifier_autogen_timestamp_deps.dir/progress.make
 
+CMakeFiles/JoystickIdentifier_autogen_timestamp_deps: /home/med/Qt/6.8.1/gcc_64/lib/libQt6MultimediaWidgets.so.6.8.1
 CMakeFiles/JoystickIdentifier_autogen_timestamp_deps: /home/med/Qt/6.8.1/gcc_64/lib/libQt6Multimedia.so.6.8.1
-CMakeFiles/JoystickIdentifier_autogen_timestamp_deps: /home/med/Qt/6.8.1/gcc_64/lib/libQt6Core.so.6.8.1
-CMakeFiles/JoystickIdentifier_autogen_timestamp_deps: QJoysticks/libQJoysticks.a
 CMakeFiles/JoystickIdentifier_autogen_timestamp_deps: /home/med/Qt/6.8.1/gcc_64/libexec/moc
 CMakeFiles/JoystickIdentifier_autogen_timestamp_deps: /home/med/Qt/6.8.1/gcc_64/libexec/uic
+CMakeFiles/JoystickIdentifier_autogen_timestamp_deps: /home/med/Qt/6.8.1/gcc_64/lib/libQt6Core.so.6.8.1
 CMakeFiles/JoystickIdentifier_autogen_timestamp_deps: /home/med/Qt/6.8.1/gcc_64/lib/libQt6Widgets.so.6.8.1
+CMakeFiles/JoystickIdentifier_autogen_timestamp_deps: QJoysticks/libQJoysticks.a
 CMakeFiles/JoystickIdentifier_autogen_timestamp_deps: VideoReceiver/libVideoReceiver.a
-CMakeFiles/JoystickIdentifier_autogen_timestamp_deps: /home/med/Qt/6.8.1/gcc_64/lib/libQt6MultimediaWidgets.so.6.8.1
 CMakeFiles/JoystickIdentifier_autogen_timestamp_deps: libsiyi-sdk.a
 
 JoystickIdentifier_autogen_timestamp_deps: CMakeFiles/JoystickIdentifier_autogen_timestamp_deps

@@ -492,6 +492,8 @@ CMakeFiles/JoystickIdentifier.dir/mainwindow.cpp.o: \
  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qvideowidget.h \
  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsglobal.h \
  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsexports.h \
+ /usr/include/c++/11/mutex /usr/include/c++/11/bits/std_mutex.h \
+ /usr/include/c++/11/bits/unique_lock.h \
  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/JoystickIdentifier_autogen/include/ui_mainwindow.h \
  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QVariant \
  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvariant.h \

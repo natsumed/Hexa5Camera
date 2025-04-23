@@ -700,6 +700,8 @@ CMakeFiles/JoystickIdentifier.dir/JoystickIdentifier_autogen/mocs_compilation.cp
  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qvideowidget.h \
  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsglobal.h \
  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsexports.h \
+ /usr/include/c++/11/mutex /usr/include/c++/11/bits/std_mutex.h \
+ /usr/include/c++/11/bits/unique_lock.h \
  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/JoystickIdentifier_autogen/EWIEGA46WW/moc_signalhandler.cpp \
  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/JoystickIdentifier_autogen/EWIEGA46WW/../../../signalhandler.h \
  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSocketNotifier \

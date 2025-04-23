@@ -6,7 +6,7 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Set Qt6 prefix path (adjust if needed)
@@ -15,7 +15,8 @@ set(CMAKE_PREFIX_PATH "/home/med/Qt/6.8.1/gcc_64/lib/cmake")
 # Find Qt6 required components.
 find_package(Qt6 REQUIRED COMPONENTS Widgets Multimedia MultimediaWidgets Core)
 find_package(X11 REQUIRED)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -D_DEBUG")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -D_DEBUG")
 
 # Add QJoysticks as a subdirectory.
 add_subdirectory(../QJoysticks ${CMAKE_BINARY_DIR}/QJoysticks)

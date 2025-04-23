@@ -6,5 +6,5 @@ CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DSDL_SU
 
 CXX_INCLUDES = -I/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/QJoysticks/QJoysticks_autogen/include -I/home/med/Desktop/Joystick_Identifier/QJoysticks/src -I/home/med/Desktop/Joystick_Identifier/QJoysticks/lib/SDL/include -I/usr/include/SDL2 -isystem /home/med/Qt/6.8.1/gcc_64/include/QtCore -isystem /home/med/Qt/6.8.1/gcc_64/include -isystem /home/med/Qt/6.8.1/gcc_64/mkspecs/linux-g++ -isystem /home/med/Qt/6.8.1/gcc_64/include/QtWidgets -isystem /home/med/Qt/6.8.1/gcc_64/include/QtGui
 
-CXX_FLAGS =  -g -D_DEBUG -std=gnu++17 -fPIC
+CXX_FLAGS =  -g -std=gnu++17 -fPIC
 

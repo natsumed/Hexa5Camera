@@ -27,8 +27,11 @@
 #include "thirdparty/SIYI-SDK/src/sdk.h"
 
 
+
+
+
 static const char *CONTROL_IP = "10.14.11.3";
-static const int CONTROL_PORT = 8554;
+static const int CONTROL_PORT = 37260;
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent),
@@ -94,16 +97,28 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Create the SIYI SDK instance.
 
-    sdk = new SIYI_SDK(CONTROL_IP, CONTROL_PORT);
+    std::string ip = "10.14.11.3";
+    int port = 37260;
+    sdk = new SIYI_SDK(ip.c_str(), 37260);
+    if (sdk->request_firmware_version()) {
+        qDebug() << "Requested firmware version. Waiting for response...";
+        std::this_thread::sleep_for(std::chrono::seconds(2)); 
+        auto [code_version, gimbal_version, zoom_version] = sdk->get_firmware_version();
+        qDebug() <<"Code Board: " << code_version << "  Gimbal: " << gimbal_version << "  Zoom: " << zoom_version ;
+    } else {
+        qDebug() << "Failed to request firmware version.";
+    }
+    if (sdk->request_gimbal_center()){
+        qDebug() << "Requested gimbal center . Waiting for response...";
+    }
+    if(sdk->request_autofocus()){
+        qDebug() << "Requested autofocus. Waiting for response...";
+    }
 
-
-	receiveThread = std::make_unique<std::thread>([this]() {
-    	bool shouldRun = keepRunning.load();
-    	while(shouldRun) {
-        	sdk->receive_message_loop(shouldRun);
-        	shouldRun = keepRunning.load();
-    		}
-	});
+    receiveThread = std::thread([this]() {
+        bool keepRunningLocal = keepRunning.load();
+        sdk->receive_message_loop(keepRunningLocal);
+    });
     #ifdef _DEBUG
     qDebug() << "Camera control initialized";
     #endif
@@ -117,16 +132,13 @@ MainWindow::~MainWindow() {
     // 2. Signal threads to stop
     keepRunning = false;
     
-    // 3. Join threads
-    if (receiveThread && receiveThread->joinable()) {
-        receiveThread->join();
+    // 3. Join threads (use . operator, not ->)
+    if (receiveThread.joinable()) {  // CORRECTED
+        receiveThread.join();
     }
     
     // 4. Delete SDK instance
-    if (sdk) {
-        delete sdk;
-        sdk = nullptr;
-    }
+    delete sdk;
 }
 
 void MainWindow::onJoystickItemClicked(QListWidgetItem *item) {
@@ -242,7 +254,7 @@ void MainWindow::keyPressEvent(QKeyEvent *event) {
     }
     event->accept();
     {
-        QMutexLocker locker(&commandMutex);
+
         switch (event->key()) {
         case Qt::Key_Z:  // pitch up
             //currentPitchSpeed = PITCH_SPEED_CONSTANT;
@@ -269,7 +281,6 @@ void MainWindow::keyPressEvent(QKeyEvent *event) {
              #endif
             break;
         case Qt::Key_D:  // yaw right
-            //currentYawSpeed = YAW_SPEED_CONSTANT;
             currentYawSpeed = MOVE_SPEED;
             if(ui->toolButtonRight) ui->toolButtonRight->setStyleSheet("background-color: green;");
             #ifdef _DEBUG
@@ -288,6 +299,7 @@ void MainWindow::keyPressEvent(QKeyEvent *event) {
         case Qt::Key_Underscore:
             currentZoom = std::max(-3.0f, currentZoom - ZOOM_STEP_CONSTANT);
             if(ui->toolButtonZoomMinus) ui->toolButtonZoomMinus->setStyleSheet("background-color: green;");
+
             #ifdef _DEBUG
             qDebug() << "Key pressed:" << event->key() << "Yaw:" << currentYawSpeed << "Pitch:" << currentPitchSpeed;
              #endif
@@ -306,7 +318,7 @@ void MainWindow::keyReleaseEvent(QKeyEvent *event) {
     }
     event->accept();
     {
-        QMutexLocker locker(&commandMutex);
+
         switch (event->key()) {
         case Qt::Key_Z:
         case Qt::Key_S:
@@ -337,15 +349,18 @@ void MainWindow::keyReleaseEvent(QKeyEvent *event) {
 }
 
 void MainWindow::sendGimbalCommands() {
-    QMutexLocker locker(&commandMutex);
-    
+
+    QMutexLocker locker(&commandMutex); 
     // Always send commands regardless of speed values
     bool success = sdk->set_gimbal_speed(currentYawSpeed, currentPitchSpeed);
+    //qDebug() << "Command sent - Yaw:" << currentYawSpeed << "Pitch:" << currentPitchSpeed << "Success:" << success;
     //qDebug() << "Command:" << currentYawSpeed << "," << currentPitchSpeed 
     //         << (success ? "Succeeded" : "Failed");
-    #ifdef _DEBUG
-    qDebug() << "Command sent - Yaw:" << currentYawSpeed << "Pitch:" << currentPitchSpeed << "Success:" << success;
-    #endif
+    //#ifdef _DEBUG
+    //qDebug() << "Command sent - Yaw:" << currentYawSpeed << "Pitch:" << currentPitchSpeed << "Success:" << success;
+    //#endif
+    currentYawSpeed = 0;
+    currentPitchSpeed = 0;
 }
 
 

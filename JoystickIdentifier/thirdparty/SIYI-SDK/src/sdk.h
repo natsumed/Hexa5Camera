@@ -5,8 +5,6 @@
 #include <unistd.h>
 #include <thread>
 #include <chrono>
-#include <stdlib.h>
-#include <cstdlib>
 
 #include "message.h"
 
@@ -157,16 +155,7 @@ public:
     bool request_gimbal_attitude();
 
     bool set_gimbal_angles(float yaw, float pitch);
-    
-    void stop();
-    
-    void disconnect() {
-        if (sockfd_ != -1) {
-            ::close(sockfd_);
-            sockfd_ = -1;
-        }
-    }
-    void force_disconnect();
+
 
     ///////////////////////
     //  PARSE FUNCTIONS  //
@@ -198,9 +187,6 @@ public:
 
     void parse_gimbal_angles_msg(const std::string &parse_msg, int seq);
 
-
-    
-    
     /////////////////////
     //  GET FUNCTIONS  //
     /////////////////////
@@ -250,10 +236,9 @@ private:
     const int BUFFER_SIZE = 1024;
     std::string HEADER = "5566";
 
-    //int sockfd_;
+    int sockfd_;
     struct sockaddr_in server_addr_{};
     socklen_t server_addr_len = sizeof(server_addr_);
-    int sockfd_ = -1;
 };
 
 #endif // SDK_H

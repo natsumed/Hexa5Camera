@@ -6,5 +6,5 @@ CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIAWIDGETS_LIB -DQT_MULTIME
 
 CXX_INCLUDES = -I/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/JoystickIdentifier_autogen/include -I/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src -I/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoRecorderApp -I/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver -I/usr/include/gstreamer-1.0 -I/usr/include/orc-0.4 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/home/med/Desktop/Joystick_Identifier/QJoysticks/src -I/home/med/Desktop/Joystick_Identifier/QJoysticks/lib/SDL/include -I/usr/include/SDL2 -isystem /home/med/Qt/6.8.1/gcc_64/include/QtCore -isystem /home/med/Qt/6.8.1/gcc_64/include -isystem /home/med/Qt/6.8.1/gcc_64/mkspecs/linux-g++ -isystem /home/med/Qt/6.8.1/gcc_64/include/QtWidgets -isystem /home/med/Qt/6.8.1/gcc_64/include/QtGui -isystem /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia -isystem /home/med/Qt/6.8.1/gcc_64/include/QtNetwork -isystem /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets
 
-CXX_FLAGS =  -g -D_DEBUG -std=gnu++17 -fPIC
+CXX_FLAGS =  -g -std=gnu++17 -fPIC
 

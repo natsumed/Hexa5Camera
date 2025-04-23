@@ -1,14 +1,10 @@
 #include "sdk.h"
-#include <cstring> 
-#include <unistd.h>  
 
 SIYI_SDK::SIYI_SDK(const char *ip_address, const int port) {
     // Create a UDP socket
     sockfd_ = socket(AF_INET, SOCK_DGRAM, 0);
     if (sockfd_ < 0) {
-        #ifdef _TEST_RUN
-            std::cout << "Error, failed create socket" << std::endl;
-        #endif
+        std::cout << "Error, failed create socket" << std::endl;
         throw std::runtime_error("Failed to create socket");
     }
 
@@ -49,146 +45,100 @@ bool SIYI_SDK::send_message(const std::string &message) {
     ssize_t send_len = sendto(sockfd_, bytes.data(), bytes.size(), 0, (struct sockaddr *) &server_addr_,
                               sizeof(server_addr_));
     if (send_len < 0) {
-        #ifdef _TEST_RUN
-            std::cout << "Error, failed to send message" << std::endl;
-        #endif
+        std::cout << "Error, failed to send message" << std::endl;
         return false;
     }
-    //#ifdef _DEBUG
-    //std::cout << "Sending message: " << message << std::endl;
-    //#endif
     return true;
 }
 
-
 void SIYI_SDK::receive_message_loop(bool &connected) {
     while (connected) {
-        // Set up the file descriptor set with our socket.
-        fd_set readfds;
-        FD_ZERO(&readfds);
-        FD_SET(sockfd_, &readfds);
+        char buff[BUFFER_SIZE];
+        int bytes = int(recvfrom(sockfd_, buff, BUFFER_SIZE, 0, (struct sockaddr *) &server_addr_, &server_addr_len));
+        
+        // Verify if any data was received
+        if (bytes <= 0) {
+            std::cerr << "Error: No data received or connection error (bytes=" << bytes << ")" << std::endl;
+            continue;
+        }
+        
+        // Convert received bytes to hex string in uppercase
+        std::stringstream ss;
+        ss << std::hex << std::uppercase << std::setfill('0');
+        for (int i = 0; i < bytes; i++) {
+            ss << std::setw(2) << (int) (unsigned char) buff[i];
+        }
 
-        // Set a timeout of 1 second so that select() returns if there's no data.
-        struct timeval timeout;
-        timeout.tv_sec = 0;      // 1 second
-        timeout.tv_usec = 100000;     // 0 microseconds
+        // Convert hex string to lowercase
+        std::string buff_str = ss.str();
+        for (char &i: buff_str) i = char(tolower(i));
 
-        int ret = select(sockfd_ + 1, &readfds, nullptr, nullptr, &timeout);
-        if (!connected) break;
-        if (ret > 0) {
-            // Data is ready to be read on our socket.
-            if (FD_ISSET(sockfd_, &readfds)) {
-                char buff[BUFFER_SIZE];
-                int bytes = int(recvfrom(sockfd_, buff, BUFFER_SIZE, 0,
-                                         (struct sockaddr *) &server_addr_, &server_addr_len));
-                if (bytes <= 0) {
-                    std::cerr << "Error: No data received or connection error (bytes=" 
-                              << bytes << ")" << std::endl;
-                    continue;  // Optionally, you might break here if bytes < 0 indicates a fatal error.
-                }
+        // Add a sanity check for buffer length before further processing
+        if (buff_str.length() < MINIMUM_DATA_LENGTH) {
+            std::cerr << "Error: Received data is too short to process. Length: " << buff_str.length() << std::endl;
+            continue;
+        }
 
-                // Convert received bytes to a hexadecimal string.
-                std::stringstream ss;
-                ss << std::hex << std::uppercase << std::setfill('0');
-                for (int i = 0; i < bytes; ++i) {
-                    ss << std::setw(2) << static_cast<int>(static_cast<unsigned char>(buff[i]));
-                }
-                std::string buff_str = ss.str();
-                // Optionally convert to lowercase.
-                for (char &c : buff_str)
-                    c = std::tolower(c);
+        // Process the buffer
+        while (buff_str.length() >= MINIMUM_DATA_LENGTH) {
+            if (buff_str.substr(0, 4) != HEADER) {
+                std::cerr << "Error: Invalid header detected. Discarding bytes..." << std::endl;
+                buff_str = buff_str.substr(2); // Shift the buffer by two characters
+                continue;
+            }
 
-                // Sanity check: if the buffer is too short, skip further processing.
-                if (buff_str.length() < MINIMUM_DATA_LENGTH) {
-                    std::cerr << "Error: Received data is too short to process. Length: " 
-                              << buff_str.length() << std::endl;
+            // Check data length in the message
+            std::string low_b = buff_str.substr(6, 2);
+            std::string high_b = buff_str.substr(8, 2);
+            std::string data_len_str = high_b + low_b;
+            int data_len;
+
+            try {
+                data_len = std::stoi(data_len_str, nullptr, 16);
+            } catch (const std::exception &e) {
+                std::cerr << "Error: Failed to parse data length. " << e.what() << std::endl;
+                buff_str = "";
+                break;
+            }
+
+            // Ensure buffer has enough data for the payload
+            if (buff_str.length() >= (MINIMUM_DATA_LENGTH + data_len * 2)) {
+                std::string packet = buff_str.substr(0, MINIMUM_DATA_LENGTH + data_len * 2);
+                buff_str = buff_str.substr(MINIMUM_DATA_LENGTH + data_len * 2);
+
+                // Decode the packet
+                std::tuple<std::string, int, std::string, int> decoded = msg.decode_msg(packet);
+                if (std::get<0>(decoded).empty()) {
+                    std::cerr << "Error: Failed to decode message." << std::endl;
                     continue;
                 }
 
-                // Process the buffer (this is your existing packet processing logic)
-                while (buff_str.length() >= MINIMUM_DATA_LENGTH) {
-                    if (buff_str.substr(0, 4) != HEADER) {
-                        std::cerr << "Error: Invalid header detected. Discarding bytes..." << std::endl;
-                        // Remove the first two hex digits and try again.
-                        buff_str = buff_str.substr(2);
-                        continue;
-                    }
-                    
-                    // Get the data length from the message header.
-                    std::string low_b = buff_str.substr(6, 2);
-                    std::string high_b = buff_str.substr(8, 2);
-                    std::string data_len_str = high_b + low_b;
-                    int data_len;
-                    try {
-                        data_len = std::stoi(data_len_str, nullptr, 16);
-                    } catch (const std::exception &e) {
-                        std::cerr << "Error: Failed to parse data length: " << e.what() << std::endl;
-                        buff_str = "";
-                        break;
-                    }
+                std::string data = std::get<0>(decoded);
+                std::string cmd_id = std::get<2>(decoded);
+                int seq = std::get<3>(decoded);
 
-                    // Check if the buffer contains the full packet.
-                    if (buff_str.length() >= (MINIMUM_DATA_LENGTH + data_len * 2)) {
-                        std::string packet = buff_str.substr(0, MINIMUM_DATA_LENGTH + data_len * 2);
-                        buff_str = buff_str.substr(MINIMUM_DATA_LENGTH + data_len * 2);
-                        
-                        // Decode and process the packet using your existing logic,
-                        // such as:
-                        std::tuple<std::string, int, std::string, int> decoded = msg.decode_msg(packet);
-                        if (std::get<0>(decoded).empty()) {
-                            std::cerr << "Error: Failed to decode message." << std::endl;
-                            continue;
-                        }
-
-                        std::string data = std::get<0>(decoded);
-                        std::string cmd_id = std::get<2>(decoded);
-                        int seq = std::get<3>(decoded);
-
-                        // Process messages based on command ID.
-                        if (cmd_id == ACQUIRE_GIMBAL_ATTITUDE)
-                            SIYI_SDK::parse_gimbal_attitude_msg(data, seq);
-                        else if (cmd_id == ACQUIRE_GIMBAL_INFO)
-                            SIYI_SDK::parse_gimbal_info_msg(data, seq);
-                        else if (cmd_id == MANUAL_ZOOM)
-                            SIYI_SDK::parse_manual_zoom_msg(data, seq);
-                        else if (cmd_id == ACQUIRE_FIRMWARE_VERSION)
-                            SIYI_SDK::parse_firmware_version_msg(data, seq);
-                        else if (cmd_id == ACQUIRE_HARDWARE_ID)
-                            SIYI_SDK::parse_hardware_id_msg(data, seq);
-                        else if (cmd_id == FUNCTION_FEEDBACK_INFO)
-                            SIYI_SDK::parse_function_feedback_msg(data, seq);
-                        else if (cmd_id == GIMBAL_ROTATION)
-                            SIYI_SDK::parse_gimbal_speed_msg(data, seq);
-                        else if (cmd_id == CONTROL_ANGLE)
-                            SIYI_SDK::parse_gimbal_angles_msg(data, seq);
-                        else if (cmd_id == AUTOFOCUS)
-                            SIYI_SDK::parse_autofocus_msg(data, seq);
-                        else if (cmd_id == MANUAL_FOCUS)
-                            SIYI_SDK::parse_manual_focus_msg(data, seq);
-                        else if (cmd_id == CENTER)
-                            SIYI_SDK::parse_gimbal_center_msg(data, seq);
-                        else if (cmd_id == ABSOLUTE_ZOOM)
-                            SIYI_SDK::parse_absolute_zoom_msg(data, seq);
-                        else if (cmd_id == ACQUIRE_MAX_ZOOM)
-                            SIYI_SDK::parse_maximum_zoom_msg(data, seq);
-                    } else {
-                        std::cerr << "Error: Incomplete data packet detected. Discarding buffer." << std::endl;
-                        buff_str = "";
-                        break;
-                    }
-                }
+                // Parse message based on command ID
+                if (cmd_id == ACQUIRE_GIMBAL_ATTITUDE) SIYI_SDK::parse_gimbal_attitude_msg(data, seq);
+                else if (cmd_id == ACQUIRE_GIMBAL_INFO) SIYI_SDK::parse_gimbal_info_msg(data, seq);
+                else if (cmd_id == MANUAL_ZOOM) SIYI_SDK::parse_manual_zoom_msg(data, seq);
+                else if (cmd_id == ACQUIRE_FIRMWARE_VERSION) SIYI_SDK::parse_firmware_version_msg(data, seq);
+                else if (cmd_id == ACQUIRE_HARDWARE_ID) SIYI_SDK::parse_hardware_id_msg(data, seq);
+                else if (cmd_id == FUNCTION_FEEDBACK_INFO) SIYI_SDK::parse_function_feedback_msg(data, seq);
+                else if (cmd_id == GIMBAL_ROTATION) SIYI_SDK::parse_gimbal_speed_msg(data, seq);
+                else if (cmd_id == CONTROL_ANGLE) SIYI_SDK::parse_gimbal_angles_msg(data, seq);
+                else if (cmd_id == AUTOFOCUS) SIYI_SDK::parse_autofocus_msg(data, seq);
+                else if (cmd_id == MANUAL_FOCUS) SIYI_SDK::parse_manual_focus_msg(data, seq);
+                else if (cmd_id == CENTER) SIYI_SDK::parse_gimbal_center_msg(data, seq);
+                else if (cmd_id == ABSOLUTE_ZOOM) SIYI_SDK::parse_absolute_zoom_msg(data, seq);
+                else if (cmd_id == ACQUIRE_MAX_ZOOM) SIYI_SDK::parse_maximum_zoom_msg(data, seq);
+            } else {
+                std::cerr << "Error: Incomplete data packet detected. Discarding buffer." << std::endl;
+                buff_str = "";
+                break;
             }
-        } else if (ret == 0) {
-            // Timeout: no data received in the given interval.
-            continue;
-        } else {
-            // If select() returns an error.
-            std::cerr << "select() error: " << strerror(errno) << std::endl;
-            break;
         }
     }
 }
-
 
 
 void SIYI_SDK::gimbal_attitude_loop(bool &connected) {
@@ -206,15 +156,6 @@ void SIYI_SDK::gimbal_info_loop(bool &connected) {
         SIYI_SDK::request_firmware_version();
         SIYI_SDK::request_gimbal_info();
         std::this_thread::sleep_for(std::chrono::seconds(1));  // set frequency to 1 Hz
-    }
-}
-
-// Add to SIYI_SDK class
-void SIYI_SDK::force_disconnect() {
-    if (sockfd_ != -1) {
-        ::shutdown(sockfd_, SHUT_RDWR);  // Force socket wakeup
-        ::close(sockfd_);
-        sockfd_ = -1;
     }
 }
 
@@ -289,6 +230,7 @@ bool SIYI_SDK::request_focus_halt() {
 }
 
 bool SIYI_SDK::set_gimbal_speed(int yaw_speed, int pitch_speed) {
+    /// -100~0~100. Away from 0 rotates faster, close to 0 - slower. 0 halts rotation
     std::string message = msg.gimbal_speed_msg(yaw_speed, pitch_speed);
     if (send_message(message)) return true;
     else return false;
@@ -353,15 +295,6 @@ bool SIYI_SDK::set_gimbal_angles(float yaw, float pitch) {
     std::string message = msg.gimbal_angles_msg(yaw, pitch);
     if (send_message(message)) return true;
     else return false;
-}
-
-void SIYI_SDK::stop() {
-    // Set live to false so that all loops eventually exit.
-    live = false;
-    // Shutdown the socket to force the select() call to return.
-    shutdown(sockfd_, SHUT_RDWR);
-    // Optionally, close the socket if not already closed.
-    close(sockfd_);
 }
 
 ///////////////////////

@@ -87,39 +87,22 @@ std::tuple<std::string, int, std::string, int> SIYI_Message::decode_msg(const st
     return std::make_tuple(data, data_len, cmd_id, seq);
 }
 
-#include <cstdint>  // For uint8_t
-#include <iomanip>  // For std::setw/std::setfill
 std::string SIYI_Message::encode_msg(const std::string &data, const std::string &cmd_id) {
-    // Protocol Structure:
-    // [Header][CTRL][SEQ][LEN][CMD][DATA][CRC]
-    
-    const std::string HEADER = "5566";      // 2 bytes
-    const std::string CTRL_BYTE = "01";     // 1 byte (command type)
-    
-    // Sequence (2 bytes, little-endian)
-    std::string seq = increment_seq(_seq);  // Ensure returns 4-char hex (e.g., "0001")
-    
-    // Data length (2 bytes, little-endian)
-    int data_bytes = data.length() / 2;     // 2 hex chars = 1 byte
-    std::stringstream len_ss;
-    len_ss << std::setw(4) << std::setfill('0') << std::hex << data_bytes;
-    std::string data_len = len_ss.str().substr(2, 2) + len_ss.str().substr(0, 2);
-    
-    // Command ID (1 byte)
-    if (cmd_id.length() != 2) {  // cmd_id must be 1 byte (2 hex chars)
-        std::cerr << "Invalid CMD_ID: " << cmd_id << std::endl;
+    std::string seq = increment_seq(_seq);
+    std::string data_len = compute_data_len(data);
+    std::string msg_front = HEADER + _ctr + data_len + seq + cmd_id + data;
+
+    // Insert CRC16 bytes and reformat the message
+    std::string crc = CRC16::compute_str_swap(msg_front);
+    if (!crc.empty()) {
+        std::string msg = msg_front + crc;
+        return msg;
+    } else {
+        std::cout << "Warning, CRC16 error during message encoding" << std::endl;
         return "";
     }
-    
-    // Build message
-    std::string msg = HEADER + CTRL_BYTE + seq + data_len + cmd_id + data;
-    
-    // Compute CRC16
-    std::string crc = CRC16::compute_str_swap(msg);
-    if (crc.empty()) return "";
-    
-    return msg + crc;
 }
+
 /////////////////////////
 // MESSAGE DEFINITIONS //
 /////////////////////////
@@ -200,23 +183,26 @@ std::string SIYI_Message::focus_halt_msg() {
     return SIYI_Message::encode_msg(data, cmd_id);
 }
 
-#include <algorithm>  // For std::clamp
 std::string SIYI_Message::gimbal_speed_msg(int yaw_speed, int pitch_speed) {
-    // Clamp to [-100, 100]
-    yaw_speed = (yaw_speed > 100) ? 100 : (yaw_speed < -100) ? -100 : yaw_speed;
-    pitch_speed = (pitch_speed > 100) ? 100 : (pitch_speed < -100) ? -100 : pitch_speed;
-
-    // Convert to 16-bit little-endian
-    uint16_t yaw_le = static_cast<uint16_t>(static_cast<int16_t>(yaw_speed));
-    uint16_t pitch_le = static_cast<uint16_t>(static_cast<int16_t>(pitch_speed));
-
+    // Check if yaw speed exceeded limit and convert it to hex string
+    if (yaw_speed > 100) yaw_speed = 100;
+    else if (yaw_speed < -100) yaw_speed = -100;
     std::stringstream ss;
-    ss << std::hex << std::setw(2) << std::setfill('0') << (yaw_le & 0xFF)
-       << std::hex << std::setw(2) << std::setfill('0') << ((yaw_le >> 8) & 0xFF)
-       << std::hex << std::setw(2) << std::setfill('0') << (pitch_le & 0xFF)
-       << std::hex << std::setw(2) << std::setfill('0') << ((pitch_le >> 8) & 0xFF);
+    ss << std::hex << std::setw(2) << std::setfill('0') << yaw_speed;
+    std::string data1 = ss.str();
+    data1 = data1.substr(data1.length() - 2);
 
-    return SIYI_Message::encode_msg(ss.str(), GIMBAL_ROTATION);
+    // Check if pitch speed exceeded limit and convert it to hex string
+    if (pitch_speed > 100) pitch_speed = 100;
+    else if (pitch_speed < -100) pitch_speed = -100;
+    ss.clear();
+    ss << std::hex << std::setw(2) << std::setfill('0') << pitch_speed;
+    std::string data2 = ss.str();
+    data2 = data2.substr(data2.length() - 2);
+
+    std::string data = data1 + data2;
+    std::string cmd_id = GIMBAL_ROTATION;
+    return SIYI_Message::encode_msg(data, cmd_id);
 }
 
 std::string SIYI_Message::gimbal_center_msg() {

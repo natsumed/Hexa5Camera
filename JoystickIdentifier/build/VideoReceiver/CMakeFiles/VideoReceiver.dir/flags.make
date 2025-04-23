@@ -6,5 +6,5 @@ CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
 
 CXX_INCLUDES = -I/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/VideoReceiver/VideoReceiver_autogen/include -I/usr/include/gstreamer-1.0 -I/usr/include/orc-0.4 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -isystem /home/med/Qt/6.8.1/gcc_64/include/QtCore -isystem /home/med/Qt/6.8.1/gcc_64/include -isystem /home/med/Qt/6.8.1/gcc_64/mkspecs/linux-g++ -isystem /home/med/Qt/6.8.1/gcc_64/include/QtGui -isystem /home/med/Qt/6.8.1/gcc_64/include/QtWidgets
 
-CXX_FLAGS =  -g -D_DEBUG -std=gnu++17 -fPIC
+CXX_FLAGS =  -g -std=gnu++17 -fPIC
 

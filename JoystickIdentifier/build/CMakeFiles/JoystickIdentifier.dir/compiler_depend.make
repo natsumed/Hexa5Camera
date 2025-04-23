@@ -1057,23 +1057,80 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
   /usr/local/bin/cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in \
+  /usr/local/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp \
   /usr/local/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeSystem.cmake.in \
   /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeUnixFindMake.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckFunctionExists.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake \
   /usr/local/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake \
   /usr/local/share/cmake-3.28/Modules/Compiler/GNU.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /usr/local/share/cmake-3.28/Modules/FeatureSummary.cmake \
   /usr/local/share/cmake-3.28/Modules/FindOpenGL.cmake \
   /usr/local/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
@@ -1086,7 +1143,9 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/local/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake \
   /usr/local/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake \
   /usr/local/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
+  /usr/local/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake \
   /usr/local/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake \
+  /usr/local/share/cmake-3.28/Modules/Platform/Linux-Determine-CXX.cmake \
   /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
   /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
   /usr/local/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
@@ -2148,23 +2207,80 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
   /usr/local/bin/cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in \
+  /usr/local/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp \
   /usr/local/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeSystem.cmake.in \
   /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeUnixFindMake.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckFunctionExists.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake \
   /usr/local/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake \
   /usr/local/share/cmake-3.28/Modules/Compiler/GNU.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /usr/local/share/cmake-3.28/Modules/FeatureSummary.cmake \
   /usr/local/share/cmake-3.28/Modules/FindOpenGL.cmake \
   /usr/local/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
@@ -2177,7 +2293,9 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/local/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake \
   /usr/local/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake \
   /usr/local/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
+  /usr/local/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake \
   /usr/local/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake \
+  /usr/local/share/cmake-3.28/Modules/Platform/Linux-Determine-CXX.cmake \
   /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
   /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
   /usr/local/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
@@ -3239,23 +3357,80 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
   /usr/local/bin/cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in \
+  /usr/local/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp \
   /usr/local/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeSystem.cmake.in \
   /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeUnixFindMake.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckFunctionExists.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake \
   /usr/local/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake \
   /usr/local/share/cmake-3.28/Modules/Compiler/GNU.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /usr/local/share/cmake-3.28/Modules/FeatureSummary.cmake \
   /usr/local/share/cmake-3.28/Modules/FindOpenGL.cmake \
   /usr/local/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
@@ -3268,7 +3443,9 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/local/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake \
   /usr/local/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake \
   /usr/local/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
+  /usr/local/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake \
   /usr/local/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake \
+  /usr/local/share/cmake-3.28/Modules/Platform/Linux-Determine-CXX.cmake \
   /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
   /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
   /usr/local/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
@@ -3888,6 +4065,7 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/include/c++/11/bits/sstream.tcc \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -3916,6 +4094,7 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/this_thread_sleep.h \
   /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/bits/unique_lock.h \
   /usr/include/c++/11/bits/unique_ptr.h \
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/bits/uses_allocator.h \
@@ -3959,6 +4138,7 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/include/c++/11/locale \
   /usr/include/c++/11/map \
   /usr/include/c++/11/memory \
+  /usr/include/c++/11/mutex \
   /usr/include/c++/11/new \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/optional \
@@ -4330,23 +4510,80 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
   /usr/local/bin/cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in \
+  /usr/local/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp \
   /usr/local/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeSystem.cmake.in \
   /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeUnixFindMake.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckFunctionExists.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake \
   /usr/local/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake \
   /usr/local/share/cmake-3.28/Modules/Compiler/GNU.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /usr/local/share/cmake-3.28/Modules/FeatureSummary.cmake \
   /usr/local/share/cmake-3.28/Modules/FindOpenGL.cmake \
   /usr/local/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
@@ -4359,7 +4596,9 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/local/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake \
   /usr/local/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake \
   /usr/local/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
+  /usr/local/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake \
   /usr/local/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake \
+  /usr/local/share/cmake-3.28/Modules/Platform/Linux-Determine-CXX.cmake \
   /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
   /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
   /usr/local/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
@@ -4979,6 +5218,7 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/include/c++/11/bits/sstream.tcc \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -5007,6 +5247,7 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/this_thread_sleep.h \
   /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/bits/unique_lock.h \
   /usr/include/c++/11/bits/unique_ptr.h \
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/bits/uses_allocator.h \
@@ -5050,6 +5291,7 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/include/c++/11/locale \
   /usr/include/c++/11/map \
   /usr/include/c++/11/memory \
+  /usr/include/c++/11/mutex \
   /usr/include/c++/11/new \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/optional \
@@ -5421,23 +5663,80 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
   /usr/local/bin/cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in \
+  /usr/local/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp \
   /usr/local/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeSystem.cmake.in \
   /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeUnixFindMake.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckFunctionExists.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake \
   /usr/local/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake \
   /usr/local/share/cmake-3.28/Modules/Compiler/GNU.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /usr/local/share/cmake-3.28/Modules/FeatureSummary.cmake \
   /usr/local/share/cmake-3.28/Modules/FindOpenGL.cmake \
   /usr/local/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
@@ -5450,7 +5749,9 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/local/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake \
   /usr/local/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake \
   /usr/local/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
+  /usr/local/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake \
   /usr/local/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake \
+  /usr/local/share/cmake-3.28/Modules/Platform/Linux-Determine-CXX.cmake \
   /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
   /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
   /usr/local/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
@@ -6070,6 +6371,7 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/include/c++/11/bits/sstream.tcc \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -6098,6 +6400,7 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/this_thread_sleep.h \
   /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/bits/unique_lock.h \
   /usr/include/c++/11/bits/unique_ptr.h \
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/bits/uses_allocator.h \
@@ -6141,6 +6444,7 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/include/c++/11/locale \
   /usr/include/c++/11/map \
   /usr/include/c++/11/memory \
+  /usr/include/c++/11/mutex \
   /usr/include/c++/11/new \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/optional \
@@ -6512,23 +6816,80 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
   /usr/local/bin/cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in \
+  /usr/local/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp \
   /usr/local/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeSystem.cmake.in \
   /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeUnixFindMake.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckFunctionExists.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake \
   /usr/local/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake \
   /usr/local/share/cmake-3.28/Modules/Compiler/GNU.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /usr/local/share/cmake-3.28/Modules/FeatureSummary.cmake \
   /usr/local/share/cmake-3.28/Modules/FindOpenGL.cmake \
   /usr/local/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
@@ -6541,7 +6902,9 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/local/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake \
   /usr/local/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake \
   /usr/local/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
+  /usr/local/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake \
   /usr/local/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake \
+  /usr/local/share/cmake-3.28/Modules/Platform/Linux-Determine-CXX.cmake \
   /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
   /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
   /usr/local/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
@@ -7161,6 +7524,7 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/include/c++/11/bits/sstream.tcc \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -7189,6 +7553,7 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/this_thread_sleep.h \
   /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/bits/unique_lock.h \
   /usr/include/c++/11/bits/unique_ptr.h \
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/bits/uses_allocator.h \
@@ -7232,6 +7597,7 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/include/c++/11/locale \
   /usr/include/c++/11/map \
   /usr/include/c++/11/memory \
+  /usr/include/c++/11/mutex \
   /usr/include/c++/11/new \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/optional \
@@ -7603,23 +7969,80 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
   /usr/local/bin/cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in \
+  /usr/local/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp \
   /usr/local/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeSystem.cmake.in \
   /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
   /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake \
+  /usr/local/share/cmake-3.28/Modules/CMakeUnixFindMake.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckFunctionExists.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake \
   /usr/local/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake \
   /usr/local/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake \
   /usr/local/share/cmake-3.28/Modules/Compiler/GNU.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /usr/local/share/cmake-3.28/Modules/FeatureSummary.cmake \
   /usr/local/share/cmake-3.28/Modules/FindOpenGL.cmake \
   /usr/local/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
@@ -7632,12008 +8055,9 @@ JoystickIdentifier_autogen/timestamp: /home/med/Desktop/Joystick_Identifier/Joys
   /usr/local/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake \
   /usr/local/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake \
   /usr/local/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
+  /usr/local/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake \
   /usr/local/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/CMakeLists.txt \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoRecorderApp/VideoRecorderWidget.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoRecorderApp/VideoRecorderWidget.h \
-  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.28.3/CMakeSystem.cmake \
-  JoystickIdentifier_autogen/moc_predefs.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/main.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.ui \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/signalhandler.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/signalhandler.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/crc16.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/message.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/sdk.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QCoreApplication \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QList \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QMutex \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QObject \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QRect \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSize \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSizeF \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSocketNotifier \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QTimer \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20functional.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20iterator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20memory.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20type_traits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q23utility.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qabstractitemmodel.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qanystringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydata.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydataops.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydatapointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qassert.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qatomic_cxx11.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbasicatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbasictimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbindingstorage.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearray.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearraylist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qchar.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompare.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompare_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcomparehelpers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompilerdetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qconfig.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qconstructormacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainerfwd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainerinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontiguouscache.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreapplication_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreevent.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdarwinhelpers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdatastream.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdeadlinetimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdebug.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qelapsedtimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qendian.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qeventloop.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qexceptionhandling.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qflags.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfloat16.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qforeach.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfunctionaltools_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfunctionpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qgenericatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qglobalstatic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qhash.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qhashfunctions.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiodevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiodevicebase.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qitemselectionmodel.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiterable.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiterator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlatin1stringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qline.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlocale.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlogging.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmalloc.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmargins.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmath.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmetacontainer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmetatype.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qminmax.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmutex.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnamespace.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnativeinterface.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnumeric.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobject.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobject_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qoverload.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qpair.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qpoint.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qprocessordetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qrect.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qrefcount.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qregularexpression.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qscopedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qscopeguard.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qset.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qshareddata.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qshareddata_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsharedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsharedpointer_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsize.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsocketnotifier.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qspan.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstring.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringbuilder.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter_base.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringfwd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringlist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringliteral.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringmatcher.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringtokenizer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qswap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsysinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsystemdetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtaggedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtclasshelpermacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtconfiginclude.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtconfigmacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtcore-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtcoreexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationmarkers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtenvironmentvariables.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtextstream.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtmetamacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtnoop.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtpreprocessorsupport.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtresource.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtsan_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qttranslation.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qttypetraits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtversion.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtversionchecks.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtypeinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtypes.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qurl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qutf8stringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvariant.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvarlengtharray.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qversiontagging.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qxptype_traits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qyieldcpu.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QCloseEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QKeyEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QShowEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QTransform \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qaction.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qbitmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qbrush.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qcolor.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qcursor.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qevent.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qeventpoint.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfont.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfontinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfontmetrics.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qguiapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qguiapplication_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qicon.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qimage.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qinputdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qinputmethod.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qkeysequence.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpaintdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpalette.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpixelformat.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpixmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpointingdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpolygon.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qregion.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qrgb.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qrgba64.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qscreen.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qscreen_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtgui-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtguiexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtguiglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtransform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvalidator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvector2d.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvectornd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qwindowdefs.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/QMediaPlayer \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qaudio.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qmediaplayer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtaudio.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimedia-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimediaexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimediaglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/QVideoWidget \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qvideowidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QApplication \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QListWidgetItem \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QMainWindow \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QWidget \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractitemview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractscrollarea.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractslider.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractspinbox.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qframe.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qlistview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qlistwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qmainwindow.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qrubberband.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qsizepolicy.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qslider.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qstyle.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qstyleoption.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtabbar.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtabwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgets-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Config.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtFeature.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtInstallPaths.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicGitHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
-  /usr/include/alloca.h \
-  /usr/include/arpa/inet.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/asm-generic/socket.h \
-  /usr/include/asm-generic/sockios.h \
-  /usr/include/assert.h \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/atomic \
-  /usr/include/c++/11/backward/auto_ptr.h \
-  /usr/include/c++/11/backward/binders.h \
-  /usr/include/c++/11/bit \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/align.h \
-  /usr/include/c++/11/bits/alloc_traits.h \
-  /usr/include/c++/11/bits/allocated_ptr.h \
-  /usr/include/c++/11/bits/allocator.h \
-  /usr/include/c++/11/bits/atomic_base.h \
-  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/11/bits/basic_ios.h \
-  /usr/include/c++/11/bits/basic_ios.tcc \
-  /usr/include/c++/11/bits/basic_string.h \
-  /usr/include/c++/11/bits/basic_string.tcc \
-  /usr/include/c++/11/bits/char_traits.h \
-  /usr/include/c++/11/bits/charconv.h \
-  /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/c++/11/bits/concept_check.h \
-  /usr/include/c++/11/bits/cpp_type_traits.h \
-  /usr/include/c++/11/bits/cxxabi_forced.h \
-  /usr/include/c++/11/bits/cxxabi_init_exception.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/c++/11/bits/exception.h \
-  /usr/include/c++/11/bits/exception_defines.h \
-  /usr/include/c++/11/bits/exception_ptr.h \
-  /usr/include/c++/11/bits/functexcept.h \
-  /usr/include/c++/11/bits/functional_hash.h \
-  /usr/include/c++/11/bits/hash_bytes.h \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/ios_base.h \
-  /usr/include/c++/11/bits/istream.tcc \
-  /usr/include/c++/11/bits/list.tcc \
-  /usr/include/c++/11/bits/locale_classes.h \
-  /usr/include/c++/11/bits/locale_classes.tcc \
-  /usr/include/c++/11/bits/locale_conv.h \
-  /usr/include/c++/11/bits/locale_facets.h \
-  /usr/include/c++/11/bits/locale_facets.tcc \
-  /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/c++/11/bits/memoryfwd.h \
-  /usr/include/c++/11/bits/move.h \
-  /usr/include/c++/11/bits/nested_exception.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/ostream.tcc \
-  /usr/include/c++/11/bits/ostream_insert.h \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/c++/11/bits/postypes.h \
-  /usr/include/c++/11/bits/predefined_ops.h \
-  /usr/include/c++/11/bits/ptr_traits.h \
-  /usr/include/c++/11/bits/quoted_string.h \
-  /usr/include/c++/11/bits/range_access.h \
-  /usr/include/c++/11/bits/refwrap.h \
-  /usr/include/c++/11/bits/shared_ptr.h \
-  /usr/include/c++/11/bits/shared_ptr_atomic.h \
-  /usr/include/c++/11/bits/shared_ptr_base.h \
-  /usr/include/c++/11/bits/specfun.h \
-  /usr/include/c++/11/bits/sstream.tcc \
-  /usr/include/c++/11/bits/std_abs.h \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/bits/std_thread.h \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/stl_algobase.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/stl_construct.h \
-  /usr/include/c++/11/bits/stl_function.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_iterator.h \
-  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/11/bits/stl_iterator_base_types.h \
-  /usr/include/c++/11/bits/stl_list.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
-  /usr/include/c++/11/bits/stl_numeric.h \
-  /usr/include/c++/11/bits/stl_pair.h \
-  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/bits/stl_tempbuf.h \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stream_iterator.h \
-  /usr/include/c++/11/bits/streambuf.tcc \
-  /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/c++/11/bits/string_view.tcc \
-  /usr/include/c++/11/bits/stringfwd.h \
-  /usr/include/c++/11/bits/this_thread_sleep.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/bits/unique_ptr.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/vector.tcc \
-  /usr/include/c++/11/cassert \
-  /usr/include/c++/11/cctype \
-  /usr/include/c++/11/cerrno \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/climits \
-  /usr/include/c++/11/clocale \
-  /usr/include/c++/11/cmath \
-  /usr/include/c++/11/cstddef \
-  /usr/include/c++/11/cstdint \
-  /usr/include/c++/11/cstdio \
-  /usr/include/c++/11/cstdlib \
-  /usr/include/c++/11/cstring \
-  /usr/include/c++/11/ctime \
-  /usr/include/c++/11/cwchar \
-  /usr/include/c++/11/cwctype \
-  /usr/include/c++/11/debug/assertions.h \
-  /usr/include/c++/11/debug/debug.h \
-  /usr/include/c++/11/exception \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/ext/alloc_traits.h \
-  /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/c++/11/ext/concurrence.h \
-  /usr/include/c++/11/ext/new_allocator.h \
-  /usr/include/c++/11/ext/numeric_traits.h \
-  /usr/include/c++/11/ext/string_conversions.h \
-  /usr/include/c++/11/ext/type_traits.h \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/initializer_list \
-  /usr/include/c++/11/iomanip \
-  /usr/include/c++/11/ios \
-  /usr/include/c++/11/iosfwd \
-  /usr/include/c++/11/iostream \
-  /usr/include/c++/11/istream \
-  /usr/include/c++/11/iterator \
-  /usr/include/c++/11/limits \
-  /usr/include/c++/11/list \
-  /usr/include/c++/11/locale \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/memory \
-  /usr/include/c++/11/new \
-  /usr/include/c++/11/numeric \
-  /usr/include/c++/11/optional \
-  /usr/include/c++/11/ostream \
-  /usr/include/c++/11/pstl/execution_defs.h \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/pstl/glue_memory_defs.h \
-  /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/sstream \
-  /usr/include/c++/11/stdexcept \
-  /usr/include/c++/11/streambuf \
-  /usr/include/c++/11/string \
-  /usr/include/c++/11/string_view \
-  /usr/include/c++/11/system_error \
-  /usr/include/c++/11/thread \
-  /usr/include/c++/11/tr1/bessel_function.tcc \
-  /usr/include/c++/11/tr1/beta_function.tcc \
-  /usr/include/c++/11/tr1/ell_integral.tcc \
-  /usr/include/c++/11/tr1/exp_integral.tcc \
-  /usr/include/c++/11/tr1/gamma.tcc \
-  /usr/include/c++/11/tr1/hypergeometric.tcc \
-  /usr/include/c++/11/tr1/legendre_function.tcc \
-  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
-  /usr/include/c++/11/tr1/poly_hermite.tcc \
-  /usr/include/c++/11/tr1/poly_laguerre.tcc \
-  /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /usr/include/c++/11/tr1/special_function_util.h \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/type_traits \
-  /usr/include/c++/11/typeinfo \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/variant \
-  /usr/include/c++/11/vector \
-  /usr/include/ctype.h \
-  /usr/include/dirent.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/glib-2.0/glib-object.h \
-  /usr/include/glib-2.0/glib.h \
-  /usr/include/glib-2.0/glib/deprecated/gallocator.h \
-  /usr/include/glib-2.0/glib/deprecated/gcache.h \
-  /usr/include/glib-2.0/glib/deprecated/gcompletion.h \
-  /usr/include/glib-2.0/glib/deprecated/gmain.h \
-  /usr/include/glib-2.0/glib/deprecated/grel.h \
-  /usr/include/glib-2.0/glib/deprecated/gthread.h \
-  /usr/include/glib-2.0/glib/galloca.h \
-  /usr/include/glib-2.0/glib/garray.h \
-  /usr/include/glib-2.0/glib/gasyncqueue.h \
-  /usr/include/glib-2.0/glib/gatomic.h \
-  /usr/include/glib-2.0/glib/gbacktrace.h \
-  /usr/include/glib-2.0/glib/gbase64.h \
-  /usr/include/glib-2.0/glib/gbitlock.h \
-  /usr/include/glib-2.0/glib/gbookmarkfile.h \
-  /usr/include/glib-2.0/glib/gbytes.h \
-  /usr/include/glib-2.0/glib/gcharset.h \
-  /usr/include/glib-2.0/glib/gchecksum.h \
-  /usr/include/glib-2.0/glib/gconvert.h \
-  /usr/include/glib-2.0/glib/gdataset.h \
-  /usr/include/glib-2.0/glib/gdate.h \
-  /usr/include/glib-2.0/glib/gdatetime.h \
-  /usr/include/glib-2.0/glib/gdir.h \
-  /usr/include/glib-2.0/glib/genviron.h \
-  /usr/include/glib-2.0/glib/gerror.h \
-  /usr/include/glib-2.0/glib/gfileutils.h \
-  /usr/include/glib-2.0/glib/ggettext.h \
-  /usr/include/glib-2.0/glib/ghash.h \
-  /usr/include/glib-2.0/glib/ghmac.h \
-  /usr/include/glib-2.0/glib/ghook.h \
-  /usr/include/glib-2.0/glib/ghostutils.h \
-  /usr/include/glib-2.0/glib/giochannel.h \
-  /usr/include/glib-2.0/glib/gkeyfile.h \
-  /usr/include/glib-2.0/glib/glib-autocleanups.h \
-  /usr/include/glib-2.0/glib/glib-typeof.h \
-  /usr/include/glib-2.0/glib/glist.h \
-  /usr/include/glib-2.0/glib/gmacros.h \
-  /usr/include/glib-2.0/glib/gmain.h \
-  /usr/include/glib-2.0/glib/gmappedfile.h \
-  /usr/include/glib-2.0/glib/gmarkup.h \
-  /usr/include/glib-2.0/glib/gmem.h \
-  /usr/include/glib-2.0/glib/gmessages.h \
-  /usr/include/glib-2.0/glib/gnode.h \
-  /usr/include/glib-2.0/glib/goption.h \
-  /usr/include/glib-2.0/glib/gpattern.h \
-  /usr/include/glib-2.0/glib/gpoll.h \
-  /usr/include/glib-2.0/glib/gprimes.h \
-  /usr/include/glib-2.0/glib/gqsort.h \
-  /usr/include/glib-2.0/glib/gquark.h \
-  /usr/include/glib-2.0/glib/gqueue.h \
-  /usr/include/glib-2.0/glib/grand.h \
-  /usr/include/glib-2.0/glib/grcbox.h \
-  /usr/include/glib-2.0/glib/grefcount.h \
-  /usr/include/glib-2.0/glib/grefstring.h \
-  /usr/include/glib-2.0/glib/gregex.h \
-  /usr/include/glib-2.0/glib/gscanner.h \
-  /usr/include/glib-2.0/glib/gsequence.h \
-  /usr/include/glib-2.0/glib/gshell.h \
-  /usr/include/glib-2.0/glib/gslice.h \
-  /usr/include/glib-2.0/glib/gslist.h \
-  /usr/include/glib-2.0/glib/gspawn.h \
-  /usr/include/glib-2.0/glib/gstrfuncs.h \
-  /usr/include/glib-2.0/glib/gstring.h \
-  /usr/include/glib-2.0/glib/gstringchunk.h \
-  /usr/include/glib-2.0/glib/gstrvbuilder.h \
-  /usr/include/glib-2.0/glib/gtestutils.h \
-  /usr/include/glib-2.0/glib/gthread.h \
-  /usr/include/glib-2.0/glib/gthreadpool.h \
-  /usr/include/glib-2.0/glib/gtimer.h \
-  /usr/include/glib-2.0/glib/gtimezone.h \
-  /usr/include/glib-2.0/glib/gtrashstack.h \
-  /usr/include/glib-2.0/glib/gtree.h \
-  /usr/include/glib-2.0/glib/gtypes.h \
-  /usr/include/glib-2.0/glib/gunicode.h \
-  /usr/include/glib-2.0/glib/guri.h \
-  /usr/include/glib-2.0/glib/gutils.h \
-  /usr/include/glib-2.0/glib/guuid.h \
-  /usr/include/glib-2.0/glib/gvariant.h \
-  /usr/include/glib-2.0/glib/gvarianttype.h \
-  /usr/include/glib-2.0/glib/gversion.h \
-  /usr/include/glib-2.0/glib/gversionmacros.h \
-  /usr/include/glib-2.0/gobject/gbinding.h \
-  /usr/include/glib-2.0/gobject/gbindinggroup.h \
-  /usr/include/glib-2.0/gobject/gboxed.h \
-  /usr/include/glib-2.0/gobject/gclosure.h \
-  /usr/include/glib-2.0/gobject/genums.h \
-  /usr/include/glib-2.0/gobject/glib-enumtypes.h \
-  /usr/include/glib-2.0/gobject/glib-types.h \
-  /usr/include/glib-2.0/gobject/gmarshal.h \
-  /usr/include/glib-2.0/gobject/gobject-autocleanups.h \
-  /usr/include/glib-2.0/gobject/gobject.h \
-  /usr/include/glib-2.0/gobject/gparam.h \
-  /usr/include/glib-2.0/gobject/gparamspecs.h \
-  /usr/include/glib-2.0/gobject/gsignal.h \
-  /usr/include/glib-2.0/gobject/gsignalgroup.h \
-  /usr/include/glib-2.0/gobject/gsourceclosure.h \
-  /usr/include/glib-2.0/gobject/gtype.h \
-  /usr/include/glib-2.0/gobject/gtypemodule.h \
-  /usr/include/glib-2.0/gobject/gtypeplugin.h \
-  /usr/include/glib-2.0/gobject/gvalue.h \
-  /usr/include/glib-2.0/gobject/gvaluearray.h \
-  /usr/include/glib-2.0/gobject/gvaluetypes.h \
-  /usr/include/gstreamer-1.0/gst/glib-compat.h \
-  /usr/include/gstreamer-1.0/gst/gst.h \
-  /usr/include/gstreamer-1.0/gst/gstallocator.h \
-  /usr/include/gstreamer-1.0/gst/gstatomicqueue.h \
-  /usr/include/gstreamer-1.0/gst/gstbin.h \
-  /usr/include/gstreamer-1.0/gst/gstbuffer.h \
-  /usr/include/gstreamer-1.0/gst/gstbufferlist.h \
-  /usr/include/gstreamer-1.0/gst/gstbufferpool.h \
-  /usr/include/gstreamer-1.0/gst/gstbus.h \
-  /usr/include/gstreamer-1.0/gst/gstcaps.h \
-  /usr/include/gstreamer-1.0/gst/gstcapsfeatures.h \
-  /usr/include/gstreamer-1.0/gst/gstchildproxy.h \
-  /usr/include/gstreamer-1.0/gst/gstclock.h \
-  /usr/include/gstreamer-1.0/gst/gstcompat.h \
-  /usr/include/gstreamer-1.0/gst/gstconfig.h \
-  /usr/include/gstreamer-1.0/gst/gstcontext.h \
-  /usr/include/gstreamer-1.0/gst/gstcontrolbinding.h \
-  /usr/include/gstreamer-1.0/gst/gstcontrolsource.h \
-  /usr/include/gstreamer-1.0/gst/gstdatetime.h \
-  /usr/include/gstreamer-1.0/gst/gstdebugutils.h \
-  /usr/include/gstreamer-1.0/gst/gstdevice.h \
-  /usr/include/gstreamer-1.0/gst/gstdevicemonitor.h \
-  /usr/include/gstreamer-1.0/gst/gstdeviceprovider.h \
-  /usr/include/gstreamer-1.0/gst/gstdeviceproviderfactory.h \
-  /usr/include/gstreamer-1.0/gst/gstdynamictypefactory.h \
-  /usr/include/gstreamer-1.0/gst/gstelement.h \
-  /usr/include/gstreamer-1.0/gst/gstelementfactory.h \
-  /usr/include/gstreamer-1.0/gst/gstelementmetadata.h \
-  /usr/include/gstreamer-1.0/gst/gstenumtypes.h \
-  /usr/include/gstreamer-1.0/gst/gsterror.h \
-  /usr/include/gstreamer-1.0/gst/gstevent.h \
-  /usr/include/gstreamer-1.0/gst/gstformat.h \
-  /usr/include/gstreamer-1.0/gst/gstghostpad.h \
-  /usr/include/gstreamer-1.0/gst/gstinfo.h \
-  /usr/include/gstreamer-1.0/gst/gstiterator.h \
-  /usr/include/gstreamer-1.0/gst/gstmacros.h \
-  /usr/include/gstreamer-1.0/gst/gstmemory.h \
-  /usr/include/gstreamer-1.0/gst/gstmessage.h \
-  /usr/include/gstreamer-1.0/gst/gstmeta.h \
-  /usr/include/gstreamer-1.0/gst/gstminiobject.h \
-  /usr/include/gstreamer-1.0/gst/gstobject.h \
-  /usr/include/gstreamer-1.0/gst/gstpad.h \
-  /usr/include/gstreamer-1.0/gst/gstpadtemplate.h \
-  /usr/include/gstreamer-1.0/gst/gstparamspecs.h \
-  /usr/include/gstreamer-1.0/gst/gstparse.h \
-  /usr/include/gstreamer-1.0/gst/gstpipeline.h \
-  /usr/include/gstreamer-1.0/gst/gstplugin.h \
-  /usr/include/gstreamer-1.0/gst/gstpluginfeature.h \
-  /usr/include/gstreamer-1.0/gst/gstpoll.h \
-  /usr/include/gstreamer-1.0/gst/gstpreset.h \
-  /usr/include/gstreamer-1.0/gst/gstpromise.h \
-  /usr/include/gstreamer-1.0/gst/gstprotection.h \
-  /usr/include/gstreamer-1.0/gst/gstquery.h \
-  /usr/include/gstreamer-1.0/gst/gstregistry.h \
-  /usr/include/gstreamer-1.0/gst/gstsample.h \
-  /usr/include/gstreamer-1.0/gst/gstsegment.h \
-  /usr/include/gstreamer-1.0/gst/gststreamcollection.h \
-  /usr/include/gstreamer-1.0/gst/gststreams.h \
-  /usr/include/gstreamer-1.0/gst/gststructure.h \
-  /usr/include/gstreamer-1.0/gst/gstsystemclock.h \
-  /usr/include/gstreamer-1.0/gst/gsttaglist.h \
-  /usr/include/gstreamer-1.0/gst/gsttagsetter.h \
-  /usr/include/gstreamer-1.0/gst/gsttask.h \
-  /usr/include/gstreamer-1.0/gst/gsttaskpool.h \
-  /usr/include/gstreamer-1.0/gst/gsttoc.h \
-  /usr/include/gstreamer-1.0/gst/gsttocsetter.h \
-  /usr/include/gstreamer-1.0/gst/gsttracer.h \
-  /usr/include/gstreamer-1.0/gst/gsttracerfactory.h \
-  /usr/include/gstreamer-1.0/gst/gsttracerrecord.h \
-  /usr/include/gstreamer-1.0/gst/gsttypefind.h \
-  /usr/include/gstreamer-1.0/gst/gsttypefindfactory.h \
-  /usr/include/gstreamer-1.0/gst/gsturi.h \
-  /usr/include/gstreamer-1.0/gst/gstutils.h \
-  /usr/include/gstreamer-1.0/gst/gstvalue.h \
-  /usr/include/gstreamer-1.0/gst/gstversion.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/locale.h \
-  /usr/include/netinet/in.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/signal.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/time.h \
-  /usr/include/unistd.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
-  /usr/include/x86_64-linux-gnu/asm/socket.h \
-  /usr/include/x86_64-linux-gnu/asm/sockios.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/in.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
-  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/socket.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
-  /usr/local/bin/cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckFunctionExists.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/GNU.cmake \
-  /usr/local/share/cmake-3.28/Modules/FeatureSummary.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindOpenGL.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPackageMessage.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPkgConfig.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindThreads.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindVulkan.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindX11.cmake \
-  /usr/local/share/cmake-3.28/Modules/GNUInstallDirs.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
-  /usr/local/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/CMakeLists.txt \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoRecorderApp/VideoRecorderWidget.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoRecorderApp/VideoRecorderWidget.h \
-  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.28.3/CMakeSystem.cmake \
-  JoystickIdentifier_autogen/moc_predefs.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/main.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.ui \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/signalhandler.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/signalhandler.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/crc16.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/message.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/sdk.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QCoreApplication \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QList \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QMutex \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QObject \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QRect \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSize \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSizeF \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSocketNotifier \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QTimer \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20functional.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20iterator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20memory.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20type_traits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q23utility.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qabstractitemmodel.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qanystringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydata.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydataops.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydatapointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qassert.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qatomic_cxx11.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbasicatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbasictimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbindingstorage.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearray.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearraylist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qchar.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompare.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompare_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcomparehelpers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompilerdetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qconfig.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qconstructormacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainerfwd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainerinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontiguouscache.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreapplication_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreevent.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdarwinhelpers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdatastream.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdeadlinetimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdebug.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qelapsedtimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qendian.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qeventloop.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qexceptionhandling.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qflags.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfloat16.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qforeach.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfunctionaltools_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfunctionpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qgenericatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qglobalstatic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qhash.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qhashfunctions.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiodevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiodevicebase.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qitemselectionmodel.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiterable.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiterator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlatin1stringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qline.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlocale.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlogging.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmalloc.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmargins.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmath.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmetacontainer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmetatype.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qminmax.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmutex.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnamespace.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnativeinterface.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnumeric.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobject.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobject_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qoverload.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qpair.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qpoint.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qprocessordetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qrect.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qrefcount.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qregularexpression.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qscopedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qscopeguard.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qset.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qshareddata.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qshareddata_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsharedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsharedpointer_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsize.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsocketnotifier.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qspan.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstring.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringbuilder.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter_base.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringfwd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringlist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringliteral.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringmatcher.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringtokenizer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qswap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsysinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsystemdetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtaggedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtclasshelpermacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtconfiginclude.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtconfigmacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtcore-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtcoreexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationmarkers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtenvironmentvariables.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtextstream.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtmetamacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtnoop.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtpreprocessorsupport.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtresource.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtsan_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qttranslation.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qttypetraits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtversion.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtversionchecks.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtypeinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtypes.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qurl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qutf8stringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvariant.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvarlengtharray.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qversiontagging.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qxptype_traits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qyieldcpu.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QCloseEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QKeyEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QShowEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QTransform \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qaction.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qbitmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qbrush.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qcolor.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qcursor.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qevent.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qeventpoint.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfont.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfontinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfontmetrics.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qguiapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qguiapplication_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qicon.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qimage.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qinputdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qinputmethod.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qkeysequence.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpaintdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpalette.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpixelformat.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpixmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpointingdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpolygon.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qregion.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qrgb.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qrgba64.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qscreen.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qscreen_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtgui-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtguiexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtguiglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtransform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvalidator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvector2d.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvectornd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qwindowdefs.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/QMediaPlayer \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qaudio.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qmediaplayer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtaudio.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimedia-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimediaexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimediaglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/QVideoWidget \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qvideowidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QApplication \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QListWidgetItem \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QMainWindow \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QWidget \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractitemview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractscrollarea.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractslider.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractspinbox.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qframe.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qlistview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qlistwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qmainwindow.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qrubberband.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qsizepolicy.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qslider.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qstyle.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qstyleoption.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtabbar.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtabwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgets-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Config.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtFeature.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtInstallPaths.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicGitHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
-  /usr/include/alloca.h \
-  /usr/include/arpa/inet.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/asm-generic/socket.h \
-  /usr/include/asm-generic/sockios.h \
-  /usr/include/assert.h \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/atomic \
-  /usr/include/c++/11/backward/auto_ptr.h \
-  /usr/include/c++/11/backward/binders.h \
-  /usr/include/c++/11/bit \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/align.h \
-  /usr/include/c++/11/bits/alloc_traits.h \
-  /usr/include/c++/11/bits/allocated_ptr.h \
-  /usr/include/c++/11/bits/allocator.h \
-  /usr/include/c++/11/bits/atomic_base.h \
-  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/11/bits/basic_ios.h \
-  /usr/include/c++/11/bits/basic_ios.tcc \
-  /usr/include/c++/11/bits/basic_string.h \
-  /usr/include/c++/11/bits/basic_string.tcc \
-  /usr/include/c++/11/bits/char_traits.h \
-  /usr/include/c++/11/bits/charconv.h \
-  /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/c++/11/bits/concept_check.h \
-  /usr/include/c++/11/bits/cpp_type_traits.h \
-  /usr/include/c++/11/bits/cxxabi_forced.h \
-  /usr/include/c++/11/bits/cxxabi_init_exception.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/c++/11/bits/exception.h \
-  /usr/include/c++/11/bits/exception_defines.h \
-  /usr/include/c++/11/bits/exception_ptr.h \
-  /usr/include/c++/11/bits/functexcept.h \
-  /usr/include/c++/11/bits/functional_hash.h \
-  /usr/include/c++/11/bits/hash_bytes.h \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/ios_base.h \
-  /usr/include/c++/11/bits/istream.tcc \
-  /usr/include/c++/11/bits/list.tcc \
-  /usr/include/c++/11/bits/locale_classes.h \
-  /usr/include/c++/11/bits/locale_classes.tcc \
-  /usr/include/c++/11/bits/locale_conv.h \
-  /usr/include/c++/11/bits/locale_facets.h \
-  /usr/include/c++/11/bits/locale_facets.tcc \
-  /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/c++/11/bits/memoryfwd.h \
-  /usr/include/c++/11/bits/move.h \
-  /usr/include/c++/11/bits/nested_exception.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/ostream.tcc \
-  /usr/include/c++/11/bits/ostream_insert.h \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/c++/11/bits/postypes.h \
-  /usr/include/c++/11/bits/predefined_ops.h \
-  /usr/include/c++/11/bits/ptr_traits.h \
-  /usr/include/c++/11/bits/quoted_string.h \
-  /usr/include/c++/11/bits/range_access.h \
-  /usr/include/c++/11/bits/refwrap.h \
-  /usr/include/c++/11/bits/shared_ptr.h \
-  /usr/include/c++/11/bits/shared_ptr_atomic.h \
-  /usr/include/c++/11/bits/shared_ptr_base.h \
-  /usr/include/c++/11/bits/specfun.h \
-  /usr/include/c++/11/bits/sstream.tcc \
-  /usr/include/c++/11/bits/std_abs.h \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/bits/std_thread.h \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/stl_algobase.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/stl_construct.h \
-  /usr/include/c++/11/bits/stl_function.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_iterator.h \
-  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/11/bits/stl_iterator_base_types.h \
-  /usr/include/c++/11/bits/stl_list.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
-  /usr/include/c++/11/bits/stl_numeric.h \
-  /usr/include/c++/11/bits/stl_pair.h \
-  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/bits/stl_tempbuf.h \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stream_iterator.h \
-  /usr/include/c++/11/bits/streambuf.tcc \
-  /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/c++/11/bits/string_view.tcc \
-  /usr/include/c++/11/bits/stringfwd.h \
-  /usr/include/c++/11/bits/this_thread_sleep.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/bits/unique_ptr.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/vector.tcc \
-  /usr/include/c++/11/cassert \
-  /usr/include/c++/11/cctype \
-  /usr/include/c++/11/cerrno \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/climits \
-  /usr/include/c++/11/clocale \
-  /usr/include/c++/11/cmath \
-  /usr/include/c++/11/cstddef \
-  /usr/include/c++/11/cstdint \
-  /usr/include/c++/11/cstdio \
-  /usr/include/c++/11/cstdlib \
-  /usr/include/c++/11/cstring \
-  /usr/include/c++/11/ctime \
-  /usr/include/c++/11/cwchar \
-  /usr/include/c++/11/cwctype \
-  /usr/include/c++/11/debug/assertions.h \
-  /usr/include/c++/11/debug/debug.h \
-  /usr/include/c++/11/exception \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/ext/alloc_traits.h \
-  /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/c++/11/ext/concurrence.h \
-  /usr/include/c++/11/ext/new_allocator.h \
-  /usr/include/c++/11/ext/numeric_traits.h \
-  /usr/include/c++/11/ext/string_conversions.h \
-  /usr/include/c++/11/ext/type_traits.h \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/initializer_list \
-  /usr/include/c++/11/iomanip \
-  /usr/include/c++/11/ios \
-  /usr/include/c++/11/iosfwd \
-  /usr/include/c++/11/iostream \
-  /usr/include/c++/11/istream \
-  /usr/include/c++/11/iterator \
-  /usr/include/c++/11/limits \
-  /usr/include/c++/11/list \
-  /usr/include/c++/11/locale \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/memory \
-  /usr/include/c++/11/new \
-  /usr/include/c++/11/numeric \
-  /usr/include/c++/11/optional \
-  /usr/include/c++/11/ostream \
-  /usr/include/c++/11/pstl/execution_defs.h \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/pstl/glue_memory_defs.h \
-  /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/sstream \
-  /usr/include/c++/11/stdexcept \
-  /usr/include/c++/11/streambuf \
-  /usr/include/c++/11/string \
-  /usr/include/c++/11/string_view \
-  /usr/include/c++/11/system_error \
-  /usr/include/c++/11/thread \
-  /usr/include/c++/11/tr1/bessel_function.tcc \
-  /usr/include/c++/11/tr1/beta_function.tcc \
-  /usr/include/c++/11/tr1/ell_integral.tcc \
-  /usr/include/c++/11/tr1/exp_integral.tcc \
-  /usr/include/c++/11/tr1/gamma.tcc \
-  /usr/include/c++/11/tr1/hypergeometric.tcc \
-  /usr/include/c++/11/tr1/legendre_function.tcc \
-  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
-  /usr/include/c++/11/tr1/poly_hermite.tcc \
-  /usr/include/c++/11/tr1/poly_laguerre.tcc \
-  /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /usr/include/c++/11/tr1/special_function_util.h \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/type_traits \
-  /usr/include/c++/11/typeinfo \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/variant \
-  /usr/include/c++/11/vector \
-  /usr/include/ctype.h \
-  /usr/include/dirent.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/glib-2.0/glib-object.h \
-  /usr/include/glib-2.0/glib.h \
-  /usr/include/glib-2.0/glib/deprecated/gallocator.h \
-  /usr/include/glib-2.0/glib/deprecated/gcache.h \
-  /usr/include/glib-2.0/glib/deprecated/gcompletion.h \
-  /usr/include/glib-2.0/glib/deprecated/gmain.h \
-  /usr/include/glib-2.0/glib/deprecated/grel.h \
-  /usr/include/glib-2.0/glib/deprecated/gthread.h \
-  /usr/include/glib-2.0/glib/galloca.h \
-  /usr/include/glib-2.0/glib/garray.h \
-  /usr/include/glib-2.0/glib/gasyncqueue.h \
-  /usr/include/glib-2.0/glib/gatomic.h \
-  /usr/include/glib-2.0/glib/gbacktrace.h \
-  /usr/include/glib-2.0/glib/gbase64.h \
-  /usr/include/glib-2.0/glib/gbitlock.h \
-  /usr/include/glib-2.0/glib/gbookmarkfile.h \
-  /usr/include/glib-2.0/glib/gbytes.h \
-  /usr/include/glib-2.0/glib/gcharset.h \
-  /usr/include/glib-2.0/glib/gchecksum.h \
-  /usr/include/glib-2.0/glib/gconvert.h \
-  /usr/include/glib-2.0/glib/gdataset.h \
-  /usr/include/glib-2.0/glib/gdate.h \
-  /usr/include/glib-2.0/glib/gdatetime.h \
-  /usr/include/glib-2.0/glib/gdir.h \
-  /usr/include/glib-2.0/glib/genviron.h \
-  /usr/include/glib-2.0/glib/gerror.h \
-  /usr/include/glib-2.0/glib/gfileutils.h \
-  /usr/include/glib-2.0/glib/ggettext.h \
-  /usr/include/glib-2.0/glib/ghash.h \
-  /usr/include/glib-2.0/glib/ghmac.h \
-  /usr/include/glib-2.0/glib/ghook.h \
-  /usr/include/glib-2.0/glib/ghostutils.h \
-  /usr/include/glib-2.0/glib/giochannel.h \
-  /usr/include/glib-2.0/glib/gkeyfile.h \
-  /usr/include/glib-2.0/glib/glib-autocleanups.h \
-  /usr/include/glib-2.0/glib/glib-typeof.h \
-  /usr/include/glib-2.0/glib/glist.h \
-  /usr/include/glib-2.0/glib/gmacros.h \
-  /usr/include/glib-2.0/glib/gmain.h \
-  /usr/include/glib-2.0/glib/gmappedfile.h \
-  /usr/include/glib-2.0/glib/gmarkup.h \
-  /usr/include/glib-2.0/glib/gmem.h \
-  /usr/include/glib-2.0/glib/gmessages.h \
-  /usr/include/glib-2.0/glib/gnode.h \
-  /usr/include/glib-2.0/glib/goption.h \
-  /usr/include/glib-2.0/glib/gpattern.h \
-  /usr/include/glib-2.0/glib/gpoll.h \
-  /usr/include/glib-2.0/glib/gprimes.h \
-  /usr/include/glib-2.0/glib/gqsort.h \
-  /usr/include/glib-2.0/glib/gquark.h \
-  /usr/include/glib-2.0/glib/gqueue.h \
-  /usr/include/glib-2.0/glib/grand.h \
-  /usr/include/glib-2.0/glib/grcbox.h \
-  /usr/include/glib-2.0/glib/grefcount.h \
-  /usr/include/glib-2.0/glib/grefstring.h \
-  /usr/include/glib-2.0/glib/gregex.h \
-  /usr/include/glib-2.0/glib/gscanner.h \
-  /usr/include/glib-2.0/glib/gsequence.h \
-  /usr/include/glib-2.0/glib/gshell.h \
-  /usr/include/glib-2.0/glib/gslice.h \
-  /usr/include/glib-2.0/glib/gslist.h \
-  /usr/include/glib-2.0/glib/gspawn.h \
-  /usr/include/glib-2.0/glib/gstrfuncs.h \
-  /usr/include/glib-2.0/glib/gstring.h \
-  /usr/include/glib-2.0/glib/gstringchunk.h \
-  /usr/include/glib-2.0/glib/gstrvbuilder.h \
-  /usr/include/glib-2.0/glib/gtestutils.h \
-  /usr/include/glib-2.0/glib/gthread.h \
-  /usr/include/glib-2.0/glib/gthreadpool.h \
-  /usr/include/glib-2.0/glib/gtimer.h \
-  /usr/include/glib-2.0/glib/gtimezone.h \
-  /usr/include/glib-2.0/glib/gtrashstack.h \
-  /usr/include/glib-2.0/glib/gtree.h \
-  /usr/include/glib-2.0/glib/gtypes.h \
-  /usr/include/glib-2.0/glib/gunicode.h \
-  /usr/include/glib-2.0/glib/guri.h \
-  /usr/include/glib-2.0/glib/gutils.h \
-  /usr/include/glib-2.0/glib/guuid.h \
-  /usr/include/glib-2.0/glib/gvariant.h \
-  /usr/include/glib-2.0/glib/gvarianttype.h \
-  /usr/include/glib-2.0/glib/gversion.h \
-  /usr/include/glib-2.0/glib/gversionmacros.h \
-  /usr/include/glib-2.0/gobject/gbinding.h \
-  /usr/include/glib-2.0/gobject/gbindinggroup.h \
-  /usr/include/glib-2.0/gobject/gboxed.h \
-  /usr/include/glib-2.0/gobject/gclosure.h \
-  /usr/include/glib-2.0/gobject/genums.h \
-  /usr/include/glib-2.0/gobject/glib-enumtypes.h \
-  /usr/include/glib-2.0/gobject/glib-types.h \
-  /usr/include/glib-2.0/gobject/gmarshal.h \
-  /usr/include/glib-2.0/gobject/gobject-autocleanups.h \
-  /usr/include/glib-2.0/gobject/gobject.h \
-  /usr/include/glib-2.0/gobject/gparam.h \
-  /usr/include/glib-2.0/gobject/gparamspecs.h \
-  /usr/include/glib-2.0/gobject/gsignal.h \
-  /usr/include/glib-2.0/gobject/gsignalgroup.h \
-  /usr/include/glib-2.0/gobject/gsourceclosure.h \
-  /usr/include/glib-2.0/gobject/gtype.h \
-  /usr/include/glib-2.0/gobject/gtypemodule.h \
-  /usr/include/glib-2.0/gobject/gtypeplugin.h \
-  /usr/include/glib-2.0/gobject/gvalue.h \
-  /usr/include/glib-2.0/gobject/gvaluearray.h \
-  /usr/include/glib-2.0/gobject/gvaluetypes.h \
-  /usr/include/gstreamer-1.0/gst/glib-compat.h \
-  /usr/include/gstreamer-1.0/gst/gst.h \
-  /usr/include/gstreamer-1.0/gst/gstallocator.h \
-  /usr/include/gstreamer-1.0/gst/gstatomicqueue.h \
-  /usr/include/gstreamer-1.0/gst/gstbin.h \
-  /usr/include/gstreamer-1.0/gst/gstbuffer.h \
-  /usr/include/gstreamer-1.0/gst/gstbufferlist.h \
-  /usr/include/gstreamer-1.0/gst/gstbufferpool.h \
-  /usr/include/gstreamer-1.0/gst/gstbus.h \
-  /usr/include/gstreamer-1.0/gst/gstcaps.h \
-  /usr/include/gstreamer-1.0/gst/gstcapsfeatures.h \
-  /usr/include/gstreamer-1.0/gst/gstchildproxy.h \
-  /usr/include/gstreamer-1.0/gst/gstclock.h \
-  /usr/include/gstreamer-1.0/gst/gstcompat.h \
-  /usr/include/gstreamer-1.0/gst/gstconfig.h \
-  /usr/include/gstreamer-1.0/gst/gstcontext.h \
-  /usr/include/gstreamer-1.0/gst/gstcontrolbinding.h \
-  /usr/include/gstreamer-1.0/gst/gstcontrolsource.h \
-  /usr/include/gstreamer-1.0/gst/gstdatetime.h \
-  /usr/include/gstreamer-1.0/gst/gstdebugutils.h \
-  /usr/include/gstreamer-1.0/gst/gstdevice.h \
-  /usr/include/gstreamer-1.0/gst/gstdevicemonitor.h \
-  /usr/include/gstreamer-1.0/gst/gstdeviceprovider.h \
-  /usr/include/gstreamer-1.0/gst/gstdeviceproviderfactory.h \
-  /usr/include/gstreamer-1.0/gst/gstdynamictypefactory.h \
-  /usr/include/gstreamer-1.0/gst/gstelement.h \
-  /usr/include/gstreamer-1.0/gst/gstelementfactory.h \
-  /usr/include/gstreamer-1.0/gst/gstelementmetadata.h \
-  /usr/include/gstreamer-1.0/gst/gstenumtypes.h \
-  /usr/include/gstreamer-1.0/gst/gsterror.h \
-  /usr/include/gstreamer-1.0/gst/gstevent.h \
-  /usr/include/gstreamer-1.0/gst/gstformat.h \
-  /usr/include/gstreamer-1.0/gst/gstghostpad.h \
-  /usr/include/gstreamer-1.0/gst/gstinfo.h \
-  /usr/include/gstreamer-1.0/gst/gstiterator.h \
-  /usr/include/gstreamer-1.0/gst/gstmacros.h \
-  /usr/include/gstreamer-1.0/gst/gstmemory.h \
-  /usr/include/gstreamer-1.0/gst/gstmessage.h \
-  /usr/include/gstreamer-1.0/gst/gstmeta.h \
-  /usr/include/gstreamer-1.0/gst/gstminiobject.h \
-  /usr/include/gstreamer-1.0/gst/gstobject.h \
-  /usr/include/gstreamer-1.0/gst/gstpad.h \
-  /usr/include/gstreamer-1.0/gst/gstpadtemplate.h \
-  /usr/include/gstreamer-1.0/gst/gstparamspecs.h \
-  /usr/include/gstreamer-1.0/gst/gstparse.h \
-  /usr/include/gstreamer-1.0/gst/gstpipeline.h \
-  /usr/include/gstreamer-1.0/gst/gstplugin.h \
-  /usr/include/gstreamer-1.0/gst/gstpluginfeature.h \
-  /usr/include/gstreamer-1.0/gst/gstpoll.h \
-  /usr/include/gstreamer-1.0/gst/gstpreset.h \
-  /usr/include/gstreamer-1.0/gst/gstpromise.h \
-  /usr/include/gstreamer-1.0/gst/gstprotection.h \
-  /usr/include/gstreamer-1.0/gst/gstquery.h \
-  /usr/include/gstreamer-1.0/gst/gstregistry.h \
-  /usr/include/gstreamer-1.0/gst/gstsample.h \
-  /usr/include/gstreamer-1.0/gst/gstsegment.h \
-  /usr/include/gstreamer-1.0/gst/gststreamcollection.h \
-  /usr/include/gstreamer-1.0/gst/gststreams.h \
-  /usr/include/gstreamer-1.0/gst/gststructure.h \
-  /usr/include/gstreamer-1.0/gst/gstsystemclock.h \
-  /usr/include/gstreamer-1.0/gst/gsttaglist.h \
-  /usr/include/gstreamer-1.0/gst/gsttagsetter.h \
-  /usr/include/gstreamer-1.0/gst/gsttask.h \
-  /usr/include/gstreamer-1.0/gst/gsttaskpool.h \
-  /usr/include/gstreamer-1.0/gst/gsttoc.h \
-  /usr/include/gstreamer-1.0/gst/gsttocsetter.h \
-  /usr/include/gstreamer-1.0/gst/gsttracer.h \
-  /usr/include/gstreamer-1.0/gst/gsttracerfactory.h \
-  /usr/include/gstreamer-1.0/gst/gsttracerrecord.h \
-  /usr/include/gstreamer-1.0/gst/gsttypefind.h \
-  /usr/include/gstreamer-1.0/gst/gsttypefindfactory.h \
-  /usr/include/gstreamer-1.0/gst/gsturi.h \
-  /usr/include/gstreamer-1.0/gst/gstutils.h \
-  /usr/include/gstreamer-1.0/gst/gstvalue.h \
-  /usr/include/gstreamer-1.0/gst/gstversion.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/locale.h \
-  /usr/include/netinet/in.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/signal.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/time.h \
-  /usr/include/unistd.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
-  /usr/include/x86_64-linux-gnu/asm/socket.h \
-  /usr/include/x86_64-linux-gnu/asm/sockios.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/in.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
-  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/socket.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
-  /usr/local/bin/cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckFunctionExists.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/GNU.cmake \
-  /usr/local/share/cmake-3.28/Modules/FeatureSummary.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindOpenGL.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPackageMessage.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPkgConfig.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindThreads.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindVulkan.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindX11.cmake \
-  /usr/local/share/cmake-3.28/Modules/GNUInstallDirs.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
-  /usr/local/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/CMakeLists.txt \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoRecorderApp/VideoRecorderWidget.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoRecorderApp/VideoRecorderWidget.h \
-  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.28.3/CMakeSystem.cmake \
-  JoystickIdentifier_autogen/moc_predefs.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/main.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.ui \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/signalhandler.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/signalhandler.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/crc16.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/message.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/sdk.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QCoreApplication \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QList \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QMutex \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QObject \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QRect \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSize \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSizeF \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSocketNotifier \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QTimer \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20functional.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20iterator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20memory.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20type_traits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q23utility.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qabstractitemmodel.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qanystringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydata.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydataops.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydatapointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qassert.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qatomic_cxx11.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbasicatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbasictimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbindingstorage.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearray.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearraylist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qchar.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompare.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompare_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcomparehelpers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompilerdetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qconfig.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qconstructormacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainerfwd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainerinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontiguouscache.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreapplication_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreevent.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdarwinhelpers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdatastream.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdeadlinetimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdebug.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qelapsedtimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qendian.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qeventloop.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qexceptionhandling.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qflags.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfloat16.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qforeach.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfunctionaltools_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfunctionpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qgenericatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qglobalstatic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qhash.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qhashfunctions.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiodevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiodevicebase.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qitemselectionmodel.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiterable.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiterator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlatin1stringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qline.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlocale.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlogging.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmalloc.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmargins.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmath.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmetacontainer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmetatype.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qminmax.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmutex.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnamespace.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnativeinterface.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnumeric.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobject.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobject_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qoverload.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qpair.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qpoint.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qprocessordetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qrect.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qrefcount.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qregularexpression.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qscopedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qscopeguard.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qset.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qshareddata.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qshareddata_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsharedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsharedpointer_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsize.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsocketnotifier.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qspan.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstring.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringbuilder.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter_base.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringfwd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringlist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringliteral.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringmatcher.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringtokenizer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qswap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsysinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsystemdetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtaggedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtclasshelpermacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtconfiginclude.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtconfigmacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtcore-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtcoreexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationmarkers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtenvironmentvariables.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtextstream.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtmetamacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtnoop.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtpreprocessorsupport.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtresource.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtsan_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qttranslation.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qttypetraits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtversion.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtversionchecks.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtypeinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtypes.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qurl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qutf8stringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvariant.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvarlengtharray.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qversiontagging.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qxptype_traits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qyieldcpu.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QCloseEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QKeyEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QShowEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QTransform \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qaction.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qbitmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qbrush.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qcolor.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qcursor.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qevent.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qeventpoint.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfont.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfontinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfontmetrics.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qguiapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qguiapplication_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qicon.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qimage.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qinputdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qinputmethod.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qkeysequence.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpaintdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpalette.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpixelformat.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpixmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpointingdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpolygon.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qregion.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qrgb.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qrgba64.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qscreen.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qscreen_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtgui-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtguiexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtguiglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtransform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvalidator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvector2d.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvectornd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qwindowdefs.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/QMediaPlayer \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qaudio.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qmediaplayer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtaudio.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimedia-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimediaexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimediaglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/QVideoWidget \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qvideowidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QApplication \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QListWidgetItem \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QMainWindow \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QWidget \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractitemview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractscrollarea.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractslider.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractspinbox.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qframe.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qlistview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qlistwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qmainwindow.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qrubberband.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qsizepolicy.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qslider.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qstyle.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qstyleoption.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtabbar.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtabwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgets-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Config.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtFeature.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtInstallPaths.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicGitHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
-  /usr/include/alloca.h \
-  /usr/include/arpa/inet.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/asm-generic/socket.h \
-  /usr/include/asm-generic/sockios.h \
-  /usr/include/assert.h \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/atomic \
-  /usr/include/c++/11/backward/auto_ptr.h \
-  /usr/include/c++/11/backward/binders.h \
-  /usr/include/c++/11/bit \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/align.h \
-  /usr/include/c++/11/bits/alloc_traits.h \
-  /usr/include/c++/11/bits/allocated_ptr.h \
-  /usr/include/c++/11/bits/allocator.h \
-  /usr/include/c++/11/bits/atomic_base.h \
-  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/11/bits/basic_ios.h \
-  /usr/include/c++/11/bits/basic_ios.tcc \
-  /usr/include/c++/11/bits/basic_string.h \
-  /usr/include/c++/11/bits/basic_string.tcc \
-  /usr/include/c++/11/bits/char_traits.h \
-  /usr/include/c++/11/bits/charconv.h \
-  /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/c++/11/bits/concept_check.h \
-  /usr/include/c++/11/bits/cpp_type_traits.h \
-  /usr/include/c++/11/bits/cxxabi_forced.h \
-  /usr/include/c++/11/bits/cxxabi_init_exception.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/c++/11/bits/exception.h \
-  /usr/include/c++/11/bits/exception_defines.h \
-  /usr/include/c++/11/bits/exception_ptr.h \
-  /usr/include/c++/11/bits/functexcept.h \
-  /usr/include/c++/11/bits/functional_hash.h \
-  /usr/include/c++/11/bits/hash_bytes.h \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/ios_base.h \
-  /usr/include/c++/11/bits/istream.tcc \
-  /usr/include/c++/11/bits/list.tcc \
-  /usr/include/c++/11/bits/locale_classes.h \
-  /usr/include/c++/11/bits/locale_classes.tcc \
-  /usr/include/c++/11/bits/locale_conv.h \
-  /usr/include/c++/11/bits/locale_facets.h \
-  /usr/include/c++/11/bits/locale_facets.tcc \
-  /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/c++/11/bits/memoryfwd.h \
-  /usr/include/c++/11/bits/move.h \
-  /usr/include/c++/11/bits/nested_exception.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/ostream.tcc \
-  /usr/include/c++/11/bits/ostream_insert.h \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/c++/11/bits/postypes.h \
-  /usr/include/c++/11/bits/predefined_ops.h \
-  /usr/include/c++/11/bits/ptr_traits.h \
-  /usr/include/c++/11/bits/quoted_string.h \
-  /usr/include/c++/11/bits/range_access.h \
-  /usr/include/c++/11/bits/refwrap.h \
-  /usr/include/c++/11/bits/shared_ptr.h \
-  /usr/include/c++/11/bits/shared_ptr_atomic.h \
-  /usr/include/c++/11/bits/shared_ptr_base.h \
-  /usr/include/c++/11/bits/specfun.h \
-  /usr/include/c++/11/bits/sstream.tcc \
-  /usr/include/c++/11/bits/std_abs.h \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/bits/std_thread.h \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/stl_algobase.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/stl_construct.h \
-  /usr/include/c++/11/bits/stl_function.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_iterator.h \
-  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/11/bits/stl_iterator_base_types.h \
-  /usr/include/c++/11/bits/stl_list.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
-  /usr/include/c++/11/bits/stl_numeric.h \
-  /usr/include/c++/11/bits/stl_pair.h \
-  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/bits/stl_tempbuf.h \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stream_iterator.h \
-  /usr/include/c++/11/bits/streambuf.tcc \
-  /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/c++/11/bits/string_view.tcc \
-  /usr/include/c++/11/bits/stringfwd.h \
-  /usr/include/c++/11/bits/this_thread_sleep.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/bits/unique_ptr.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/vector.tcc \
-  /usr/include/c++/11/cassert \
-  /usr/include/c++/11/cctype \
-  /usr/include/c++/11/cerrno \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/climits \
-  /usr/include/c++/11/clocale \
-  /usr/include/c++/11/cmath \
-  /usr/include/c++/11/cstddef \
-  /usr/include/c++/11/cstdint \
-  /usr/include/c++/11/cstdio \
-  /usr/include/c++/11/cstdlib \
-  /usr/include/c++/11/cstring \
-  /usr/include/c++/11/ctime \
-  /usr/include/c++/11/cwchar \
-  /usr/include/c++/11/cwctype \
-  /usr/include/c++/11/debug/assertions.h \
-  /usr/include/c++/11/debug/debug.h \
-  /usr/include/c++/11/exception \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/ext/alloc_traits.h \
-  /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/c++/11/ext/concurrence.h \
-  /usr/include/c++/11/ext/new_allocator.h \
-  /usr/include/c++/11/ext/numeric_traits.h \
-  /usr/include/c++/11/ext/string_conversions.h \
-  /usr/include/c++/11/ext/type_traits.h \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/initializer_list \
-  /usr/include/c++/11/iomanip \
-  /usr/include/c++/11/ios \
-  /usr/include/c++/11/iosfwd \
-  /usr/include/c++/11/iostream \
-  /usr/include/c++/11/istream \
-  /usr/include/c++/11/iterator \
-  /usr/include/c++/11/limits \
-  /usr/include/c++/11/list \
-  /usr/include/c++/11/locale \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/memory \
-  /usr/include/c++/11/new \
-  /usr/include/c++/11/numeric \
-  /usr/include/c++/11/optional \
-  /usr/include/c++/11/ostream \
-  /usr/include/c++/11/pstl/execution_defs.h \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/pstl/glue_memory_defs.h \
-  /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/sstream \
-  /usr/include/c++/11/stdexcept \
-  /usr/include/c++/11/streambuf \
-  /usr/include/c++/11/string \
-  /usr/include/c++/11/string_view \
-  /usr/include/c++/11/system_error \
-  /usr/include/c++/11/thread \
-  /usr/include/c++/11/tr1/bessel_function.tcc \
-  /usr/include/c++/11/tr1/beta_function.tcc \
-  /usr/include/c++/11/tr1/ell_integral.tcc \
-  /usr/include/c++/11/tr1/exp_integral.tcc \
-  /usr/include/c++/11/tr1/gamma.tcc \
-  /usr/include/c++/11/tr1/hypergeometric.tcc \
-  /usr/include/c++/11/tr1/legendre_function.tcc \
-  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
-  /usr/include/c++/11/tr1/poly_hermite.tcc \
-  /usr/include/c++/11/tr1/poly_laguerre.tcc \
-  /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /usr/include/c++/11/tr1/special_function_util.h \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/type_traits \
-  /usr/include/c++/11/typeinfo \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/variant \
-  /usr/include/c++/11/vector \
-  /usr/include/ctype.h \
-  /usr/include/dirent.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/glib-2.0/glib-object.h \
-  /usr/include/glib-2.0/glib.h \
-  /usr/include/glib-2.0/glib/deprecated/gallocator.h \
-  /usr/include/glib-2.0/glib/deprecated/gcache.h \
-  /usr/include/glib-2.0/glib/deprecated/gcompletion.h \
-  /usr/include/glib-2.0/glib/deprecated/gmain.h \
-  /usr/include/glib-2.0/glib/deprecated/grel.h \
-  /usr/include/glib-2.0/glib/deprecated/gthread.h \
-  /usr/include/glib-2.0/glib/galloca.h \
-  /usr/include/glib-2.0/glib/garray.h \
-  /usr/include/glib-2.0/glib/gasyncqueue.h \
-  /usr/include/glib-2.0/glib/gatomic.h \
-  /usr/include/glib-2.0/glib/gbacktrace.h \
-  /usr/include/glib-2.0/glib/gbase64.h \
-  /usr/include/glib-2.0/glib/gbitlock.h \
-  /usr/include/glib-2.0/glib/gbookmarkfile.h \
-  /usr/include/glib-2.0/glib/gbytes.h \
-  /usr/include/glib-2.0/glib/gcharset.h \
-  /usr/include/glib-2.0/glib/gchecksum.h \
-  /usr/include/glib-2.0/glib/gconvert.h \
-  /usr/include/glib-2.0/glib/gdataset.h \
-  /usr/include/glib-2.0/glib/gdate.h \
-  /usr/include/glib-2.0/glib/gdatetime.h \
-  /usr/include/glib-2.0/glib/gdir.h \
-  /usr/include/glib-2.0/glib/genviron.h \
-  /usr/include/glib-2.0/glib/gerror.h \
-  /usr/include/glib-2.0/glib/gfileutils.h \
-  /usr/include/glib-2.0/glib/ggettext.h \
-  /usr/include/glib-2.0/glib/ghash.h \
-  /usr/include/glib-2.0/glib/ghmac.h \
-  /usr/include/glib-2.0/glib/ghook.h \
-  /usr/include/glib-2.0/glib/ghostutils.h \
-  /usr/include/glib-2.0/glib/giochannel.h \
-  /usr/include/glib-2.0/glib/gkeyfile.h \
-  /usr/include/glib-2.0/glib/glib-autocleanups.h \
-  /usr/include/glib-2.0/glib/glib-typeof.h \
-  /usr/include/glib-2.0/glib/glist.h \
-  /usr/include/glib-2.0/glib/gmacros.h \
-  /usr/include/glib-2.0/glib/gmain.h \
-  /usr/include/glib-2.0/glib/gmappedfile.h \
-  /usr/include/glib-2.0/glib/gmarkup.h \
-  /usr/include/glib-2.0/glib/gmem.h \
-  /usr/include/glib-2.0/glib/gmessages.h \
-  /usr/include/glib-2.0/glib/gnode.h \
-  /usr/include/glib-2.0/glib/goption.h \
-  /usr/include/glib-2.0/glib/gpattern.h \
-  /usr/include/glib-2.0/glib/gpoll.h \
-  /usr/include/glib-2.0/glib/gprimes.h \
-  /usr/include/glib-2.0/glib/gqsort.h \
-  /usr/include/glib-2.0/glib/gquark.h \
-  /usr/include/glib-2.0/glib/gqueue.h \
-  /usr/include/glib-2.0/glib/grand.h \
-  /usr/include/glib-2.0/glib/grcbox.h \
-  /usr/include/glib-2.0/glib/grefcount.h \
-  /usr/include/glib-2.0/glib/grefstring.h \
-  /usr/include/glib-2.0/glib/gregex.h \
-  /usr/include/glib-2.0/glib/gscanner.h \
-  /usr/include/glib-2.0/glib/gsequence.h \
-  /usr/include/glib-2.0/glib/gshell.h \
-  /usr/include/glib-2.0/glib/gslice.h \
-  /usr/include/glib-2.0/glib/gslist.h \
-  /usr/include/glib-2.0/glib/gspawn.h \
-  /usr/include/glib-2.0/glib/gstrfuncs.h \
-  /usr/include/glib-2.0/glib/gstring.h \
-  /usr/include/glib-2.0/glib/gstringchunk.h \
-  /usr/include/glib-2.0/glib/gstrvbuilder.h \
-  /usr/include/glib-2.0/glib/gtestutils.h \
-  /usr/include/glib-2.0/glib/gthread.h \
-  /usr/include/glib-2.0/glib/gthreadpool.h \
-  /usr/include/glib-2.0/glib/gtimer.h \
-  /usr/include/glib-2.0/glib/gtimezone.h \
-  /usr/include/glib-2.0/glib/gtrashstack.h \
-  /usr/include/glib-2.0/glib/gtree.h \
-  /usr/include/glib-2.0/glib/gtypes.h \
-  /usr/include/glib-2.0/glib/gunicode.h \
-  /usr/include/glib-2.0/glib/guri.h \
-  /usr/include/glib-2.0/glib/gutils.h \
-  /usr/include/glib-2.0/glib/guuid.h \
-  /usr/include/glib-2.0/glib/gvariant.h \
-  /usr/include/glib-2.0/glib/gvarianttype.h \
-  /usr/include/glib-2.0/glib/gversion.h \
-  /usr/include/glib-2.0/glib/gversionmacros.h \
-  /usr/include/glib-2.0/gobject/gbinding.h \
-  /usr/include/glib-2.0/gobject/gbindinggroup.h \
-  /usr/include/glib-2.0/gobject/gboxed.h \
-  /usr/include/glib-2.0/gobject/gclosure.h \
-  /usr/include/glib-2.0/gobject/genums.h \
-  /usr/include/glib-2.0/gobject/glib-enumtypes.h \
-  /usr/include/glib-2.0/gobject/glib-types.h \
-  /usr/include/glib-2.0/gobject/gmarshal.h \
-  /usr/include/glib-2.0/gobject/gobject-autocleanups.h \
-  /usr/include/glib-2.0/gobject/gobject.h \
-  /usr/include/glib-2.0/gobject/gparam.h \
-  /usr/include/glib-2.0/gobject/gparamspecs.h \
-  /usr/include/glib-2.0/gobject/gsignal.h \
-  /usr/include/glib-2.0/gobject/gsignalgroup.h \
-  /usr/include/glib-2.0/gobject/gsourceclosure.h \
-  /usr/include/glib-2.0/gobject/gtype.h \
-  /usr/include/glib-2.0/gobject/gtypemodule.h \
-  /usr/include/glib-2.0/gobject/gtypeplugin.h \
-  /usr/include/glib-2.0/gobject/gvalue.h \
-  /usr/include/glib-2.0/gobject/gvaluearray.h \
-  /usr/include/glib-2.0/gobject/gvaluetypes.h \
-  /usr/include/gstreamer-1.0/gst/glib-compat.h \
-  /usr/include/gstreamer-1.0/gst/gst.h \
-  /usr/include/gstreamer-1.0/gst/gstallocator.h \
-  /usr/include/gstreamer-1.0/gst/gstatomicqueue.h \
-  /usr/include/gstreamer-1.0/gst/gstbin.h \
-  /usr/include/gstreamer-1.0/gst/gstbuffer.h \
-  /usr/include/gstreamer-1.0/gst/gstbufferlist.h \
-  /usr/include/gstreamer-1.0/gst/gstbufferpool.h \
-  /usr/include/gstreamer-1.0/gst/gstbus.h \
-  /usr/include/gstreamer-1.0/gst/gstcaps.h \
-  /usr/include/gstreamer-1.0/gst/gstcapsfeatures.h \
-  /usr/include/gstreamer-1.0/gst/gstchildproxy.h \
-  /usr/include/gstreamer-1.0/gst/gstclock.h \
-  /usr/include/gstreamer-1.0/gst/gstcompat.h \
-  /usr/include/gstreamer-1.0/gst/gstconfig.h \
-  /usr/include/gstreamer-1.0/gst/gstcontext.h \
-  /usr/include/gstreamer-1.0/gst/gstcontrolbinding.h \
-  /usr/include/gstreamer-1.0/gst/gstcontrolsource.h \
-  /usr/include/gstreamer-1.0/gst/gstdatetime.h \
-  /usr/include/gstreamer-1.0/gst/gstdebugutils.h \
-  /usr/include/gstreamer-1.0/gst/gstdevice.h \
-  /usr/include/gstreamer-1.0/gst/gstdevicemonitor.h \
-  /usr/include/gstreamer-1.0/gst/gstdeviceprovider.h \
-  /usr/include/gstreamer-1.0/gst/gstdeviceproviderfactory.h \
-  /usr/include/gstreamer-1.0/gst/gstdynamictypefactory.h \
-  /usr/include/gstreamer-1.0/gst/gstelement.h \
-  /usr/include/gstreamer-1.0/gst/gstelementfactory.h \
-  /usr/include/gstreamer-1.0/gst/gstelementmetadata.h \
-  /usr/include/gstreamer-1.0/gst/gstenumtypes.h \
-  /usr/include/gstreamer-1.0/gst/gsterror.h \
-  /usr/include/gstreamer-1.0/gst/gstevent.h \
-  /usr/include/gstreamer-1.0/gst/gstformat.h \
-  /usr/include/gstreamer-1.0/gst/gstghostpad.h \
-  /usr/include/gstreamer-1.0/gst/gstinfo.h \
-  /usr/include/gstreamer-1.0/gst/gstiterator.h \
-  /usr/include/gstreamer-1.0/gst/gstmacros.h \
-  /usr/include/gstreamer-1.0/gst/gstmemory.h \
-  /usr/include/gstreamer-1.0/gst/gstmessage.h \
-  /usr/include/gstreamer-1.0/gst/gstmeta.h \
-  /usr/include/gstreamer-1.0/gst/gstminiobject.h \
-  /usr/include/gstreamer-1.0/gst/gstobject.h \
-  /usr/include/gstreamer-1.0/gst/gstpad.h \
-  /usr/include/gstreamer-1.0/gst/gstpadtemplate.h \
-  /usr/include/gstreamer-1.0/gst/gstparamspecs.h \
-  /usr/include/gstreamer-1.0/gst/gstparse.h \
-  /usr/include/gstreamer-1.0/gst/gstpipeline.h \
-  /usr/include/gstreamer-1.0/gst/gstplugin.h \
-  /usr/include/gstreamer-1.0/gst/gstpluginfeature.h \
-  /usr/include/gstreamer-1.0/gst/gstpoll.h \
-  /usr/include/gstreamer-1.0/gst/gstpreset.h \
-  /usr/include/gstreamer-1.0/gst/gstpromise.h \
-  /usr/include/gstreamer-1.0/gst/gstprotection.h \
-  /usr/include/gstreamer-1.0/gst/gstquery.h \
-  /usr/include/gstreamer-1.0/gst/gstregistry.h \
-  /usr/include/gstreamer-1.0/gst/gstsample.h \
-  /usr/include/gstreamer-1.0/gst/gstsegment.h \
-  /usr/include/gstreamer-1.0/gst/gststreamcollection.h \
-  /usr/include/gstreamer-1.0/gst/gststreams.h \
-  /usr/include/gstreamer-1.0/gst/gststructure.h \
-  /usr/include/gstreamer-1.0/gst/gstsystemclock.h \
-  /usr/include/gstreamer-1.0/gst/gsttaglist.h \
-  /usr/include/gstreamer-1.0/gst/gsttagsetter.h \
-  /usr/include/gstreamer-1.0/gst/gsttask.h \
-  /usr/include/gstreamer-1.0/gst/gsttaskpool.h \
-  /usr/include/gstreamer-1.0/gst/gsttoc.h \
-  /usr/include/gstreamer-1.0/gst/gsttocsetter.h \
-  /usr/include/gstreamer-1.0/gst/gsttracer.h \
-  /usr/include/gstreamer-1.0/gst/gsttracerfactory.h \
-  /usr/include/gstreamer-1.0/gst/gsttracerrecord.h \
-  /usr/include/gstreamer-1.0/gst/gsttypefind.h \
-  /usr/include/gstreamer-1.0/gst/gsttypefindfactory.h \
-  /usr/include/gstreamer-1.0/gst/gsturi.h \
-  /usr/include/gstreamer-1.0/gst/gstutils.h \
-  /usr/include/gstreamer-1.0/gst/gstvalue.h \
-  /usr/include/gstreamer-1.0/gst/gstversion.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/locale.h \
-  /usr/include/netinet/in.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/signal.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/time.h \
-  /usr/include/unistd.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
-  /usr/include/x86_64-linux-gnu/asm/socket.h \
-  /usr/include/x86_64-linux-gnu/asm/sockios.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/in.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
-  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/socket.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
-  /usr/local/bin/cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckFunctionExists.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/GNU.cmake \
-  /usr/local/share/cmake-3.28/Modules/FeatureSummary.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindOpenGL.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPackageMessage.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPkgConfig.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindThreads.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindVulkan.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindX11.cmake \
-  /usr/local/share/cmake-3.28/Modules/GNUInstallDirs.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
-  /usr/local/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/CMakeLists.txt \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoRecorderApp/VideoRecorderWidget.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoRecorderApp/VideoRecorderWidget.h \
-  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.28.3/CMakeSystem.cmake \
-  JoystickIdentifier_autogen/moc_predefs.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/main.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.ui \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/signalhandler.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/signalhandler.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/crc16.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/message.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/sdk.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QCoreApplication \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QList \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QMutex \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QObject \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QRect \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSize \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSizeF \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSocketNotifier \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QTimer \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20functional.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20iterator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20memory.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20type_traits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q23utility.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qabstractitemmodel.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qanystringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydata.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydataops.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydatapointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qassert.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qatomic_cxx11.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbasicatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbasictimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbindingstorage.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearray.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearraylist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qchar.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompare.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompare_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcomparehelpers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompilerdetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qconfig.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qconstructormacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainerfwd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainerinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontiguouscache.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreapplication_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreevent.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdarwinhelpers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdatastream.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdeadlinetimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdebug.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qelapsedtimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qendian.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qeventloop.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qexceptionhandling.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qflags.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfloat16.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qforeach.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfunctionaltools_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfunctionpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qgenericatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qglobalstatic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qhash.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qhashfunctions.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiodevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiodevicebase.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qitemselectionmodel.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiterable.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiterator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlatin1stringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qline.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlocale.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlogging.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmalloc.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmargins.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmath.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmetacontainer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmetatype.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qminmax.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmutex.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnamespace.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnativeinterface.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnumeric.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobject.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobject_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qoverload.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qpair.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qpoint.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qprocessordetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qrect.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qrefcount.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qregularexpression.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qscopedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qscopeguard.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qset.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qshareddata.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qshareddata_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsharedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsharedpointer_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsize.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsocketnotifier.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qspan.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstring.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringbuilder.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter_base.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringfwd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringlist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringliteral.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringmatcher.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringtokenizer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qswap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsysinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsystemdetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtaggedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtclasshelpermacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtconfiginclude.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtconfigmacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtcore-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtcoreexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationmarkers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtenvironmentvariables.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtextstream.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtmetamacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtnoop.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtpreprocessorsupport.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtresource.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtsan_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qttranslation.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qttypetraits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtversion.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtversionchecks.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtypeinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtypes.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qurl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qutf8stringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvariant.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvarlengtharray.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qversiontagging.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qxptype_traits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qyieldcpu.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QCloseEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QKeyEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QShowEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QTransform \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qaction.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qbitmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qbrush.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qcolor.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qcursor.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qevent.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qeventpoint.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfont.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfontinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfontmetrics.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qguiapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qguiapplication_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qicon.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qimage.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qinputdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qinputmethod.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qkeysequence.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpaintdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpalette.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpixelformat.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpixmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpointingdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpolygon.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qregion.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qrgb.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qrgba64.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qscreen.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qscreen_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtgui-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtguiexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtguiglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtransform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvalidator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvector2d.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvectornd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qwindowdefs.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/QMediaPlayer \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qaudio.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qmediaplayer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtaudio.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimedia-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimediaexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimediaglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/QVideoWidget \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qvideowidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QApplication \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QListWidgetItem \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QMainWindow \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QWidget \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractitemview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractscrollarea.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractslider.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractspinbox.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qframe.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qlistview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qlistwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qmainwindow.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qrubberband.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qsizepolicy.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qslider.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qstyle.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qstyleoption.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtabbar.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtabwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgets-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Config.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtFeature.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtInstallPaths.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicGitHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
-  /usr/include/alloca.h \
-  /usr/include/arpa/inet.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/asm-generic/socket.h \
-  /usr/include/asm-generic/sockios.h \
-  /usr/include/assert.h \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/atomic \
-  /usr/include/c++/11/backward/auto_ptr.h \
-  /usr/include/c++/11/backward/binders.h \
-  /usr/include/c++/11/bit \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/align.h \
-  /usr/include/c++/11/bits/alloc_traits.h \
-  /usr/include/c++/11/bits/allocated_ptr.h \
-  /usr/include/c++/11/bits/allocator.h \
-  /usr/include/c++/11/bits/atomic_base.h \
-  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/11/bits/basic_ios.h \
-  /usr/include/c++/11/bits/basic_ios.tcc \
-  /usr/include/c++/11/bits/basic_string.h \
-  /usr/include/c++/11/bits/basic_string.tcc \
-  /usr/include/c++/11/bits/char_traits.h \
-  /usr/include/c++/11/bits/charconv.h \
-  /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/c++/11/bits/concept_check.h \
-  /usr/include/c++/11/bits/cpp_type_traits.h \
-  /usr/include/c++/11/bits/cxxabi_forced.h \
-  /usr/include/c++/11/bits/cxxabi_init_exception.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/c++/11/bits/exception.h \
-  /usr/include/c++/11/bits/exception_defines.h \
-  /usr/include/c++/11/bits/exception_ptr.h \
-  /usr/include/c++/11/bits/functexcept.h \
-  /usr/include/c++/11/bits/functional_hash.h \
-  /usr/include/c++/11/bits/hash_bytes.h \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/ios_base.h \
-  /usr/include/c++/11/bits/istream.tcc \
-  /usr/include/c++/11/bits/list.tcc \
-  /usr/include/c++/11/bits/locale_classes.h \
-  /usr/include/c++/11/bits/locale_classes.tcc \
-  /usr/include/c++/11/bits/locale_conv.h \
-  /usr/include/c++/11/bits/locale_facets.h \
-  /usr/include/c++/11/bits/locale_facets.tcc \
-  /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/c++/11/bits/memoryfwd.h \
-  /usr/include/c++/11/bits/move.h \
-  /usr/include/c++/11/bits/nested_exception.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/ostream.tcc \
-  /usr/include/c++/11/bits/ostream_insert.h \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/c++/11/bits/postypes.h \
-  /usr/include/c++/11/bits/predefined_ops.h \
-  /usr/include/c++/11/bits/ptr_traits.h \
-  /usr/include/c++/11/bits/quoted_string.h \
-  /usr/include/c++/11/bits/range_access.h \
-  /usr/include/c++/11/bits/refwrap.h \
-  /usr/include/c++/11/bits/shared_ptr.h \
-  /usr/include/c++/11/bits/shared_ptr_atomic.h \
-  /usr/include/c++/11/bits/shared_ptr_base.h \
-  /usr/include/c++/11/bits/specfun.h \
-  /usr/include/c++/11/bits/sstream.tcc \
-  /usr/include/c++/11/bits/std_abs.h \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/bits/std_thread.h \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/stl_algobase.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/stl_construct.h \
-  /usr/include/c++/11/bits/stl_function.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_iterator.h \
-  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/11/bits/stl_iterator_base_types.h \
-  /usr/include/c++/11/bits/stl_list.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
-  /usr/include/c++/11/bits/stl_numeric.h \
-  /usr/include/c++/11/bits/stl_pair.h \
-  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/bits/stl_tempbuf.h \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stream_iterator.h \
-  /usr/include/c++/11/bits/streambuf.tcc \
-  /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/c++/11/bits/string_view.tcc \
-  /usr/include/c++/11/bits/stringfwd.h \
-  /usr/include/c++/11/bits/this_thread_sleep.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/bits/unique_ptr.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/vector.tcc \
-  /usr/include/c++/11/cassert \
-  /usr/include/c++/11/cctype \
-  /usr/include/c++/11/cerrno \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/climits \
-  /usr/include/c++/11/clocale \
-  /usr/include/c++/11/cmath \
-  /usr/include/c++/11/cstddef \
-  /usr/include/c++/11/cstdint \
-  /usr/include/c++/11/cstdio \
-  /usr/include/c++/11/cstdlib \
-  /usr/include/c++/11/cstring \
-  /usr/include/c++/11/ctime \
-  /usr/include/c++/11/cwchar \
-  /usr/include/c++/11/cwctype \
-  /usr/include/c++/11/debug/assertions.h \
-  /usr/include/c++/11/debug/debug.h \
-  /usr/include/c++/11/exception \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/ext/alloc_traits.h \
-  /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/c++/11/ext/concurrence.h \
-  /usr/include/c++/11/ext/new_allocator.h \
-  /usr/include/c++/11/ext/numeric_traits.h \
-  /usr/include/c++/11/ext/string_conversions.h \
-  /usr/include/c++/11/ext/type_traits.h \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/initializer_list \
-  /usr/include/c++/11/iomanip \
-  /usr/include/c++/11/ios \
-  /usr/include/c++/11/iosfwd \
-  /usr/include/c++/11/iostream \
-  /usr/include/c++/11/istream \
-  /usr/include/c++/11/iterator \
-  /usr/include/c++/11/limits \
-  /usr/include/c++/11/list \
-  /usr/include/c++/11/locale \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/memory \
-  /usr/include/c++/11/new \
-  /usr/include/c++/11/numeric \
-  /usr/include/c++/11/optional \
-  /usr/include/c++/11/ostream \
-  /usr/include/c++/11/pstl/execution_defs.h \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/pstl/glue_memory_defs.h \
-  /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/sstream \
-  /usr/include/c++/11/stdexcept \
-  /usr/include/c++/11/streambuf \
-  /usr/include/c++/11/string \
-  /usr/include/c++/11/string_view \
-  /usr/include/c++/11/system_error \
-  /usr/include/c++/11/thread \
-  /usr/include/c++/11/tr1/bessel_function.tcc \
-  /usr/include/c++/11/tr1/beta_function.tcc \
-  /usr/include/c++/11/tr1/ell_integral.tcc \
-  /usr/include/c++/11/tr1/exp_integral.tcc \
-  /usr/include/c++/11/tr1/gamma.tcc \
-  /usr/include/c++/11/tr1/hypergeometric.tcc \
-  /usr/include/c++/11/tr1/legendre_function.tcc \
-  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
-  /usr/include/c++/11/tr1/poly_hermite.tcc \
-  /usr/include/c++/11/tr1/poly_laguerre.tcc \
-  /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /usr/include/c++/11/tr1/special_function_util.h \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/type_traits \
-  /usr/include/c++/11/typeinfo \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/variant \
-  /usr/include/c++/11/vector \
-  /usr/include/ctype.h \
-  /usr/include/dirent.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/glib-2.0/glib-object.h \
-  /usr/include/glib-2.0/glib.h \
-  /usr/include/glib-2.0/glib/deprecated/gallocator.h \
-  /usr/include/glib-2.0/glib/deprecated/gcache.h \
-  /usr/include/glib-2.0/glib/deprecated/gcompletion.h \
-  /usr/include/glib-2.0/glib/deprecated/gmain.h \
-  /usr/include/glib-2.0/glib/deprecated/grel.h \
-  /usr/include/glib-2.0/glib/deprecated/gthread.h \
-  /usr/include/glib-2.0/glib/galloca.h \
-  /usr/include/glib-2.0/glib/garray.h \
-  /usr/include/glib-2.0/glib/gasyncqueue.h \
-  /usr/include/glib-2.0/glib/gatomic.h \
-  /usr/include/glib-2.0/glib/gbacktrace.h \
-  /usr/include/glib-2.0/glib/gbase64.h \
-  /usr/include/glib-2.0/glib/gbitlock.h \
-  /usr/include/glib-2.0/glib/gbookmarkfile.h \
-  /usr/include/glib-2.0/glib/gbytes.h \
-  /usr/include/glib-2.0/glib/gcharset.h \
-  /usr/include/glib-2.0/glib/gchecksum.h \
-  /usr/include/glib-2.0/glib/gconvert.h \
-  /usr/include/glib-2.0/glib/gdataset.h \
-  /usr/include/glib-2.0/glib/gdate.h \
-  /usr/include/glib-2.0/glib/gdatetime.h \
-  /usr/include/glib-2.0/glib/gdir.h \
-  /usr/include/glib-2.0/glib/genviron.h \
-  /usr/include/glib-2.0/glib/gerror.h \
-  /usr/include/glib-2.0/glib/gfileutils.h \
-  /usr/include/glib-2.0/glib/ggettext.h \
-  /usr/include/glib-2.0/glib/ghash.h \
-  /usr/include/glib-2.0/glib/ghmac.h \
-  /usr/include/glib-2.0/glib/ghook.h \
-  /usr/include/glib-2.0/glib/ghostutils.h \
-  /usr/include/glib-2.0/glib/giochannel.h \
-  /usr/include/glib-2.0/glib/gkeyfile.h \
-  /usr/include/glib-2.0/glib/glib-autocleanups.h \
-  /usr/include/glib-2.0/glib/glib-typeof.h \
-  /usr/include/glib-2.0/glib/glist.h \
-  /usr/include/glib-2.0/glib/gmacros.h \
-  /usr/include/glib-2.0/glib/gmain.h \
-  /usr/include/glib-2.0/glib/gmappedfile.h \
-  /usr/include/glib-2.0/glib/gmarkup.h \
-  /usr/include/glib-2.0/glib/gmem.h \
-  /usr/include/glib-2.0/glib/gmessages.h \
-  /usr/include/glib-2.0/glib/gnode.h \
-  /usr/include/glib-2.0/glib/goption.h \
-  /usr/include/glib-2.0/glib/gpattern.h \
-  /usr/include/glib-2.0/glib/gpoll.h \
-  /usr/include/glib-2.0/glib/gprimes.h \
-  /usr/include/glib-2.0/glib/gqsort.h \
-  /usr/include/glib-2.0/glib/gquark.h \
-  /usr/include/glib-2.0/glib/gqueue.h \
-  /usr/include/glib-2.0/glib/grand.h \
-  /usr/include/glib-2.0/glib/grcbox.h \
-  /usr/include/glib-2.0/glib/grefcount.h \
-  /usr/include/glib-2.0/glib/grefstring.h \
-  /usr/include/glib-2.0/glib/gregex.h \
-  /usr/include/glib-2.0/glib/gscanner.h \
-  /usr/include/glib-2.0/glib/gsequence.h \
-  /usr/include/glib-2.0/glib/gshell.h \
-  /usr/include/glib-2.0/glib/gslice.h \
-  /usr/include/glib-2.0/glib/gslist.h \
-  /usr/include/glib-2.0/glib/gspawn.h \
-  /usr/include/glib-2.0/glib/gstrfuncs.h \
-  /usr/include/glib-2.0/glib/gstring.h \
-  /usr/include/glib-2.0/glib/gstringchunk.h \
-  /usr/include/glib-2.0/glib/gstrvbuilder.h \
-  /usr/include/glib-2.0/glib/gtestutils.h \
-  /usr/include/glib-2.0/glib/gthread.h \
-  /usr/include/glib-2.0/glib/gthreadpool.h \
-  /usr/include/glib-2.0/glib/gtimer.h \
-  /usr/include/glib-2.0/glib/gtimezone.h \
-  /usr/include/glib-2.0/glib/gtrashstack.h \
-  /usr/include/glib-2.0/glib/gtree.h \
-  /usr/include/glib-2.0/glib/gtypes.h \
-  /usr/include/glib-2.0/glib/gunicode.h \
-  /usr/include/glib-2.0/glib/guri.h \
-  /usr/include/glib-2.0/glib/gutils.h \
-  /usr/include/glib-2.0/glib/guuid.h \
-  /usr/include/glib-2.0/glib/gvariant.h \
-  /usr/include/glib-2.0/glib/gvarianttype.h \
-  /usr/include/glib-2.0/glib/gversion.h \
-  /usr/include/glib-2.0/glib/gversionmacros.h \
-  /usr/include/glib-2.0/gobject/gbinding.h \
-  /usr/include/glib-2.0/gobject/gbindinggroup.h \
-  /usr/include/glib-2.0/gobject/gboxed.h \
-  /usr/include/glib-2.0/gobject/gclosure.h \
-  /usr/include/glib-2.0/gobject/genums.h \
-  /usr/include/glib-2.0/gobject/glib-enumtypes.h \
-  /usr/include/glib-2.0/gobject/glib-types.h \
-  /usr/include/glib-2.0/gobject/gmarshal.h \
-  /usr/include/glib-2.0/gobject/gobject-autocleanups.h \
-  /usr/include/glib-2.0/gobject/gobject.h \
-  /usr/include/glib-2.0/gobject/gparam.h \
-  /usr/include/glib-2.0/gobject/gparamspecs.h \
-  /usr/include/glib-2.0/gobject/gsignal.h \
-  /usr/include/glib-2.0/gobject/gsignalgroup.h \
-  /usr/include/glib-2.0/gobject/gsourceclosure.h \
-  /usr/include/glib-2.0/gobject/gtype.h \
-  /usr/include/glib-2.0/gobject/gtypemodule.h \
-  /usr/include/glib-2.0/gobject/gtypeplugin.h \
-  /usr/include/glib-2.0/gobject/gvalue.h \
-  /usr/include/glib-2.0/gobject/gvaluearray.h \
-  /usr/include/glib-2.0/gobject/gvaluetypes.h \
-  /usr/include/gstreamer-1.0/gst/glib-compat.h \
-  /usr/include/gstreamer-1.0/gst/gst.h \
-  /usr/include/gstreamer-1.0/gst/gstallocator.h \
-  /usr/include/gstreamer-1.0/gst/gstatomicqueue.h \
-  /usr/include/gstreamer-1.0/gst/gstbin.h \
-  /usr/include/gstreamer-1.0/gst/gstbuffer.h \
-  /usr/include/gstreamer-1.0/gst/gstbufferlist.h \
-  /usr/include/gstreamer-1.0/gst/gstbufferpool.h \
-  /usr/include/gstreamer-1.0/gst/gstbus.h \
-  /usr/include/gstreamer-1.0/gst/gstcaps.h \
-  /usr/include/gstreamer-1.0/gst/gstcapsfeatures.h \
-  /usr/include/gstreamer-1.0/gst/gstchildproxy.h \
-  /usr/include/gstreamer-1.0/gst/gstclock.h \
-  /usr/include/gstreamer-1.0/gst/gstcompat.h \
-  /usr/include/gstreamer-1.0/gst/gstconfig.h \
-  /usr/include/gstreamer-1.0/gst/gstcontext.h \
-  /usr/include/gstreamer-1.0/gst/gstcontrolbinding.h \
-  /usr/include/gstreamer-1.0/gst/gstcontrolsource.h \
-  /usr/include/gstreamer-1.0/gst/gstdatetime.h \
-  /usr/include/gstreamer-1.0/gst/gstdebugutils.h \
-  /usr/include/gstreamer-1.0/gst/gstdevice.h \
-  /usr/include/gstreamer-1.0/gst/gstdevicemonitor.h \
-  /usr/include/gstreamer-1.0/gst/gstdeviceprovider.h \
-  /usr/include/gstreamer-1.0/gst/gstdeviceproviderfactory.h \
-  /usr/include/gstreamer-1.0/gst/gstdynamictypefactory.h \
-  /usr/include/gstreamer-1.0/gst/gstelement.h \
-  /usr/include/gstreamer-1.0/gst/gstelementfactory.h \
-  /usr/include/gstreamer-1.0/gst/gstelementmetadata.h \
-  /usr/include/gstreamer-1.0/gst/gstenumtypes.h \
-  /usr/include/gstreamer-1.0/gst/gsterror.h \
-  /usr/include/gstreamer-1.0/gst/gstevent.h \
-  /usr/include/gstreamer-1.0/gst/gstformat.h \
-  /usr/include/gstreamer-1.0/gst/gstghostpad.h \
-  /usr/include/gstreamer-1.0/gst/gstinfo.h \
-  /usr/include/gstreamer-1.0/gst/gstiterator.h \
-  /usr/include/gstreamer-1.0/gst/gstmacros.h \
-  /usr/include/gstreamer-1.0/gst/gstmemory.h \
-  /usr/include/gstreamer-1.0/gst/gstmessage.h \
-  /usr/include/gstreamer-1.0/gst/gstmeta.h \
-  /usr/include/gstreamer-1.0/gst/gstminiobject.h \
-  /usr/include/gstreamer-1.0/gst/gstobject.h \
-  /usr/include/gstreamer-1.0/gst/gstpad.h \
-  /usr/include/gstreamer-1.0/gst/gstpadtemplate.h \
-  /usr/include/gstreamer-1.0/gst/gstparamspecs.h \
-  /usr/include/gstreamer-1.0/gst/gstparse.h \
-  /usr/include/gstreamer-1.0/gst/gstpipeline.h \
-  /usr/include/gstreamer-1.0/gst/gstplugin.h \
-  /usr/include/gstreamer-1.0/gst/gstpluginfeature.h \
-  /usr/include/gstreamer-1.0/gst/gstpoll.h \
-  /usr/include/gstreamer-1.0/gst/gstpreset.h \
-  /usr/include/gstreamer-1.0/gst/gstpromise.h \
-  /usr/include/gstreamer-1.0/gst/gstprotection.h \
-  /usr/include/gstreamer-1.0/gst/gstquery.h \
-  /usr/include/gstreamer-1.0/gst/gstregistry.h \
-  /usr/include/gstreamer-1.0/gst/gstsample.h \
-  /usr/include/gstreamer-1.0/gst/gstsegment.h \
-  /usr/include/gstreamer-1.0/gst/gststreamcollection.h \
-  /usr/include/gstreamer-1.0/gst/gststreams.h \
-  /usr/include/gstreamer-1.0/gst/gststructure.h \
-  /usr/include/gstreamer-1.0/gst/gstsystemclock.h \
-  /usr/include/gstreamer-1.0/gst/gsttaglist.h \
-  /usr/include/gstreamer-1.0/gst/gsttagsetter.h \
-  /usr/include/gstreamer-1.0/gst/gsttask.h \
-  /usr/include/gstreamer-1.0/gst/gsttaskpool.h \
-  /usr/include/gstreamer-1.0/gst/gsttoc.h \
-  /usr/include/gstreamer-1.0/gst/gsttocsetter.h \
-  /usr/include/gstreamer-1.0/gst/gsttracer.h \
-  /usr/include/gstreamer-1.0/gst/gsttracerfactory.h \
-  /usr/include/gstreamer-1.0/gst/gsttracerrecord.h \
-  /usr/include/gstreamer-1.0/gst/gsttypefind.h \
-  /usr/include/gstreamer-1.0/gst/gsttypefindfactory.h \
-  /usr/include/gstreamer-1.0/gst/gsturi.h \
-  /usr/include/gstreamer-1.0/gst/gstutils.h \
-  /usr/include/gstreamer-1.0/gst/gstvalue.h \
-  /usr/include/gstreamer-1.0/gst/gstversion.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/locale.h \
-  /usr/include/netinet/in.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/signal.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/time.h \
-  /usr/include/unistd.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
-  /usr/include/x86_64-linux-gnu/asm/socket.h \
-  /usr/include/x86_64-linux-gnu/asm/sockios.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/in.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
-  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/socket.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
-  /usr/local/bin/cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckFunctionExists.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/GNU.cmake \
-  /usr/local/share/cmake-3.28/Modules/FeatureSummary.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindOpenGL.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPackageMessage.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPkgConfig.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindThreads.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindVulkan.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindX11.cmake \
-  /usr/local/share/cmake-3.28/Modules/GNUInstallDirs.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
-  /usr/local/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/CMakeLists.txt \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoRecorderApp/VideoRecorderWidget.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoRecorderApp/VideoRecorderWidget.h \
-  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.28.3/CMakeSystem.cmake \
-  JoystickIdentifier_autogen/moc_predefs.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/main.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.ui \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/signalhandler.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/signalhandler.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/crc16.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/message.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/sdk.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QCoreApplication \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QList \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QMutex \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QObject \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QRect \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSize \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSizeF \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSocketNotifier \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QTimer \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20functional.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20iterator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20memory.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20type_traits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q23utility.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qabstractitemmodel.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qanystringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydata.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydataops.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydatapointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qassert.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qatomic_cxx11.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbasicatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbasictimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbindingstorage.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearray.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearraylist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qchar.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompare.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompare_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcomparehelpers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompilerdetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qconfig.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qconstructormacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainerfwd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainerinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontiguouscache.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreapplication_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreevent.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdarwinhelpers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdatastream.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdeadlinetimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdebug.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qelapsedtimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qendian.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qeventloop.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qexceptionhandling.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qflags.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfloat16.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qforeach.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfunctionaltools_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfunctionpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qgenericatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qglobalstatic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qhash.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qhashfunctions.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiodevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiodevicebase.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qitemselectionmodel.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiterable.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiterator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlatin1stringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qline.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlocale.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlogging.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmalloc.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmargins.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmath.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmetacontainer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmetatype.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qminmax.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmutex.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnamespace.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnativeinterface.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnumeric.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobject.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobject_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qoverload.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qpair.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qpoint.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qprocessordetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qrect.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qrefcount.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qregularexpression.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qscopedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qscopeguard.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qset.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qshareddata.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qshareddata_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsharedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsharedpointer_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsize.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsocketnotifier.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qspan.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstring.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringbuilder.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter_base.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringfwd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringlist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringliteral.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringmatcher.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringtokenizer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qswap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsysinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsystemdetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtaggedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtclasshelpermacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtconfiginclude.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtconfigmacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtcore-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtcoreexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationmarkers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtenvironmentvariables.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtextstream.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtmetamacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtnoop.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtpreprocessorsupport.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtresource.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtsan_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qttranslation.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qttypetraits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtversion.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtversionchecks.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtypeinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtypes.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qurl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qutf8stringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvariant.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvarlengtharray.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qversiontagging.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qxptype_traits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qyieldcpu.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QCloseEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QKeyEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QShowEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QTransform \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qaction.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qbitmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qbrush.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qcolor.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qcursor.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qevent.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qeventpoint.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfont.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfontinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfontmetrics.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qguiapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qguiapplication_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qicon.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qimage.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qinputdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qinputmethod.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qkeysequence.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpaintdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpalette.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpixelformat.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpixmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpointingdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpolygon.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qregion.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qrgb.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qrgba64.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qscreen.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qscreen_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtgui-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtguiexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtguiglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtransform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvalidator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvector2d.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvectornd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qwindowdefs.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/QMediaPlayer \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qaudio.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qmediaplayer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtaudio.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimedia-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimediaexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimediaglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/QVideoWidget \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qvideowidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QApplication \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QListWidgetItem \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QMainWindow \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QWidget \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractitemview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractscrollarea.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractslider.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractspinbox.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qframe.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qlistview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qlistwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qmainwindow.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qrubberband.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qsizepolicy.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qslider.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qstyle.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qstyleoption.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtabbar.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtabwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgets-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Config.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtFeature.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtInstallPaths.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicGitHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
-  /usr/include/alloca.h \
-  /usr/include/arpa/inet.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/asm-generic/socket.h \
-  /usr/include/asm-generic/sockios.h \
-  /usr/include/assert.h \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/atomic \
-  /usr/include/c++/11/backward/auto_ptr.h \
-  /usr/include/c++/11/backward/binders.h \
-  /usr/include/c++/11/bit \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/align.h \
-  /usr/include/c++/11/bits/alloc_traits.h \
-  /usr/include/c++/11/bits/allocated_ptr.h \
-  /usr/include/c++/11/bits/allocator.h \
-  /usr/include/c++/11/bits/atomic_base.h \
-  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/11/bits/basic_ios.h \
-  /usr/include/c++/11/bits/basic_ios.tcc \
-  /usr/include/c++/11/bits/basic_string.h \
-  /usr/include/c++/11/bits/basic_string.tcc \
-  /usr/include/c++/11/bits/char_traits.h \
-  /usr/include/c++/11/bits/charconv.h \
-  /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/c++/11/bits/concept_check.h \
-  /usr/include/c++/11/bits/cpp_type_traits.h \
-  /usr/include/c++/11/bits/cxxabi_forced.h \
-  /usr/include/c++/11/bits/cxxabi_init_exception.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/c++/11/bits/exception.h \
-  /usr/include/c++/11/bits/exception_defines.h \
-  /usr/include/c++/11/bits/exception_ptr.h \
-  /usr/include/c++/11/bits/functexcept.h \
-  /usr/include/c++/11/bits/functional_hash.h \
-  /usr/include/c++/11/bits/hash_bytes.h \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/ios_base.h \
-  /usr/include/c++/11/bits/istream.tcc \
-  /usr/include/c++/11/bits/list.tcc \
-  /usr/include/c++/11/bits/locale_classes.h \
-  /usr/include/c++/11/bits/locale_classes.tcc \
-  /usr/include/c++/11/bits/locale_conv.h \
-  /usr/include/c++/11/bits/locale_facets.h \
-  /usr/include/c++/11/bits/locale_facets.tcc \
-  /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/c++/11/bits/memoryfwd.h \
-  /usr/include/c++/11/bits/move.h \
-  /usr/include/c++/11/bits/nested_exception.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/ostream.tcc \
-  /usr/include/c++/11/bits/ostream_insert.h \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/c++/11/bits/postypes.h \
-  /usr/include/c++/11/bits/predefined_ops.h \
-  /usr/include/c++/11/bits/ptr_traits.h \
-  /usr/include/c++/11/bits/quoted_string.h \
-  /usr/include/c++/11/bits/range_access.h \
-  /usr/include/c++/11/bits/refwrap.h \
-  /usr/include/c++/11/bits/shared_ptr.h \
-  /usr/include/c++/11/bits/shared_ptr_atomic.h \
-  /usr/include/c++/11/bits/shared_ptr_base.h \
-  /usr/include/c++/11/bits/specfun.h \
-  /usr/include/c++/11/bits/sstream.tcc \
-  /usr/include/c++/11/bits/std_abs.h \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/bits/std_thread.h \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/stl_algobase.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/stl_construct.h \
-  /usr/include/c++/11/bits/stl_function.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_iterator.h \
-  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/11/bits/stl_iterator_base_types.h \
-  /usr/include/c++/11/bits/stl_list.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
-  /usr/include/c++/11/bits/stl_numeric.h \
-  /usr/include/c++/11/bits/stl_pair.h \
-  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/bits/stl_tempbuf.h \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stream_iterator.h \
-  /usr/include/c++/11/bits/streambuf.tcc \
-  /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/c++/11/bits/string_view.tcc \
-  /usr/include/c++/11/bits/stringfwd.h \
-  /usr/include/c++/11/bits/this_thread_sleep.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/bits/unique_ptr.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/vector.tcc \
-  /usr/include/c++/11/cassert \
-  /usr/include/c++/11/cctype \
-  /usr/include/c++/11/cerrno \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/climits \
-  /usr/include/c++/11/clocale \
-  /usr/include/c++/11/cmath \
-  /usr/include/c++/11/cstddef \
-  /usr/include/c++/11/cstdint \
-  /usr/include/c++/11/cstdio \
-  /usr/include/c++/11/cstdlib \
-  /usr/include/c++/11/cstring \
-  /usr/include/c++/11/ctime \
-  /usr/include/c++/11/cwchar \
-  /usr/include/c++/11/cwctype \
-  /usr/include/c++/11/debug/assertions.h \
-  /usr/include/c++/11/debug/debug.h \
-  /usr/include/c++/11/exception \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/ext/alloc_traits.h \
-  /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/c++/11/ext/concurrence.h \
-  /usr/include/c++/11/ext/new_allocator.h \
-  /usr/include/c++/11/ext/numeric_traits.h \
-  /usr/include/c++/11/ext/string_conversions.h \
-  /usr/include/c++/11/ext/type_traits.h \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/initializer_list \
-  /usr/include/c++/11/iomanip \
-  /usr/include/c++/11/ios \
-  /usr/include/c++/11/iosfwd \
-  /usr/include/c++/11/iostream \
-  /usr/include/c++/11/istream \
-  /usr/include/c++/11/iterator \
-  /usr/include/c++/11/limits \
-  /usr/include/c++/11/list \
-  /usr/include/c++/11/locale \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/memory \
-  /usr/include/c++/11/new \
-  /usr/include/c++/11/numeric \
-  /usr/include/c++/11/optional \
-  /usr/include/c++/11/ostream \
-  /usr/include/c++/11/pstl/execution_defs.h \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/pstl/glue_memory_defs.h \
-  /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/sstream \
-  /usr/include/c++/11/stdexcept \
-  /usr/include/c++/11/streambuf \
-  /usr/include/c++/11/string \
-  /usr/include/c++/11/string_view \
-  /usr/include/c++/11/system_error \
-  /usr/include/c++/11/thread \
-  /usr/include/c++/11/tr1/bessel_function.tcc \
-  /usr/include/c++/11/tr1/beta_function.tcc \
-  /usr/include/c++/11/tr1/ell_integral.tcc \
-  /usr/include/c++/11/tr1/exp_integral.tcc \
-  /usr/include/c++/11/tr1/gamma.tcc \
-  /usr/include/c++/11/tr1/hypergeometric.tcc \
-  /usr/include/c++/11/tr1/legendre_function.tcc \
-  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
-  /usr/include/c++/11/tr1/poly_hermite.tcc \
-  /usr/include/c++/11/tr1/poly_laguerre.tcc \
-  /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /usr/include/c++/11/tr1/special_function_util.h \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/type_traits \
-  /usr/include/c++/11/typeinfo \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/variant \
-  /usr/include/c++/11/vector \
-  /usr/include/ctype.h \
-  /usr/include/dirent.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/glib-2.0/glib-object.h \
-  /usr/include/glib-2.0/glib.h \
-  /usr/include/glib-2.0/glib/deprecated/gallocator.h \
-  /usr/include/glib-2.0/glib/deprecated/gcache.h \
-  /usr/include/glib-2.0/glib/deprecated/gcompletion.h \
-  /usr/include/glib-2.0/glib/deprecated/gmain.h \
-  /usr/include/glib-2.0/glib/deprecated/grel.h \
-  /usr/include/glib-2.0/glib/deprecated/gthread.h \
-  /usr/include/glib-2.0/glib/galloca.h \
-  /usr/include/glib-2.0/glib/garray.h \
-  /usr/include/glib-2.0/glib/gasyncqueue.h \
-  /usr/include/glib-2.0/glib/gatomic.h \
-  /usr/include/glib-2.0/glib/gbacktrace.h \
-  /usr/include/glib-2.0/glib/gbase64.h \
-  /usr/include/glib-2.0/glib/gbitlock.h \
-  /usr/include/glib-2.0/glib/gbookmarkfile.h \
-  /usr/include/glib-2.0/glib/gbytes.h \
-  /usr/include/glib-2.0/glib/gcharset.h \
-  /usr/include/glib-2.0/glib/gchecksum.h \
-  /usr/include/glib-2.0/glib/gconvert.h \
-  /usr/include/glib-2.0/glib/gdataset.h \
-  /usr/include/glib-2.0/glib/gdate.h \
-  /usr/include/glib-2.0/glib/gdatetime.h \
-  /usr/include/glib-2.0/glib/gdir.h \
-  /usr/include/glib-2.0/glib/genviron.h \
-  /usr/include/glib-2.0/glib/gerror.h \
-  /usr/include/glib-2.0/glib/gfileutils.h \
-  /usr/include/glib-2.0/glib/ggettext.h \
-  /usr/include/glib-2.0/glib/ghash.h \
-  /usr/include/glib-2.0/glib/ghmac.h \
-  /usr/include/glib-2.0/glib/ghook.h \
-  /usr/include/glib-2.0/glib/ghostutils.h \
-  /usr/include/glib-2.0/glib/giochannel.h \
-  /usr/include/glib-2.0/glib/gkeyfile.h \
-  /usr/include/glib-2.0/glib/glib-autocleanups.h \
-  /usr/include/glib-2.0/glib/glib-typeof.h \
-  /usr/include/glib-2.0/glib/glist.h \
-  /usr/include/glib-2.0/glib/gmacros.h \
-  /usr/include/glib-2.0/glib/gmain.h \
-  /usr/include/glib-2.0/glib/gmappedfile.h \
-  /usr/include/glib-2.0/glib/gmarkup.h \
-  /usr/include/glib-2.0/glib/gmem.h \
-  /usr/include/glib-2.0/glib/gmessages.h \
-  /usr/include/glib-2.0/glib/gnode.h \
-  /usr/include/glib-2.0/glib/goption.h \
-  /usr/include/glib-2.0/glib/gpattern.h \
-  /usr/include/glib-2.0/glib/gpoll.h \
-  /usr/include/glib-2.0/glib/gprimes.h \
-  /usr/include/glib-2.0/glib/gqsort.h \
-  /usr/include/glib-2.0/glib/gquark.h \
-  /usr/include/glib-2.0/glib/gqueue.h \
-  /usr/include/glib-2.0/glib/grand.h \
-  /usr/include/glib-2.0/glib/grcbox.h \
-  /usr/include/glib-2.0/glib/grefcount.h \
-  /usr/include/glib-2.0/glib/grefstring.h \
-  /usr/include/glib-2.0/glib/gregex.h \
-  /usr/include/glib-2.0/glib/gscanner.h \
-  /usr/include/glib-2.0/glib/gsequence.h \
-  /usr/include/glib-2.0/glib/gshell.h \
-  /usr/include/glib-2.0/glib/gslice.h \
-  /usr/include/glib-2.0/glib/gslist.h \
-  /usr/include/glib-2.0/glib/gspawn.h \
-  /usr/include/glib-2.0/glib/gstrfuncs.h \
-  /usr/include/glib-2.0/glib/gstring.h \
-  /usr/include/glib-2.0/glib/gstringchunk.h \
-  /usr/include/glib-2.0/glib/gstrvbuilder.h \
-  /usr/include/glib-2.0/glib/gtestutils.h \
-  /usr/include/glib-2.0/glib/gthread.h \
-  /usr/include/glib-2.0/glib/gthreadpool.h \
-  /usr/include/glib-2.0/glib/gtimer.h \
-  /usr/include/glib-2.0/glib/gtimezone.h \
-  /usr/include/glib-2.0/glib/gtrashstack.h \
-  /usr/include/glib-2.0/glib/gtree.h \
-  /usr/include/glib-2.0/glib/gtypes.h \
-  /usr/include/glib-2.0/glib/gunicode.h \
-  /usr/include/glib-2.0/glib/guri.h \
-  /usr/include/glib-2.0/glib/gutils.h \
-  /usr/include/glib-2.0/glib/guuid.h \
-  /usr/include/glib-2.0/glib/gvariant.h \
-  /usr/include/glib-2.0/glib/gvarianttype.h \
-  /usr/include/glib-2.0/glib/gversion.h \
-  /usr/include/glib-2.0/glib/gversionmacros.h \
-  /usr/include/glib-2.0/gobject/gbinding.h \
-  /usr/include/glib-2.0/gobject/gbindinggroup.h \
-  /usr/include/glib-2.0/gobject/gboxed.h \
-  /usr/include/glib-2.0/gobject/gclosure.h \
-  /usr/include/glib-2.0/gobject/genums.h \
-  /usr/include/glib-2.0/gobject/glib-enumtypes.h \
-  /usr/include/glib-2.0/gobject/glib-types.h \
-  /usr/include/glib-2.0/gobject/gmarshal.h \
-  /usr/include/glib-2.0/gobject/gobject-autocleanups.h \
-  /usr/include/glib-2.0/gobject/gobject.h \
-  /usr/include/glib-2.0/gobject/gparam.h \
-  /usr/include/glib-2.0/gobject/gparamspecs.h \
-  /usr/include/glib-2.0/gobject/gsignal.h \
-  /usr/include/glib-2.0/gobject/gsignalgroup.h \
-  /usr/include/glib-2.0/gobject/gsourceclosure.h \
-  /usr/include/glib-2.0/gobject/gtype.h \
-  /usr/include/glib-2.0/gobject/gtypemodule.h \
-  /usr/include/glib-2.0/gobject/gtypeplugin.h \
-  /usr/include/glib-2.0/gobject/gvalue.h \
-  /usr/include/glib-2.0/gobject/gvaluearray.h \
-  /usr/include/glib-2.0/gobject/gvaluetypes.h \
-  /usr/include/gstreamer-1.0/gst/glib-compat.h \
-  /usr/include/gstreamer-1.0/gst/gst.h \
-  /usr/include/gstreamer-1.0/gst/gstallocator.h \
-  /usr/include/gstreamer-1.0/gst/gstatomicqueue.h \
-  /usr/include/gstreamer-1.0/gst/gstbin.h \
-  /usr/include/gstreamer-1.0/gst/gstbuffer.h \
-  /usr/include/gstreamer-1.0/gst/gstbufferlist.h \
-  /usr/include/gstreamer-1.0/gst/gstbufferpool.h \
-  /usr/include/gstreamer-1.0/gst/gstbus.h \
-  /usr/include/gstreamer-1.0/gst/gstcaps.h \
-  /usr/include/gstreamer-1.0/gst/gstcapsfeatures.h \
-  /usr/include/gstreamer-1.0/gst/gstchildproxy.h \
-  /usr/include/gstreamer-1.0/gst/gstclock.h \
-  /usr/include/gstreamer-1.0/gst/gstcompat.h \
-  /usr/include/gstreamer-1.0/gst/gstconfig.h \
-  /usr/include/gstreamer-1.0/gst/gstcontext.h \
-  /usr/include/gstreamer-1.0/gst/gstcontrolbinding.h \
-  /usr/include/gstreamer-1.0/gst/gstcontrolsource.h \
-  /usr/include/gstreamer-1.0/gst/gstdatetime.h \
-  /usr/include/gstreamer-1.0/gst/gstdebugutils.h \
-  /usr/include/gstreamer-1.0/gst/gstdevice.h \
-  /usr/include/gstreamer-1.0/gst/gstdevicemonitor.h \
-  /usr/include/gstreamer-1.0/gst/gstdeviceprovider.h \
-  /usr/include/gstreamer-1.0/gst/gstdeviceproviderfactory.h \
-  /usr/include/gstreamer-1.0/gst/gstdynamictypefactory.h \
-  /usr/include/gstreamer-1.0/gst/gstelement.h \
-  /usr/include/gstreamer-1.0/gst/gstelementfactory.h \
-  /usr/include/gstreamer-1.0/gst/gstelementmetadata.h \
-  /usr/include/gstreamer-1.0/gst/gstenumtypes.h \
-  /usr/include/gstreamer-1.0/gst/gsterror.h \
-  /usr/include/gstreamer-1.0/gst/gstevent.h \
-  /usr/include/gstreamer-1.0/gst/gstformat.h \
-  /usr/include/gstreamer-1.0/gst/gstghostpad.h \
-  /usr/include/gstreamer-1.0/gst/gstinfo.h \
-  /usr/include/gstreamer-1.0/gst/gstiterator.h \
-  /usr/include/gstreamer-1.0/gst/gstmacros.h \
-  /usr/include/gstreamer-1.0/gst/gstmemory.h \
-  /usr/include/gstreamer-1.0/gst/gstmessage.h \
-  /usr/include/gstreamer-1.0/gst/gstmeta.h \
-  /usr/include/gstreamer-1.0/gst/gstminiobject.h \
-  /usr/include/gstreamer-1.0/gst/gstobject.h \
-  /usr/include/gstreamer-1.0/gst/gstpad.h \
-  /usr/include/gstreamer-1.0/gst/gstpadtemplate.h \
-  /usr/include/gstreamer-1.0/gst/gstparamspecs.h \
-  /usr/include/gstreamer-1.0/gst/gstparse.h \
-  /usr/include/gstreamer-1.0/gst/gstpipeline.h \
-  /usr/include/gstreamer-1.0/gst/gstplugin.h \
-  /usr/include/gstreamer-1.0/gst/gstpluginfeature.h \
-  /usr/include/gstreamer-1.0/gst/gstpoll.h \
-  /usr/include/gstreamer-1.0/gst/gstpreset.h \
-  /usr/include/gstreamer-1.0/gst/gstpromise.h \
-  /usr/include/gstreamer-1.0/gst/gstprotection.h \
-  /usr/include/gstreamer-1.0/gst/gstquery.h \
-  /usr/include/gstreamer-1.0/gst/gstregistry.h \
-  /usr/include/gstreamer-1.0/gst/gstsample.h \
-  /usr/include/gstreamer-1.0/gst/gstsegment.h \
-  /usr/include/gstreamer-1.0/gst/gststreamcollection.h \
-  /usr/include/gstreamer-1.0/gst/gststreams.h \
-  /usr/include/gstreamer-1.0/gst/gststructure.h \
-  /usr/include/gstreamer-1.0/gst/gstsystemclock.h \
-  /usr/include/gstreamer-1.0/gst/gsttaglist.h \
-  /usr/include/gstreamer-1.0/gst/gsttagsetter.h \
-  /usr/include/gstreamer-1.0/gst/gsttask.h \
-  /usr/include/gstreamer-1.0/gst/gsttaskpool.h \
-  /usr/include/gstreamer-1.0/gst/gsttoc.h \
-  /usr/include/gstreamer-1.0/gst/gsttocsetter.h \
-  /usr/include/gstreamer-1.0/gst/gsttracer.h \
-  /usr/include/gstreamer-1.0/gst/gsttracerfactory.h \
-  /usr/include/gstreamer-1.0/gst/gsttracerrecord.h \
-  /usr/include/gstreamer-1.0/gst/gsttypefind.h \
-  /usr/include/gstreamer-1.0/gst/gsttypefindfactory.h \
-  /usr/include/gstreamer-1.0/gst/gsturi.h \
-  /usr/include/gstreamer-1.0/gst/gstutils.h \
-  /usr/include/gstreamer-1.0/gst/gstvalue.h \
-  /usr/include/gstreamer-1.0/gst/gstversion.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/locale.h \
-  /usr/include/netinet/in.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/signal.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/time.h \
-  /usr/include/unistd.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
-  /usr/include/x86_64-linux-gnu/asm/socket.h \
-  /usr/include/x86_64-linux-gnu/asm/sockios.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/in.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
-  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/socket.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
-  /usr/local/bin/cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckFunctionExists.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/GNU.cmake \
-  /usr/local/share/cmake-3.28/Modules/FeatureSummary.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindOpenGL.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPackageMessage.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPkgConfig.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindThreads.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindVulkan.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindX11.cmake \
-  /usr/local/share/cmake-3.28/Modules/GNUInstallDirs.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
-  /usr/local/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/CMakeLists.txt \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoRecorderApp/VideoRecorderWidget.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoRecorderApp/VideoRecorderWidget.h \
-  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.28.3/CMakeSystem.cmake \
-  JoystickIdentifier_autogen/moc_predefs.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/main.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.ui \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/signalhandler.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/signalhandler.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/crc16.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/message.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/sdk.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QCoreApplication \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QList \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QMutex \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QObject \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QRect \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSize \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSizeF \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSocketNotifier \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QTimer \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20functional.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20iterator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20memory.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20type_traits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q23utility.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qabstractitemmodel.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qanystringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydata.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydataops.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydatapointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qassert.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qatomic_cxx11.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbasicatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbasictimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbindingstorage.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearray.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearraylist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qchar.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompare.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompare_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcomparehelpers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompilerdetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qconfig.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qconstructormacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainerfwd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainerinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontiguouscache.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreapplication_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreevent.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdarwinhelpers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdatastream.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdeadlinetimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdebug.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qelapsedtimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qendian.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qeventloop.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qexceptionhandling.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qflags.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfloat16.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qforeach.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfunctionaltools_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfunctionpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qgenericatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qglobalstatic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qhash.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qhashfunctions.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiodevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiodevicebase.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qitemselectionmodel.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiterable.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiterator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlatin1stringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qline.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlocale.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlogging.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmalloc.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmargins.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmath.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmetacontainer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmetatype.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qminmax.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmutex.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnamespace.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnativeinterface.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnumeric.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobject.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobject_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qoverload.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qpair.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qpoint.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qprocessordetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qrect.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qrefcount.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qregularexpression.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qscopedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qscopeguard.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qset.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qshareddata.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qshareddata_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsharedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsharedpointer_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsize.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsocketnotifier.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qspan.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstring.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringbuilder.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter_base.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringfwd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringlist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringliteral.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringmatcher.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringtokenizer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qswap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsysinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsystemdetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtaggedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtclasshelpermacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtconfiginclude.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtconfigmacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtcore-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtcoreexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationmarkers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtenvironmentvariables.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtextstream.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtmetamacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtnoop.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtpreprocessorsupport.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtresource.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtsan_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qttranslation.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qttypetraits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtversion.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtversionchecks.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtypeinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtypes.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qurl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qutf8stringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvariant.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvarlengtharray.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qversiontagging.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qxptype_traits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qyieldcpu.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QCloseEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QKeyEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QShowEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QTransform \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qaction.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qbitmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qbrush.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qcolor.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qcursor.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qevent.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qeventpoint.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfont.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfontinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfontmetrics.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qguiapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qguiapplication_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qicon.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qimage.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qinputdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qinputmethod.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qkeysequence.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpaintdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpalette.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpixelformat.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpixmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpointingdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpolygon.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qregion.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qrgb.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qrgba64.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qscreen.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qscreen_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtgui-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtguiexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtguiglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtransform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvalidator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvector2d.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvectornd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qwindowdefs.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/QMediaPlayer \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qaudio.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qmediaplayer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtaudio.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimedia-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimediaexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimediaglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/QVideoWidget \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qvideowidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QApplication \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QListWidgetItem \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QMainWindow \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QWidget \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractitemview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractscrollarea.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractslider.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractspinbox.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qframe.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qlistview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qlistwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qmainwindow.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qrubberband.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qsizepolicy.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qslider.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qstyle.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qstyleoption.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtabbar.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtabwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgets-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Config.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtFeature.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtInstallPaths.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicGitHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
-  /usr/include/alloca.h \
-  /usr/include/arpa/inet.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/asm-generic/socket.h \
-  /usr/include/asm-generic/sockios.h \
-  /usr/include/assert.h \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/atomic \
-  /usr/include/c++/11/backward/auto_ptr.h \
-  /usr/include/c++/11/backward/binders.h \
-  /usr/include/c++/11/bit \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/align.h \
-  /usr/include/c++/11/bits/alloc_traits.h \
-  /usr/include/c++/11/bits/allocated_ptr.h \
-  /usr/include/c++/11/bits/allocator.h \
-  /usr/include/c++/11/bits/atomic_base.h \
-  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/11/bits/basic_ios.h \
-  /usr/include/c++/11/bits/basic_ios.tcc \
-  /usr/include/c++/11/bits/basic_string.h \
-  /usr/include/c++/11/bits/basic_string.tcc \
-  /usr/include/c++/11/bits/char_traits.h \
-  /usr/include/c++/11/bits/charconv.h \
-  /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/c++/11/bits/concept_check.h \
-  /usr/include/c++/11/bits/cpp_type_traits.h \
-  /usr/include/c++/11/bits/cxxabi_forced.h \
-  /usr/include/c++/11/bits/cxxabi_init_exception.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/c++/11/bits/exception.h \
-  /usr/include/c++/11/bits/exception_defines.h \
-  /usr/include/c++/11/bits/exception_ptr.h \
-  /usr/include/c++/11/bits/functexcept.h \
-  /usr/include/c++/11/bits/functional_hash.h \
-  /usr/include/c++/11/bits/hash_bytes.h \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/ios_base.h \
-  /usr/include/c++/11/bits/istream.tcc \
-  /usr/include/c++/11/bits/list.tcc \
-  /usr/include/c++/11/bits/locale_classes.h \
-  /usr/include/c++/11/bits/locale_classes.tcc \
-  /usr/include/c++/11/bits/locale_conv.h \
-  /usr/include/c++/11/bits/locale_facets.h \
-  /usr/include/c++/11/bits/locale_facets.tcc \
-  /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/c++/11/bits/memoryfwd.h \
-  /usr/include/c++/11/bits/move.h \
-  /usr/include/c++/11/bits/nested_exception.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/ostream.tcc \
-  /usr/include/c++/11/bits/ostream_insert.h \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/c++/11/bits/postypes.h \
-  /usr/include/c++/11/bits/predefined_ops.h \
-  /usr/include/c++/11/bits/ptr_traits.h \
-  /usr/include/c++/11/bits/quoted_string.h \
-  /usr/include/c++/11/bits/range_access.h \
-  /usr/include/c++/11/bits/refwrap.h \
-  /usr/include/c++/11/bits/shared_ptr.h \
-  /usr/include/c++/11/bits/shared_ptr_atomic.h \
-  /usr/include/c++/11/bits/shared_ptr_base.h \
-  /usr/include/c++/11/bits/specfun.h \
-  /usr/include/c++/11/bits/sstream.tcc \
-  /usr/include/c++/11/bits/std_abs.h \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/bits/std_thread.h \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/stl_algobase.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/stl_construct.h \
-  /usr/include/c++/11/bits/stl_function.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_iterator.h \
-  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/11/bits/stl_iterator_base_types.h \
-  /usr/include/c++/11/bits/stl_list.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
-  /usr/include/c++/11/bits/stl_numeric.h \
-  /usr/include/c++/11/bits/stl_pair.h \
-  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/bits/stl_tempbuf.h \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stream_iterator.h \
-  /usr/include/c++/11/bits/streambuf.tcc \
-  /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/c++/11/bits/string_view.tcc \
-  /usr/include/c++/11/bits/stringfwd.h \
-  /usr/include/c++/11/bits/this_thread_sleep.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/bits/unique_ptr.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/vector.tcc \
-  /usr/include/c++/11/cassert \
-  /usr/include/c++/11/cctype \
-  /usr/include/c++/11/cerrno \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/climits \
-  /usr/include/c++/11/clocale \
-  /usr/include/c++/11/cmath \
-  /usr/include/c++/11/cstddef \
-  /usr/include/c++/11/cstdint \
-  /usr/include/c++/11/cstdio \
-  /usr/include/c++/11/cstdlib \
-  /usr/include/c++/11/cstring \
-  /usr/include/c++/11/ctime \
-  /usr/include/c++/11/cwchar \
-  /usr/include/c++/11/cwctype \
-  /usr/include/c++/11/debug/assertions.h \
-  /usr/include/c++/11/debug/debug.h \
-  /usr/include/c++/11/exception \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/ext/alloc_traits.h \
-  /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/c++/11/ext/concurrence.h \
-  /usr/include/c++/11/ext/new_allocator.h \
-  /usr/include/c++/11/ext/numeric_traits.h \
-  /usr/include/c++/11/ext/string_conversions.h \
-  /usr/include/c++/11/ext/type_traits.h \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/initializer_list \
-  /usr/include/c++/11/iomanip \
-  /usr/include/c++/11/ios \
-  /usr/include/c++/11/iosfwd \
-  /usr/include/c++/11/iostream \
-  /usr/include/c++/11/istream \
-  /usr/include/c++/11/iterator \
-  /usr/include/c++/11/limits \
-  /usr/include/c++/11/list \
-  /usr/include/c++/11/locale \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/memory \
-  /usr/include/c++/11/new \
-  /usr/include/c++/11/numeric \
-  /usr/include/c++/11/optional \
-  /usr/include/c++/11/ostream \
-  /usr/include/c++/11/pstl/execution_defs.h \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/pstl/glue_memory_defs.h \
-  /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/sstream \
-  /usr/include/c++/11/stdexcept \
-  /usr/include/c++/11/streambuf \
-  /usr/include/c++/11/string \
-  /usr/include/c++/11/string_view \
-  /usr/include/c++/11/system_error \
-  /usr/include/c++/11/thread \
-  /usr/include/c++/11/tr1/bessel_function.tcc \
-  /usr/include/c++/11/tr1/beta_function.tcc \
-  /usr/include/c++/11/tr1/ell_integral.tcc \
-  /usr/include/c++/11/tr1/exp_integral.tcc \
-  /usr/include/c++/11/tr1/gamma.tcc \
-  /usr/include/c++/11/tr1/hypergeometric.tcc \
-  /usr/include/c++/11/tr1/legendre_function.tcc \
-  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
-  /usr/include/c++/11/tr1/poly_hermite.tcc \
-  /usr/include/c++/11/tr1/poly_laguerre.tcc \
-  /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /usr/include/c++/11/tr1/special_function_util.h \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/type_traits \
-  /usr/include/c++/11/typeinfo \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/variant \
-  /usr/include/c++/11/vector \
-  /usr/include/ctype.h \
-  /usr/include/dirent.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/glib-2.0/glib-object.h \
-  /usr/include/glib-2.0/glib.h \
-  /usr/include/glib-2.0/glib/deprecated/gallocator.h \
-  /usr/include/glib-2.0/glib/deprecated/gcache.h \
-  /usr/include/glib-2.0/glib/deprecated/gcompletion.h \
-  /usr/include/glib-2.0/glib/deprecated/gmain.h \
-  /usr/include/glib-2.0/glib/deprecated/grel.h \
-  /usr/include/glib-2.0/glib/deprecated/gthread.h \
-  /usr/include/glib-2.0/glib/galloca.h \
-  /usr/include/glib-2.0/glib/garray.h \
-  /usr/include/glib-2.0/glib/gasyncqueue.h \
-  /usr/include/glib-2.0/glib/gatomic.h \
-  /usr/include/glib-2.0/glib/gbacktrace.h \
-  /usr/include/glib-2.0/glib/gbase64.h \
-  /usr/include/glib-2.0/glib/gbitlock.h \
-  /usr/include/glib-2.0/glib/gbookmarkfile.h \
-  /usr/include/glib-2.0/glib/gbytes.h \
-  /usr/include/glib-2.0/glib/gcharset.h \
-  /usr/include/glib-2.0/glib/gchecksum.h \
-  /usr/include/glib-2.0/glib/gconvert.h \
-  /usr/include/glib-2.0/glib/gdataset.h \
-  /usr/include/glib-2.0/glib/gdate.h \
-  /usr/include/glib-2.0/glib/gdatetime.h \
-  /usr/include/glib-2.0/glib/gdir.h \
-  /usr/include/glib-2.0/glib/genviron.h \
-  /usr/include/glib-2.0/glib/gerror.h \
-  /usr/include/glib-2.0/glib/gfileutils.h \
-  /usr/include/glib-2.0/glib/ggettext.h \
-  /usr/include/glib-2.0/glib/ghash.h \
-  /usr/include/glib-2.0/glib/ghmac.h \
-  /usr/include/glib-2.0/glib/ghook.h \
-  /usr/include/glib-2.0/glib/ghostutils.h \
-  /usr/include/glib-2.0/glib/giochannel.h \
-  /usr/include/glib-2.0/glib/gkeyfile.h \
-  /usr/include/glib-2.0/glib/glib-autocleanups.h \
-  /usr/include/glib-2.0/glib/glib-typeof.h \
-  /usr/include/glib-2.0/glib/glist.h \
-  /usr/include/glib-2.0/glib/gmacros.h \
-  /usr/include/glib-2.0/glib/gmain.h \
-  /usr/include/glib-2.0/glib/gmappedfile.h \
-  /usr/include/glib-2.0/glib/gmarkup.h \
-  /usr/include/glib-2.0/glib/gmem.h \
-  /usr/include/glib-2.0/glib/gmessages.h \
-  /usr/include/glib-2.0/glib/gnode.h \
-  /usr/include/glib-2.0/glib/goption.h \
-  /usr/include/glib-2.0/glib/gpattern.h \
-  /usr/include/glib-2.0/glib/gpoll.h \
-  /usr/include/glib-2.0/glib/gprimes.h \
-  /usr/include/glib-2.0/glib/gqsort.h \
-  /usr/include/glib-2.0/glib/gquark.h \
-  /usr/include/glib-2.0/glib/gqueue.h \
-  /usr/include/glib-2.0/glib/grand.h \
-  /usr/include/glib-2.0/glib/grcbox.h \
-  /usr/include/glib-2.0/glib/grefcount.h \
-  /usr/include/glib-2.0/glib/grefstring.h \
-  /usr/include/glib-2.0/glib/gregex.h \
-  /usr/include/glib-2.0/glib/gscanner.h \
-  /usr/include/glib-2.0/glib/gsequence.h \
-  /usr/include/glib-2.0/glib/gshell.h \
-  /usr/include/glib-2.0/glib/gslice.h \
-  /usr/include/glib-2.0/glib/gslist.h \
-  /usr/include/glib-2.0/glib/gspawn.h \
-  /usr/include/glib-2.0/glib/gstrfuncs.h \
-  /usr/include/glib-2.0/glib/gstring.h \
-  /usr/include/glib-2.0/glib/gstringchunk.h \
-  /usr/include/glib-2.0/glib/gstrvbuilder.h \
-  /usr/include/glib-2.0/glib/gtestutils.h \
-  /usr/include/glib-2.0/glib/gthread.h \
-  /usr/include/glib-2.0/glib/gthreadpool.h \
-  /usr/include/glib-2.0/glib/gtimer.h \
-  /usr/include/glib-2.0/glib/gtimezone.h \
-  /usr/include/glib-2.0/glib/gtrashstack.h \
-  /usr/include/glib-2.0/glib/gtree.h \
-  /usr/include/glib-2.0/glib/gtypes.h \
-  /usr/include/glib-2.0/glib/gunicode.h \
-  /usr/include/glib-2.0/glib/guri.h \
-  /usr/include/glib-2.0/glib/gutils.h \
-  /usr/include/glib-2.0/glib/guuid.h \
-  /usr/include/glib-2.0/glib/gvariant.h \
-  /usr/include/glib-2.0/glib/gvarianttype.h \
-  /usr/include/glib-2.0/glib/gversion.h \
-  /usr/include/glib-2.0/glib/gversionmacros.h \
-  /usr/include/glib-2.0/gobject/gbinding.h \
-  /usr/include/glib-2.0/gobject/gbindinggroup.h \
-  /usr/include/glib-2.0/gobject/gboxed.h \
-  /usr/include/glib-2.0/gobject/gclosure.h \
-  /usr/include/glib-2.0/gobject/genums.h \
-  /usr/include/glib-2.0/gobject/glib-enumtypes.h \
-  /usr/include/glib-2.0/gobject/glib-types.h \
-  /usr/include/glib-2.0/gobject/gmarshal.h \
-  /usr/include/glib-2.0/gobject/gobject-autocleanups.h \
-  /usr/include/glib-2.0/gobject/gobject.h \
-  /usr/include/glib-2.0/gobject/gparam.h \
-  /usr/include/glib-2.0/gobject/gparamspecs.h \
-  /usr/include/glib-2.0/gobject/gsignal.h \
-  /usr/include/glib-2.0/gobject/gsignalgroup.h \
-  /usr/include/glib-2.0/gobject/gsourceclosure.h \
-  /usr/include/glib-2.0/gobject/gtype.h \
-  /usr/include/glib-2.0/gobject/gtypemodule.h \
-  /usr/include/glib-2.0/gobject/gtypeplugin.h \
-  /usr/include/glib-2.0/gobject/gvalue.h \
-  /usr/include/glib-2.0/gobject/gvaluearray.h \
-  /usr/include/glib-2.0/gobject/gvaluetypes.h \
-  /usr/include/gstreamer-1.0/gst/glib-compat.h \
-  /usr/include/gstreamer-1.0/gst/gst.h \
-  /usr/include/gstreamer-1.0/gst/gstallocator.h \
-  /usr/include/gstreamer-1.0/gst/gstatomicqueue.h \
-  /usr/include/gstreamer-1.0/gst/gstbin.h \
-  /usr/include/gstreamer-1.0/gst/gstbuffer.h \
-  /usr/include/gstreamer-1.0/gst/gstbufferlist.h \
-  /usr/include/gstreamer-1.0/gst/gstbufferpool.h \
-  /usr/include/gstreamer-1.0/gst/gstbus.h \
-  /usr/include/gstreamer-1.0/gst/gstcaps.h \
-  /usr/include/gstreamer-1.0/gst/gstcapsfeatures.h \
-  /usr/include/gstreamer-1.0/gst/gstchildproxy.h \
-  /usr/include/gstreamer-1.0/gst/gstclock.h \
-  /usr/include/gstreamer-1.0/gst/gstcompat.h \
-  /usr/include/gstreamer-1.0/gst/gstconfig.h \
-  /usr/include/gstreamer-1.0/gst/gstcontext.h \
-  /usr/include/gstreamer-1.0/gst/gstcontrolbinding.h \
-  /usr/include/gstreamer-1.0/gst/gstcontrolsource.h \
-  /usr/include/gstreamer-1.0/gst/gstdatetime.h \
-  /usr/include/gstreamer-1.0/gst/gstdebugutils.h \
-  /usr/include/gstreamer-1.0/gst/gstdevice.h \
-  /usr/include/gstreamer-1.0/gst/gstdevicemonitor.h \
-  /usr/include/gstreamer-1.0/gst/gstdeviceprovider.h \
-  /usr/include/gstreamer-1.0/gst/gstdeviceproviderfactory.h \
-  /usr/include/gstreamer-1.0/gst/gstdynamictypefactory.h \
-  /usr/include/gstreamer-1.0/gst/gstelement.h \
-  /usr/include/gstreamer-1.0/gst/gstelementfactory.h \
-  /usr/include/gstreamer-1.0/gst/gstelementmetadata.h \
-  /usr/include/gstreamer-1.0/gst/gstenumtypes.h \
-  /usr/include/gstreamer-1.0/gst/gsterror.h \
-  /usr/include/gstreamer-1.0/gst/gstevent.h \
-  /usr/include/gstreamer-1.0/gst/gstformat.h \
-  /usr/include/gstreamer-1.0/gst/gstghostpad.h \
-  /usr/include/gstreamer-1.0/gst/gstinfo.h \
-  /usr/include/gstreamer-1.0/gst/gstiterator.h \
-  /usr/include/gstreamer-1.0/gst/gstmacros.h \
-  /usr/include/gstreamer-1.0/gst/gstmemory.h \
-  /usr/include/gstreamer-1.0/gst/gstmessage.h \
-  /usr/include/gstreamer-1.0/gst/gstmeta.h \
-  /usr/include/gstreamer-1.0/gst/gstminiobject.h \
-  /usr/include/gstreamer-1.0/gst/gstobject.h \
-  /usr/include/gstreamer-1.0/gst/gstpad.h \
-  /usr/include/gstreamer-1.0/gst/gstpadtemplate.h \
-  /usr/include/gstreamer-1.0/gst/gstparamspecs.h \
-  /usr/include/gstreamer-1.0/gst/gstparse.h \
-  /usr/include/gstreamer-1.0/gst/gstpipeline.h \
-  /usr/include/gstreamer-1.0/gst/gstplugin.h \
-  /usr/include/gstreamer-1.0/gst/gstpluginfeature.h \
-  /usr/include/gstreamer-1.0/gst/gstpoll.h \
-  /usr/include/gstreamer-1.0/gst/gstpreset.h \
-  /usr/include/gstreamer-1.0/gst/gstpromise.h \
-  /usr/include/gstreamer-1.0/gst/gstprotection.h \
-  /usr/include/gstreamer-1.0/gst/gstquery.h \
-  /usr/include/gstreamer-1.0/gst/gstregistry.h \
-  /usr/include/gstreamer-1.0/gst/gstsample.h \
-  /usr/include/gstreamer-1.0/gst/gstsegment.h \
-  /usr/include/gstreamer-1.0/gst/gststreamcollection.h \
-  /usr/include/gstreamer-1.0/gst/gststreams.h \
-  /usr/include/gstreamer-1.0/gst/gststructure.h \
-  /usr/include/gstreamer-1.0/gst/gstsystemclock.h \
-  /usr/include/gstreamer-1.0/gst/gsttaglist.h \
-  /usr/include/gstreamer-1.0/gst/gsttagsetter.h \
-  /usr/include/gstreamer-1.0/gst/gsttask.h \
-  /usr/include/gstreamer-1.0/gst/gsttaskpool.h \
-  /usr/include/gstreamer-1.0/gst/gsttoc.h \
-  /usr/include/gstreamer-1.0/gst/gsttocsetter.h \
-  /usr/include/gstreamer-1.0/gst/gsttracer.h \
-  /usr/include/gstreamer-1.0/gst/gsttracerfactory.h \
-  /usr/include/gstreamer-1.0/gst/gsttracerrecord.h \
-  /usr/include/gstreamer-1.0/gst/gsttypefind.h \
-  /usr/include/gstreamer-1.0/gst/gsttypefindfactory.h \
-  /usr/include/gstreamer-1.0/gst/gsturi.h \
-  /usr/include/gstreamer-1.0/gst/gstutils.h \
-  /usr/include/gstreamer-1.0/gst/gstvalue.h \
-  /usr/include/gstreamer-1.0/gst/gstversion.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/locale.h \
-  /usr/include/netinet/in.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/signal.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/time.h \
-  /usr/include/unistd.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
-  /usr/include/x86_64-linux-gnu/asm/socket.h \
-  /usr/include/x86_64-linux-gnu/asm/sockios.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/in.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
-  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/socket.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
-  /usr/local/bin/cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckFunctionExists.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/GNU.cmake \
-  /usr/local/share/cmake-3.28/Modules/FeatureSummary.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindOpenGL.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPackageMessage.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPkgConfig.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindThreads.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindVulkan.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindX11.cmake \
-  /usr/local/share/cmake-3.28/Modules/GNUInstallDirs.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
-  /usr/local/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/CMakeLists.txt \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoRecorderApp/VideoRecorderWidget.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoRecorderApp/VideoRecorderWidget.h \
-  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.28.3/CMakeSystem.cmake \
-  JoystickIdentifier_autogen/moc_predefs.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/main.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.ui \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/signalhandler.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/signalhandler.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/crc16.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/message.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/sdk.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QCoreApplication \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QList \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QMutex \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QObject \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QRect \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSize \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSizeF \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSocketNotifier \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QTimer \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20functional.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20iterator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20memory.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20type_traits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q23utility.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qabstractitemmodel.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qanystringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydata.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydataops.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydatapointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qassert.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qatomic_cxx11.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbasicatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbasictimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbindingstorage.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearray.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearraylist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qchar.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompare.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompare_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcomparehelpers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompilerdetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qconfig.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qconstructormacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainerfwd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainerinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontiguouscache.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreapplication_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreevent.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdarwinhelpers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdatastream.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdeadlinetimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdebug.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qelapsedtimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qendian.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qeventloop.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qexceptionhandling.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qflags.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfloat16.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qforeach.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfunctionaltools_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfunctionpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qgenericatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qglobalstatic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qhash.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qhashfunctions.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiodevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiodevicebase.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qitemselectionmodel.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiterable.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiterator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlatin1stringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qline.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlocale.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlogging.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmalloc.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmargins.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmath.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmetacontainer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmetatype.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qminmax.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmutex.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnamespace.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnativeinterface.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnumeric.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobject.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobject_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qoverload.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qpair.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qpoint.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qprocessordetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qrect.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qrefcount.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qregularexpression.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qscopedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qscopeguard.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qset.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qshareddata.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qshareddata_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsharedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsharedpointer_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsize.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsocketnotifier.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qspan.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstring.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringbuilder.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter_base.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringfwd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringlist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringliteral.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringmatcher.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringtokenizer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qswap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsysinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsystemdetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtaggedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtclasshelpermacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtconfiginclude.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtconfigmacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtcore-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtcoreexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationmarkers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtenvironmentvariables.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtextstream.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtmetamacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtnoop.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtpreprocessorsupport.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtresource.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtsan_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qttranslation.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qttypetraits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtversion.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtversionchecks.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtypeinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtypes.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qurl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qutf8stringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvariant.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvarlengtharray.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qversiontagging.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qxptype_traits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qyieldcpu.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QCloseEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QKeyEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QShowEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QTransform \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qaction.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qbitmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qbrush.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qcolor.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qcursor.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qevent.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qeventpoint.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfont.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfontinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfontmetrics.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qguiapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qguiapplication_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qicon.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qimage.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qinputdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qinputmethod.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qkeysequence.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpaintdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpalette.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpixelformat.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpixmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpointingdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpolygon.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qregion.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qrgb.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qrgba64.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qscreen.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qscreen_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtgui-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtguiexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtguiglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtransform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvalidator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvector2d.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvectornd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qwindowdefs.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/QMediaPlayer \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qaudio.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qmediaplayer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtaudio.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimedia-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimediaexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimediaglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/QVideoWidget \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qvideowidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QApplication \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QListWidgetItem \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QMainWindow \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QWidget \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractitemview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractscrollarea.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractslider.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractspinbox.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qframe.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qlistview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qlistwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qmainwindow.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qrubberband.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qsizepolicy.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qslider.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qstyle.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qstyleoption.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtabbar.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtabwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgets-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Config.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtFeature.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtInstallPaths.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicGitHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
-  /usr/include/alloca.h \
-  /usr/include/arpa/inet.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/asm-generic/socket.h \
-  /usr/include/asm-generic/sockios.h \
-  /usr/include/assert.h \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/atomic \
-  /usr/include/c++/11/backward/auto_ptr.h \
-  /usr/include/c++/11/backward/binders.h \
-  /usr/include/c++/11/bit \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/align.h \
-  /usr/include/c++/11/bits/alloc_traits.h \
-  /usr/include/c++/11/bits/allocated_ptr.h \
-  /usr/include/c++/11/bits/allocator.h \
-  /usr/include/c++/11/bits/atomic_base.h \
-  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/11/bits/basic_ios.h \
-  /usr/include/c++/11/bits/basic_ios.tcc \
-  /usr/include/c++/11/bits/basic_string.h \
-  /usr/include/c++/11/bits/basic_string.tcc \
-  /usr/include/c++/11/bits/char_traits.h \
-  /usr/include/c++/11/bits/charconv.h \
-  /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/c++/11/bits/concept_check.h \
-  /usr/include/c++/11/bits/cpp_type_traits.h \
-  /usr/include/c++/11/bits/cxxabi_forced.h \
-  /usr/include/c++/11/bits/cxxabi_init_exception.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/c++/11/bits/exception.h \
-  /usr/include/c++/11/bits/exception_defines.h \
-  /usr/include/c++/11/bits/exception_ptr.h \
-  /usr/include/c++/11/bits/functexcept.h \
-  /usr/include/c++/11/bits/functional_hash.h \
-  /usr/include/c++/11/bits/hash_bytes.h \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/ios_base.h \
-  /usr/include/c++/11/bits/istream.tcc \
-  /usr/include/c++/11/bits/list.tcc \
-  /usr/include/c++/11/bits/locale_classes.h \
-  /usr/include/c++/11/bits/locale_classes.tcc \
-  /usr/include/c++/11/bits/locale_conv.h \
-  /usr/include/c++/11/bits/locale_facets.h \
-  /usr/include/c++/11/bits/locale_facets.tcc \
-  /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/c++/11/bits/memoryfwd.h \
-  /usr/include/c++/11/bits/move.h \
-  /usr/include/c++/11/bits/nested_exception.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/ostream.tcc \
-  /usr/include/c++/11/bits/ostream_insert.h \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/c++/11/bits/postypes.h \
-  /usr/include/c++/11/bits/predefined_ops.h \
-  /usr/include/c++/11/bits/ptr_traits.h \
-  /usr/include/c++/11/bits/quoted_string.h \
-  /usr/include/c++/11/bits/range_access.h \
-  /usr/include/c++/11/bits/refwrap.h \
-  /usr/include/c++/11/bits/shared_ptr.h \
-  /usr/include/c++/11/bits/shared_ptr_atomic.h \
-  /usr/include/c++/11/bits/shared_ptr_base.h \
-  /usr/include/c++/11/bits/specfun.h \
-  /usr/include/c++/11/bits/sstream.tcc \
-  /usr/include/c++/11/bits/std_abs.h \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/bits/std_thread.h \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/stl_algobase.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/stl_construct.h \
-  /usr/include/c++/11/bits/stl_function.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_iterator.h \
-  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/11/bits/stl_iterator_base_types.h \
-  /usr/include/c++/11/bits/stl_list.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
-  /usr/include/c++/11/bits/stl_numeric.h \
-  /usr/include/c++/11/bits/stl_pair.h \
-  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/bits/stl_tempbuf.h \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stream_iterator.h \
-  /usr/include/c++/11/bits/streambuf.tcc \
-  /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/c++/11/bits/string_view.tcc \
-  /usr/include/c++/11/bits/stringfwd.h \
-  /usr/include/c++/11/bits/this_thread_sleep.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/bits/unique_ptr.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/vector.tcc \
-  /usr/include/c++/11/cassert \
-  /usr/include/c++/11/cctype \
-  /usr/include/c++/11/cerrno \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/climits \
-  /usr/include/c++/11/clocale \
-  /usr/include/c++/11/cmath \
-  /usr/include/c++/11/cstddef \
-  /usr/include/c++/11/cstdint \
-  /usr/include/c++/11/cstdio \
-  /usr/include/c++/11/cstdlib \
-  /usr/include/c++/11/cstring \
-  /usr/include/c++/11/ctime \
-  /usr/include/c++/11/cwchar \
-  /usr/include/c++/11/cwctype \
-  /usr/include/c++/11/debug/assertions.h \
-  /usr/include/c++/11/debug/debug.h \
-  /usr/include/c++/11/exception \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/ext/alloc_traits.h \
-  /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/c++/11/ext/concurrence.h \
-  /usr/include/c++/11/ext/new_allocator.h \
-  /usr/include/c++/11/ext/numeric_traits.h \
-  /usr/include/c++/11/ext/string_conversions.h \
-  /usr/include/c++/11/ext/type_traits.h \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/initializer_list \
-  /usr/include/c++/11/iomanip \
-  /usr/include/c++/11/ios \
-  /usr/include/c++/11/iosfwd \
-  /usr/include/c++/11/iostream \
-  /usr/include/c++/11/istream \
-  /usr/include/c++/11/iterator \
-  /usr/include/c++/11/limits \
-  /usr/include/c++/11/list \
-  /usr/include/c++/11/locale \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/memory \
-  /usr/include/c++/11/new \
-  /usr/include/c++/11/numeric \
-  /usr/include/c++/11/optional \
-  /usr/include/c++/11/ostream \
-  /usr/include/c++/11/pstl/execution_defs.h \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/pstl/glue_memory_defs.h \
-  /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/sstream \
-  /usr/include/c++/11/stdexcept \
-  /usr/include/c++/11/streambuf \
-  /usr/include/c++/11/string \
-  /usr/include/c++/11/string_view \
-  /usr/include/c++/11/system_error \
-  /usr/include/c++/11/thread \
-  /usr/include/c++/11/tr1/bessel_function.tcc \
-  /usr/include/c++/11/tr1/beta_function.tcc \
-  /usr/include/c++/11/tr1/ell_integral.tcc \
-  /usr/include/c++/11/tr1/exp_integral.tcc \
-  /usr/include/c++/11/tr1/gamma.tcc \
-  /usr/include/c++/11/tr1/hypergeometric.tcc \
-  /usr/include/c++/11/tr1/legendre_function.tcc \
-  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
-  /usr/include/c++/11/tr1/poly_hermite.tcc \
-  /usr/include/c++/11/tr1/poly_laguerre.tcc \
-  /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /usr/include/c++/11/tr1/special_function_util.h \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/type_traits \
-  /usr/include/c++/11/typeinfo \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/variant \
-  /usr/include/c++/11/vector \
-  /usr/include/ctype.h \
-  /usr/include/dirent.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/glib-2.0/glib-object.h \
-  /usr/include/glib-2.0/glib.h \
-  /usr/include/glib-2.0/glib/deprecated/gallocator.h \
-  /usr/include/glib-2.0/glib/deprecated/gcache.h \
-  /usr/include/glib-2.0/glib/deprecated/gcompletion.h \
-  /usr/include/glib-2.0/glib/deprecated/gmain.h \
-  /usr/include/glib-2.0/glib/deprecated/grel.h \
-  /usr/include/glib-2.0/glib/deprecated/gthread.h \
-  /usr/include/glib-2.0/glib/galloca.h \
-  /usr/include/glib-2.0/glib/garray.h \
-  /usr/include/glib-2.0/glib/gasyncqueue.h \
-  /usr/include/glib-2.0/glib/gatomic.h \
-  /usr/include/glib-2.0/glib/gbacktrace.h \
-  /usr/include/glib-2.0/glib/gbase64.h \
-  /usr/include/glib-2.0/glib/gbitlock.h \
-  /usr/include/glib-2.0/glib/gbookmarkfile.h \
-  /usr/include/glib-2.0/glib/gbytes.h \
-  /usr/include/glib-2.0/glib/gcharset.h \
-  /usr/include/glib-2.0/glib/gchecksum.h \
-  /usr/include/glib-2.0/glib/gconvert.h \
-  /usr/include/glib-2.0/glib/gdataset.h \
-  /usr/include/glib-2.0/glib/gdate.h \
-  /usr/include/glib-2.0/glib/gdatetime.h \
-  /usr/include/glib-2.0/glib/gdir.h \
-  /usr/include/glib-2.0/glib/genviron.h \
-  /usr/include/glib-2.0/glib/gerror.h \
-  /usr/include/glib-2.0/glib/gfileutils.h \
-  /usr/include/glib-2.0/glib/ggettext.h \
-  /usr/include/glib-2.0/glib/ghash.h \
-  /usr/include/glib-2.0/glib/ghmac.h \
-  /usr/include/glib-2.0/glib/ghook.h \
-  /usr/include/glib-2.0/glib/ghostutils.h \
-  /usr/include/glib-2.0/glib/giochannel.h \
-  /usr/include/glib-2.0/glib/gkeyfile.h \
-  /usr/include/glib-2.0/glib/glib-autocleanups.h \
-  /usr/include/glib-2.0/glib/glib-typeof.h \
-  /usr/include/glib-2.0/glib/glist.h \
-  /usr/include/glib-2.0/glib/gmacros.h \
-  /usr/include/glib-2.0/glib/gmain.h \
-  /usr/include/glib-2.0/glib/gmappedfile.h \
-  /usr/include/glib-2.0/glib/gmarkup.h \
-  /usr/include/glib-2.0/glib/gmem.h \
-  /usr/include/glib-2.0/glib/gmessages.h \
-  /usr/include/glib-2.0/glib/gnode.h \
-  /usr/include/glib-2.0/glib/goption.h \
-  /usr/include/glib-2.0/glib/gpattern.h \
-  /usr/include/glib-2.0/glib/gpoll.h \
-  /usr/include/glib-2.0/glib/gprimes.h \
-  /usr/include/glib-2.0/glib/gqsort.h \
-  /usr/include/glib-2.0/glib/gquark.h \
-  /usr/include/glib-2.0/glib/gqueue.h \
-  /usr/include/glib-2.0/glib/grand.h \
-  /usr/include/glib-2.0/glib/grcbox.h \
-  /usr/include/glib-2.0/glib/grefcount.h \
-  /usr/include/glib-2.0/glib/grefstring.h \
-  /usr/include/glib-2.0/glib/gregex.h \
-  /usr/include/glib-2.0/glib/gscanner.h \
-  /usr/include/glib-2.0/glib/gsequence.h \
-  /usr/include/glib-2.0/glib/gshell.h \
-  /usr/include/glib-2.0/glib/gslice.h \
-  /usr/include/glib-2.0/glib/gslist.h \
-  /usr/include/glib-2.0/glib/gspawn.h \
-  /usr/include/glib-2.0/glib/gstrfuncs.h \
-  /usr/include/glib-2.0/glib/gstring.h \
-  /usr/include/glib-2.0/glib/gstringchunk.h \
-  /usr/include/glib-2.0/glib/gstrvbuilder.h \
-  /usr/include/glib-2.0/glib/gtestutils.h \
-  /usr/include/glib-2.0/glib/gthread.h \
-  /usr/include/glib-2.0/glib/gthreadpool.h \
-  /usr/include/glib-2.0/glib/gtimer.h \
-  /usr/include/glib-2.0/glib/gtimezone.h \
-  /usr/include/glib-2.0/glib/gtrashstack.h \
-  /usr/include/glib-2.0/glib/gtree.h \
-  /usr/include/glib-2.0/glib/gtypes.h \
-  /usr/include/glib-2.0/glib/gunicode.h \
-  /usr/include/glib-2.0/glib/guri.h \
-  /usr/include/glib-2.0/glib/gutils.h \
-  /usr/include/glib-2.0/glib/guuid.h \
-  /usr/include/glib-2.0/glib/gvariant.h \
-  /usr/include/glib-2.0/glib/gvarianttype.h \
-  /usr/include/glib-2.0/glib/gversion.h \
-  /usr/include/glib-2.0/glib/gversionmacros.h \
-  /usr/include/glib-2.0/gobject/gbinding.h \
-  /usr/include/glib-2.0/gobject/gbindinggroup.h \
-  /usr/include/glib-2.0/gobject/gboxed.h \
-  /usr/include/glib-2.0/gobject/gclosure.h \
-  /usr/include/glib-2.0/gobject/genums.h \
-  /usr/include/glib-2.0/gobject/glib-enumtypes.h \
-  /usr/include/glib-2.0/gobject/glib-types.h \
-  /usr/include/glib-2.0/gobject/gmarshal.h \
-  /usr/include/glib-2.0/gobject/gobject-autocleanups.h \
-  /usr/include/glib-2.0/gobject/gobject.h \
-  /usr/include/glib-2.0/gobject/gparam.h \
-  /usr/include/glib-2.0/gobject/gparamspecs.h \
-  /usr/include/glib-2.0/gobject/gsignal.h \
-  /usr/include/glib-2.0/gobject/gsignalgroup.h \
-  /usr/include/glib-2.0/gobject/gsourceclosure.h \
-  /usr/include/glib-2.0/gobject/gtype.h \
-  /usr/include/glib-2.0/gobject/gtypemodule.h \
-  /usr/include/glib-2.0/gobject/gtypeplugin.h \
-  /usr/include/glib-2.0/gobject/gvalue.h \
-  /usr/include/glib-2.0/gobject/gvaluearray.h \
-  /usr/include/glib-2.0/gobject/gvaluetypes.h \
-  /usr/include/gstreamer-1.0/gst/glib-compat.h \
-  /usr/include/gstreamer-1.0/gst/gst.h \
-  /usr/include/gstreamer-1.0/gst/gstallocator.h \
-  /usr/include/gstreamer-1.0/gst/gstatomicqueue.h \
-  /usr/include/gstreamer-1.0/gst/gstbin.h \
-  /usr/include/gstreamer-1.0/gst/gstbuffer.h \
-  /usr/include/gstreamer-1.0/gst/gstbufferlist.h \
-  /usr/include/gstreamer-1.0/gst/gstbufferpool.h \
-  /usr/include/gstreamer-1.0/gst/gstbus.h \
-  /usr/include/gstreamer-1.0/gst/gstcaps.h \
-  /usr/include/gstreamer-1.0/gst/gstcapsfeatures.h \
-  /usr/include/gstreamer-1.0/gst/gstchildproxy.h \
-  /usr/include/gstreamer-1.0/gst/gstclock.h \
-  /usr/include/gstreamer-1.0/gst/gstcompat.h \
-  /usr/include/gstreamer-1.0/gst/gstconfig.h \
-  /usr/include/gstreamer-1.0/gst/gstcontext.h \
-  /usr/include/gstreamer-1.0/gst/gstcontrolbinding.h \
-  /usr/include/gstreamer-1.0/gst/gstcontrolsource.h \
-  /usr/include/gstreamer-1.0/gst/gstdatetime.h \
-  /usr/include/gstreamer-1.0/gst/gstdebugutils.h \
-  /usr/include/gstreamer-1.0/gst/gstdevice.h \
-  /usr/include/gstreamer-1.0/gst/gstdevicemonitor.h \
-  /usr/include/gstreamer-1.0/gst/gstdeviceprovider.h \
-  /usr/include/gstreamer-1.0/gst/gstdeviceproviderfactory.h \
-  /usr/include/gstreamer-1.0/gst/gstdynamictypefactory.h \
-  /usr/include/gstreamer-1.0/gst/gstelement.h \
-  /usr/include/gstreamer-1.0/gst/gstelementfactory.h \
-  /usr/include/gstreamer-1.0/gst/gstelementmetadata.h \
-  /usr/include/gstreamer-1.0/gst/gstenumtypes.h \
-  /usr/include/gstreamer-1.0/gst/gsterror.h \
-  /usr/include/gstreamer-1.0/gst/gstevent.h \
-  /usr/include/gstreamer-1.0/gst/gstformat.h \
-  /usr/include/gstreamer-1.0/gst/gstghostpad.h \
-  /usr/include/gstreamer-1.0/gst/gstinfo.h \
-  /usr/include/gstreamer-1.0/gst/gstiterator.h \
-  /usr/include/gstreamer-1.0/gst/gstmacros.h \
-  /usr/include/gstreamer-1.0/gst/gstmemory.h \
-  /usr/include/gstreamer-1.0/gst/gstmessage.h \
-  /usr/include/gstreamer-1.0/gst/gstmeta.h \
-  /usr/include/gstreamer-1.0/gst/gstminiobject.h \
-  /usr/include/gstreamer-1.0/gst/gstobject.h \
-  /usr/include/gstreamer-1.0/gst/gstpad.h \
-  /usr/include/gstreamer-1.0/gst/gstpadtemplate.h \
-  /usr/include/gstreamer-1.0/gst/gstparamspecs.h \
-  /usr/include/gstreamer-1.0/gst/gstparse.h \
-  /usr/include/gstreamer-1.0/gst/gstpipeline.h \
-  /usr/include/gstreamer-1.0/gst/gstplugin.h \
-  /usr/include/gstreamer-1.0/gst/gstpluginfeature.h \
-  /usr/include/gstreamer-1.0/gst/gstpoll.h \
-  /usr/include/gstreamer-1.0/gst/gstpreset.h \
-  /usr/include/gstreamer-1.0/gst/gstpromise.h \
-  /usr/include/gstreamer-1.0/gst/gstprotection.h \
-  /usr/include/gstreamer-1.0/gst/gstquery.h \
-  /usr/include/gstreamer-1.0/gst/gstregistry.h \
-  /usr/include/gstreamer-1.0/gst/gstsample.h \
-  /usr/include/gstreamer-1.0/gst/gstsegment.h \
-  /usr/include/gstreamer-1.0/gst/gststreamcollection.h \
-  /usr/include/gstreamer-1.0/gst/gststreams.h \
-  /usr/include/gstreamer-1.0/gst/gststructure.h \
-  /usr/include/gstreamer-1.0/gst/gstsystemclock.h \
-  /usr/include/gstreamer-1.0/gst/gsttaglist.h \
-  /usr/include/gstreamer-1.0/gst/gsttagsetter.h \
-  /usr/include/gstreamer-1.0/gst/gsttask.h \
-  /usr/include/gstreamer-1.0/gst/gsttaskpool.h \
-  /usr/include/gstreamer-1.0/gst/gsttoc.h \
-  /usr/include/gstreamer-1.0/gst/gsttocsetter.h \
-  /usr/include/gstreamer-1.0/gst/gsttracer.h \
-  /usr/include/gstreamer-1.0/gst/gsttracerfactory.h \
-  /usr/include/gstreamer-1.0/gst/gsttracerrecord.h \
-  /usr/include/gstreamer-1.0/gst/gsttypefind.h \
-  /usr/include/gstreamer-1.0/gst/gsttypefindfactory.h \
-  /usr/include/gstreamer-1.0/gst/gsturi.h \
-  /usr/include/gstreamer-1.0/gst/gstutils.h \
-  /usr/include/gstreamer-1.0/gst/gstvalue.h \
-  /usr/include/gstreamer-1.0/gst/gstversion.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/locale.h \
-  /usr/include/netinet/in.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/signal.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/time.h \
-  /usr/include/unistd.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
-  /usr/include/x86_64-linux-gnu/asm/socket.h \
-  /usr/include/x86_64-linux-gnu/asm/sockios.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/in.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
-  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/socket.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
-  /usr/local/bin/cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckFunctionExists.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/GNU.cmake \
-  /usr/local/share/cmake-3.28/Modules/FeatureSummary.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindOpenGL.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPackageMessage.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPkgConfig.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindThreads.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindVulkan.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindX11.cmake \
-  /usr/local/share/cmake-3.28/Modules/GNUInstallDirs.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
-  /usr/local/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/CMakeLists.txt \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoRecorderApp/VideoRecorderWidget.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoRecorderApp/VideoRecorderWidget.h \
-  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.28.3/CMakeSystem.cmake \
-  JoystickIdentifier_autogen/moc_predefs.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/main.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.ui \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/signalhandler.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/signalhandler.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/crc16.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/message.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/sdk.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QCoreApplication \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QList \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QMutex \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QObject \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QRect \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSize \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSizeF \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSocketNotifier \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QTimer \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20functional.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20iterator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20memory.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20type_traits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q23utility.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qabstractitemmodel.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qanystringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydata.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydataops.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydatapointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qassert.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qatomic_cxx11.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbasicatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbasictimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbindingstorage.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearray.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearraylist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qchar.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompare.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompare_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcomparehelpers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompilerdetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qconfig.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qconstructormacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainerfwd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainerinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontiguouscache.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreapplication_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreevent.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdarwinhelpers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdatastream.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdeadlinetimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdebug.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qelapsedtimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qendian.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qeventloop.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qexceptionhandling.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qflags.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfloat16.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qforeach.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfunctionaltools_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfunctionpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qgenericatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qglobalstatic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qhash.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qhashfunctions.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiodevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiodevicebase.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qitemselectionmodel.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiterable.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiterator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlatin1stringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qline.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlocale.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlogging.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmalloc.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmargins.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmath.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmetacontainer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmetatype.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qminmax.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmutex.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnamespace.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnativeinterface.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnumeric.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobject.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobject_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qoverload.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qpair.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qpoint.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qprocessordetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qrect.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qrefcount.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qregularexpression.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qscopedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qscopeguard.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qset.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qshareddata.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qshareddata_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsharedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsharedpointer_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsize.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsocketnotifier.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qspan.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstring.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringbuilder.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter_base.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringfwd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringlist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringliteral.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringmatcher.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringtokenizer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qswap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsysinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsystemdetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtaggedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtclasshelpermacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtconfiginclude.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtconfigmacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtcore-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtcoreexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationmarkers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtenvironmentvariables.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtextstream.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtmetamacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtnoop.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtpreprocessorsupport.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtresource.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtsan_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qttranslation.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qttypetraits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtversion.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtversionchecks.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtypeinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtypes.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qurl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qutf8stringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvariant.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvarlengtharray.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qversiontagging.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qxptype_traits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qyieldcpu.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QCloseEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QKeyEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QShowEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QTransform \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qaction.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qbitmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qbrush.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qcolor.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qcursor.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qevent.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qeventpoint.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfont.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfontinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfontmetrics.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qguiapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qguiapplication_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qicon.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qimage.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qinputdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qinputmethod.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qkeysequence.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpaintdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpalette.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpixelformat.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpixmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpointingdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpolygon.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qregion.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qrgb.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qrgba64.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qscreen.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qscreen_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtgui-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtguiexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtguiglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtransform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvalidator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvector2d.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvectornd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qwindowdefs.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/QMediaPlayer \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qaudio.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qmediaplayer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtaudio.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimedia-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimediaexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimediaglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/QVideoWidget \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qvideowidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QApplication \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QListWidgetItem \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QMainWindow \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QWidget \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractitemview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractscrollarea.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractslider.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractspinbox.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qframe.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qlistview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qlistwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qmainwindow.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qrubberband.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qsizepolicy.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qslider.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qstyle.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qstyleoption.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtabbar.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtabwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgets-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Config.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtFeature.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtInstallPaths.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicGitHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
-  /usr/include/alloca.h \
-  /usr/include/arpa/inet.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/asm-generic/socket.h \
-  /usr/include/asm-generic/sockios.h \
-  /usr/include/assert.h \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/atomic \
-  /usr/include/c++/11/backward/auto_ptr.h \
-  /usr/include/c++/11/backward/binders.h \
-  /usr/include/c++/11/bit \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/align.h \
-  /usr/include/c++/11/bits/alloc_traits.h \
-  /usr/include/c++/11/bits/allocated_ptr.h \
-  /usr/include/c++/11/bits/allocator.h \
-  /usr/include/c++/11/bits/atomic_base.h \
-  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/11/bits/basic_ios.h \
-  /usr/include/c++/11/bits/basic_ios.tcc \
-  /usr/include/c++/11/bits/basic_string.h \
-  /usr/include/c++/11/bits/basic_string.tcc \
-  /usr/include/c++/11/bits/char_traits.h \
-  /usr/include/c++/11/bits/charconv.h \
-  /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/c++/11/bits/concept_check.h \
-  /usr/include/c++/11/bits/cpp_type_traits.h \
-  /usr/include/c++/11/bits/cxxabi_forced.h \
-  /usr/include/c++/11/bits/cxxabi_init_exception.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/c++/11/bits/exception.h \
-  /usr/include/c++/11/bits/exception_defines.h \
-  /usr/include/c++/11/bits/exception_ptr.h \
-  /usr/include/c++/11/bits/functexcept.h \
-  /usr/include/c++/11/bits/functional_hash.h \
-  /usr/include/c++/11/bits/hash_bytes.h \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/ios_base.h \
-  /usr/include/c++/11/bits/istream.tcc \
-  /usr/include/c++/11/bits/list.tcc \
-  /usr/include/c++/11/bits/locale_classes.h \
-  /usr/include/c++/11/bits/locale_classes.tcc \
-  /usr/include/c++/11/bits/locale_conv.h \
-  /usr/include/c++/11/bits/locale_facets.h \
-  /usr/include/c++/11/bits/locale_facets.tcc \
-  /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/c++/11/bits/memoryfwd.h \
-  /usr/include/c++/11/bits/move.h \
-  /usr/include/c++/11/bits/nested_exception.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/ostream.tcc \
-  /usr/include/c++/11/bits/ostream_insert.h \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/c++/11/bits/postypes.h \
-  /usr/include/c++/11/bits/predefined_ops.h \
-  /usr/include/c++/11/bits/ptr_traits.h \
-  /usr/include/c++/11/bits/quoted_string.h \
-  /usr/include/c++/11/bits/range_access.h \
-  /usr/include/c++/11/bits/refwrap.h \
-  /usr/include/c++/11/bits/shared_ptr.h \
-  /usr/include/c++/11/bits/shared_ptr_atomic.h \
-  /usr/include/c++/11/bits/shared_ptr_base.h \
-  /usr/include/c++/11/bits/specfun.h \
-  /usr/include/c++/11/bits/sstream.tcc \
-  /usr/include/c++/11/bits/std_abs.h \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/bits/std_thread.h \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/stl_algobase.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/stl_construct.h \
-  /usr/include/c++/11/bits/stl_function.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_iterator.h \
-  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/11/bits/stl_iterator_base_types.h \
-  /usr/include/c++/11/bits/stl_list.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
-  /usr/include/c++/11/bits/stl_numeric.h \
-  /usr/include/c++/11/bits/stl_pair.h \
-  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/bits/stl_tempbuf.h \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stream_iterator.h \
-  /usr/include/c++/11/bits/streambuf.tcc \
-  /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/c++/11/bits/string_view.tcc \
-  /usr/include/c++/11/bits/stringfwd.h \
-  /usr/include/c++/11/bits/this_thread_sleep.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/bits/unique_ptr.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/vector.tcc \
-  /usr/include/c++/11/cassert \
-  /usr/include/c++/11/cctype \
-  /usr/include/c++/11/cerrno \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/climits \
-  /usr/include/c++/11/clocale \
-  /usr/include/c++/11/cmath \
-  /usr/include/c++/11/cstddef \
-  /usr/include/c++/11/cstdint \
-  /usr/include/c++/11/cstdio \
-  /usr/include/c++/11/cstdlib \
-  /usr/include/c++/11/cstring \
-  /usr/include/c++/11/ctime \
-  /usr/include/c++/11/cwchar \
-  /usr/include/c++/11/cwctype \
-  /usr/include/c++/11/debug/assertions.h \
-  /usr/include/c++/11/debug/debug.h \
-  /usr/include/c++/11/exception \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/ext/alloc_traits.h \
-  /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/c++/11/ext/concurrence.h \
-  /usr/include/c++/11/ext/new_allocator.h \
-  /usr/include/c++/11/ext/numeric_traits.h \
-  /usr/include/c++/11/ext/string_conversions.h \
-  /usr/include/c++/11/ext/type_traits.h \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/initializer_list \
-  /usr/include/c++/11/iomanip \
-  /usr/include/c++/11/ios \
-  /usr/include/c++/11/iosfwd \
-  /usr/include/c++/11/iostream \
-  /usr/include/c++/11/istream \
-  /usr/include/c++/11/iterator \
-  /usr/include/c++/11/limits \
-  /usr/include/c++/11/list \
-  /usr/include/c++/11/locale \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/memory \
-  /usr/include/c++/11/new \
-  /usr/include/c++/11/numeric \
-  /usr/include/c++/11/optional \
-  /usr/include/c++/11/ostream \
-  /usr/include/c++/11/pstl/execution_defs.h \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/pstl/glue_memory_defs.h \
-  /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/sstream \
-  /usr/include/c++/11/stdexcept \
-  /usr/include/c++/11/streambuf \
-  /usr/include/c++/11/string \
-  /usr/include/c++/11/string_view \
-  /usr/include/c++/11/system_error \
-  /usr/include/c++/11/thread \
-  /usr/include/c++/11/tr1/bessel_function.tcc \
-  /usr/include/c++/11/tr1/beta_function.tcc \
-  /usr/include/c++/11/tr1/ell_integral.tcc \
-  /usr/include/c++/11/tr1/exp_integral.tcc \
-  /usr/include/c++/11/tr1/gamma.tcc \
-  /usr/include/c++/11/tr1/hypergeometric.tcc \
-  /usr/include/c++/11/tr1/legendre_function.tcc \
-  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
-  /usr/include/c++/11/tr1/poly_hermite.tcc \
-  /usr/include/c++/11/tr1/poly_laguerre.tcc \
-  /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /usr/include/c++/11/tr1/special_function_util.h \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/type_traits \
-  /usr/include/c++/11/typeinfo \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/variant \
-  /usr/include/c++/11/vector \
-  /usr/include/ctype.h \
-  /usr/include/dirent.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/glib-2.0/glib-object.h \
-  /usr/include/glib-2.0/glib.h \
-  /usr/include/glib-2.0/glib/deprecated/gallocator.h \
-  /usr/include/glib-2.0/glib/deprecated/gcache.h \
-  /usr/include/glib-2.0/glib/deprecated/gcompletion.h \
-  /usr/include/glib-2.0/glib/deprecated/gmain.h \
-  /usr/include/glib-2.0/glib/deprecated/grel.h \
-  /usr/include/glib-2.0/glib/deprecated/gthread.h \
-  /usr/include/glib-2.0/glib/galloca.h \
-  /usr/include/glib-2.0/glib/garray.h \
-  /usr/include/glib-2.0/glib/gasyncqueue.h \
-  /usr/include/glib-2.0/glib/gatomic.h \
-  /usr/include/glib-2.0/glib/gbacktrace.h \
-  /usr/include/glib-2.0/glib/gbase64.h \
-  /usr/include/glib-2.0/glib/gbitlock.h \
-  /usr/include/glib-2.0/glib/gbookmarkfile.h \
-  /usr/include/glib-2.0/glib/gbytes.h \
-  /usr/include/glib-2.0/glib/gcharset.h \
-  /usr/include/glib-2.0/glib/gchecksum.h \
-  /usr/include/glib-2.0/glib/gconvert.h \
-  /usr/include/glib-2.0/glib/gdataset.h \
-  /usr/include/glib-2.0/glib/gdate.h \
-  /usr/include/glib-2.0/glib/gdatetime.h \
-  /usr/include/glib-2.0/glib/gdir.h \
-  /usr/include/glib-2.0/glib/genviron.h \
-  /usr/include/glib-2.0/glib/gerror.h \
-  /usr/include/glib-2.0/glib/gfileutils.h \
-  /usr/include/glib-2.0/glib/ggettext.h \
-  /usr/include/glib-2.0/glib/ghash.h \
-  /usr/include/glib-2.0/glib/ghmac.h \
-  /usr/include/glib-2.0/glib/ghook.h \
-  /usr/include/glib-2.0/glib/ghostutils.h \
-  /usr/include/glib-2.0/glib/giochannel.h \
-  /usr/include/glib-2.0/glib/gkeyfile.h \
-  /usr/include/glib-2.0/glib/glib-autocleanups.h \
-  /usr/include/glib-2.0/glib/glib-typeof.h \
-  /usr/include/glib-2.0/glib/glist.h \
-  /usr/include/glib-2.0/glib/gmacros.h \
-  /usr/include/glib-2.0/glib/gmain.h \
-  /usr/include/glib-2.0/glib/gmappedfile.h \
-  /usr/include/glib-2.0/glib/gmarkup.h \
-  /usr/include/glib-2.0/glib/gmem.h \
-  /usr/include/glib-2.0/glib/gmessages.h \
-  /usr/include/glib-2.0/glib/gnode.h \
-  /usr/include/glib-2.0/glib/goption.h \
-  /usr/include/glib-2.0/glib/gpattern.h \
-  /usr/include/glib-2.0/glib/gpoll.h \
-  /usr/include/glib-2.0/glib/gprimes.h \
-  /usr/include/glib-2.0/glib/gqsort.h \
-  /usr/include/glib-2.0/glib/gquark.h \
-  /usr/include/glib-2.0/glib/gqueue.h \
-  /usr/include/glib-2.0/glib/grand.h \
-  /usr/include/glib-2.0/glib/grcbox.h \
-  /usr/include/glib-2.0/glib/grefcount.h \
-  /usr/include/glib-2.0/glib/grefstring.h \
-  /usr/include/glib-2.0/glib/gregex.h \
-  /usr/include/glib-2.0/glib/gscanner.h \
-  /usr/include/glib-2.0/glib/gsequence.h \
-  /usr/include/glib-2.0/glib/gshell.h \
-  /usr/include/glib-2.0/glib/gslice.h \
-  /usr/include/glib-2.0/glib/gslist.h \
-  /usr/include/glib-2.0/glib/gspawn.h \
-  /usr/include/glib-2.0/glib/gstrfuncs.h \
-  /usr/include/glib-2.0/glib/gstring.h \
-  /usr/include/glib-2.0/glib/gstringchunk.h \
-  /usr/include/glib-2.0/glib/gstrvbuilder.h \
-  /usr/include/glib-2.0/glib/gtestutils.h \
-  /usr/include/glib-2.0/glib/gthread.h \
-  /usr/include/glib-2.0/glib/gthreadpool.h \
-  /usr/include/glib-2.0/glib/gtimer.h \
-  /usr/include/glib-2.0/glib/gtimezone.h \
-  /usr/include/glib-2.0/glib/gtrashstack.h \
-  /usr/include/glib-2.0/glib/gtree.h \
-  /usr/include/glib-2.0/glib/gtypes.h \
-  /usr/include/glib-2.0/glib/gunicode.h \
-  /usr/include/glib-2.0/glib/guri.h \
-  /usr/include/glib-2.0/glib/gutils.h \
-  /usr/include/glib-2.0/glib/guuid.h \
-  /usr/include/glib-2.0/glib/gvariant.h \
-  /usr/include/glib-2.0/glib/gvarianttype.h \
-  /usr/include/glib-2.0/glib/gversion.h \
-  /usr/include/glib-2.0/glib/gversionmacros.h \
-  /usr/include/glib-2.0/gobject/gbinding.h \
-  /usr/include/glib-2.0/gobject/gbindinggroup.h \
-  /usr/include/glib-2.0/gobject/gboxed.h \
-  /usr/include/glib-2.0/gobject/gclosure.h \
-  /usr/include/glib-2.0/gobject/genums.h \
-  /usr/include/glib-2.0/gobject/glib-enumtypes.h \
-  /usr/include/glib-2.0/gobject/glib-types.h \
-  /usr/include/glib-2.0/gobject/gmarshal.h \
-  /usr/include/glib-2.0/gobject/gobject-autocleanups.h \
-  /usr/include/glib-2.0/gobject/gobject.h \
-  /usr/include/glib-2.0/gobject/gparam.h \
-  /usr/include/glib-2.0/gobject/gparamspecs.h \
-  /usr/include/glib-2.0/gobject/gsignal.h \
-  /usr/include/glib-2.0/gobject/gsignalgroup.h \
-  /usr/include/glib-2.0/gobject/gsourceclosure.h \
-  /usr/include/glib-2.0/gobject/gtype.h \
-  /usr/include/glib-2.0/gobject/gtypemodule.h \
-  /usr/include/glib-2.0/gobject/gtypeplugin.h \
-  /usr/include/glib-2.0/gobject/gvalue.h \
-  /usr/include/glib-2.0/gobject/gvaluearray.h \
-  /usr/include/glib-2.0/gobject/gvaluetypes.h \
-  /usr/include/gstreamer-1.0/gst/glib-compat.h \
-  /usr/include/gstreamer-1.0/gst/gst.h \
-  /usr/include/gstreamer-1.0/gst/gstallocator.h \
-  /usr/include/gstreamer-1.0/gst/gstatomicqueue.h \
-  /usr/include/gstreamer-1.0/gst/gstbin.h \
-  /usr/include/gstreamer-1.0/gst/gstbuffer.h \
-  /usr/include/gstreamer-1.0/gst/gstbufferlist.h \
-  /usr/include/gstreamer-1.0/gst/gstbufferpool.h \
-  /usr/include/gstreamer-1.0/gst/gstbus.h \
-  /usr/include/gstreamer-1.0/gst/gstcaps.h \
-  /usr/include/gstreamer-1.0/gst/gstcapsfeatures.h \
-  /usr/include/gstreamer-1.0/gst/gstchildproxy.h \
-  /usr/include/gstreamer-1.0/gst/gstclock.h \
-  /usr/include/gstreamer-1.0/gst/gstcompat.h \
-  /usr/include/gstreamer-1.0/gst/gstconfig.h \
-  /usr/include/gstreamer-1.0/gst/gstcontext.h \
-  /usr/include/gstreamer-1.0/gst/gstcontrolbinding.h \
-  /usr/include/gstreamer-1.0/gst/gstcontrolsource.h \
-  /usr/include/gstreamer-1.0/gst/gstdatetime.h \
-  /usr/include/gstreamer-1.0/gst/gstdebugutils.h \
-  /usr/include/gstreamer-1.0/gst/gstdevice.h \
-  /usr/include/gstreamer-1.0/gst/gstdevicemonitor.h \
-  /usr/include/gstreamer-1.0/gst/gstdeviceprovider.h \
-  /usr/include/gstreamer-1.0/gst/gstdeviceproviderfactory.h \
-  /usr/include/gstreamer-1.0/gst/gstdynamictypefactory.h \
-  /usr/include/gstreamer-1.0/gst/gstelement.h \
-  /usr/include/gstreamer-1.0/gst/gstelementfactory.h \
-  /usr/include/gstreamer-1.0/gst/gstelementmetadata.h \
-  /usr/include/gstreamer-1.0/gst/gstenumtypes.h \
-  /usr/include/gstreamer-1.0/gst/gsterror.h \
-  /usr/include/gstreamer-1.0/gst/gstevent.h \
-  /usr/include/gstreamer-1.0/gst/gstformat.h \
-  /usr/include/gstreamer-1.0/gst/gstghostpad.h \
-  /usr/include/gstreamer-1.0/gst/gstinfo.h \
-  /usr/include/gstreamer-1.0/gst/gstiterator.h \
-  /usr/include/gstreamer-1.0/gst/gstmacros.h \
-  /usr/include/gstreamer-1.0/gst/gstmemory.h \
-  /usr/include/gstreamer-1.0/gst/gstmessage.h \
-  /usr/include/gstreamer-1.0/gst/gstmeta.h \
-  /usr/include/gstreamer-1.0/gst/gstminiobject.h \
-  /usr/include/gstreamer-1.0/gst/gstobject.h \
-  /usr/include/gstreamer-1.0/gst/gstpad.h \
-  /usr/include/gstreamer-1.0/gst/gstpadtemplate.h \
-  /usr/include/gstreamer-1.0/gst/gstparamspecs.h \
-  /usr/include/gstreamer-1.0/gst/gstparse.h \
-  /usr/include/gstreamer-1.0/gst/gstpipeline.h \
-  /usr/include/gstreamer-1.0/gst/gstplugin.h \
-  /usr/include/gstreamer-1.0/gst/gstpluginfeature.h \
-  /usr/include/gstreamer-1.0/gst/gstpoll.h \
-  /usr/include/gstreamer-1.0/gst/gstpreset.h \
-  /usr/include/gstreamer-1.0/gst/gstpromise.h \
-  /usr/include/gstreamer-1.0/gst/gstprotection.h \
-  /usr/include/gstreamer-1.0/gst/gstquery.h \
-  /usr/include/gstreamer-1.0/gst/gstregistry.h \
-  /usr/include/gstreamer-1.0/gst/gstsample.h \
-  /usr/include/gstreamer-1.0/gst/gstsegment.h \
-  /usr/include/gstreamer-1.0/gst/gststreamcollection.h \
-  /usr/include/gstreamer-1.0/gst/gststreams.h \
-  /usr/include/gstreamer-1.0/gst/gststructure.h \
-  /usr/include/gstreamer-1.0/gst/gstsystemclock.h \
-  /usr/include/gstreamer-1.0/gst/gsttaglist.h \
-  /usr/include/gstreamer-1.0/gst/gsttagsetter.h \
-  /usr/include/gstreamer-1.0/gst/gsttask.h \
-  /usr/include/gstreamer-1.0/gst/gsttaskpool.h \
-  /usr/include/gstreamer-1.0/gst/gsttoc.h \
-  /usr/include/gstreamer-1.0/gst/gsttocsetter.h \
-  /usr/include/gstreamer-1.0/gst/gsttracer.h \
-  /usr/include/gstreamer-1.0/gst/gsttracerfactory.h \
-  /usr/include/gstreamer-1.0/gst/gsttracerrecord.h \
-  /usr/include/gstreamer-1.0/gst/gsttypefind.h \
-  /usr/include/gstreamer-1.0/gst/gsttypefindfactory.h \
-  /usr/include/gstreamer-1.0/gst/gsturi.h \
-  /usr/include/gstreamer-1.0/gst/gstutils.h \
-  /usr/include/gstreamer-1.0/gst/gstvalue.h \
-  /usr/include/gstreamer-1.0/gst/gstversion.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/locale.h \
-  /usr/include/netinet/in.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/signal.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/time.h \
-  /usr/include/unistd.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
-  /usr/include/x86_64-linux-gnu/asm/socket.h \
-  /usr/include/x86_64-linux-gnu/asm/sockios.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/in.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
-  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/socket.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
-  /usr/local/bin/cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckFunctionExists.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/GNU.cmake \
-  /usr/local/share/cmake-3.28/Modules/FeatureSummary.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindOpenGL.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPackageMessage.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPkgConfig.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindThreads.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindVulkan.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindX11.cmake \
-  /usr/local/share/cmake-3.28/Modules/GNUInstallDirs.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
-  /usr/local/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/CMakeLists.txt \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoRecorderApp/VideoRecorderWidget.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoRecorderApp/VideoRecorderWidget.h \
-  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.28.3/CMakeSystem.cmake \
-  JoystickIdentifier_autogen/moc_predefs.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/main.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.ui \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/signalhandler.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/signalhandler.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/crc16.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/message.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/sdk.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QCoreApplication \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QList \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QMutex \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QObject \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QRect \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSize \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSizeF \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSocketNotifier \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QTimer \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20functional.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20iterator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20memory.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20type_traits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q23utility.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qabstractitemmodel.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qanystringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydata.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydataops.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydatapointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qassert.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qatomic_cxx11.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbasicatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbasictimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbindingstorage.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearray.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearraylist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qchar.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompare.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompare_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcomparehelpers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompilerdetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qconfig.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qconstructormacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainerfwd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainerinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontiguouscache.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreapplication_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreevent.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdarwinhelpers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdatastream.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdeadlinetimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdebug.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qelapsedtimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qendian.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qeventloop.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qexceptionhandling.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qflags.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfloat16.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qforeach.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfunctionaltools_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfunctionpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qgenericatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qglobalstatic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qhash.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qhashfunctions.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiodevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiodevicebase.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qitemselectionmodel.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiterable.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiterator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlatin1stringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qline.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlocale.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlogging.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmalloc.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmargins.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmath.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmetacontainer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmetatype.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qminmax.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmutex.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnamespace.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnativeinterface.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnumeric.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobject.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobject_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qoverload.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qpair.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qpoint.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qprocessordetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qrect.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qrefcount.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qregularexpression.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qscopedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qscopeguard.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qset.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qshareddata.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qshareddata_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsharedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsharedpointer_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsize.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsocketnotifier.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qspan.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstring.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringbuilder.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter_base.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringfwd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringlist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringliteral.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringmatcher.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringtokenizer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qswap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsysinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsystemdetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtaggedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtclasshelpermacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtconfiginclude.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtconfigmacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtcore-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtcoreexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationmarkers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtenvironmentvariables.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtextstream.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtmetamacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtnoop.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtpreprocessorsupport.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtresource.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtsan_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qttranslation.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qttypetraits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtversion.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtversionchecks.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtypeinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtypes.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qurl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qutf8stringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvariant.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvarlengtharray.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qversiontagging.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qxptype_traits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qyieldcpu.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QCloseEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QKeyEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QShowEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QTransform \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qaction.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qbitmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qbrush.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qcolor.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qcursor.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qevent.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qeventpoint.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfont.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfontinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfontmetrics.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qguiapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qguiapplication_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qicon.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qimage.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qinputdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qinputmethod.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qkeysequence.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpaintdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpalette.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpixelformat.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpixmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpointingdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpolygon.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qregion.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qrgb.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qrgba64.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qscreen.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qscreen_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtgui-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtguiexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtguiglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtransform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvalidator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvector2d.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvectornd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qwindowdefs.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/QMediaPlayer \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qaudio.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qmediaplayer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtaudio.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimedia-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimediaexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimediaglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/QVideoWidget \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qvideowidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QApplication \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QListWidgetItem \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QMainWindow \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QWidget \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractitemview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractscrollarea.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractslider.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractspinbox.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qframe.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qlistview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qlistwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qmainwindow.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qrubberband.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qsizepolicy.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qslider.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qstyle.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qstyleoption.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtabbar.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtabwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgets-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Config.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtFeature.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtInstallPaths.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicGitHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
-  /usr/include/alloca.h \
-  /usr/include/arpa/inet.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/asm-generic/socket.h \
-  /usr/include/asm-generic/sockios.h \
-  /usr/include/assert.h \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/atomic \
-  /usr/include/c++/11/backward/auto_ptr.h \
-  /usr/include/c++/11/backward/binders.h \
-  /usr/include/c++/11/bit \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/align.h \
-  /usr/include/c++/11/bits/alloc_traits.h \
-  /usr/include/c++/11/bits/allocated_ptr.h \
-  /usr/include/c++/11/bits/allocator.h \
-  /usr/include/c++/11/bits/atomic_base.h \
-  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/11/bits/basic_ios.h \
-  /usr/include/c++/11/bits/basic_ios.tcc \
-  /usr/include/c++/11/bits/basic_string.h \
-  /usr/include/c++/11/bits/basic_string.tcc \
-  /usr/include/c++/11/bits/char_traits.h \
-  /usr/include/c++/11/bits/charconv.h \
-  /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/c++/11/bits/concept_check.h \
-  /usr/include/c++/11/bits/cpp_type_traits.h \
-  /usr/include/c++/11/bits/cxxabi_forced.h \
-  /usr/include/c++/11/bits/cxxabi_init_exception.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/c++/11/bits/exception.h \
-  /usr/include/c++/11/bits/exception_defines.h \
-  /usr/include/c++/11/bits/exception_ptr.h \
-  /usr/include/c++/11/bits/functexcept.h \
-  /usr/include/c++/11/bits/functional_hash.h \
-  /usr/include/c++/11/bits/hash_bytes.h \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/ios_base.h \
-  /usr/include/c++/11/bits/istream.tcc \
-  /usr/include/c++/11/bits/list.tcc \
-  /usr/include/c++/11/bits/locale_classes.h \
-  /usr/include/c++/11/bits/locale_classes.tcc \
-  /usr/include/c++/11/bits/locale_conv.h \
-  /usr/include/c++/11/bits/locale_facets.h \
-  /usr/include/c++/11/bits/locale_facets.tcc \
-  /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/c++/11/bits/memoryfwd.h \
-  /usr/include/c++/11/bits/move.h \
-  /usr/include/c++/11/bits/nested_exception.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/ostream.tcc \
-  /usr/include/c++/11/bits/ostream_insert.h \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/c++/11/bits/postypes.h \
-  /usr/include/c++/11/bits/predefined_ops.h \
-  /usr/include/c++/11/bits/ptr_traits.h \
-  /usr/include/c++/11/bits/quoted_string.h \
-  /usr/include/c++/11/bits/range_access.h \
-  /usr/include/c++/11/bits/refwrap.h \
-  /usr/include/c++/11/bits/shared_ptr.h \
-  /usr/include/c++/11/bits/shared_ptr_atomic.h \
-  /usr/include/c++/11/bits/shared_ptr_base.h \
-  /usr/include/c++/11/bits/specfun.h \
-  /usr/include/c++/11/bits/sstream.tcc \
-  /usr/include/c++/11/bits/std_abs.h \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/bits/std_thread.h \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/stl_algobase.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/stl_construct.h \
-  /usr/include/c++/11/bits/stl_function.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_iterator.h \
-  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/11/bits/stl_iterator_base_types.h \
-  /usr/include/c++/11/bits/stl_list.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
-  /usr/include/c++/11/bits/stl_numeric.h \
-  /usr/include/c++/11/bits/stl_pair.h \
-  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/bits/stl_tempbuf.h \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stream_iterator.h \
-  /usr/include/c++/11/bits/streambuf.tcc \
-  /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/c++/11/bits/string_view.tcc \
-  /usr/include/c++/11/bits/stringfwd.h \
-  /usr/include/c++/11/bits/this_thread_sleep.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/bits/unique_ptr.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/vector.tcc \
-  /usr/include/c++/11/cassert \
-  /usr/include/c++/11/cctype \
-  /usr/include/c++/11/cerrno \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/climits \
-  /usr/include/c++/11/clocale \
-  /usr/include/c++/11/cmath \
-  /usr/include/c++/11/cstddef \
-  /usr/include/c++/11/cstdint \
-  /usr/include/c++/11/cstdio \
-  /usr/include/c++/11/cstdlib \
-  /usr/include/c++/11/cstring \
-  /usr/include/c++/11/ctime \
-  /usr/include/c++/11/cwchar \
-  /usr/include/c++/11/cwctype \
-  /usr/include/c++/11/debug/assertions.h \
-  /usr/include/c++/11/debug/debug.h \
-  /usr/include/c++/11/exception \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/ext/alloc_traits.h \
-  /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/c++/11/ext/concurrence.h \
-  /usr/include/c++/11/ext/new_allocator.h \
-  /usr/include/c++/11/ext/numeric_traits.h \
-  /usr/include/c++/11/ext/string_conversions.h \
-  /usr/include/c++/11/ext/type_traits.h \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/initializer_list \
-  /usr/include/c++/11/iomanip \
-  /usr/include/c++/11/ios \
-  /usr/include/c++/11/iosfwd \
-  /usr/include/c++/11/iostream \
-  /usr/include/c++/11/istream \
-  /usr/include/c++/11/iterator \
-  /usr/include/c++/11/limits \
-  /usr/include/c++/11/list \
-  /usr/include/c++/11/locale \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/memory \
-  /usr/include/c++/11/new \
-  /usr/include/c++/11/numeric \
-  /usr/include/c++/11/optional \
-  /usr/include/c++/11/ostream \
-  /usr/include/c++/11/pstl/execution_defs.h \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/pstl/glue_memory_defs.h \
-  /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/sstream \
-  /usr/include/c++/11/stdexcept \
-  /usr/include/c++/11/streambuf \
-  /usr/include/c++/11/string \
-  /usr/include/c++/11/string_view \
-  /usr/include/c++/11/system_error \
-  /usr/include/c++/11/thread \
-  /usr/include/c++/11/tr1/bessel_function.tcc \
-  /usr/include/c++/11/tr1/beta_function.tcc \
-  /usr/include/c++/11/tr1/ell_integral.tcc \
-  /usr/include/c++/11/tr1/exp_integral.tcc \
-  /usr/include/c++/11/tr1/gamma.tcc \
-  /usr/include/c++/11/tr1/hypergeometric.tcc \
-  /usr/include/c++/11/tr1/legendre_function.tcc \
-  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
-  /usr/include/c++/11/tr1/poly_hermite.tcc \
-  /usr/include/c++/11/tr1/poly_laguerre.tcc \
-  /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /usr/include/c++/11/tr1/special_function_util.h \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/type_traits \
-  /usr/include/c++/11/typeinfo \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/variant \
-  /usr/include/c++/11/vector \
-  /usr/include/ctype.h \
-  /usr/include/dirent.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/glib-2.0/glib-object.h \
-  /usr/include/glib-2.0/glib.h \
-  /usr/include/glib-2.0/glib/deprecated/gallocator.h \
-  /usr/include/glib-2.0/glib/deprecated/gcache.h \
-  /usr/include/glib-2.0/glib/deprecated/gcompletion.h \
-  /usr/include/glib-2.0/glib/deprecated/gmain.h \
-  /usr/include/glib-2.0/glib/deprecated/grel.h \
-  /usr/include/glib-2.0/glib/deprecated/gthread.h \
-  /usr/include/glib-2.0/glib/galloca.h \
-  /usr/include/glib-2.0/glib/garray.h \
-  /usr/include/glib-2.0/glib/gasyncqueue.h \
-  /usr/include/glib-2.0/glib/gatomic.h \
-  /usr/include/glib-2.0/glib/gbacktrace.h \
-  /usr/include/glib-2.0/glib/gbase64.h \
-  /usr/include/glib-2.0/glib/gbitlock.h \
-  /usr/include/glib-2.0/glib/gbookmarkfile.h \
-  /usr/include/glib-2.0/glib/gbytes.h \
-  /usr/include/glib-2.0/glib/gcharset.h \
-  /usr/include/glib-2.0/glib/gchecksum.h \
-  /usr/include/glib-2.0/glib/gconvert.h \
-  /usr/include/glib-2.0/glib/gdataset.h \
-  /usr/include/glib-2.0/glib/gdate.h \
-  /usr/include/glib-2.0/glib/gdatetime.h \
-  /usr/include/glib-2.0/glib/gdir.h \
-  /usr/include/glib-2.0/glib/genviron.h \
-  /usr/include/glib-2.0/glib/gerror.h \
-  /usr/include/glib-2.0/glib/gfileutils.h \
-  /usr/include/glib-2.0/glib/ggettext.h \
-  /usr/include/glib-2.0/glib/ghash.h \
-  /usr/include/glib-2.0/glib/ghmac.h \
-  /usr/include/glib-2.0/glib/ghook.h \
-  /usr/include/glib-2.0/glib/ghostutils.h \
-  /usr/include/glib-2.0/glib/giochannel.h \
-  /usr/include/glib-2.0/glib/gkeyfile.h \
-  /usr/include/glib-2.0/glib/glib-autocleanups.h \
-  /usr/include/glib-2.0/glib/glib-typeof.h \
-  /usr/include/glib-2.0/glib/glist.h \
-  /usr/include/glib-2.0/glib/gmacros.h \
-  /usr/include/glib-2.0/glib/gmain.h \
-  /usr/include/glib-2.0/glib/gmappedfile.h \
-  /usr/include/glib-2.0/glib/gmarkup.h \
-  /usr/include/glib-2.0/glib/gmem.h \
-  /usr/include/glib-2.0/glib/gmessages.h \
-  /usr/include/glib-2.0/glib/gnode.h \
-  /usr/include/glib-2.0/glib/goption.h \
-  /usr/include/glib-2.0/glib/gpattern.h \
-  /usr/include/glib-2.0/glib/gpoll.h \
-  /usr/include/glib-2.0/glib/gprimes.h \
-  /usr/include/glib-2.0/glib/gqsort.h \
-  /usr/include/glib-2.0/glib/gquark.h \
-  /usr/include/glib-2.0/glib/gqueue.h \
-  /usr/include/glib-2.0/glib/grand.h \
-  /usr/include/glib-2.0/glib/grcbox.h \
-  /usr/include/glib-2.0/glib/grefcount.h \
-  /usr/include/glib-2.0/glib/grefstring.h \
-  /usr/include/glib-2.0/glib/gregex.h \
-  /usr/include/glib-2.0/glib/gscanner.h \
-  /usr/include/glib-2.0/glib/gsequence.h \
-  /usr/include/glib-2.0/glib/gshell.h \
-  /usr/include/glib-2.0/glib/gslice.h \
-  /usr/include/glib-2.0/glib/gslist.h \
-  /usr/include/glib-2.0/glib/gspawn.h \
-  /usr/include/glib-2.0/glib/gstrfuncs.h \
-  /usr/include/glib-2.0/glib/gstring.h \
-  /usr/include/glib-2.0/glib/gstringchunk.h \
-  /usr/include/glib-2.0/glib/gstrvbuilder.h \
-  /usr/include/glib-2.0/glib/gtestutils.h \
-  /usr/include/glib-2.0/glib/gthread.h \
-  /usr/include/glib-2.0/glib/gthreadpool.h \
-  /usr/include/glib-2.0/glib/gtimer.h \
-  /usr/include/glib-2.0/glib/gtimezone.h \
-  /usr/include/glib-2.0/glib/gtrashstack.h \
-  /usr/include/glib-2.0/glib/gtree.h \
-  /usr/include/glib-2.0/glib/gtypes.h \
-  /usr/include/glib-2.0/glib/gunicode.h \
-  /usr/include/glib-2.0/glib/guri.h \
-  /usr/include/glib-2.0/glib/gutils.h \
-  /usr/include/glib-2.0/glib/guuid.h \
-  /usr/include/glib-2.0/glib/gvariant.h \
-  /usr/include/glib-2.0/glib/gvarianttype.h \
-  /usr/include/glib-2.0/glib/gversion.h \
-  /usr/include/glib-2.0/glib/gversionmacros.h \
-  /usr/include/glib-2.0/gobject/gbinding.h \
-  /usr/include/glib-2.0/gobject/gbindinggroup.h \
-  /usr/include/glib-2.0/gobject/gboxed.h \
-  /usr/include/glib-2.0/gobject/gclosure.h \
-  /usr/include/glib-2.0/gobject/genums.h \
-  /usr/include/glib-2.0/gobject/glib-enumtypes.h \
-  /usr/include/glib-2.0/gobject/glib-types.h \
-  /usr/include/glib-2.0/gobject/gmarshal.h \
-  /usr/include/glib-2.0/gobject/gobject-autocleanups.h \
-  /usr/include/glib-2.0/gobject/gobject.h \
-  /usr/include/glib-2.0/gobject/gparam.h \
-  /usr/include/glib-2.0/gobject/gparamspecs.h \
-  /usr/include/glib-2.0/gobject/gsignal.h \
-  /usr/include/glib-2.0/gobject/gsignalgroup.h \
-  /usr/include/glib-2.0/gobject/gsourceclosure.h \
-  /usr/include/glib-2.0/gobject/gtype.h \
-  /usr/include/glib-2.0/gobject/gtypemodule.h \
-  /usr/include/glib-2.0/gobject/gtypeplugin.h \
-  /usr/include/glib-2.0/gobject/gvalue.h \
-  /usr/include/glib-2.0/gobject/gvaluearray.h \
-  /usr/include/glib-2.0/gobject/gvaluetypes.h \
-  /usr/include/gstreamer-1.0/gst/glib-compat.h \
-  /usr/include/gstreamer-1.0/gst/gst.h \
-  /usr/include/gstreamer-1.0/gst/gstallocator.h \
-  /usr/include/gstreamer-1.0/gst/gstatomicqueue.h \
-  /usr/include/gstreamer-1.0/gst/gstbin.h \
-  /usr/include/gstreamer-1.0/gst/gstbuffer.h \
-  /usr/include/gstreamer-1.0/gst/gstbufferlist.h \
-  /usr/include/gstreamer-1.0/gst/gstbufferpool.h \
-  /usr/include/gstreamer-1.0/gst/gstbus.h \
-  /usr/include/gstreamer-1.0/gst/gstcaps.h \
-  /usr/include/gstreamer-1.0/gst/gstcapsfeatures.h \
-  /usr/include/gstreamer-1.0/gst/gstchildproxy.h \
-  /usr/include/gstreamer-1.0/gst/gstclock.h \
-  /usr/include/gstreamer-1.0/gst/gstcompat.h \
-  /usr/include/gstreamer-1.0/gst/gstconfig.h \
-  /usr/include/gstreamer-1.0/gst/gstcontext.h \
-  /usr/include/gstreamer-1.0/gst/gstcontrolbinding.h \
-  /usr/include/gstreamer-1.0/gst/gstcontrolsource.h \
-  /usr/include/gstreamer-1.0/gst/gstdatetime.h \
-  /usr/include/gstreamer-1.0/gst/gstdebugutils.h \
-  /usr/include/gstreamer-1.0/gst/gstdevice.h \
-  /usr/include/gstreamer-1.0/gst/gstdevicemonitor.h \
-  /usr/include/gstreamer-1.0/gst/gstdeviceprovider.h \
-  /usr/include/gstreamer-1.0/gst/gstdeviceproviderfactory.h \
-  /usr/include/gstreamer-1.0/gst/gstdynamictypefactory.h \
-  /usr/include/gstreamer-1.0/gst/gstelement.h \
-  /usr/include/gstreamer-1.0/gst/gstelementfactory.h \
-  /usr/include/gstreamer-1.0/gst/gstelementmetadata.h \
-  /usr/include/gstreamer-1.0/gst/gstenumtypes.h \
-  /usr/include/gstreamer-1.0/gst/gsterror.h \
-  /usr/include/gstreamer-1.0/gst/gstevent.h \
-  /usr/include/gstreamer-1.0/gst/gstformat.h \
-  /usr/include/gstreamer-1.0/gst/gstghostpad.h \
-  /usr/include/gstreamer-1.0/gst/gstinfo.h \
-  /usr/include/gstreamer-1.0/gst/gstiterator.h \
-  /usr/include/gstreamer-1.0/gst/gstmacros.h \
-  /usr/include/gstreamer-1.0/gst/gstmemory.h \
-  /usr/include/gstreamer-1.0/gst/gstmessage.h \
-  /usr/include/gstreamer-1.0/gst/gstmeta.h \
-  /usr/include/gstreamer-1.0/gst/gstminiobject.h \
-  /usr/include/gstreamer-1.0/gst/gstobject.h \
-  /usr/include/gstreamer-1.0/gst/gstpad.h \
-  /usr/include/gstreamer-1.0/gst/gstpadtemplate.h \
-  /usr/include/gstreamer-1.0/gst/gstparamspecs.h \
-  /usr/include/gstreamer-1.0/gst/gstparse.h \
-  /usr/include/gstreamer-1.0/gst/gstpipeline.h \
-  /usr/include/gstreamer-1.0/gst/gstplugin.h \
-  /usr/include/gstreamer-1.0/gst/gstpluginfeature.h \
-  /usr/include/gstreamer-1.0/gst/gstpoll.h \
-  /usr/include/gstreamer-1.0/gst/gstpreset.h \
-  /usr/include/gstreamer-1.0/gst/gstpromise.h \
-  /usr/include/gstreamer-1.0/gst/gstprotection.h \
-  /usr/include/gstreamer-1.0/gst/gstquery.h \
-  /usr/include/gstreamer-1.0/gst/gstregistry.h \
-  /usr/include/gstreamer-1.0/gst/gstsample.h \
-  /usr/include/gstreamer-1.0/gst/gstsegment.h \
-  /usr/include/gstreamer-1.0/gst/gststreamcollection.h \
-  /usr/include/gstreamer-1.0/gst/gststreams.h \
-  /usr/include/gstreamer-1.0/gst/gststructure.h \
-  /usr/include/gstreamer-1.0/gst/gstsystemclock.h \
-  /usr/include/gstreamer-1.0/gst/gsttaglist.h \
-  /usr/include/gstreamer-1.0/gst/gsttagsetter.h \
-  /usr/include/gstreamer-1.0/gst/gsttask.h \
-  /usr/include/gstreamer-1.0/gst/gsttaskpool.h \
-  /usr/include/gstreamer-1.0/gst/gsttoc.h \
-  /usr/include/gstreamer-1.0/gst/gsttocsetter.h \
-  /usr/include/gstreamer-1.0/gst/gsttracer.h \
-  /usr/include/gstreamer-1.0/gst/gsttracerfactory.h \
-  /usr/include/gstreamer-1.0/gst/gsttracerrecord.h \
-  /usr/include/gstreamer-1.0/gst/gsttypefind.h \
-  /usr/include/gstreamer-1.0/gst/gsttypefindfactory.h \
-  /usr/include/gstreamer-1.0/gst/gsturi.h \
-  /usr/include/gstreamer-1.0/gst/gstutils.h \
-  /usr/include/gstreamer-1.0/gst/gstvalue.h \
-  /usr/include/gstreamer-1.0/gst/gstversion.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/locale.h \
-  /usr/include/netinet/in.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/signal.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/time.h \
-  /usr/include/unistd.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
-  /usr/include/x86_64-linux-gnu/asm/socket.h \
-  /usr/include/x86_64-linux-gnu/asm/sockios.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/in.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
-  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/socket.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
-  /usr/local/bin/cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckFunctionExists.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/GNU.cmake \
-  /usr/local/share/cmake-3.28/Modules/FeatureSummary.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindOpenGL.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPackageMessage.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPkgConfig.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindThreads.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindVulkan.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindX11.cmake \
-  /usr/local/share/cmake-3.28/Modules/GNUInstallDirs.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
-  /usr/local/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/CMakeLists.txt \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoRecorderApp/VideoRecorderWidget.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoRecorderApp/VideoRecorderWidget.h \
-  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.28.3/CMakeSystem.cmake \
-  JoystickIdentifier_autogen/moc_predefs.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/main.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.ui \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/signalhandler.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/signalhandler.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/crc16.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/message.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/sdk.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QCoreApplication \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QList \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QMutex \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QObject \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QRect \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSize \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSizeF \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSocketNotifier \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QTimer \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20functional.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20iterator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20memory.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20type_traits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q23utility.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qabstractitemmodel.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qanystringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydata.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydataops.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydatapointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qassert.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qatomic_cxx11.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbasicatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbasictimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbindingstorage.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearray.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearraylist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qchar.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompare.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompare_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcomparehelpers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompilerdetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qconfig.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qconstructormacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainerfwd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainerinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontiguouscache.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreapplication_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreevent.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdarwinhelpers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdatastream.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdeadlinetimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdebug.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qelapsedtimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qendian.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qeventloop.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qexceptionhandling.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qflags.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfloat16.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qforeach.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfunctionaltools_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfunctionpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qgenericatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qglobalstatic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qhash.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qhashfunctions.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiodevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiodevicebase.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qitemselectionmodel.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiterable.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiterator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlatin1stringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qline.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlocale.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlogging.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmalloc.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmargins.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmath.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmetacontainer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmetatype.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qminmax.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmutex.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnamespace.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnativeinterface.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnumeric.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobject.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobject_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qoverload.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qpair.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qpoint.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qprocessordetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qrect.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qrefcount.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qregularexpression.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qscopedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qscopeguard.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qset.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qshareddata.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qshareddata_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsharedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsharedpointer_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsize.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsocketnotifier.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qspan.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstring.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringbuilder.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter_base.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringfwd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringlist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringliteral.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringmatcher.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringtokenizer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qswap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsysinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsystemdetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtaggedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtclasshelpermacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtconfiginclude.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtconfigmacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtcore-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtcoreexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationmarkers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtenvironmentvariables.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtextstream.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtmetamacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtnoop.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtpreprocessorsupport.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtresource.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtsan_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qttranslation.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qttypetraits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtversion.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtversionchecks.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtypeinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtypes.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qurl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qutf8stringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvariant.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvarlengtharray.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qversiontagging.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qxptype_traits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qyieldcpu.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QCloseEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QKeyEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QShowEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QTransform \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qaction.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qbitmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qbrush.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qcolor.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qcursor.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qevent.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qeventpoint.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfont.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfontinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfontmetrics.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qguiapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qguiapplication_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qicon.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qimage.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qinputdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qinputmethod.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qkeysequence.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpaintdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpalette.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpixelformat.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpixmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpointingdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpolygon.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qregion.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qrgb.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qrgba64.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qscreen.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qscreen_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtgui-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtguiexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtguiglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtransform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvalidator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvector2d.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvectornd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qwindowdefs.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/QMediaPlayer \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qaudio.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qmediaplayer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtaudio.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimedia-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimediaexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimediaglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/QVideoWidget \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qvideowidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QApplication \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QListWidgetItem \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QMainWindow \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QWidget \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractitemview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractscrollarea.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractslider.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractspinbox.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qframe.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qlistview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qlistwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qmainwindow.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qrubberband.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qsizepolicy.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qslider.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qstyle.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qstyleoption.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtabbar.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtabwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgets-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Config.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtFeature.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtInstallPaths.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicGitHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
-  /usr/include/alloca.h \
-  /usr/include/arpa/inet.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/asm-generic/socket.h \
-  /usr/include/asm-generic/sockios.h \
-  /usr/include/assert.h \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/atomic \
-  /usr/include/c++/11/backward/auto_ptr.h \
-  /usr/include/c++/11/backward/binders.h \
-  /usr/include/c++/11/bit \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/align.h \
-  /usr/include/c++/11/bits/alloc_traits.h \
-  /usr/include/c++/11/bits/allocated_ptr.h \
-  /usr/include/c++/11/bits/allocator.h \
-  /usr/include/c++/11/bits/atomic_base.h \
-  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/11/bits/basic_ios.h \
-  /usr/include/c++/11/bits/basic_ios.tcc \
-  /usr/include/c++/11/bits/basic_string.h \
-  /usr/include/c++/11/bits/basic_string.tcc \
-  /usr/include/c++/11/bits/char_traits.h \
-  /usr/include/c++/11/bits/charconv.h \
-  /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/c++/11/bits/concept_check.h \
-  /usr/include/c++/11/bits/cpp_type_traits.h \
-  /usr/include/c++/11/bits/cxxabi_forced.h \
-  /usr/include/c++/11/bits/cxxabi_init_exception.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/c++/11/bits/exception.h \
-  /usr/include/c++/11/bits/exception_defines.h \
-  /usr/include/c++/11/bits/exception_ptr.h \
-  /usr/include/c++/11/bits/functexcept.h \
-  /usr/include/c++/11/bits/functional_hash.h \
-  /usr/include/c++/11/bits/hash_bytes.h \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/ios_base.h \
-  /usr/include/c++/11/bits/istream.tcc \
-  /usr/include/c++/11/bits/list.tcc \
-  /usr/include/c++/11/bits/locale_classes.h \
-  /usr/include/c++/11/bits/locale_classes.tcc \
-  /usr/include/c++/11/bits/locale_conv.h \
-  /usr/include/c++/11/bits/locale_facets.h \
-  /usr/include/c++/11/bits/locale_facets.tcc \
-  /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/c++/11/bits/memoryfwd.h \
-  /usr/include/c++/11/bits/move.h \
-  /usr/include/c++/11/bits/nested_exception.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/ostream.tcc \
-  /usr/include/c++/11/bits/ostream_insert.h \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/c++/11/bits/postypes.h \
-  /usr/include/c++/11/bits/predefined_ops.h \
-  /usr/include/c++/11/bits/ptr_traits.h \
-  /usr/include/c++/11/bits/quoted_string.h \
-  /usr/include/c++/11/bits/range_access.h \
-  /usr/include/c++/11/bits/refwrap.h \
-  /usr/include/c++/11/bits/shared_ptr.h \
-  /usr/include/c++/11/bits/shared_ptr_atomic.h \
-  /usr/include/c++/11/bits/shared_ptr_base.h \
-  /usr/include/c++/11/bits/specfun.h \
-  /usr/include/c++/11/bits/sstream.tcc \
-  /usr/include/c++/11/bits/std_abs.h \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/bits/std_thread.h \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/stl_algobase.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/stl_construct.h \
-  /usr/include/c++/11/bits/stl_function.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_iterator.h \
-  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/11/bits/stl_iterator_base_types.h \
-  /usr/include/c++/11/bits/stl_list.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
-  /usr/include/c++/11/bits/stl_numeric.h \
-  /usr/include/c++/11/bits/stl_pair.h \
-  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/bits/stl_tempbuf.h \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stream_iterator.h \
-  /usr/include/c++/11/bits/streambuf.tcc \
-  /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/c++/11/bits/string_view.tcc \
-  /usr/include/c++/11/bits/stringfwd.h \
-  /usr/include/c++/11/bits/this_thread_sleep.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/bits/unique_ptr.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/vector.tcc \
-  /usr/include/c++/11/cassert \
-  /usr/include/c++/11/cctype \
-  /usr/include/c++/11/cerrno \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/climits \
-  /usr/include/c++/11/clocale \
-  /usr/include/c++/11/cmath \
-  /usr/include/c++/11/cstddef \
-  /usr/include/c++/11/cstdint \
-  /usr/include/c++/11/cstdio \
-  /usr/include/c++/11/cstdlib \
-  /usr/include/c++/11/cstring \
-  /usr/include/c++/11/ctime \
-  /usr/include/c++/11/cwchar \
-  /usr/include/c++/11/cwctype \
-  /usr/include/c++/11/debug/assertions.h \
-  /usr/include/c++/11/debug/debug.h \
-  /usr/include/c++/11/exception \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/ext/alloc_traits.h \
-  /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/c++/11/ext/concurrence.h \
-  /usr/include/c++/11/ext/new_allocator.h \
-  /usr/include/c++/11/ext/numeric_traits.h \
-  /usr/include/c++/11/ext/string_conversions.h \
-  /usr/include/c++/11/ext/type_traits.h \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/initializer_list \
-  /usr/include/c++/11/iomanip \
-  /usr/include/c++/11/ios \
-  /usr/include/c++/11/iosfwd \
-  /usr/include/c++/11/iostream \
-  /usr/include/c++/11/istream \
-  /usr/include/c++/11/iterator \
-  /usr/include/c++/11/limits \
-  /usr/include/c++/11/list \
-  /usr/include/c++/11/locale \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/memory \
-  /usr/include/c++/11/new \
-  /usr/include/c++/11/numeric \
-  /usr/include/c++/11/optional \
-  /usr/include/c++/11/ostream \
-  /usr/include/c++/11/pstl/execution_defs.h \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/pstl/glue_memory_defs.h \
-  /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/sstream \
-  /usr/include/c++/11/stdexcept \
-  /usr/include/c++/11/streambuf \
-  /usr/include/c++/11/string \
-  /usr/include/c++/11/string_view \
-  /usr/include/c++/11/system_error \
-  /usr/include/c++/11/thread \
-  /usr/include/c++/11/tr1/bessel_function.tcc \
-  /usr/include/c++/11/tr1/beta_function.tcc \
-  /usr/include/c++/11/tr1/ell_integral.tcc \
-  /usr/include/c++/11/tr1/exp_integral.tcc \
-  /usr/include/c++/11/tr1/gamma.tcc \
-  /usr/include/c++/11/tr1/hypergeometric.tcc \
-  /usr/include/c++/11/tr1/legendre_function.tcc \
-  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
-  /usr/include/c++/11/tr1/poly_hermite.tcc \
-  /usr/include/c++/11/tr1/poly_laguerre.tcc \
-  /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /usr/include/c++/11/tr1/special_function_util.h \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/type_traits \
-  /usr/include/c++/11/typeinfo \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/variant \
-  /usr/include/c++/11/vector \
-  /usr/include/ctype.h \
-  /usr/include/dirent.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/glib-2.0/glib-object.h \
-  /usr/include/glib-2.0/glib.h \
-  /usr/include/glib-2.0/glib/deprecated/gallocator.h \
-  /usr/include/glib-2.0/glib/deprecated/gcache.h \
-  /usr/include/glib-2.0/glib/deprecated/gcompletion.h \
-  /usr/include/glib-2.0/glib/deprecated/gmain.h \
-  /usr/include/glib-2.0/glib/deprecated/grel.h \
-  /usr/include/glib-2.0/glib/deprecated/gthread.h \
-  /usr/include/glib-2.0/glib/galloca.h \
-  /usr/include/glib-2.0/glib/garray.h \
-  /usr/include/glib-2.0/glib/gasyncqueue.h \
-  /usr/include/glib-2.0/glib/gatomic.h \
-  /usr/include/glib-2.0/glib/gbacktrace.h \
-  /usr/include/glib-2.0/glib/gbase64.h \
-  /usr/include/glib-2.0/glib/gbitlock.h \
-  /usr/include/glib-2.0/glib/gbookmarkfile.h \
-  /usr/include/glib-2.0/glib/gbytes.h \
-  /usr/include/glib-2.0/glib/gcharset.h \
-  /usr/include/glib-2.0/glib/gchecksum.h \
-  /usr/include/glib-2.0/glib/gconvert.h \
-  /usr/include/glib-2.0/glib/gdataset.h \
-  /usr/include/glib-2.0/glib/gdate.h \
-  /usr/include/glib-2.0/glib/gdatetime.h \
-  /usr/include/glib-2.0/glib/gdir.h \
-  /usr/include/glib-2.0/glib/genviron.h \
-  /usr/include/glib-2.0/glib/gerror.h \
-  /usr/include/glib-2.0/glib/gfileutils.h \
-  /usr/include/glib-2.0/glib/ggettext.h \
-  /usr/include/glib-2.0/glib/ghash.h \
-  /usr/include/glib-2.0/glib/ghmac.h \
-  /usr/include/glib-2.0/glib/ghook.h \
-  /usr/include/glib-2.0/glib/ghostutils.h \
-  /usr/include/glib-2.0/glib/giochannel.h \
-  /usr/include/glib-2.0/glib/gkeyfile.h \
-  /usr/include/glib-2.0/glib/glib-autocleanups.h \
-  /usr/include/glib-2.0/glib/glib-typeof.h \
-  /usr/include/glib-2.0/glib/glist.h \
-  /usr/include/glib-2.0/glib/gmacros.h \
-  /usr/include/glib-2.0/glib/gmain.h \
-  /usr/include/glib-2.0/glib/gmappedfile.h \
-  /usr/include/glib-2.0/glib/gmarkup.h \
-  /usr/include/glib-2.0/glib/gmem.h \
-  /usr/include/glib-2.0/glib/gmessages.h \
-  /usr/include/glib-2.0/glib/gnode.h \
-  /usr/include/glib-2.0/glib/goption.h \
-  /usr/include/glib-2.0/glib/gpattern.h \
-  /usr/include/glib-2.0/glib/gpoll.h \
-  /usr/include/glib-2.0/glib/gprimes.h \
-  /usr/include/glib-2.0/glib/gqsort.h \
-  /usr/include/glib-2.0/glib/gquark.h \
-  /usr/include/glib-2.0/glib/gqueue.h \
-  /usr/include/glib-2.0/glib/grand.h \
-  /usr/include/glib-2.0/glib/grcbox.h \
-  /usr/include/glib-2.0/glib/grefcount.h \
-  /usr/include/glib-2.0/glib/grefstring.h \
-  /usr/include/glib-2.0/glib/gregex.h \
-  /usr/include/glib-2.0/glib/gscanner.h \
-  /usr/include/glib-2.0/glib/gsequence.h \
-  /usr/include/glib-2.0/glib/gshell.h \
-  /usr/include/glib-2.0/glib/gslice.h \
-  /usr/include/glib-2.0/glib/gslist.h \
-  /usr/include/glib-2.0/glib/gspawn.h \
-  /usr/include/glib-2.0/glib/gstrfuncs.h \
-  /usr/include/glib-2.0/glib/gstring.h \
-  /usr/include/glib-2.0/glib/gstringchunk.h \
-  /usr/include/glib-2.0/glib/gstrvbuilder.h \
-  /usr/include/glib-2.0/glib/gtestutils.h \
-  /usr/include/glib-2.0/glib/gthread.h \
-  /usr/include/glib-2.0/glib/gthreadpool.h \
-  /usr/include/glib-2.0/glib/gtimer.h \
-  /usr/include/glib-2.0/glib/gtimezone.h \
-  /usr/include/glib-2.0/glib/gtrashstack.h \
-  /usr/include/glib-2.0/glib/gtree.h \
-  /usr/include/glib-2.0/glib/gtypes.h \
-  /usr/include/glib-2.0/glib/gunicode.h \
-  /usr/include/glib-2.0/glib/guri.h \
-  /usr/include/glib-2.0/glib/gutils.h \
-  /usr/include/glib-2.0/glib/guuid.h \
-  /usr/include/glib-2.0/glib/gvariant.h \
-  /usr/include/glib-2.0/glib/gvarianttype.h \
-  /usr/include/glib-2.0/glib/gversion.h \
-  /usr/include/glib-2.0/glib/gversionmacros.h \
-  /usr/include/glib-2.0/gobject/gbinding.h \
-  /usr/include/glib-2.0/gobject/gbindinggroup.h \
-  /usr/include/glib-2.0/gobject/gboxed.h \
-  /usr/include/glib-2.0/gobject/gclosure.h \
-  /usr/include/glib-2.0/gobject/genums.h \
-  /usr/include/glib-2.0/gobject/glib-enumtypes.h \
-  /usr/include/glib-2.0/gobject/glib-types.h \
-  /usr/include/glib-2.0/gobject/gmarshal.h \
-  /usr/include/glib-2.0/gobject/gobject-autocleanups.h \
-  /usr/include/glib-2.0/gobject/gobject.h \
-  /usr/include/glib-2.0/gobject/gparam.h \
-  /usr/include/glib-2.0/gobject/gparamspecs.h \
-  /usr/include/glib-2.0/gobject/gsignal.h \
-  /usr/include/glib-2.0/gobject/gsignalgroup.h \
-  /usr/include/glib-2.0/gobject/gsourceclosure.h \
-  /usr/include/glib-2.0/gobject/gtype.h \
-  /usr/include/glib-2.0/gobject/gtypemodule.h \
-  /usr/include/glib-2.0/gobject/gtypeplugin.h \
-  /usr/include/glib-2.0/gobject/gvalue.h \
-  /usr/include/glib-2.0/gobject/gvaluearray.h \
-  /usr/include/glib-2.0/gobject/gvaluetypes.h \
-  /usr/include/gstreamer-1.0/gst/glib-compat.h \
-  /usr/include/gstreamer-1.0/gst/gst.h \
-  /usr/include/gstreamer-1.0/gst/gstallocator.h \
-  /usr/include/gstreamer-1.0/gst/gstatomicqueue.h \
-  /usr/include/gstreamer-1.0/gst/gstbin.h \
-  /usr/include/gstreamer-1.0/gst/gstbuffer.h \
-  /usr/include/gstreamer-1.0/gst/gstbufferlist.h \
-  /usr/include/gstreamer-1.0/gst/gstbufferpool.h \
-  /usr/include/gstreamer-1.0/gst/gstbus.h \
-  /usr/include/gstreamer-1.0/gst/gstcaps.h \
-  /usr/include/gstreamer-1.0/gst/gstcapsfeatures.h \
-  /usr/include/gstreamer-1.0/gst/gstchildproxy.h \
-  /usr/include/gstreamer-1.0/gst/gstclock.h \
-  /usr/include/gstreamer-1.0/gst/gstcompat.h \
-  /usr/include/gstreamer-1.0/gst/gstconfig.h \
-  /usr/include/gstreamer-1.0/gst/gstcontext.h \
-  /usr/include/gstreamer-1.0/gst/gstcontrolbinding.h \
-  /usr/include/gstreamer-1.0/gst/gstcontrolsource.h \
-  /usr/include/gstreamer-1.0/gst/gstdatetime.h \
-  /usr/include/gstreamer-1.0/gst/gstdebugutils.h \
-  /usr/include/gstreamer-1.0/gst/gstdevice.h \
-  /usr/include/gstreamer-1.0/gst/gstdevicemonitor.h \
-  /usr/include/gstreamer-1.0/gst/gstdeviceprovider.h \
-  /usr/include/gstreamer-1.0/gst/gstdeviceproviderfactory.h \
-  /usr/include/gstreamer-1.0/gst/gstdynamictypefactory.h \
-  /usr/include/gstreamer-1.0/gst/gstelement.h \
-  /usr/include/gstreamer-1.0/gst/gstelementfactory.h \
-  /usr/include/gstreamer-1.0/gst/gstelementmetadata.h \
-  /usr/include/gstreamer-1.0/gst/gstenumtypes.h \
-  /usr/include/gstreamer-1.0/gst/gsterror.h \
-  /usr/include/gstreamer-1.0/gst/gstevent.h \
-  /usr/include/gstreamer-1.0/gst/gstformat.h \
-  /usr/include/gstreamer-1.0/gst/gstghostpad.h \
-  /usr/include/gstreamer-1.0/gst/gstinfo.h \
-  /usr/include/gstreamer-1.0/gst/gstiterator.h \
-  /usr/include/gstreamer-1.0/gst/gstmacros.h \
-  /usr/include/gstreamer-1.0/gst/gstmemory.h \
-  /usr/include/gstreamer-1.0/gst/gstmessage.h \
-  /usr/include/gstreamer-1.0/gst/gstmeta.h \
-  /usr/include/gstreamer-1.0/gst/gstminiobject.h \
-  /usr/include/gstreamer-1.0/gst/gstobject.h \
-  /usr/include/gstreamer-1.0/gst/gstpad.h \
-  /usr/include/gstreamer-1.0/gst/gstpadtemplate.h \
-  /usr/include/gstreamer-1.0/gst/gstparamspecs.h \
-  /usr/include/gstreamer-1.0/gst/gstparse.h \
-  /usr/include/gstreamer-1.0/gst/gstpipeline.h \
-  /usr/include/gstreamer-1.0/gst/gstplugin.h \
-  /usr/include/gstreamer-1.0/gst/gstpluginfeature.h \
-  /usr/include/gstreamer-1.0/gst/gstpoll.h \
-  /usr/include/gstreamer-1.0/gst/gstpreset.h \
-  /usr/include/gstreamer-1.0/gst/gstpromise.h \
-  /usr/include/gstreamer-1.0/gst/gstprotection.h \
-  /usr/include/gstreamer-1.0/gst/gstquery.h \
-  /usr/include/gstreamer-1.0/gst/gstregistry.h \
-  /usr/include/gstreamer-1.0/gst/gstsample.h \
-  /usr/include/gstreamer-1.0/gst/gstsegment.h \
-  /usr/include/gstreamer-1.0/gst/gststreamcollection.h \
-  /usr/include/gstreamer-1.0/gst/gststreams.h \
-  /usr/include/gstreamer-1.0/gst/gststructure.h \
-  /usr/include/gstreamer-1.0/gst/gstsystemclock.h \
-  /usr/include/gstreamer-1.0/gst/gsttaglist.h \
-  /usr/include/gstreamer-1.0/gst/gsttagsetter.h \
-  /usr/include/gstreamer-1.0/gst/gsttask.h \
-  /usr/include/gstreamer-1.0/gst/gsttaskpool.h \
-  /usr/include/gstreamer-1.0/gst/gsttoc.h \
-  /usr/include/gstreamer-1.0/gst/gsttocsetter.h \
-  /usr/include/gstreamer-1.0/gst/gsttracer.h \
-  /usr/include/gstreamer-1.0/gst/gsttracerfactory.h \
-  /usr/include/gstreamer-1.0/gst/gsttracerrecord.h \
-  /usr/include/gstreamer-1.0/gst/gsttypefind.h \
-  /usr/include/gstreamer-1.0/gst/gsttypefindfactory.h \
-  /usr/include/gstreamer-1.0/gst/gsturi.h \
-  /usr/include/gstreamer-1.0/gst/gstutils.h \
-  /usr/include/gstreamer-1.0/gst/gstvalue.h \
-  /usr/include/gstreamer-1.0/gst/gstversion.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/locale.h \
-  /usr/include/netinet/in.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/signal.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/time.h \
-  /usr/include/unistd.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
-  /usr/include/x86_64-linux-gnu/asm/socket.h \
-  /usr/include/x86_64-linux-gnu/asm/sockios.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/in.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
-  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/socket.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
-  /usr/local/bin/cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckFunctionExists.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/GNU.cmake \
-  /usr/local/share/cmake-3.28/Modules/FeatureSummary.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindOpenGL.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPackageMessage.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPkgConfig.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindThreads.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindVulkan.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindX11.cmake \
-  /usr/local/share/cmake-3.28/Modules/GNUInstallDirs.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
-  /usr/local/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/Linux.cmake \
-  /usr/local/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/CMakeLists.txt \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoRecorderApp/VideoRecorderWidget.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoRecorderApp/VideoRecorderWidget.h \
-  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.28.3/CMakeSystem.cmake \
-  JoystickIdentifier_autogen/moc_predefs.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/main.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/mainwindow.ui \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/signalhandler.cpp \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/signalhandler.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/crc16.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/message.h \
-  /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/sdk.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QCoreApplication \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QList \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QMutex \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QObject \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QRect \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSize \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSizeF \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSocketNotifier \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/QTimer \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20functional.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20iterator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20memory.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q20type_traits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/q23utility.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qabstractitemmodel.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qanystringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydata.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydataops.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qarraydatapointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qassert.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qatomic_cxx11.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbasicatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbasictimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbindingstorage.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearray.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearraylist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qchar.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompare.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompare_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcomparehelpers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcompilerdetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qconfig.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qconstructormacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainerfwd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainerinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcontiguouscache.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreapplication_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreevent.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdarwinhelpers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdatastream.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdeadlinetimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdebug.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qelapsedtimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qendian.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qeventloop.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qexceptionhandling.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qflags.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfloat16.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qforeach.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfunctionaltools_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfunctionpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qgenericatomic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qglobalstatic.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qhash.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qhashfunctions.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiodevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiodevicebase.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qitemselectionmodel.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiterable.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qiterator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlatin1stringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qline.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlocale.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qlogging.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmalloc.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmargins.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmath.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmetacontainer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmetatype.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qminmax.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qmutex.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnamespace.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnativeinterface.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qnumeric.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobject.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobject_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qoverload.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qpair.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qpoint.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qprocessordetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qrect.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qrefcount.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qregularexpression.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qscopedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qscopeguard.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qset.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qshareddata.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qshareddata_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsharedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsharedpointer_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsize.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsocketnotifier.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qspan.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstring.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringalgorithms.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringbuilder.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter_base.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringfwd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringlist.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringliteral.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringmatcher.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringtokenizer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qswap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsysinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsystemdetection.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtaggedpointer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtclasshelpermacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtconfiginclude.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtconfigmacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtcore-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtcoreexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationmarkers.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtenvironmentvariables.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtextstream.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtimer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtmetamacros.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtnoop.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtpreprocessorsupport.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtresource.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtsan_impl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qttranslation.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qttypetraits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtversion.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtversionchecks.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtypeinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtypes.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qurl.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qutf8stringview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvariant.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvarlengtharray.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qversiontagging.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qxptype_traits.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtCore/qyieldcpu.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QCloseEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QKeyEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QShowEvent \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/QTransform \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qaction.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qbitmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qbrush.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qcolor.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qcursor.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qevent.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qeventpoint.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfont.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfontinfo.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfontmetrics.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qguiapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qguiapplication_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qicon.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qimage.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qinputdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qinputmethod.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qkeysequence.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpaintdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpalette.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpixelformat.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpixmap.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpointingdevice.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpolygon.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qregion.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qrgb.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qrgba64.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qscreen.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qscreen_platform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtgui-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtguiexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtguiglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qtransform.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvalidator.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvector2d.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qvectornd.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtGui/qwindowdefs.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/QMediaPlayer \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qaudio.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qmediaplayer.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtaudio.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimedia-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimediaexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimediaglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/QVideoWidget \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qvideowidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QApplication \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QListWidgetItem \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QMainWindow \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QWidget \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractitemview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractscrollarea.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractslider.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractspinbox.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qapplication.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qframe.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qlistview.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qlistwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qmainwindow.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qrubberband.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qsizepolicy.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qslider.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qstyle.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qstyleoption.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtabbar.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtabwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgets-config.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsexports.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
-  /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qwidget.h \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Config.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtFeature.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtInstallPaths.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicGitHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBus/Qt6DBusVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
-  /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
-  /usr/include/alloca.h \
-  /usr/include/arpa/inet.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/asm-generic/socket.h \
-  /usr/include/asm-generic/sockios.h \
-  /usr/include/assert.h \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/atomic \
-  /usr/include/c++/11/backward/auto_ptr.h \
-  /usr/include/c++/11/backward/binders.h \
-  /usr/include/c++/11/bit \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/align.h \
-  /usr/include/c++/11/bits/alloc_traits.h \
-  /usr/include/c++/11/bits/allocated_ptr.h \
-  /usr/include/c++/11/bits/allocator.h \
-  /usr/include/c++/11/bits/atomic_base.h \
-  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/11/bits/basic_ios.h \
-  /usr/include/c++/11/bits/basic_ios.tcc \
-  /usr/include/c++/11/bits/basic_string.h \
-  /usr/include/c++/11/bits/basic_string.tcc \
-  /usr/include/c++/11/bits/char_traits.h \
-  /usr/include/c++/11/bits/charconv.h \
-  /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/c++/11/bits/concept_check.h \
-  /usr/include/c++/11/bits/cpp_type_traits.h \
-  /usr/include/c++/11/bits/cxxabi_forced.h \
-  /usr/include/c++/11/bits/cxxabi_init_exception.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/c++/11/bits/exception.h \
-  /usr/include/c++/11/bits/exception_defines.h \
-  /usr/include/c++/11/bits/exception_ptr.h \
-  /usr/include/c++/11/bits/functexcept.h \
-  /usr/include/c++/11/bits/functional_hash.h \
-  /usr/include/c++/11/bits/hash_bytes.h \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/ios_base.h \
-  /usr/include/c++/11/bits/istream.tcc \
-  /usr/include/c++/11/bits/list.tcc \
-  /usr/include/c++/11/bits/locale_classes.h \
-  /usr/include/c++/11/bits/locale_classes.tcc \
-  /usr/include/c++/11/bits/locale_conv.h \
-  /usr/include/c++/11/bits/locale_facets.h \
-  /usr/include/c++/11/bits/locale_facets.tcc \
-  /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/c++/11/bits/memoryfwd.h \
-  /usr/include/c++/11/bits/move.h \
-  /usr/include/c++/11/bits/nested_exception.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/ostream.tcc \
-  /usr/include/c++/11/bits/ostream_insert.h \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/c++/11/bits/postypes.h \
-  /usr/include/c++/11/bits/predefined_ops.h \
-  /usr/include/c++/11/bits/ptr_traits.h \
-  /usr/include/c++/11/bits/quoted_string.h \
-  /usr/include/c++/11/bits/range_access.h \
-  /usr/include/c++/11/bits/refwrap.h \
-  /usr/include/c++/11/bits/shared_ptr.h \
-  /usr/include/c++/11/bits/shared_ptr_atomic.h \
-  /usr/include/c++/11/bits/shared_ptr_base.h \
-  /usr/include/c++/11/bits/specfun.h \
-  /usr/include/c++/11/bits/sstream.tcc \
-  /usr/include/c++/11/bits/std_abs.h \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/bits/std_thread.h \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/stl_algobase.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/stl_construct.h \
-  /usr/include/c++/11/bits/stl_function.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_iterator.h \
-  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/11/bits/stl_iterator_base_types.h \
-  /usr/include/c++/11/bits/stl_list.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
-  /usr/include/c++/11/bits/stl_numeric.h \
-  /usr/include/c++/11/bits/stl_pair.h \
-  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/bits/stl_tempbuf.h \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stream_iterator.h \
-  /usr/include/c++/11/bits/streambuf.tcc \
-  /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/c++/11/bits/string_view.tcc \
-  /usr/include/c++/11/bits/stringfwd.h \
-  /usr/include/c++/11/bits/this_thread_sleep.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/bits/unique_ptr.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/vector.tcc \
-  /usr/include/c++/11/cassert \
-  /usr/include/c++/11/cctype \
-  /usr/include/c++/11/cerrno \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/climits \
-  /usr/include/c++/11/clocale \
-  /usr/include/c++/11/cmath \
-  /usr/include/c++/11/cstddef \
-  /usr/include/c++/11/cstdint \
-  /usr/include/c++/11/cstdio \
-  /usr/include/c++/11/cstdlib \
-  /usr/include/c++/11/cstring \
-  /usr/include/c++/11/ctime \
-  /usr/include/c++/11/cwchar \
-  /usr/include/c++/11/cwctype \
-  /usr/include/c++/11/debug/assertions.h \
-  /usr/include/c++/11/debug/debug.h \
-  /usr/include/c++/11/exception \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/ext/alloc_traits.h \
-  /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/c++/11/ext/concurrence.h \
-  /usr/include/c++/11/ext/new_allocator.h \
-  /usr/include/c++/11/ext/numeric_traits.h \
-  /usr/include/c++/11/ext/string_conversions.h \
-  /usr/include/c++/11/ext/type_traits.h \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/initializer_list \
-  /usr/include/c++/11/iomanip \
-  /usr/include/c++/11/ios \
-  /usr/include/c++/11/iosfwd \
-  /usr/include/c++/11/iostream \
-  /usr/include/c++/11/istream \
-  /usr/include/c++/11/iterator \
-  /usr/include/c++/11/limits \
-  /usr/include/c++/11/list \
-  /usr/include/c++/11/locale \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/memory \
-  /usr/include/c++/11/new \
-  /usr/include/c++/11/numeric \
-  /usr/include/c++/11/optional \
-  /usr/include/c++/11/ostream \
-  /usr/include/c++/11/pstl/execution_defs.h \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/pstl/glue_memory_defs.h \
-  /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/sstream \
-  /usr/include/c++/11/stdexcept \
-  /usr/include/c++/11/streambuf \
-  /usr/include/c++/11/string \
-  /usr/include/c++/11/string_view \
-  /usr/include/c++/11/system_error \
-  /usr/include/c++/11/thread \
-  /usr/include/c++/11/tr1/bessel_function.tcc \
-  /usr/include/c++/11/tr1/beta_function.tcc \
-  /usr/include/c++/11/tr1/ell_integral.tcc \
-  /usr/include/c++/11/tr1/exp_integral.tcc \
-  /usr/include/c++/11/tr1/gamma.tcc \
-  /usr/include/c++/11/tr1/hypergeometric.tcc \
-  /usr/include/c++/11/tr1/legendre_function.tcc \
-  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
-  /usr/include/c++/11/tr1/poly_hermite.tcc \
-  /usr/include/c++/11/tr1/poly_laguerre.tcc \
-  /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /usr/include/c++/11/tr1/special_function_util.h \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/type_traits \
-  /usr/include/c++/11/typeinfo \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/variant \
-  /usr/include/c++/11/vector \
-  /usr/include/ctype.h \
-  /usr/include/dirent.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/glib-2.0/glib-object.h \
-  /usr/include/glib-2.0/glib.h \
-  /usr/include/glib-2.0/glib/deprecated/gallocator.h \
-  /usr/include/glib-2.0/glib/deprecated/gcache.h \
-  /usr/include/glib-2.0/glib/deprecated/gcompletion.h \
-  /usr/include/glib-2.0/glib/deprecated/gmain.h \
-  /usr/include/glib-2.0/glib/deprecated/grel.h \
-  /usr/include/glib-2.0/glib/deprecated/gthread.h \
-  /usr/include/glib-2.0/glib/galloca.h \
-  /usr/include/glib-2.0/glib/garray.h \
-  /usr/include/glib-2.0/glib/gasyncqueue.h \
-  /usr/include/glib-2.0/glib/gatomic.h \
-  /usr/include/glib-2.0/glib/gbacktrace.h \
-  /usr/include/glib-2.0/glib/gbase64.h \
-  /usr/include/glib-2.0/glib/gbitlock.h \
-  /usr/include/glib-2.0/glib/gbookmarkfile.h \
-  /usr/include/glib-2.0/glib/gbytes.h \
-  /usr/include/glib-2.0/glib/gcharset.h \
-  /usr/include/glib-2.0/glib/gchecksum.h \
-  /usr/include/glib-2.0/glib/gconvert.h \
-  /usr/include/glib-2.0/glib/gdataset.h \
-  /usr/include/glib-2.0/glib/gdate.h \
-  /usr/include/glib-2.0/glib/gdatetime.h \
-  /usr/include/glib-2.0/glib/gdir.h \
-  /usr/include/glib-2.0/glib/genviron.h \
-  /usr/include/glib-2.0/glib/gerror.h \
-  /usr/include/glib-2.0/glib/gfileutils.h \
-  /usr/include/glib-2.0/glib/ggettext.h \
-  /usr/include/glib-2.0/glib/ghash.h \
-  /usr/include/glib-2.0/glib/ghmac.h \
-  /usr/include/glib-2.0/glib/ghook.h \
-  /usr/include/glib-2.0/glib/ghostutils.h \
-  /usr/include/glib-2.0/glib/giochannel.h \
-  /usr/include/glib-2.0/glib/gkeyfile.h \
-  /usr/include/glib-2.0/glib/glib-autocleanups.h \
-  /usr/include/glib-2.0/glib/glib-typeof.h \
-  /usr/include/glib-2.0/glib/glist.h \
-  /usr/include/glib-2.0/glib/gmacros.h \
-  /usr/include/glib-2.0/glib/gmain.h \
-  /usr/include/glib-2.0/glib/gmappedfile.h \
-  /usr/include/glib-2.0/glib/gmarkup.h \
-  /usr/include/glib-2.0/glib/gmem.h \
-  /usr/include/glib-2.0/glib/gmessages.h \
-  /usr/include/glib-2.0/glib/gnode.h \
-  /usr/include/glib-2.0/glib/goption.h \
-  /usr/include/glib-2.0/glib/gpattern.h \
-  /usr/include/glib-2.0/glib/gpoll.h \
-  /usr/include/glib-2.0/glib/gprimes.h \
-  /usr/include/glib-2.0/glib/gqsort.h \
-  /usr/include/glib-2.0/glib/gquark.h \
-  /usr/include/glib-2.0/glib/gqueue.h \
-  /usr/include/glib-2.0/glib/grand.h \
-  /usr/include/glib-2.0/glib/grcbox.h \
-  /usr/include/glib-2.0/glib/grefcount.h \
-  /usr/include/glib-2.0/glib/grefstring.h \
-  /usr/include/glib-2.0/glib/gregex.h \
-  /usr/include/glib-2.0/glib/gscanner.h \
-  /usr/include/glib-2.0/glib/gsequence.h \
-  /usr/include/glib-2.0/glib/gshell.h \
-  /usr/include/glib-2.0/glib/gslice.h \
-  /usr/include/glib-2.0/glib/gslist.h \
-  /usr/include/glib-2.0/glib/gspawn.h \
-  /usr/include/glib-2.0/glib/gstrfuncs.h \
-  /usr/include/glib-2.0/glib/gstring.h \
-  /usr/include/glib-2.0/glib/gstringchunk.h \
-  /usr/include/glib-2.0/glib/gstrvbuilder.h \
-  /usr/include/glib-2.0/glib/gtestutils.h \
-  /usr/include/glib-2.0/glib/gthread.h \
-  /usr/include/glib-2.0/glib/gthreadpool.h \
-  /usr/include/glib-2.0/glib/gtimer.h \
-  /usr/include/glib-2.0/glib/gtimezone.h \
-  /usr/include/glib-2.0/glib/gtrashstack.h \
-  /usr/include/glib-2.0/glib/gtree.h \
-  /usr/include/glib-2.0/glib/gtypes.h \
-  /usr/include/glib-2.0/glib/gunicode.h \
-  /usr/include/glib-2.0/glib/guri.h \
-  /usr/include/glib-2.0/glib/gutils.h \
-  /usr/include/glib-2.0/glib/guuid.h \
-  /usr/include/glib-2.0/glib/gvariant.h \
-  /usr/include/glib-2.0/glib/gvarianttype.h \
-  /usr/include/glib-2.0/glib/gversion.h \
-  /usr/include/glib-2.0/glib/gversionmacros.h \
-  /usr/include/glib-2.0/gobject/gbinding.h \
-  /usr/include/glib-2.0/gobject/gbindinggroup.h \
-  /usr/include/glib-2.0/gobject/gboxed.h \
-  /usr/include/glib-2.0/gobject/gclosure.h \
-  /usr/include/glib-2.0/gobject/genums.h \
-  /usr/include/glib-2.0/gobject/glib-enumtypes.h \
-  /usr/include/glib-2.0/gobject/glib-types.h \
-  /usr/include/glib-2.0/gobject/gmarshal.h \
-  /usr/include/glib-2.0/gobject/gobject-autocleanups.h \
-  /usr/include/glib-2.0/gobject/gobject.h \
-  /usr/include/glib-2.0/gobject/gparam.h \
-  /usr/include/glib-2.0/gobject/gparamspecs.h \
-  /usr/include/glib-2.0/gobject/gsignal.h \
-  /usr/include/glib-2.0/gobject/gsignalgroup.h \
-  /usr/include/glib-2.0/gobject/gsourceclosure.h \
-  /usr/include/glib-2.0/gobject/gtype.h \
-  /usr/include/glib-2.0/gobject/gtypemodule.h \
-  /usr/include/glib-2.0/gobject/gtypeplugin.h \
-  /usr/include/glib-2.0/gobject/gvalue.h \
-  /usr/include/glib-2.0/gobject/gvaluearray.h \
-  /usr/include/glib-2.0/gobject/gvaluetypes.h \
-  /usr/include/gstreamer-1.0/gst/glib-compat.h \
-  /usr/include/gstreamer-1.0/gst/gst.h \
-  /usr/include/gstreamer-1.0/gst/gstallocator.h \
-  /usr/include/gstreamer-1.0/gst/gstatomicqueue.h \
-  /usr/include/gstreamer-1.0/gst/gstbin.h \
-  /usr/include/gstreamer-1.0/gst/gstbuffer.h \
-  /usr/include/gstreamer-1.0/gst/gstbufferlist.h \
-  /usr/include/gstreamer-1.0/gst/gstbufferpool.h \
-  /usr/include/gstreamer-1.0/gst/gstbus.h \
-  /usr/include/gstreamer-1.0/gst/gstcaps.h \
-  /usr/include/gstreamer-1.0/gst/gstcapsfeatures.h \
-  /usr/include/gstreamer-1.0/gst/gstchildproxy.h \
-  /usr/include/gstreamer-1.0/gst/gstclock.h \
-  /usr/include/gstreamer-1.0/gst/gstcompat.h \
-  /usr/include/gstreamer-1.0/gst/gstconfig.h \
-  /usr/include/gstreamer-1.0/gst/gstcontext.h \
-  /usr/include/gstreamer-1.0/gst/gstcontrolbinding.h \
-  /usr/include/gstreamer-1.0/gst/gstcontrolsource.h \
-  /usr/include/gstreamer-1.0/gst/gstdatetime.h \
-  /usr/include/gstreamer-1.0/gst/gstdebugutils.h \
-  /usr/include/gstreamer-1.0/gst/gstdevice.h \
-  /usr/include/gstreamer-1.0/gst/gstdevicemonitor.h \
-  /usr/include/gstreamer-1.0/gst/gstdeviceprovider.h \
-  /usr/include/gstreamer-1.0/gst/gstdeviceproviderfactory.h \
-  /usr/include/gstreamer-1.0/gst/gstdynamictypefactory.h \
-  /usr/include/gstreamer-1.0/gst/gstelement.h \
-  /usr/include/gstreamer-1.0/gst/gstelementfactory.h \
-  /usr/include/gstreamer-1.0/gst/gstelementmetadata.h \
-  /usr/include/gstreamer-1.0/gst/gstenumtypes.h \
-  /usr/include/gstreamer-1.0/gst/gsterror.h \
-  /usr/include/gstreamer-1.0/gst/gstevent.h \
-  /usr/include/gstreamer-1.0/gst/gstformat.h \
-  /usr/include/gstreamer-1.0/gst/gstghostpad.h \
-  /usr/include/gstreamer-1.0/gst/gstinfo.h \
-  /usr/include/gstreamer-1.0/gst/gstiterator.h \
-  /usr/include/gstreamer-1.0/gst/gstmacros.h \
-  /usr/include/gstreamer-1.0/gst/gstmemory.h \
-  /usr/include/gstreamer-1.0/gst/gstmessage.h \
-  /usr/include/gstreamer-1.0/gst/gstmeta.h \
-  /usr/include/gstreamer-1.0/gst/gstminiobject.h \
-  /usr/include/gstreamer-1.0/gst/gstobject.h \
-  /usr/include/gstreamer-1.0/gst/gstpad.h \
-  /usr/include/gstreamer-1.0/gst/gstpadtemplate.h \
-  /usr/include/gstreamer-1.0/gst/gstparamspecs.h \
-  /usr/include/gstreamer-1.0/gst/gstparse.h \
-  /usr/include/gstreamer-1.0/gst/gstpipeline.h \
-  /usr/include/gstreamer-1.0/gst/gstplugin.h \
-  /usr/include/gstreamer-1.0/gst/gstpluginfeature.h \
-  /usr/include/gstreamer-1.0/gst/gstpoll.h \
-  /usr/include/gstreamer-1.0/gst/gstpreset.h \
-  /usr/include/gstreamer-1.0/gst/gstpromise.h \
-  /usr/include/gstreamer-1.0/gst/gstprotection.h \
-  /usr/include/gstreamer-1.0/gst/gstquery.h \
-  /usr/include/gstreamer-1.0/gst/gstregistry.h \
-  /usr/include/gstreamer-1.0/gst/gstsample.h \
-  /usr/include/gstreamer-1.0/gst/gstsegment.h \
-  /usr/include/gstreamer-1.0/gst/gststreamcollection.h \
-  /usr/include/gstreamer-1.0/gst/gststreams.h \
-  /usr/include/gstreamer-1.0/gst/gststructure.h \
-  /usr/include/gstreamer-1.0/gst/gstsystemclock.h \
-  /usr/include/gstreamer-1.0/gst/gsttaglist.h \
-  /usr/include/gstreamer-1.0/gst/gsttagsetter.h \
-  /usr/include/gstreamer-1.0/gst/gsttask.h \
-  /usr/include/gstreamer-1.0/gst/gsttaskpool.h \
-  /usr/include/gstreamer-1.0/gst/gsttoc.h \
-  /usr/include/gstreamer-1.0/gst/gsttocsetter.h \
-  /usr/include/gstreamer-1.0/gst/gsttracer.h \
-  /usr/include/gstreamer-1.0/gst/gsttracerfactory.h \
-  /usr/include/gstreamer-1.0/gst/gsttracerrecord.h \
-  /usr/include/gstreamer-1.0/gst/gsttypefind.h \
-  /usr/include/gstreamer-1.0/gst/gsttypefindfactory.h \
-  /usr/include/gstreamer-1.0/gst/gsturi.h \
-  /usr/include/gstreamer-1.0/gst/gstutils.h \
-  /usr/include/gstreamer-1.0/gst/gstvalue.h \
-  /usr/include/gstreamer-1.0/gst/gstversion.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/locale.h \
-  /usr/include/netinet/in.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/signal.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/time.h \
-  /usr/include/unistd.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
-  /usr/include/x86_64-linux-gnu/asm/socket.h \
-  /usr/include/x86_64-linux-gnu/asm/sockios.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/in.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
-  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/socket.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
-  /usr/local/bin/cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
-  /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckFunctionExists.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
-  /usr/local/share/cmake-3.28/Modules/Compiler/GNU.cmake \
-  /usr/local/share/cmake-3.28/Modules/FeatureSummary.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindOpenGL.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPackageMessage.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindPkgConfig.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindThreads.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindVulkan.cmake \
-  /usr/local/share/cmake-3.28/Modules/FindX11.cmake \
-  /usr/local/share/cmake-3.28/Modules/GNUInstallDirs.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake \
-  /usr/local/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
-  /usr/local/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake \
+  /usr/local/share/cmake-3.28/Modules/Platform/Linux-Determine-CXX.cmake \
   /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
   /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
   /usr/local/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
@@ -19953,6 +8377,7 @@ CMakeFiles/JoystickIdentifier.dir/JoystickIdentifier_autogen/mocs_compilation.cp
   /usr/include/c++/11/bits/sstream.tcc \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -19981,6 +8406,7 @@ CMakeFiles/JoystickIdentifier.dir/JoystickIdentifier_autogen/mocs_compilation.cp
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/this_thread_sleep.h \
   /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/bits/unique_lock.h \
   /usr/include/c++/11/bits/unique_ptr.h \
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/bits/uses_allocator.h \
@@ -20024,6 +8450,7 @@ CMakeFiles/JoystickIdentifier.dir/JoystickIdentifier_autogen/mocs_compilation.cp
   /usr/include/c++/11/locale \
   /usr/include/c++/11/map \
   /usr/include/c++/11/memory \
+  /usr/include/c++/11/mutex \
   /usr/include/c++/11/new \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/optional \
@@ -22518,6 +10945,7 @@ CMakeFiles/JoystickIdentifier.dir/main.cpp.o: /home/med/Desktop/Joystick_Identif
   /usr/include/c++/11/bits/sstream.tcc \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -22546,6 +10974,7 @@ CMakeFiles/JoystickIdentifier.dir/main.cpp.o: /home/med/Desktop/Joystick_Identif
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/this_thread_sleep.h \
   /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/bits/unique_lock.h \
   /usr/include/c++/11/bits/unique_ptr.h \
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/bits/uses_allocator.h \
@@ -22589,6 +11018,7 @@ CMakeFiles/JoystickIdentifier.dir/main.cpp.o: /home/med/Desktop/Joystick_Identif
   /usr/include/c++/11/locale \
   /usr/include/c++/11/map \
   /usr/include/c++/11/memory \
+  /usr/include/c++/11/mutex \
   /usr/include/c++/11/new \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/optional \
@@ -23190,6 +11620,7 @@ CMakeFiles/JoystickIdentifier.dir/mainwindow.cpp.o: /home/med/Desktop/Joystick_I
   /usr/include/c++/11/bits/sstream.tcc \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -23218,6 +11649,7 @@ CMakeFiles/JoystickIdentifier.dir/mainwindow.cpp.o: /home/med/Desktop/Joystick_I
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/this_thread_sleep.h \
   /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/bits/unique_lock.h \
   /usr/include/c++/11/bits/unique_ptr.h \
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/bits/uses_allocator.h \
@@ -23264,6 +11696,7 @@ CMakeFiles/JoystickIdentifier.dir/mainwindow.cpp.o: /home/med/Desktop/Joystick_I
   /usr/include/c++/11/locale \
   /usr/include/c++/11/map \
   /usr/include/c++/11/memory \
+  /usr/include/c++/11/mutex \
   /usr/include/c++/11/new \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/optional \
@@ -24164,8 +12597,6 @@ CMakeFiles/JoystickIdentifier.dir/signalhandler.cpp.o: /home/med/Desktop/Joystic
 
 /home/med/Desktop/Joystick_Identifier/QJoysticks/lib/SDL/include/SDL_keycode.h:
 
-/home/med/Desktop/Joystick_Identifier/QJoysticks/lib/SDL/include/SDL_joystick.h:
-
 /home/med/Desktop/Joystick_Identifier/QJoysticks/lib/SDL/include/SDL_gesture.h:
 
 /home/med/Desktop/Joystick_Identifier/QJoysticks/lib/SDL/include/SDL_gamecontroller.h:
@@ -24189,8 +12620,6 @@ CMakeFiles/JoystickIdentifier.dir/signalhandler.cpp.o: /home/med/Desktop/Joystic
 /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qboxlayout.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/xtestintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/xsaveoptintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/xsaveintrin.h:
 
@@ -24240,8 +12669,6 @@ CMakeFiles/JoystickIdentifier.dir/signalhandler.cpp.o: /home/med/Desktop/Joystic
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/cetintrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/bmiintrin.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/11/include/bmi2intrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/avxintrin.h:
@@ -24260,6 +12687,76 @@ CMakeFiles/JoystickIdentifier.dir/signalhandler.cpp.o: /home/med/Desktop/Joystic
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vbmi2vlintrin.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512ifmavlintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512ifmaintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512fintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512dqintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512bwintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512bitalgintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512bf16vlintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx5124fmapsintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx2intrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/amxtileintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/amxint8intrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/amxbf16intrin.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h:
+
+/usr/include/gstreamer-1.0/gst/video/videooverlay.h:
+
+/usr/include/gstreamer-1.0/gst/video/videoorientation.h:
+
+/usr/include/gstreamer-1.0/gst/video/videodirection.h:
+
+/usr/include/gstreamer-1.0/gst/video/video-prelude.h:
+
+/home/med/Desktop/Joystick_Identifier/QJoysticks/lib/SDL/include/SDL.h:
+
+/usr/include/gstreamer-1.0/gst/video/video-multiview.h:
+
+/usr/include/gstreamer-1.0/gst/video/video-info.h:
+
+/usr/include/gstreamer-1.0/gst/video/video-format.h:
+
+/usr/include/gstreamer-1.0/gst/video/video-enumtypes.h:
+
+/usr/include/gstreamer-1.0/gst/video/video-dither.h:
+
+/usr/include/gstreamer-1.0/gst/video/video-converter.h:
+
+/usr/include/gstreamer-1.0/gst/video/video-color.h:
+
+/usr/include/gstreamer-1.0/gst/video/video-anc.h:
+
+/usr/include/gstreamer-1.0/gst/video/gstvideotimecode.h:
+
+/usr/include/gstreamer-1.0/gst/video/gstvideopool.h:
+
+/usr/include/gstreamer-1.0/gst/video/gstvideofilter.h:
+
+/usr/include/gstreamer-1.0/gst/video/gstvideodecoder.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx5124vnniwintrin.h:
+
+/usr/include/gstreamer-1.0/gst/video/colorbalancechannel.h:
+
+/home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QProgressBar:
+
+/usr/include/gstreamer-1.0/gst/video/colorbalance.h:
+
+/usr/include/gstreamer-1.0/gst/rtsp/gstrtspmessage.h:
+
 /usr/include/c++/11/tr1/ell_integral.tcc:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qscopedvaluerollback.h:
@@ -24267,6 +12764,8 @@ CMakeFiles/JoystickIdentifier.dir/signalhandler.cpp.o: /home/med/Desktop/Joystic
 /usr/include/c++/11/bits/hashtable_policy.h:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake:
 
 /usr/include/c++/11/pstl/glue_numeric_defs.h:
 
@@ -24314,6 +12813,10 @@ CMakeFiles/JoystickIdentifier.dir/signalhandler.cpp.o: /home/med/Desktop/Joystic
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstaticlatin1stringmatcher.h:
 
+/usr/include/gstreamer-1.0/gst/video/video-chroma.h:
+
+/usr/include/c++/11/cerrno:
+
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvariant.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/QTimer:
@@ -24339,6 +12842,8 @@ CMakeFiles/JoystickIdentifier.dir/signalhandler.cpp.o: /home/med/Desktop/Joystic
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
+
+/usr/local/share/cmake-3.28/Modules/Platform/Linux-Determine-CXX.cmake:
 
 /usr/include/c++/11/bits/stl_tempbuf.h:
 
@@ -24403,6 +12908,10 @@ CMakeFiles/JoystickIdentifier.dir/signalhandler.cpp.o: /home/med/Desktop/Joystic
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfutureinterface.h:
+
+/usr/include/gstreamer-1.0/gst/video/video-resampler.h:
+
+/usr/include/c++/11/bits/locale_facets_nonio.tcc:
 
 /usr/include/c++/11/bits/locale_facets_nonio.h:
 
@@ -24494,6 +13003,10 @@ JoystickIdentifier_autogen/moc_predefs.h:
 
 /usr/include/glib-2.0/gio/gpermission.h:
 
+/usr/include/gstreamer-1.0/gst/video/gstvideocodecalphameta.h:
+
+/usr/include/c++/11/bits/quoted_string.h:
+
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
@@ -24528,6 +13041,10 @@ JoystickIdentifier_autogen/moc_predefs.h:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake:
 
+/usr/include/gstreamer-1.0/gst/video/video-hdr.h:
+
+/usr/include/c++/11/bits/ostream.tcc:
+
 /usr/include/c++/11/cstdio:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
@@ -24553,6 +13070,12 @@ JoystickIdentifier_autogen/moc_predefs.h:
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginConfig.cmake:
 
 /usr/include/c++/11/bits/shared_ptr.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512erintrin.h:
+
+/usr/include/gstreamer-1.0/gst/video/navigation.h:
+
+/home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginAdditionalTargetInfo.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets.cmake:
 
@@ -24618,6 +13141,8 @@ JoystickIdentifier_autogen/moc_predefs.h:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets-relwithdebinfo.cmake:
 
+/usr/local/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake:
+
 /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsglobal.h:
 
 /usr/include/alloca.h:
@@ -24632,6 +13157,12 @@ JoystickIdentifier_autogen/moc_predefs.h:
 
 /usr/include/glib-2.0/gio/gtlsbackend.h:
 
+/usr/include/gstreamer-1.0/gst/video/gstvideoencoder.h:
+
+/usr/include/c++/11/new:
+
+/home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake:
+
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qthreadstorage.h:
@@ -24643,6 +13174,10 @@ JoystickIdentifier_autogen/moc_predefs.h:
 /usr/include/gstreamer-1.0/gst/gstelementfactory.h:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512cdintrin.h:
+
+/usr/include/c++/11/bits/stl_bvector.h:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake:
 
@@ -24666,8 +13201,6 @@ JoystickIdentifier_autogen/moc_predefs.h:
 
 /usr/include/gstreamer-1.0/gst/gstdynamictypefactory.h:
 
-/usr/include/gstreamer-1.0/gst/video/video-dither.h:
-
 /usr/local/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginAdditionalTargetInfo.cmake:
@@ -24677,8 +13210,6 @@ JoystickIdentifier_autogen/moc_predefs.h:
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginTargets.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake:
-
-/usr/include/gstreamer-1.0/gst/rtsp/gstrtspmessage.h:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginAdditionalTargetInfo.cmake:
 
@@ -24722,6 +13253,8 @@ JoystickIdentifier_autogen/moc_predefs.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets/qvideowidget.h:
 
+/usr/local/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake:
+
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets-relwithdebinfo.cmake:
@@ -24750,6 +13283,10 @@ JoystickIdentifier_autogen/include/ui_mainwindow.h:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake:
 
+/usr/lib/gcc/x86_64-linux-gnu/11/include/xsaveoptintrin.h:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake:
+
 /usr/include/c++/11/bits/sstream.tcc:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets.cmake:
@@ -24769,6 +13306,10 @@ JoystickIdentifier_autogen/include/ui_mainwindow.h:
 /usr/include/c++/11/exception:
 
 /usr/include/c++/11/bits/stl_list.h:
+
+/usr/include/gstreamer-1.0/gst/video/video-blend.h:
+
+/home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QMainWindow:
 
@@ -24790,9 +13331,11 @@ JoystickIdentifier_autogen/include/ui_mainwindow.h:
 
 /usr/include/c++/11/bits/ptr_traits.h:
 
-/usr/include/gstreamer-1.0/gst/video/videodirection.h:
-
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake:
+
+/usr/include/gstreamer-1.0/gst/video/video.h:
+
+/home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreevent.h:
 
@@ -24868,7 +13411,19 @@ JoystickIdentifier_autogen/include/ui_mainwindow.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtGui/qscreen.h:
 
+/usr/include/gstreamer-1.0/gst/video/video-scaler.h:
+
+/usr/include/c++/11/iterator:
+
+/usr/include/c++/11/cstring:
+
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtresource.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512pfintrin.h:
+
+/home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets-relwithdebinfo.cmake:
+
+/usr/include/c++/11/debug/debug.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtpreprocessorsupport.h:
 
@@ -24952,6 +13507,8 @@ JoystickIdentifier_autogen/include/ui_mainwindow.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtMultimedia/qtmultimediaexports.h:
 
+/usr/local/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
+
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qplugin.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsharedpointer_impl.h:
@@ -24998,13 +13555,15 @@ JoystickIdentifier_autogen/include/ui_mainwindow.h:
 
 /usr/include/glib-2.0/gio/gioscheduler.h:
 
-/home/med/Qt/6.8.1/gcc_64/include/QtGui/qicon.h:
-
-/home/med/Qt/6.8.1/gcc_64/include/QtCore/qrect.h:
-
 /usr/include/c++/11/bits/stl_construct.h:
 
 /usr/include/c++/11/bits/alloc_traits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/adxintrin.h:
+
+/usr/include/glib-2.0/glib/gbytes.h:
+
+/home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake:
 
 /usr/include/asm-generic/posix_types.h:
 
@@ -25040,10 +13599,6 @@ JoystickIdentifier_autogen/include/ui_mainwindow.h:
 
 /usr/include/glib-2.0/gio/gdbusauthobserver.h:
 
-/home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake:
-
-/usr/include/gstreamer-1.0/gst/video/video-blend.h:
-
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qobject_impl.h:
 
 /usr/include/c++/11/bits/functional_hash.h:
@@ -25053,10 +13608,6 @@ JoystickIdentifier_autogen/include/ui_mainwindow.h:
 /home/med/Qt/6.8.1/gcc_64/include/QtGui/qinputdevice.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter_base.h:
-
-/usr/include/c++/11/bits/exception.h:
-
-/home/med/Qt/6.8.1/gcc_64/include/QtCore/qdatastream.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/QRect:
 
@@ -25124,8 +13675,6 @@ JoystickIdentifier_autogen/include/ui_mainwindow.h:
 
 /usr/include/c++/11/memory:
 
-/usr/include/gstreamer-1.0/gst/video/videooverlay.h:
-
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsysinfo.h:
 
 /usr/include/c++/11/bits/uniform_int_dist.h:
@@ -25135,6 +13684,12 @@ JoystickIdentifier_autogen/include/ui_mainwindow.h:
 /usr/include/glib-2.0/glib.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtGui/qinputmethod.h:
+
+/usr/include/gstreamer-1.0/gst/video/video-tile.h:
+
+/home/med/Qt/6.8.1/gcc_64/include/QtGui/QCloseEvent:
+
+/home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
@@ -25180,6 +13735,8 @@ JoystickIdentifier_autogen/include/ui_mainwindow.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfunctionpointer.h:
 
+/usr/local/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
+
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake:
@@ -25218,6 +13775,8 @@ JoystickIdentifier_autogen/include/ui_mainwindow.h:
 
 /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src/crc16.h:
 
+/usr/local/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake:
+
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcoreapplication.h:
 
 /usr/include/glib-2.0/gio/gmount.h:
@@ -25252,6 +13811,10 @@ JoystickIdentifier_autogen/include/ui_mainwindow.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSocketNotifier:
 
+/usr/include/gstreamer-1.0/gst/video/video-frame.h:
+
+/usr/include/glib-2.0/glib/gqueue.h:
+
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qcommandlineoption.h:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake:
@@ -25275,8 +13838,6 @@ JoystickIdentifier_autogen/include/ui_mainwindow.h:
 /usr/include/glib-2.0/gio/gdbusconnection.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/QSize:
-
-/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.cpp:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginConfig.cmake:
 
@@ -25308,6 +13869,10 @@ JoystickIdentifier_autogen/include/ui_mainwindow.h:
 
 /usr/include/c++/11/map:
 
+/usr/include/gstreamer-1.0/gst/video/gstvideosink.h:
+
+/home/med/Qt/6.8.1/gcc_64/include/QtCore/qfuturesynchronizer.h:
+
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginConfig.cmake:
 
 /usr/include/glib-2.0/gio/giostream.h:
@@ -25331,6 +13896,8 @@ JoystickIdentifier_autogen/include/ui_mainwindow.h:
 /usr/include/glib-2.0/gio/gemblem.h:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake:
 
@@ -25378,6 +13945,10 @@ JoystickIdentifier_autogen/include/ui_mainwindow.h:
 
 /usr/include/glib-2.0/glib/gmem.h:
 
+/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.cpp:
+
+/usr/local/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:
+
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake:
@@ -25406,15 +13977,9 @@ JoystickIdentifier_autogen/include/ui_mainwindow.h:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake:
 
-/usr/include/gstreamer-1.0/gst/video/colorbalancechannel.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/avx5124vnniwintrin.h:
-
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbasicatomic.h:
-
-/home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets.cmake:
 
@@ -25422,11 +13987,11 @@ JoystickIdentifier_autogen/include/ui_mainwindow.h:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake:
 
+/usr/local/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake:
+
 /usr/local/share/cmake-3.28/Modules/FindThreads.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qabstractitemmodel.h:
-
-/home/med/Qt/6.8.1/gcc_64/include/QtCore/qconstructormacros.h:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake:
 
@@ -25437,6 +14002,8 @@ JoystickIdentifier_autogen/include/ui_mainwindow.h:
 /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qlayout.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtimeline.h:
 
@@ -25552,8 +14119,6 @@ JoystickIdentifier_autogen/include/ui_mainwindow.h:
 
 /usr/include/glib-2.0/glib/glib-autocleanups.h:
 
-/usr/include/gstreamer-1.0/gst/video/video-anc.h:
-
 /usr/include/c++/11/tr1/gamma.tcc:
 
 /usr/include/c++/11/bits/stl_iterator.h:
@@ -25573,12 +14138,6 @@ JoystickIdentifier_autogen/include/ui_mainwindow.h:
 /usr/include/linux/close_range.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayalgorithms.h:
-
-/home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets-relwithdebinfo.cmake:
-
-/usr/include/c++/11/debug/debug.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512pfintrin.h:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake:
 
@@ -25668,6 +14227,8 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdebug.h:
 
+/usr/local/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake:
+
 /usr/include/c++/11/condition_variable:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
@@ -25714,8 +14275,6 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake:
 
-/usr/include/gstreamer-1.0/gst/video/video-info.h:
-
 /home/med/Qt/6.8.1/gcc_64/include/QtGui/qbrush.h:
 
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
@@ -25735,8 +14294,6 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 /usr/include/glib-2.0/gio/giotypes.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtGui/qeventpoint.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/avx5124fmapsintrin.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtGui/qfont.h:
 
@@ -25785,10 +14342,6 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qmainwindow.h:
-
-/home/med/Desktop/Joystick_Identifier/QJoysticks/lib/SDL/include/SDL.h:
-
-/usr/include/gstreamer-1.0/gst/video/video-multiview.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtGui/qregion.h:
 
@@ -25840,8 +14393,6 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qtmochelpers.h:
 
-/usr/include/c++/11/ratio:
-
 /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qprogressbar.h:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:
@@ -25856,17 +14407,11 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /usr/include/c++/11/bits/istream.tcc:
 
-/usr/include/c++/11/bits/stl_bvector.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512cdintrin.h:
-
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qdarwinhelpers.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/mwaitxintrin.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/gstreamer-1.0/gst/video/video-enumtypes.h:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake:
 
@@ -25903,10 +14448,6 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractitemview.h:
-
-/usr/include/c++/11/cerrno:
-
-/usr/include/gstreamer-1.0/gst/video/video-chroma.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qwidget.h:
 
@@ -25960,11 +14501,11 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake:
 
+/usr/local/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake:
+
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake:
-
-/home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtGui/qimage.h:
 
@@ -25977,8 +14518,6 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 /home/med/Desktop/Joystick_Identifier/QJoysticks/lib/SDL/include/SDL_config_minimal.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/gstreamer-1.0/gst/video/videoorientation.h:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake:
 
@@ -26030,13 +14569,11 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets.cmake:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512fintrin.h:
-
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake:
 
-/home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake:
+/usr/local/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/amxbf16intrin.h:
+/home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake:
 
@@ -26060,7 +14597,13 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginAdditionalTargetInfo.cmake:
 
+/home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake:
+
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvariantlist.h:
 
@@ -26124,6 +14667,10 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/c++/11/tr1/poly_laguerre.tcc:
 
+/usr/include/gstreamer-1.0/gst/video/gstvideoutils.h:
+
+/usr/include/glib-2.0/gobject/gmarshal.h:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
 
 /usr/include/c++/11/tr1/special_function_util.h:
@@ -26144,13 +14691,15 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qrandom.h:
 
+/usr/include/gstreamer-1.0/gst/video/gstvideoaggregator.h:
+
+/usr/include/c++/11/variant:
+
 /usr/include/ctype.h:
 
 /usr/include/gstreamer-1.0/gst/gstbufferpool.h:
 
 /usr/include/dirent.h:
-
-/usr/include/glib-2.0/gio/gpropertyaction.h:
 
 /usr/include/endian.h:
 
@@ -26200,6 +14749,8 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/glib-2.0/glib/gbookmarkfile.h:
 
+/usr/local/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in:
+
 /usr/include/glib-2.0/glib/gdataset.h:
 
 /usr/include/glib-2.0/glib/gdate.h:
@@ -26230,6 +14781,8 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/glib-2.0/glib/ghostutils.h:
 
+/usr/local/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake:
+
 /usr/include/c++/11/random:
 
 /usr/include/glib-2.0/glib/gkeyfile.h:
@@ -26242,9 +14795,15 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/glib-2.0/glib/glist.h:
 
+/usr/include/glib-2.0/gio/gpropertyaction.h:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake:
+
 /usr/include/glib-2.0/glib/gmacros.h:
 
 /usr/include/glib-2.0/glib/gmarkup.h:
+
+/usr/local/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:
 
 /usr/include/glib-2.0/glib/gmessages.h:
 
@@ -26340,9 +14899,15 @@ CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/glib-2.0/gobject/gsignalgroup.h:
 
+/usr/local/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake:
+
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsimd.h:
 
 /usr/include/glib-2.0/gobject/gsourceclosure.h:
+
+/usr/include/gstreamer-1.0/gst/rtsp/gstrtsptransport.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsize.h:
 
@@ -26384,11 +14949,9 @@ JoystickIdentifier_autogen/RAQNMQNU3D/moc_VideoReceiver.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h:
 
+/usr/local/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake:
+
 /usr/include/gstreamer-1.0/gst/gstbus.h:
-
-/usr/include/c++/11/bits/ostream.tcc:
-
-/usr/include/gstreamer-1.0/gst/video/video-hdr.h:
 
 /usr/include/gstreamer-1.0/gst/gstcapsfeatures.h:
 
@@ -26398,13 +14961,13 @@ JoystickIdentifier_autogen/RAQNMQNU3D/moc_VideoReceiver.cpp:
 
 /usr/include/gstreamer-1.0/gst/gstconfig.h:
 
+/usr/local/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:
+
 /usr/include/gstreamer-1.0/gst/gstcontext.h:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
 
 /usr/include/gstreamer-1.0/gst/gstcontrolsource.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512bf16vlintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/tmmintrin.h:
 
@@ -26419,8 +14982,6 @@ JoystickIdentifier_autogen/RAQNMQNU3D/moc_VideoReceiver.cpp:
 /usr/include/gstreamer-1.0/gst/gstelement.h:
 
 /usr/include/gstreamer-1.0/gst/gstelementmetadata.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512bwintrin.h:
 
 /usr/include/gstreamer-1.0/gst/gstevent.h:
 
@@ -26472,10 +15033,6 @@ JoystickIdentifier_autogen/RAQNMQNU3D/moc_VideoReceiver.cpp:
 
 /usr/include/gstreamer-1.0/gst/gstpad.h:
 
-/home/med/Qt/6.8.1/gcc_64/include/QtCore/qfuturesynchronizer.h:
-
-/usr/include/gstreamer-1.0/gst/video/gstvideosink.h:
-
 /usr/include/gstreamer-1.0/gst/gstparamspecs.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtGui/qcursor.h:
@@ -26492,8 +15049,6 @@ JoystickIdentifier_autogen/RAQNMQNU3D/moc_VideoReceiver.cpp:
 
 /usr/include/gstreamer-1.0/gst/gstpluginfeature.h:
 
-/usr/include/gstreamer-1.0/gst/video/gstvideotimecode.h:
-
 /usr/include/gstreamer-1.0/gst/gstpoll.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfilesystemwatcher.h:
@@ -26506,17 +15061,15 @@ JoystickIdentifier_autogen/RAQNMQNU3D/moc_VideoReceiver.cpp:
 
 /usr/include/gstreamer-1.0/gst/gstsegment.h:
 
+/usr/include/gstreamer-1.0/gst/video/video-event.h:
+
+/usr/include/gstreamer-1.0/gst/gststreamcollection.h:
+
 /usr/include/glib-2.0/gio/gcontenttype.h:
 
 /usr/include/gstreamer-1.0/gst/gststructure.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qvariantanimation.h:
-
-/usr/include/c++/11/iterator:
-
-/usr/include/c++/11/cstring:
-
-/usr/include/gstreamer-1.0/gst/video/video-scaler.h:
 
 /usr/include/gstreamer-1.0/gst/gstsystemclock.h:
 
@@ -26542,7 +15095,7 @@ JoystickIdentifier_autogen/RAQNMQNU3D/moc_VideoReceiver.cpp:
 
 /usr/include/gstreamer-1.0/gst/gstutils.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512ifmavlintrin.h:
+/usr/local/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp:
 
 /usr/include/glib-2.0/glib/gfileutils.h:
 
@@ -26620,6 +15173,8 @@ JoystickIdentifier_autogen/RAQNMQNU3D/moc_VideoReceiver.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
+/usr/local/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake:
+
 /usr/include/glib-2.0/gio/gio-autocleanups.h:
 
 /home/med/Desktop/Joystick_Identifier/QJoysticks/lib/SDL/include/SDL_platform.h:
@@ -26678,6 +15233,8 @@ JoystickIdentifier_autogen/RAQNMQNU3D/moc_VideoReceiver.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/ss_flags.h:
 
+/usr/local/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake:
+
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
@@ -26705,10 +15262,6 @@ JoystickIdentifier_autogen/RAQNMQNU3D/moc_VideoReceiver.cpp:
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
-
-/home/med/Qt/6.8.1/gcc_64/include/QtCore/quuid.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qspan.h:
 
@@ -26740,8 +15293,6 @@ JoystickIdentifier_autogen/RAQNMQNU3D/moc_VideoReceiver.cpp:
 
 /usr/include/glib-2.0/gio/gdtlsserverconnection.h:
 
-/usr/include/gstreamer-1.0/gst/video/video-converter.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
@@ -26755,12 +15306,6 @@ JoystickIdentifier_autogen/RAQNMQNU3D/moc_VideoReceiver.cpp:
 /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/gstreamer-1.0/gst/gstdevicemonitor.h:
-
-/usr/include/gstreamer-1.0/gst/gsttocsetter.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
@@ -26826,7 +15371,27 @@ JoystickIdentifier_autogen/RAQNMQNU3D/moc_VideoReceiver.cpp:
 
 /usr/local/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake:
 
+/usr/local/share/cmake-3.28/Modules/CMakeUnixFindMake.cmake:
+
 /usr/local/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake:
+
+/usr/local/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:
+
+/usr/local/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake:
+
+/usr/local/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/home/med/Qt/6.8.1/gcc_64/include/QtCore/quuid.h:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake:
+
+/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/CMakeLists.txt:
+
+/usr/include/gstreamer-1.0/gst/base/gstaggregator.h:
+
+/usr/local/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake:
 
 /home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake:
 
@@ -26842,7 +15407,19 @@ JoystickIdentifier_autogen/RAQNMQNU3D/moc_VideoReceiver.cpp:
 
 /usr/local/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake:
 
+/home/med/Qt/6.8.1/gcc_64/include/QtCore/qconstructormacros.h:
+
+/usr/local/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake:
+
 /usr/local/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake:
+
+/home/med/Qt/6.8.1/gcc_64/include/QtGui/qicon.h:
+
+/home/med/Qt/6.8.1/gcc_64/include/QtCore/qrect.h:
+
+/usr/local/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake:
+
+/usr/include/glib-2.0/gio/ginetaddressmask.h:
 
 /usr/local/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:
 
@@ -26856,13 +15433,79 @@ JoystickIdentifier_autogen/RAQNMQNU3D/moc_VideoReceiver.cpp:
 
 /usr/local/share/cmake-3.28/Modules/CheckLibraryExists.cmake:
 
+/usr/local/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake:
+
 /usr/include/glib-2.0/gobject/gobject-autocleanups.h:
 
 /usr/local/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
 
+/usr/local/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake:
+
+/home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake:
+
+/usr/include/c++/11/ratio:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
+
+/home/med/Qt/6.8.1/gcc_64/include/QtCore/qfile.h:
+
+/usr/include/c++/11/bits/exception.h:
+
+/home/med/Qt/6.8.1/gcc_64/include/QtCore/qdatastream.h:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake:
+
+/home/med/Qt/6.8.1/gcc_64/include/QtCore/q20iterator.h:
+
+/usr/include/gstreamer-1.0/gst/gstquery.h:
+
+/usr/include/glib-2.0/gmodule.h:
+
 /home/med/Qt/6.8.1/gcc_64/include/QtGui/qpixelformat.h:
 
 /usr/local/share/cmake-3.28/Modules/Compiler/GNU.cmake:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/bmiintrin.h:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake:
+
+/usr/include/gstreamer-1.0/gst/gstdevicemonitor.h:
+
+/usr/include/gstreamer-1.0/gst/gsttocsetter.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake:
+
+/home/med/Desktop/Joystick_Identifier/QJoysticks/lib/SDL/include/SDL_joystick.h:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake:
 
 /usr/local/share/cmake-3.28/Modules/FindPkgConfig.cmake:
 
@@ -26871,8 +15514,6 @@ JoystickIdentifier_autogen/RAQNMQNU3D/moc_VideoReceiver.cpp:
 /usr/local/share/cmake-3.28/Modules/GNUInstallDirs.cmake:
 
 JoystickIdentifier_autogen/mocs_compilation.cpp:
-
-/usr/include/gstreamer-1.0/gst/video/video-prelude.h:
 
 /usr/local/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:
 
@@ -26883,6 +15524,12 @@ JoystickIdentifier_autogen/mocs_compilation.cpp:
 /usr/local/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake:
 
 /usr/include/glib-2.0/gio/gdatainputstream.h:
+
+/usr/include/glib-2.0/gio/gnetworkmonitor.h:
+
+/usr/include/c++/11/bits/std_mutex.h:
+
+/usr/include/c++/11/bits/unique_lock.h:
 
 /usr/include/glib-2.0/glib/deprecated/gallocator.h:
 
@@ -26901,12 +15548,6 @@ JoystickIdentifier_autogen/EWIEGA46WW/moc_signalhandler.cpp:
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qrunnable.h:
-
-/usr/include/c++/11/new:
-
-/home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake:
-
-/usr/include/gstreamer-1.0/gst/video/gstvideoencoder.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
@@ -26990,8 +15631,6 @@ JoystickIdentifier_autogen/EWIEGA46WW/moc_signalhandler.cpp:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfactoryinterface.h:
 
-/home/med/Qt/6.8.1/gcc_64/include/QtCore/qfile.h:
-
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qfileselector.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qidentityproxymodel.h:
@@ -27058,6 +15697,8 @@ JoystickIdentifier_autogen/EWIEGA46WW/moc_signalhandler.cpp:
 
 /usr/include/c++/11/ostream:
 
+/usr/local/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake:
+
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsettings.h:
 
 /home/med/Qt/6.8.1/gcc_64/include/QtCore/qsignalmapper.h:
@@ -27112,12 +15753,6 @@ JoystickIdentifier_autogen/EWIEGA46WW/moc_signalhandler.cpp:
 
 /usr/include/c++/11/bits/fs_ops.h:
 
-/usr/include/glib-2.0/gio/gnetworkmonitor.h:
-
-/usr/include/c++/11/bits/std_mutex.h:
-
-/usr/include/c++/11/bits/unique_lock.h:
-
 /home/med/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsglobal.h:
 
 /usr/include/c++/11/filesystem:
@@ -27145,6 +15780,8 @@ JoystickIdentifier_autogen/EWIEGA46WW/moc_signalhandler.cpp:
 /usr/include/glib-2.0/gio/gcredentials.h:
 
 /usr/include/glib-2.0/gio/gdbusactiongroup.h:
+
+/usr/local/share/cmake-3.28/Modules/CMakeSystem.cmake.in:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
@@ -27210,8 +15847,6 @@ JoystickIdentifier_autogen/EWIEGA46WW/moc_signalhandler.cpp:
 
 /usr/include/glib-2.0/gio/ginetaddress.h:
 
-/usr/include/glib-2.0/gio/ginetaddressmask.h:
-
 /usr/include/glib-2.0/gio/gioerror.h:
 
 /usr/include/glib-2.0/gio/glistmodel.h:
@@ -27221,6 +15856,8 @@ JoystickIdentifier_autogen/EWIEGA46WW/moc_signalhandler.cpp:
 /usr/local/share/cmake-3.28/Modules/Platform/Linux.cmake:
 
 /usr/include/glib-2.0/gio/gliststore.h:
+
+/usr/local/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
 
 /usr/include/glib-2.0/gio/gsimpleaction.h:
 
@@ -27253,10 +15890,6 @@ JoystickIdentifier_autogen/EWIEGA46WW/moc_signalhandler.cpp:
 /usr/include/glib-2.0/gio/gnetworkservice.h:
 
 /usr/include/glib-2.0/gio/gpollableoutputstream.h:
-
-/usr/include/c++/11/variant:
-
-/usr/include/gstreamer-1.0/gst/video/gstvideoaggregator.h:
 
 /usr/include/glib-2.0/gio/gproxyaddress.h:
 
@@ -27298,92 +15931,10 @@ JoystickIdentifier_autogen/EWIEGA46WW/moc_signalhandler.cpp:
 
 /usr/include/glib-2.0/gio/gvolume.h:
 
+/usr/local/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
+
 /usr/include/glib-2.0/gio/gzlibdecompressor.h:
-
-/home/med/Qt/6.8.1/gcc_64/include/QtCore/q20iterator.h:
-
-/usr/include/gstreamer-1.0/gst/gstquery.h:
-
-/usr/include/glib-2.0/gmodule.h:
-
-/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/CMakeLists.txt:
-
-/usr/include/gstreamer-1.0/gst/base/gstaggregator.h:
 
 /usr/include/gstreamer-1.0/gst/rtsp/gstrtsp-enumtypes.h:
 
 /usr/include/gstreamer-1.0/gst/rtsp/gstrtspdefs.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/gstreamer-1.0/gst/rtsp/gstrtsptransport.h:
-
-/home/med/Qt/6.8.1/gcc_64/include/QtWidgets/QProgressBar:
-
-/usr/include/gstreamer-1.0/gst/video/colorbalance.h:
-
-/usr/include/c++/11/bits/quoted_string.h:
-
-/usr/include/gstreamer-1.0/gst/video/gstvideocodecalphameta.h:
-
-/usr/include/gstreamer-1.0/gst/video/gstvideodecoder.h:
-
-/usr/include/gstreamer-1.0/gst/video/gstvideofilter.h:
-
-/usr/include/gstreamer-1.0/gst/video/gstvideopool.h:
-
-/usr/include/glib-2.0/gobject/gmarshal.h:
-
-/usr/include/gstreamer-1.0/gst/video/gstvideoutils.h:
-
-/usr/include/gstreamer-1.0/gst/video/video-color.h:
-
-/usr/include/gstreamer-1.0/gst/gststreamcollection.h:
-
-/usr/include/gstreamer-1.0/gst/video/video-event.h:
-
-/usr/include/gstreamer-1.0/gst/video/video-format.h:
-
-/usr/include/glib-2.0/glib/gqueue.h:
-
-/usr/include/gstreamer-1.0/gst/video/video-frame.h:
-
-/usr/include/c++/11/bits/locale_facets_nonio.tcc:
-
-/usr/include/gstreamer-1.0/gst/video/video-resampler.h:
-
-/home/med/Qt/6.8.1/gcc_64/include/QtGui/QCloseEvent:
-
-/home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake:
-
-/usr/include/gstreamer-1.0/gst/video/video-tile.h:
-
-/home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake:
-
-/usr/include/gstreamer-1.0/gst/video/video.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h:
-
-/usr/include/glib-2.0/glib/gbytes.h:
-
-/home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/adxintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/amxint8intrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/amxtileintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/avx2intrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512bitalgintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512dqintrin.h:
-
-/home/med/Qt/6.8.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginAdditionalTargetInfo.cmake:
-
-/usr/include/gstreamer-1.0/gst/video/navigation.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512erintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512ifmaintrin.h:

@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/siyi-sdk_autogen/include -I/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/thirdparty/SIYI-SDK/src
 
-CXX_FLAGS =  -g -D_DEBUG -std=gnu++14
+CXX_FLAGS =  -g -std=gnu++17
 

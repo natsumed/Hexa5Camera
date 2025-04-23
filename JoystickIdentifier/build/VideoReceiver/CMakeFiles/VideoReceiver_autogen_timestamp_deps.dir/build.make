@@ -66,10 +66,10 @@ include VideoReceiver/CMakeFiles/VideoReceiver_autogen_timestamp_deps.dir/compil
 # Include the progress variables for this target.
 include VideoReceiver/CMakeFiles/VideoReceiver_autogen_timestamp_deps.dir/progress.make
 
-VideoReceiver/CMakeFiles/VideoReceiver_autogen_timestamp_deps: /home/med/Qt/6.8.1/gcc_64/lib/libQt6Core.so.6.8.1
 VideoReceiver/CMakeFiles/VideoReceiver_autogen_timestamp_deps: /home/med/Qt/6.8.1/gcc_64/libexec/moc
-VideoReceiver/CMakeFiles/VideoReceiver_autogen_timestamp_deps: /home/med/Qt/6.8.1/gcc_64/libexec/uic
 VideoReceiver/CMakeFiles/VideoReceiver_autogen_timestamp_deps: /home/med/Qt/6.8.1/gcc_64/lib/libQt6Gui.so.6.8.1
+VideoReceiver/CMakeFiles/VideoReceiver_autogen_timestamp_deps: /home/med/Qt/6.8.1/gcc_64/libexec/uic
+VideoReceiver/CMakeFiles/VideoReceiver_autogen_timestamp_deps: /home/med/Qt/6.8.1/gcc_64/lib/libQt6Core.so.6.8.1
 VideoReceiver/CMakeFiles/VideoReceiver_autogen_timestamp_deps: /home/med/Qt/6.8.1/gcc_64/lib/libQt6Widgets.so.6.8.1
 
 VideoReceiver_autogen_timestamp_deps: VideoReceiver/CMakeFiles/VideoReceiver_autogen_timestamp_deps

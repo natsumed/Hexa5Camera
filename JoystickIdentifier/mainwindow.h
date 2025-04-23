@@ -12,7 +12,7 @@
 #include <QEvent>
 #include <QMediaPlayer>
 #include <QVideoWidget>
-
+#include <mutex>
 
 namespace Ui {
 class MainWindow;
@@ -60,11 +60,11 @@ private:
     float currentZoom;
 
     // Constants for control increments:
-    static constexpr int YAW_SPEED_CONSTANT = 30;
-    static constexpr int PITCH_SPEED_CONSTANT = 30;
+    static constexpr int YAW_SPEED_CONSTANT = 50;
+    static constexpr int PITCH_SPEED_CONSTANT = 50;
     static constexpr float ZOOM_STEP_CONSTANT = 1.0f;
-    const int MAX_SPEED = 30;
-    const int MOVE_SPEED = 30; 
+    const int MAX_SPEED = 50;
+    const int MOVE_SPEED = 50; 
     const float ACCELERATION_STEP = 0.5f;
     float currentYawAccel = 0.0f;
     float currentPitchAccel = 0.0f;
@@ -76,7 +76,7 @@ private:
     // Pointer to the SIYI SDK instance
     SIYI_SDK* sdk;
 
-    std::unique_ptr<std::thread> receiveThread;
+    std::thread receiveThread;
     std::atomic<bool> keepRunning;
     std::atomic<int> currentYawSpeed{0};
     std::atomic<int> currentPitchSpeed{0};

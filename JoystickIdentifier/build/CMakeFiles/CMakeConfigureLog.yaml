@@ -39,8 +39,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-cxR2m8"
-      binary: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-cxR2m8"
+      source: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-zKz9DV"
+      binary: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-zKz9DV"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -49,13 +49,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-cxR2m8'
+        Change Dir: '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-zKz9DV'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fe081/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_fe081.dir/build.make CMakeFiles/cmTC_fe081.dir/build
-        gmake[1]: Entering directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-cxR2m8'
-        Building CXX object CMakeFiles/cmTC_fe081.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_fe081.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c3bef/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c3bef.dir/build.make CMakeFiles/cmTC_c3bef.dir/build
+        gmake[1]: Entering directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-zKz9DV'
+        Building CXX object CMakeFiles/cmTC_c3bef.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_c3bef.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -65,8 +65,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fe081.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fe081.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_fe081.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccYDUAGb.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c3bef.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c3bef.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c3bef.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccWlMwg2.s
         GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -90,15 +90,15 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fe081.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fe081.dir/'
-         as -v --64 -o CMakeFiles/cmTC_fe081.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccYDUAGb.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c3bef.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c3bef.dir/'
+         as -v --64 -o CMakeFiles/cmTC_c3bef.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccWlMwg2.s
         GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fe081.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fe081.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_fe081
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe081.dir/link.txt --verbose=1
-        /usr/bin/c++  -v CMakeFiles/cmTC_fe081.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_fe081 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c3bef.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c3bef.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_c3bef
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3bef.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_c3bef.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c3bef 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -111,10 +111,10 @@ events:
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fe081' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_fe081.'
-         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7u0Lxo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_fe081 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_fe081.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fe081' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_fe081.'
-        gmake[1]: Leaving directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-cxR2m8'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c3bef' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c3bef.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTbGpoP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c3bef /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_c3bef.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c3bef' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c3bef.'
+        gmake[1]: Leaving directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-zKz9DV'
         
       exitCode: 0
   -
@@ -154,13 +154,13 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-cxR2m8']
+        ignore line: [Change Dir: '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-zKz9DV']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fe081/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_fe081.dir/build.make CMakeFiles/cmTC_fe081.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-cxR2m8']
-        ignore line: [Building CXX object CMakeFiles/cmTC_fe081.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_fe081.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c3bef/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_c3bef.dir/build.make CMakeFiles/cmTC_c3bef.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-zKz9DV']
+        ignore line: [Building CXX object CMakeFiles/cmTC_c3bef.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_c3bef.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -170,8 +170,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fe081.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fe081.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_fe081.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccYDUAGb.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c3bef.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c3bef.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c3bef.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccWlMwg2.s]
         ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -195,15 +195,15 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fe081.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fe081.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_fe081.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccYDUAGb.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c3bef.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c3bef.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_c3bef.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccWlMwg2.s]
         ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fe081.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fe081.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_fe081]
-        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe081.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_fe081.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_fe081 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c3bef.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c3bef.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_c3bef]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3bef.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_c3bef.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c3bef ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -216,13 +216,13 @@ events:
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fe081' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_fe081.']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7u0Lxo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_fe081 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_fe081.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c3bef' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c3bef.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTbGpoP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c3bef /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_c3bef.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc7u0Lxo.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccTbGpoP.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -240,7 +240,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_fe081] ==> ignore
+          arg [cmTC_c3bef] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -252,7 +252,7 @@ events:
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
-          arg [CMakeFiles/cmTC_fe081.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_c3bef.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -294,8 +294,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-lG70da"
-      binary: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-lG70da"
+      source: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-7Hwa7y"
+      binary: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-7Hwa7y"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -305,17 +305,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-lG70da'
+        Change Dir: '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-7Hwa7y'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_99f6f/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_99f6f.dir/build.make CMakeFiles/cmTC_99f6f.dir/build
-        gmake[1]: Entering directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-lG70da'
-        Building CXX object CMakeFiles/cmTC_99f6f.dir/src.cxx.o
-        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles/cmTC_99f6f.dir/src.cxx.o -c /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-lG70da/src.cxx
-        Linking CXX executable cmTC_99f6f
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99f6f.dir/link.txt --verbose=1
-        /usr/bin/c++ CMakeFiles/cmTC_99f6f.dir/src.cxx.o -o cmTC_99f6f 
-        gmake[1]: Leaving directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-lG70da'
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b482c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b482c.dir/build.make CMakeFiles/cmTC_b482c.dir/build
+        gmake[1]: Entering directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-7Hwa7y'
+        Building CXX object CMakeFiles/cmTC_b482c.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles/cmTC_b482c.dir/src.cxx.o -c /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-7Hwa7y/src.cxx
+        Linking CXX executable cmTC_b482c
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b482c.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_b482c.dir/src.cxx.o -o cmTC_b482c 
+        gmake[1]: Leaving directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-7Hwa7y'
         
       exitCode: 0
   -
@@ -337,8 +337,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-h81I4Q"
-      binary: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-h81I4Q"
+      source: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-gcPfF6"
+      binary: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-gcPfF6"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -348,17 +348,17 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-h81I4Q'
+        Change Dir: '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-gcPfF6'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cc0e0/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_cc0e0.dir/build.make CMakeFiles/cmTC_cc0e0.dir/build
-        gmake[1]: Entering directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-h81I4Q'
-        Building CXX object CMakeFiles/cmTC_cc0e0.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles/cmTC_cc0e0.dir/src.cxx.o -c /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-h81I4Q/src.cxx
-        Linking CXX executable cmTC_cc0e0
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc0e0.dir/link.txt --verbose=1
-        /usr/bin/c++ CMakeFiles/cmTC_cc0e0.dir/src.cxx.o -o cmTC_cc0e0 
-        gmake[1]: Leaving directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-h81I4Q'
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a5d0b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a5d0b.dir/build.make CMakeFiles/cmTC_a5d0b.dir/build
+        gmake[1]: Entering directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-gcPfF6'
+        Building CXX object CMakeFiles/cmTC_a5d0b.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles/cmTC_a5d0b.dir/src.cxx.o -c /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-gcPfF6/src.cxx
+        Linking CXX executable cmTC_a5d0b
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5d0b.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_a5d0b.dir/src.cxx.o -o cmTC_a5d0b 
+        gmake[1]: Leaving directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-gcPfF6'
         
       exitCode: 0
   -
@@ -370,8 +370,8 @@ events:
     checks:
       - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
     directories:
-      source: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-syGjya"
-      binary: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-syGjya"
+      source: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-ICsZtR"
+      binary: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-ICsZtR"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -381,17 +381,17 @@ events:
       variable: "X11_LIB_X11_SOLO"
       cached: true
       stdout: |
-        Change Dir: '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-syGjya'
+        Change Dir: '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-ICsZtR'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c6920/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_c6920.dir/build.make CMakeFiles/cmTC_c6920.dir/build
-        gmake[1]: Entering directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-syGjya'
-        Building CXX object CMakeFiles/cmTC_c6920.dir/CheckFunctionExists.cxx.o
-        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -std=gnu++17 -o CMakeFiles/cmTC_c6920.dir/CheckFunctionExists.cxx.o -c /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-syGjya/CheckFunctionExists.cxx
-        Linking CXX executable cmTC_c6920
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6920.dir/link.txt --verbose=1
-        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_c6920.dir/CheckFunctionExists.cxx.o -o cmTC_c6920  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
-        gmake[1]: Leaving directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-syGjya'
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b84e8/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b84e8.dir/build.make CMakeFiles/cmTC_b84e8.dir/build
+        gmake[1]: Entering directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-ICsZtR'
+        Building CXX object CMakeFiles/cmTC_b84e8.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -std=gnu++17 -o CMakeFiles/cmTC_b84e8.dir/CheckFunctionExists.cxx.o -c /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-ICsZtR/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_b84e8
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b84e8.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_b84e8.dir/CheckFunctionExists.cxx.o -o cmTC_b84e8  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+        gmake[1]: Leaving directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-ICsZtR'
         
       exitCode: 0
   -
@@ -403,8 +403,8 @@ events:
     checks:
       - "Looking for gethostbyname"
     directories:
-      source: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-0s7swK"
-      binary: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-0s7swK"
+      source: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-2CjHZd"
+      binary: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-2CjHZd"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -414,17 +414,17 @@ events:
       variable: "CMAKE_HAVE_GETHOSTBYNAME"
       cached: true
       stdout: |
-        Change Dir: '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-0s7swK'
+        Change Dir: '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-2CjHZd'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_74360/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_74360.dir/build.make CMakeFiles/cmTC_74360.dir/build
-        gmake[1]: Entering directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-0s7swK'
-        Building CXX object CMakeFiles/cmTC_74360.dir/CheckFunctionExists.cxx.o
-        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=gethostbyname -std=gnu++17 -o CMakeFiles/cmTC_74360.dir/CheckFunctionExists.cxx.o -c /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-0s7swK/CheckFunctionExists.cxx
-        Linking CXX executable cmTC_74360
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74360.dir/link.txt --verbose=1
-        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_74360.dir/CheckFunctionExists.cxx.o -o cmTC_74360 
-        gmake[1]: Leaving directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-0s7swK'
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_94899/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_94899.dir/build.make CMakeFiles/cmTC_94899.dir/build
+        gmake[1]: Entering directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-2CjHZd'
+        Building CXX object CMakeFiles/cmTC_94899.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=gethostbyname -std=gnu++17 -o CMakeFiles/cmTC_94899.dir/CheckFunctionExists.cxx.o -c /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-2CjHZd/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_94899
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94899.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_94899.dir/CheckFunctionExists.cxx.o -o cmTC_94899 
+        gmake[1]: Leaving directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-2CjHZd'
         
       exitCode: 0
   -
@@ -436,8 +436,8 @@ events:
     checks:
       - "Looking for connect"
     directories:
-      source: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-c414YW"
-      binary: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-c414YW"
+      source: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-Azcy5W"
+      binary: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-Azcy5W"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -447,17 +447,17 @@ events:
       variable: "CMAKE_HAVE_CONNECT"
       cached: true
       stdout: |
-        Change Dir: '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-c414YW'
+        Change Dir: '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-Azcy5W'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e3002/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_e3002.dir/build.make CMakeFiles/cmTC_e3002.dir/build
-        gmake[1]: Entering directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-c414YW'
-        Building CXX object CMakeFiles/cmTC_e3002.dir/CheckFunctionExists.cxx.o
-        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=connect -std=gnu++17 -o CMakeFiles/cmTC_e3002.dir/CheckFunctionExists.cxx.o -c /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-c414YW/CheckFunctionExists.cxx
-        Linking CXX executable cmTC_e3002
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3002.dir/link.txt --verbose=1
-        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_e3002.dir/CheckFunctionExists.cxx.o -o cmTC_e3002 
-        gmake[1]: Leaving directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-c414YW'
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c530a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c530a.dir/build.make CMakeFiles/cmTC_c530a.dir/build
+        gmake[1]: Entering directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-Azcy5W'
+        Building CXX object CMakeFiles/cmTC_c530a.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=connect -std=gnu++17 -o CMakeFiles/cmTC_c530a.dir/CheckFunctionExists.cxx.o -c /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-Azcy5W/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_c530a
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c530a.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_c530a.dir/CheckFunctionExists.cxx.o -o cmTC_c530a 
+        gmake[1]: Leaving directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-Azcy5W'
         
       exitCode: 0
   -
@@ -469,8 +469,8 @@ events:
     checks:
       - "Looking for remove"
     directories:
-      source: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-SGo0xc"
-      binary: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-SGo0xc"
+      source: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-urr0ve"
+      binary: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-urr0ve"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -480,17 +480,17 @@ events:
       variable: "CMAKE_HAVE_REMOVE"
       cached: true
       stdout: |
-        Change Dir: '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-SGo0xc'
+        Change Dir: '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-urr0ve'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d5c50/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_d5c50.dir/build.make CMakeFiles/cmTC_d5c50.dir/build
-        gmake[1]: Entering directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-SGo0xc'
-        Building CXX object CMakeFiles/cmTC_d5c50.dir/CheckFunctionExists.cxx.o
-        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=remove -std=gnu++17 -o CMakeFiles/cmTC_d5c50.dir/CheckFunctionExists.cxx.o -c /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-SGo0xc/CheckFunctionExists.cxx
-        Linking CXX executable cmTC_d5c50
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5c50.dir/link.txt --verbose=1
-        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_d5c50.dir/CheckFunctionExists.cxx.o -o cmTC_d5c50 
-        gmake[1]: Leaving directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-SGo0xc'
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4ac31/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4ac31.dir/build.make CMakeFiles/cmTC_4ac31.dir/build
+        gmake[1]: Entering directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-urr0ve'
+        Building CXX object CMakeFiles/cmTC_4ac31.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=remove -std=gnu++17 -o CMakeFiles/cmTC_4ac31.dir/CheckFunctionExists.cxx.o -c /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-urr0ve/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_4ac31
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ac31.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_4ac31.dir/CheckFunctionExists.cxx.o -o cmTC_4ac31 
+        gmake[1]: Leaving directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-urr0ve'
         
       exitCode: 0
   -
@@ -502,8 +502,8 @@ events:
     checks:
       - "Looking for shmat"
     directories:
-      source: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-IWz6Ht"
-      binary: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-IWz6Ht"
+      source: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-BF45qF"
+      binary: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-BF45qF"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -513,17 +513,17 @@ events:
       variable: "CMAKE_HAVE_SHMAT"
       cached: true
       stdout: |
-        Change Dir: '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-IWz6Ht'
+        Change Dir: '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-BF45qF'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_679a0/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_679a0.dir/build.make CMakeFiles/cmTC_679a0.dir/build
-        gmake[1]: Entering directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-IWz6Ht'
-        Building CXX object CMakeFiles/cmTC_679a0.dir/CheckFunctionExists.cxx.o
-        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=shmat -std=gnu++17 -o CMakeFiles/cmTC_679a0.dir/CheckFunctionExists.cxx.o -c /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-IWz6Ht/CheckFunctionExists.cxx
-        Linking CXX executable cmTC_679a0
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_679a0.dir/link.txt --verbose=1
-        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_679a0.dir/CheckFunctionExists.cxx.o -o cmTC_679a0 
-        gmake[1]: Leaving directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-IWz6Ht'
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8f166/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8f166.dir/build.make CMakeFiles/cmTC_8f166.dir/build
+        gmake[1]: Entering directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-BF45qF'
+        Building CXX object CMakeFiles/cmTC_8f166.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=shmat -std=gnu++17 -o CMakeFiles/cmTC_8f166.dir/CheckFunctionExists.cxx.o -c /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-BF45qF/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_8f166
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f166.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_8f166.dir/CheckFunctionExists.cxx.o -o cmTC_8f166 
+        gmake[1]: Leaving directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-BF45qF'
         
       exitCode: 0
   -
@@ -535,8 +535,8 @@ events:
     checks:
       - "Looking for IceConnectionNumber in ICE"
     directories:
-      source: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-wM6CkH"
-      binary: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-wM6CkH"
+      source: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-9HkHh0"
+      binary: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-9HkHh0"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -546,17 +546,17 @@ events:
       variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
       cached: true
       stdout: |
-        Change Dir: '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-wM6CkH'
+        Change Dir: '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-9HkHh0'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_48674/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_48674.dir/build.make CMakeFiles/cmTC_48674.dir/build
-        gmake[1]: Entering directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-wM6CkH'
-        Building CXX object CMakeFiles/cmTC_48674.dir/CheckFunctionExists.cxx.o
-        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -std=gnu++17 -o CMakeFiles/cmTC_48674.dir/CheckFunctionExists.cxx.o -c /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-wM6CkH/CheckFunctionExists.cxx
-        Linking CXX executable cmTC_48674
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48674.dir/link.txt --verbose=1
-        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_48674.dir/CheckFunctionExists.cxx.o -o cmTC_48674  -lICE 
-        gmake[1]: Leaving directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-wM6CkH'
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d3fa3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d3fa3.dir/build.make CMakeFiles/cmTC_d3fa3.dir/build
+        gmake[1]: Entering directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-9HkHh0'
+        Building CXX object CMakeFiles/cmTC_d3fa3.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -std=gnu++17 -o CMakeFiles/cmTC_d3fa3.dir/CheckFunctionExists.cxx.o -c /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-9HkHh0/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_d3fa3
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3fa3.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_d3fa3.dir/CheckFunctionExists.cxx.o -o cmTC_d3fa3  -lICE 
+        gmake[1]: Leaving directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-9HkHh0'
         
       exitCode: 0
   -
@@ -590,8 +590,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-lfqd43"
-      binary: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-lfqd43"
+      source: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-8xIHhl"
+      binary: "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-8xIHhl"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -601,13 +601,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-lfqd43'
+        Change Dir: '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-8xIHhl'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_24abe/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_24abe.dir/build.make CMakeFiles/cmTC_24abe.dir/build
-        gmake[1]: Entering directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-lfqd43'
-        Building C object CMakeFiles/cmTC_24abe.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_24abe.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_25a85/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_25a85.dir/build.make CMakeFiles/cmTC_25a85.dir/build
+        gmake[1]: Entering directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-8xIHhl'
+        Building C object CMakeFiles/cmTC_25a85.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_25a85.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.28/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -617,8 +617,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_24abe.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_24abe.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_24abe.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccO1TwW7.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_25a85.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25a85.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_25a85.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccYDJLjS.s
         GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -638,15 +638,15 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_24abe.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_24abe.dir/'
-         as -v --64 -o CMakeFiles/cmTC_24abe.dir/CMakeCCompilerABI.c.o /tmp/ccO1TwW7.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_25a85.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25a85.dir/'
+         as -v --64 -o CMakeFiles/cmTC_25a85.dir/CMakeCCompilerABI.c.o /tmp/ccYDJLjS.s
         GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_24abe.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_24abe.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_24abe
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24abe.dir/link.txt --verbose=1
-        /usr/bin/cc  -v CMakeFiles/cmTC_24abe.dir/CMakeCCompilerABI.c.o -o cmTC_24abe 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_25a85.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25a85.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_25a85
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25a85.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_25a85.dir/CMakeCCompilerABI.c.o -o cmTC_25a85 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -659,10 +659,10 @@ events:
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_24abe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_24abe.'
-         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgftTPy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_24abe /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_24abe.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_24abe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_24abe.'
-        gmake[1]: Leaving directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-lfqd43'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25a85' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_25a85.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0lEOqN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_25a85 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_25a85.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25a85' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_25a85.'
+        gmake[1]: Leaving directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-8xIHhl'
         
       exitCode: 0
   -
@@ -696,13 +696,13 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-lfqd43']
+        ignore line: [Change Dir: '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-8xIHhl']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_24abe/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_24abe.dir/build.make CMakeFiles/cmTC_24abe.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-lfqd43']
-        ignore line: [Building C object CMakeFiles/cmTC_24abe.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_24abe.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_25a85/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_25a85.dir/build.make CMakeFiles/cmTC_25a85.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/CMakeFiles/CMakeScratch/TryCompile-8xIHhl']
+        ignore line: [Building C object CMakeFiles/cmTC_25a85.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_25a85.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -712,8 +712,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_24abe.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_24abe.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_24abe.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccO1TwW7.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_25a85.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25a85.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_25a85.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccYDJLjS.s]
         ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -733,15 +733,15 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_24abe.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_24abe.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_24abe.dir/CMakeCCompilerABI.c.o /tmp/ccO1TwW7.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_25a85.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25a85.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_25a85.dir/CMakeCCompilerABI.c.o /tmp/ccYDJLjS.s]
         ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_24abe.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_24abe.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_24abe]
-        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24abe.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_24abe.dir/CMakeCCompilerABI.c.o -o cmTC_24abe ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_25a85.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25a85.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_25a85]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25a85.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_25a85.dir/CMakeCCompilerABI.c.o -o cmTC_25a85 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -754,13 +754,13 @@ events:
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_24abe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_24abe.']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgftTPy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_24abe /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_24abe.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25a85' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_25a85.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0lEOqN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_25a85 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_25a85.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccgftTPy.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc0lEOqN.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -778,7 +778,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_24abe] ==> ignore
+          arg [cmTC_25a85] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -790,7 +790,7 @@ events:
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
-          arg [CMakeFiles/cmTC_24abe.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_25a85.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore

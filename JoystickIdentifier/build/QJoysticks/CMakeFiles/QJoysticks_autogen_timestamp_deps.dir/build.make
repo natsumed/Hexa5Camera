@@ -66,9 +66,9 @@ include QJoysticks/CMakeFiles/QJoysticks_autogen_timestamp_deps.dir/compiler_dep
 # Include the progress variables for this target.
 include QJoysticks/CMakeFiles/QJoysticks_autogen_timestamp_deps.dir/progress.make
 
-QJoysticks/CMakeFiles/QJoysticks_autogen_timestamp_deps: /home/med/Qt/6.8.1/gcc_64/lib/libQt6Core.so.6.8.1
 QJoysticks/CMakeFiles/QJoysticks_autogen_timestamp_deps: /home/med/Qt/6.8.1/gcc_64/libexec/moc
 QJoysticks/CMakeFiles/QJoysticks_autogen_timestamp_deps: /home/med/Qt/6.8.1/gcc_64/libexec/uic
+QJoysticks/CMakeFiles/QJoysticks_autogen_timestamp_deps: /home/med/Qt/6.8.1/gcc_64/lib/libQt6Core.so.6.8.1
 QJoysticks/CMakeFiles/QJoysticks_autogen_timestamp_deps: /home/med/Qt/6.8.1/gcc_64/lib/libQt6Widgets.so.6.8.1
 
 QJoysticks_autogen_timestamp_deps: QJoysticks/CMakeFiles/QJoysticks_autogen_timestamp_deps
