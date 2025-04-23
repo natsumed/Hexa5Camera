@@ -38,7 +38,8 @@ MainWindow::MainWindow(QWidget *parent)
       ui(new Ui::MainWindow),
       keepRunning(true),
       sdk(nullptr),
-      useKeyboard(false)
+      useKeyboard(false),
+      currentZoom(1.0f)
 {
     ui->setupUi(this);
     QApplication::instance()->installEventFilter(this);
@@ -88,12 +89,12 @@ MainWindow::MainWindow(QWidget *parent)
 
     QTimer *pollTimer = new QTimer(this);
     connect(pollTimer, &QTimer::timeout, this, &MainWindow::pollAxisValues);
-    pollTimer->start(100);
+    pollTimer->start(10);
 
     // Set up a timer to send gimbal commands every 100ms.
     commandTimer = new QTimer(this);
     connect(commandTimer, &QTimer::timeout, this, &MainWindow::sendGimbalCommands);
-    commandTimer->start(100);
+    commandTimer->start(10);
 
     // Create the SIYI SDK instance.
 
@@ -289,17 +290,18 @@ void MainWindow::keyPressEvent(QKeyEvent *event) {
             break;
         case Qt::Key_Plus:
         case Qt::Key_Equal:
-            currentZoom = std::min(3.0f, currentZoom + ZOOM_STEP_CONSTANT);
+            currentZoom = std::min(MAX_ZOOM, currentZoom + ZOOM_SPEED);
             if(ui->toolButtonZoomPlus) ui->toolButtonZoomPlus->setStyleSheet("background-color: green;");
+            sdk->set_absolute_zoom(currentZoom, 1);
             #ifdef _DEBUG
             qDebug() << "Key pressed:" << event->key() << "Yaw:" << currentYawSpeed << "Pitch:" << currentPitchSpeed;
              #endif
             break;
         case Qt::Key_Minus:
         case Qt::Key_Underscore:
-            currentZoom = std::max(-3.0f, currentZoom - ZOOM_STEP_CONSTANT);
+            currentZoom = std::max(MIN_ZOOM, currentZoom - ZOOM_SPEED);
+            sdk->set_absolute_zoom(currentZoom, 1);
             if(ui->toolButtonZoomMinus) ui->toolButtonZoomMinus->setStyleSheet("background-color: green;");
-
             #ifdef _DEBUG
             qDebug() << "Key pressed:" << event->key() << "Yaw:" << currentYawSpeed << "Pitch:" << currentPitchSpeed;
              #endif

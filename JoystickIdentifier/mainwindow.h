@@ -84,6 +84,10 @@ private:
     bool isShuttingDown = false;
     VideoRecorderWidget *videoWidget = nullptr;
 
+    static constexpr float MIN_ZOOM = 1.0f;
+    static constexpr float MAX_ZOOM = 30.0f;
+    static constexpr float ZOOM_SPEED = 1.0f;
+
 
 };
 
