@@ -1,77 +1,78 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'VirtualJoystick.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.8.1)
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.2.4)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../../../QJoysticks/src/QJoysticks/VirtualJoystick.h"
-#include <QtCore/qmetatype.h>
-
-#include <QtCore/qtmochelpers.h>
-
 #include <memory>
-
-
-#include <QtCore/qxptype_traits.h>
+#include "../../../../QJoysticks/src/QJoysticks/VirtualJoystick.h"
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'VirtualJoystick.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.8.1. It"
+#error "This file was generated using the moc from 6.2.4. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
-#ifndef Q_CONSTINIT
-#define Q_CONSTINIT
-#endif
-
+QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-QT_WARNING_DISABLE_GCC("-Wuseless-cast")
-namespace {
-struct qt_meta_tag_ZN15VirtualJoystickE_t {};
-} // unnamed namespace
+struct qt_meta_stringdata_VirtualJoystick_t {
+    const uint offsetsAndSize[52];
+    char stringdata0[301];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(offsetof(qt_meta_stringdata_VirtualJoystick_t, stringdata0) + ofs), len 
+static const qt_meta_stringdata_VirtualJoystick_t qt_meta_stringdata_VirtualJoystick = {
+    {
+QT_MOC_LITERAL(0, 15), // "VirtualJoystick"
+QT_MOC_LITERAL(16, 14), // "enabledChanged"
+QT_MOC_LITERAL(31, 0), // ""
+QT_MOC_LITERAL(32, 8), // "povEvent"
+QT_MOC_LITERAL(41, 17), // "QJoystickPOVEvent"
+QT_MOC_LITERAL(59, 5), // "event"
+QT_MOC_LITERAL(65, 9), // "axisEvent"
+QT_MOC_LITERAL(75, 18), // "QJoystickAxisEvent"
+QT_MOC_LITERAL(94, 11), // "buttonEvent"
+QT_MOC_LITERAL(106, 20), // "QJoystickButtonEvent"
+QT_MOC_LITERAL(127, 13), // "setJoystickID"
+QT_MOC_LITERAL(141, 2), // "id"
+QT_MOC_LITERAL(144, 12), // "setAxisRange"
+QT_MOC_LITERAL(157, 5), // "range"
+QT_MOC_LITERAL(163, 18), // "setJoystickEnabled"
+QT_MOC_LITERAL(182, 7), // "enabled"
+QT_MOC_LITERAL(190, 18), // "setAxisSensibility"
+QT_MOC_LITERAL(209, 11), // "sensibility"
+QT_MOC_LITERAL(221, 8), // "readAxes"
+QT_MOC_LITERAL(230, 3), // "key"
+QT_MOC_LITERAL(234, 7), // "pressed"
+QT_MOC_LITERAL(242, 10), // "updateAxis"
+QT_MOC_LITERAL(253, 8), // "readPOVs"
+QT_MOC_LITERAL(262, 11), // "readButtons"
+QT_MOC_LITERAL(274, 15), // "processKeyEvent"
+QT_MOC_LITERAL(290, 10) // "QKeyEvent*"
 
-
-#ifdef QT_MOC_HAS_STRINGDATA
-static constexpr auto qt_meta_stringdata_ZN15VirtualJoystickE = QtMocHelpers::stringData(
-    "VirtualJoystick",
-    "enabledChanged",
-    "",
-    "povEvent",
-    "QJoystickPOVEvent",
-    "event",
-    "axisEvent",
-    "QJoystickAxisEvent",
-    "buttonEvent",
-    "QJoystickButtonEvent",
-    "setJoystickID",
-    "id",
-    "setAxisRange",
-    "range",
-    "setJoystickEnabled",
-    "enabled",
-    "setAxisSensibility",
-    "sensibility",
-    "readAxes",
-    "key",
-    "pressed",
-    "updateAxis",
-    "readPOVs",
-    "readButtons",
-    "processKeyEvent",
+    },
+    "VirtualJoystick\0enabledChanged\0\0"
+    "povEvent\0QJoystickPOVEvent\0event\0"
+    "axisEvent\0QJoystickAxisEvent\0buttonEvent\0"
+    "QJoystickButtonEvent\0setJoystickID\0"
+    "id\0setAxisRange\0range\0setJoystickEnabled\0"
+    "enabled\0setAxisSensibility\0sensibility\0"
+    "readAxes\0key\0pressed\0updateAxis\0"
+    "readPOVs\0readButtons\0processKeyEvent\0"
     "QKeyEvent*"
-);
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+};
+#undef QT_MOC_LITERAL
 
-Q_CONSTINIT static const uint qt_meta_data_ZN15VirtualJoystickE[] = {
+static const uint qt_meta_data_VirtualJoystick[] = {
 
  // content:
-      12,       // revision
+      10,       // revision
        0,       // classname
        0,    0, // classinfo
       13,   14, // methods
@@ -118,64 +119,11 @@ Q_CONSTINIT static const uint qt_meta_data_ZN15VirtualJoystickE[] = {
        0        // eod
 };
 
-Q_CONSTINIT const QMetaObject VirtualJoystick::staticMetaObject = { {
-    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
-    qt_meta_stringdata_ZN15VirtualJoystickE.offsetsAndSizes,
-    qt_meta_data_ZN15VirtualJoystickE,
-    qt_static_metacall,
-    nullptr,
-    qt_incomplete_metaTypeArray<qt_meta_tag_ZN15VirtualJoystickE_t,
-        // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<VirtualJoystick, std::true_type>,
-        // method 'enabledChanged'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'povEvent'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const QJoystickPOVEvent &, std::false_type>,
-        // method 'axisEvent'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const QJoystickAxisEvent &, std::false_type>,
-        // method 'buttonEvent'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const QJoystickButtonEvent &, std::false_type>,
-        // method 'setJoystickID'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<int, std::false_type>,
-        // method 'setAxisRange'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<qreal, std::false_type>,
-        // method 'setJoystickEnabled'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
-        // method 'setAxisSensibility'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<qreal, std::false_type>,
-        // method 'readAxes'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
-        // method 'updateAxis'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'readPOVs'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
-        // method 'readButtons'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
-        // method 'processKeyEvent'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<QKeyEvent *, std::false_type>,
-        QtPrivate::TypeAndForceComplete<bool, std::false_type>
-    >,
-    nullptr
-} };
-
 void VirtualJoystick::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
-    auto *_t = static_cast<VirtualJoystick *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<VirtualJoystick *>(_o);
+        (void)_t;
         switch (_id) {
         case 0: _t->enabledChanged(); break;
         case 1: _t->povEvent((*reinterpret_cast< std::add_pointer_t<QJoystickPOVEvent>>(_a[1]))); break;
@@ -192,39 +140,54 @@ void VirtualJoystick::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
         case 12: _t->processKeyEvent((*reinterpret_cast< std::add_pointer_t<QKeyEvent*>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<bool>>(_a[2]))); break;
         default: ;
         }
-    }
-    if (_c == QMetaObject::IndexOfMethod) {
+    } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _q_method_type = void (VirtualJoystick::*)();
-            if (_q_method_type _q_method = &VirtualJoystick::enabledChanged; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+            using _t = void (VirtualJoystick::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&VirtualJoystick::enabledChanged)) {
                 *result = 0;
                 return;
             }
         }
         {
-            using _q_method_type = void (VirtualJoystick::*)(const QJoystickPOVEvent & );
-            if (_q_method_type _q_method = &VirtualJoystick::povEvent; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+            using _t = void (VirtualJoystick::*)(const QJoystickPOVEvent & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&VirtualJoystick::povEvent)) {
                 *result = 1;
                 return;
             }
         }
         {
-            using _q_method_type = void (VirtualJoystick::*)(const QJoystickAxisEvent & );
-            if (_q_method_type _q_method = &VirtualJoystick::axisEvent; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+            using _t = void (VirtualJoystick::*)(const QJoystickAxisEvent & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&VirtualJoystick::axisEvent)) {
                 *result = 2;
                 return;
             }
         }
         {
-            using _q_method_type = void (VirtualJoystick::*)(const QJoystickButtonEvent & );
-            if (_q_method_type _q_method = &VirtualJoystick::buttonEvent; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+            using _t = void (VirtualJoystick::*)(const QJoystickButtonEvent & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&VirtualJoystick::buttonEvent)) {
                 *result = 3;
                 return;
             }
         }
     }
 }
+
+const QMetaObject VirtualJoystick::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_VirtualJoystick.offsetsAndSize,
+    qt_meta_data_VirtualJoystick,
+    qt_static_metacall,
+    nullptr,
+qt_incomplete_metaTypeArray<qt_meta_stringdata_VirtualJoystick_t
+, QtPrivate::TypeAndForceComplete<VirtualJoystick, std::true_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QJoystickPOVEvent &, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QJoystickAxisEvent &, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QJoystickButtonEvent &, std::false_type>
+, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<int, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<qreal, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<bool, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<qreal, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<int, std::false_type>, QtPrivate::TypeAndForceComplete<bool, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<int, std::false_type>, QtPrivate::TypeAndForceComplete<bool, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<int, std::false_type>, QtPrivate::TypeAndForceComplete<bool, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<QKeyEvent *, std::false_type>, QtPrivate::TypeAndForceComplete<bool, std::false_type>
+
+
+>,
+    nullptr
+} };
+
 
 const QMetaObject *VirtualJoystick::metaObject() const
 {
@@ -234,7 +197,7 @@ const QMetaObject *VirtualJoystick::metaObject() const
 void *VirtualJoystick::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_ZN15VirtualJoystickE.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_VirtualJoystick.stringdata0))
         return static_cast<void*>(this);
     return QObject::qt_metacast(_clname);
 }
@@ -248,8 +211,7 @@ int VirtualJoystick::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         if (_id < 13)
             qt_static_metacall(this, _c, _id, _a);
         _id -= 13;
-    }
-    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
         if (_id < 13)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
         _id -= 13;
@@ -284,3 +246,4 @@ void VirtualJoystick::buttonEvent(const QJoystickButtonEvent & _t1)
     QMetaObject::activate(this, &staticMetaObject, 3, _a);
 }
 QT_WARNING_POP
+QT_END_MOC_NAMESPACE

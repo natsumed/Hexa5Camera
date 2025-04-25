@@ -1,73 +1,73 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'mainwindow.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.8.1)
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.2.4)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../mainwindow.h"
-#include <QtCore/qmetatype.h>
-
-#include <QtCore/qtmochelpers.h>
-
 #include <memory>
-
-
-#include <QtCore/qxptype_traits.h>
+#include "../../../mainwindow.h"
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'mainwindow.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.8.1. It"
+#error "This file was generated using the moc from 6.2.4. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
-#ifndef Q_CONSTINIT
-#define Q_CONSTINIT
-#endif
-
+QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-QT_WARNING_DISABLE_GCC("-Wuseless-cast")
-namespace {
-struct qt_meta_tag_ZN10MainWindowE_t {};
-} // unnamed namespace
+struct qt_meta_stringdata_MainWindow_t {
+    const uint offsetsAndSize[44];
+    char stringdata0[278];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(offsetof(qt_meta_stringdata_MainWindow_t, stringdata0) + ofs), len 
+static const qt_meta_stringdata_MainWindow_t qt_meta_stringdata_MainWindow = {
+    {
+QT_MOC_LITERAL(0, 10), // "MainWindow"
+QT_MOC_LITERAL(11, 16), // "updateDeviceList"
+QT_MOC_LITERAL(28, 0), // ""
+QT_MOC_LITERAL(29, 14), // "pollAxisValues"
+QT_MOC_LITERAL(44, 16), // "updateAxisValues"
+QT_MOC_LITERAL(61, 2), // "js"
+QT_MOC_LITERAL(64, 4), // "axis"
+QT_MOC_LITERAL(69, 5), // "value"
+QT_MOC_LITERAL(75, 17), // "updateButtonState"
+QT_MOC_LITERAL(93, 6), // "button"
+QT_MOC_LITERAL(100, 7), // "pressed"
+QT_MOC_LITERAL(108, 21), // "onJoystickItemClicked"
+QT_MOC_LITERAL(130, 16), // "QListWidgetItem*"
+QT_MOC_LITERAL(147, 4), // "item"
+QT_MOC_LITERAL(152, 18), // "onSwitchToKeyboard"
+QT_MOC_LITERAL(171, 18), // "onSwitchToJoystick"
+QT_MOC_LITERAL(190, 18), // "sendGimbalCommands"
+QT_MOC_LITERAL(209, 10), // "saveConfig"
+QT_MOC_LITERAL(220, 17), // "saveDefaultConfig"
+QT_MOC_LITERAL(238, 21), // "handleCommandFeedback"
+QT_MOC_LITERAL(260, 9), // "commandId"
+QT_MOC_LITERAL(270, 7) // "success"
 
+    },
+    "MainWindow\0updateDeviceList\0\0"
+    "pollAxisValues\0updateAxisValues\0js\0"
+    "axis\0value\0updateButtonState\0button\0"
+    "pressed\0onJoystickItemClicked\0"
+    "QListWidgetItem*\0item\0onSwitchToKeyboard\0"
+    "onSwitchToJoystick\0sendGimbalCommands\0"
+    "saveConfig\0saveDefaultConfig\0"
+    "handleCommandFeedback\0commandId\0success"
+};
+#undef QT_MOC_LITERAL
 
-#ifdef QT_MOC_HAS_STRINGDATA
-static constexpr auto qt_meta_stringdata_ZN10MainWindowE = QtMocHelpers::stringData(
-    "MainWindow",
-    "updateDeviceList",
-    "",
-    "pollAxisValues",
-    "updateAxisValues",
-    "js",
-    "axis",
-    "value",
-    "updateButtonState",
-    "button",
-    "pressed",
-    "onJoystickItemClicked",
-    "QListWidgetItem*",
-    "item",
-    "onSwitchToKeyboard",
-    "onSwitchToJoystick",
-    "sendGimbalCommands",
-    "saveConfig",
-    "saveDefaultConfig",
-    "handleCommandFeedback",
-    "commandId",
-    "success"
-);
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
-
-Q_CONSTINIT static const uint qt_meta_data_ZN10MainWindowE[] = {
+static const uint qt_meta_data_MainWindow[] = {
 
  // content:
-      12,       // revision
+      10,       // revision
        0,       // classname
        0,    0, // classinfo
       11,   14, // methods
@@ -106,54 +106,11 @@ Q_CONSTINIT static const uint qt_meta_data_ZN10MainWindowE[] = {
        0        // eod
 };
 
-Q_CONSTINIT const QMetaObject MainWindow::staticMetaObject = { {
-    QMetaObject::SuperData::link<QMainWindow::staticMetaObject>(),
-    qt_meta_stringdata_ZN10MainWindowE.offsetsAndSizes,
-    qt_meta_data_ZN10MainWindowE,
-    qt_static_metacall,
-    nullptr,
-    qt_incomplete_metaTypeArray<qt_meta_tag_ZN10MainWindowE_t,
-        // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<MainWindow, std::true_type>,
-        // method 'updateDeviceList'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'pollAxisValues'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'updateAxisValues'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<qreal, std::false_type>,
-        // method 'updateButtonState'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
-        // method 'onJoystickItemClicked'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<QListWidgetItem *, std::false_type>,
-        // method 'onSwitchToKeyboard'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'onSwitchToJoystick'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'sendGimbalCommands'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'saveConfig'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'saveDefaultConfig'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'handleCommandFeedback'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
-        QtPrivate::TypeAndForceComplete<bool, std::false_type>
-    >,
-    nullptr
-} };
-
 void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
-    auto *_t = static_cast<MainWindow *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<MainWindow *>(_o);
+        (void)_t;
         switch (_id) {
         case 0: _t->updateDeviceList(); break;
         case 1: _t->pollAxisValues(); break;
@@ -171,6 +128,22 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
     }
 }
 
+const QMetaObject MainWindow::staticMetaObject = { {
+    QMetaObject::SuperData::link<QMainWindow::staticMetaObject>(),
+    qt_meta_stringdata_MainWindow.offsetsAndSize,
+    qt_meta_data_MainWindow,
+    qt_static_metacall,
+    nullptr,
+qt_incomplete_metaTypeArray<qt_meta_stringdata_MainWindow_t
+, QtPrivate::TypeAndForceComplete<MainWindow, std::true_type>
+, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<int, std::false_type>, QtPrivate::TypeAndForceComplete<int, std::false_type>, QtPrivate::TypeAndForceComplete<qreal, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<int, std::false_type>, QtPrivate::TypeAndForceComplete<int, std::false_type>, QtPrivate::TypeAndForceComplete<bool, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<QListWidgetItem *, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QString &, std::false_type>, QtPrivate::TypeAndForceComplete<bool, std::false_type>
+
+
+>,
+    nullptr
+} };
+
+
 const QMetaObject *MainWindow::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
@@ -179,7 +152,7 @@ const QMetaObject *MainWindow::metaObject() const
 void *MainWindow::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_ZN10MainWindowE.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_MainWindow.stringdata0))
         return static_cast<void*>(this);
     return QMainWindow::qt_metacast(_clname);
 }
@@ -193,8 +166,7 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         if (_id < 11)
             qt_static_metacall(this, _c, _id, _a);
         _id -= 11;
-    }
-    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
         if (_id < 11)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
         _id -= 11;
@@ -202,3 +174,4 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     return _id;
 }
 QT_WARNING_POP
+QT_END_MOC_NAMESPACE

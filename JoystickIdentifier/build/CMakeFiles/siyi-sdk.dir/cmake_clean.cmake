@@ -12,8 +12,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/siyi-sdk.dir/thirdparty/SIYI-SDK/src/sdk.cpp.o.d"
   "libsiyi-sdk.a"
   "libsiyi-sdk.pdb"
-  "siyi-sdk_autogen/mocs_compilation.cpp"
-  "siyi-sdk_autogen/timestamp"
 )
 
 # Per-language clean rules from dependency scanning.

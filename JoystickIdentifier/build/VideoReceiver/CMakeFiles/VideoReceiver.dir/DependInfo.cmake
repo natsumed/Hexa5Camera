@@ -8,17 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "" "VideoReceiver/VideoReceiver_autogen/timestamp" "custom" "VideoReceiver/VideoReceiver_autogen/deps"
-  "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/VideoReceiver/VideoReceiver.cpp" "VideoReceiver/CMakeFiles/VideoReceiver.dir/VideoReceiver.cpp.o" "gcc" "VideoReceiver/CMakeFiles/VideoReceiver.dir/VideoReceiver.cpp.o.d"
-  "/home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/VideoReceiver/VideoReceiver_autogen/mocs_compilation.cpp" "VideoReceiver/CMakeFiles/VideoReceiver.dir/VideoReceiver_autogen/mocs_compilation.cpp.o" "gcc" "VideoReceiver/CMakeFiles/VideoReceiver.dir/VideoReceiver_autogen/mocs_compilation.cpp.o.d"
+  "/project/VideoReceiver/VideoReceiver.cpp" "VideoReceiver/CMakeFiles/VideoReceiver.dir/VideoReceiver.cpp.o" "gcc" "VideoReceiver/CMakeFiles/VideoReceiver.dir/VideoReceiver.cpp.o.d"
+  "/project/build/VideoReceiver/VideoReceiver_autogen/mocs_compilation.cpp" "VideoReceiver/CMakeFiles/VideoReceiver.dir/VideoReceiver_autogen/mocs_compilation.cpp.o" "gcc" "VideoReceiver/CMakeFiles/VideoReceiver.dir/VideoReceiver_autogen/mocs_compilation.cpp.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

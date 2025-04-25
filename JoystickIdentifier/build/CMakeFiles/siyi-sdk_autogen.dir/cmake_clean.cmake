@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/siyi-sdk_autogen"
   "siyi-sdk_autogen/include/ui_mainwindow.h"
   "siyi-sdk_autogen/mocs_compilation.cpp"
-  "siyi-sdk_autogen/timestamp"
 )
 
 # Per-language clean rules from dependency scanning.

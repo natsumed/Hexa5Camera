@@ -1,8 +1,0 @@
-set(__QT_DEPLOY_TARGET_QJoysticks_FILE /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/QJoysticks/libQJoysticks.a)
-set(__QT_DEPLOY_TARGET_QJoysticks_TYPE STATIC_LIBRARY)
-set(__QT_DEPLOY_TARGET_VideoReceiver_FILE /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/VideoReceiver/libVideoReceiver.a)
-set(__QT_DEPLOY_TARGET_VideoReceiver_TYPE STATIC_LIBRARY)
-set(__QT_DEPLOY_TARGET_JoystickIdentifier_FILE /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/JoystickIdentifier)
-set(__QT_DEPLOY_TARGET_JoystickIdentifier_TYPE EXECUTABLE)
-set(__QT_DEPLOY_TARGET_siyi-sdk_FILE /home/med/Desktop/Joystick_Identifier/JoystickIdentifier/build/libsiyi-sdk.a)
-set(__QT_DEPLOY_TARGET_siyi-sdk_TYPE STATIC_LIBRARY)

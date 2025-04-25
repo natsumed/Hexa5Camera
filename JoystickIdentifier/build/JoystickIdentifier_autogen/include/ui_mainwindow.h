@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 6.8.1
+** Created by: Qt User Interface Compiler version 6.2.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -91,16 +91,16 @@ public:
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
-            MainWindow->setObjectName("MainWindow");
+            MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
         MainWindow->resize(1240, 627);
         MainWindow->setMaximumSize(QSize(1240, 627));
         centralwidget = new QWidget(MainWindow);
-        centralwidget->setObjectName("centralwidget");
+        centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         horizontalLayout = new QHBoxLayout(centralwidget);
-        horizontalLayout->setObjectName("horizontalLayout");
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         VideoRecorderSection = new QGroupBox(centralwidget);
-        VideoRecorderSection->setObjectName("VideoRecorderSection");
-        QSizePolicy sizePolicy(QSizePolicy::Policy::Maximum, QSizePolicy::Policy::Maximum);
+        VideoRecorderSection->setObjectName(QString::fromUtf8("VideoRecorderSection"));
+        QSizePolicy sizePolicy(QSizePolicy::Maximum, QSizePolicy::Maximum);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(VideoRecorderSection->sizePolicy().hasHeightForWidth());
@@ -111,80 +111,80 @@ public:
 
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
-        menubar->setObjectName("menubar");
+        menubar->setObjectName(QString::fromUtf8("menubar"));
         menubar->setGeometry(QRect(0, 0, 1240, 22));
         menuHexa_5 = new QMenu(menubar);
-        menuHexa_5->setObjectName("menuHexa_5");
+        menuHexa_5->setObjectName(QString::fromUtf8("menuHexa_5"));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
-        statusbar->setObjectName("statusbar");
+        statusbar->setObjectName(QString::fromUtf8("statusbar"));
         MainWindow->setStatusBar(statusbar);
         dockWidget = new QDockWidget(MainWindow);
-        dockWidget->setObjectName("dockWidget");
+        dockWidget->setObjectName(QString::fromUtf8("dockWidget"));
         dockWidgetContents = new QWidget();
-        dockWidgetContents->setObjectName("dockWidgetContents");
+        dockWidgetContents->setObjectName(QString::fromUtf8("dockWidgetContents"));
         Rescan = new QPushButton(dockWidgetContents);
-        Rescan->setObjectName("Rescan");
+        Rescan->setObjectName(QString::fromUtf8("Rescan"));
         Rescan->setGeometry(QRect(60, 480, 201, 25));
         groupBox = new QGroupBox(dockWidgetContents);
-        groupBox->setObjectName("groupBox");
+        groupBox->setObjectName(QString::fromUtf8("groupBox"));
         groupBox->setGeometry(QRect(60, 40, 211, 451));
         verticalLayoutWidget = new QWidget(groupBox);
-        verticalLayoutWidget->setObjectName("verticalLayoutWidget");
+        verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
         verticalLayoutWidget->setGeometry(QRect(0, 29, 201, 411));
         verticalLayout = new QVBoxLayout(verticalLayoutWidget);
-        verticalLayout->setObjectName("verticalLayout");
+        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 0);
         listWidget = new QListWidget(verticalLayoutWidget);
-        listWidget->setObjectName("listWidget");
+        listWidget->setObjectName(QString::fromUtf8("listWidget"));
 
         verticalLayout->addWidget(listWidget);
 
         dockWidget->setWidget(dockWidgetContents);
-        MainWindow->addDockWidget(Qt::DockWidgetArea::LeftDockWidgetArea, dockWidget);
+        MainWindow->addDockWidget(Qt::LeftDockWidgetArea, dockWidget);
         dockWidget_3 = new QDockWidget(MainWindow);
-        dockWidget_3->setObjectName("dockWidget_3");
+        dockWidget_3->setObjectName(QString::fromUtf8("dockWidget_3"));
         dockWidgetContents_3 = new QWidget();
-        dockWidgetContents_3->setObjectName("dockWidgetContents_3");
+        dockWidgetContents_3->setObjectName(QString::fromUtf8("dockWidgetContents_3"));
         groupBox_2 = new QGroupBox(dockWidgetContents_3);
-        groupBox_2->setObjectName("groupBox_2");
+        groupBox_2->setObjectName(QString::fromUtf8("groupBox_2"));
         groupBox_2->setGeometry(QRect(60, 0, 141, 251));
         groupBox_2->setFlat(false);
         verticalLayoutWidget_2 = new QWidget(groupBox_2);
-        verticalLayoutWidget_2->setObjectName("verticalLayoutWidget_2");
+        verticalLayoutWidget_2->setObjectName(QString::fromUtf8("verticalLayoutWidget_2"));
         verticalLayoutWidget_2->setGeometry(QRect(0, 30, 131, 211));
         verticalLayout_2 = new QVBoxLayout(verticalLayoutWidget_2);
-        verticalLayout_2->setObjectName("verticalLayout_2");
+        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         verticalLayout_2->setContentsMargins(0, 0, 0, 0);
         label = new QLabel(verticalLayoutWidget_2);
-        label->setObjectName("label");
+        label->setObjectName(QString::fromUtf8("label"));
 
         verticalLayout_2->addWidget(label);
 
         progressBar = new QProgressBar(verticalLayoutWidget_2);
-        progressBar->setObjectName("progressBar");
+        progressBar->setObjectName(QString::fromUtf8("progressBar"));
         progressBar->setValue(24);
 
         verticalLayout_2->addWidget(progressBar);
 
         label_2 = new QLabel(verticalLayoutWidget_2);
-        label_2->setObjectName("label_2");
+        label_2->setObjectName(QString::fromUtf8("label_2"));
 
         verticalLayout_2->addWidget(label_2);
 
         progressBar_2 = new QProgressBar(verticalLayoutWidget_2);
-        progressBar_2->setObjectName("progressBar_2");
+        progressBar_2->setObjectName(QString::fromUtf8("progressBar_2"));
         progressBar_2->setValue(24);
 
         verticalLayout_2->addWidget(progressBar_2);
 
         label_3 = new QLabel(verticalLayoutWidget_2);
-        label_3->setObjectName("label_3");
+        label_3->setObjectName(QString::fromUtf8("label_3"));
 
         verticalLayout_2->addWidget(label_3);
 
         progressBar_3 = new QProgressBar(verticalLayoutWidget_2);
-        progressBar_3->setObjectName("progressBar_3");
+        progressBar_3->setObjectName(QString::fromUtf8("progressBar_3"));
         progressBar_3->setMinimum(0);
         progressBar_3->setMaximum(3);
         progressBar_3->setValue(0);
@@ -193,125 +193,125 @@ public:
         verticalLayout_2->addWidget(progressBar_3);
 
         groupBox_3 = new QGroupBox(dockWidgetContents_3);
-        groupBox_3->setObjectName("groupBox_3");
+        groupBox_3->setObjectName(QString::fromUtf8("groupBox_3"));
         groupBox_3->setGeometry(QRect(60, 260, 141, 101));
         groupBox_3->setFlat(false);
         gridLayoutWidget = new QWidget(groupBox_3);
-        gridLayoutWidget->setObjectName("gridLayoutWidget");
+        gridLayoutWidget->setObjectName(QString::fromUtf8("gridLayoutWidget"));
         gridLayoutWidget->setGeometry(QRect(7, 30, 131, 61));
         gridLayout = new QGridLayout(gridLayoutWidget);
-        gridLayout->setObjectName("gridLayout");
+        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         gridLayout->setContentsMargins(0, 0, 0, 0);
         toolButton = new QToolButton(gridLayoutWidget);
-        toolButton->setObjectName("toolButton");
+        toolButton->setObjectName(QString::fromUtf8("toolButton"));
 
         gridLayout->addWidget(toolButton, 0, 0, 1, 1);
 
         toolButton_2 = new QToolButton(gridLayoutWidget);
-        toolButton_2->setObjectName("toolButton_2");
+        toolButton_2->setObjectName(QString::fromUtf8("toolButton_2"));
 
         gridLayout->addWidget(toolButton_2, 1, 0, 1, 1);
 
         gimbalControlGroupBox = new QGroupBox(dockWidgetContents_3);
-        gimbalControlGroupBox->setObjectName("gimbalControlGroupBox");
+        gimbalControlGroupBox->setObjectName(QString::fromUtf8("gimbalControlGroupBox"));
         gimbalControlGroupBox->setGeometry(QRect(60, 360, 371, 151));
         gridLayoutWidget_2 = new QWidget(gimbalControlGroupBox);
-        gridLayoutWidget_2->setObjectName("gridLayoutWidget_2");
+        gridLayoutWidget_2->setObjectName(QString::fromUtf8("gridLayoutWidget_2"));
         gridLayoutWidget_2->setGeometry(QRect(10, 20, 141, 121));
         gridLayout_2 = new QGridLayout(gridLayoutWidget_2);
-        gridLayout_2->setObjectName("gridLayout_2");
+        gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
         gridLayout_2->setContentsMargins(0, 0, 0, 0);
         toolButton_7 = new QToolButton(gridLayoutWidget_2);
-        toolButton_7->setObjectName("toolButton_7");
+        toolButton_7->setObjectName(QString::fromUtf8("toolButton_7"));
 
         gridLayout_2->addWidget(toolButton_7, 1, 1, 1, 1);
 
         toolButtonLeft = new QToolButton(gridLayoutWidget_2);
-        toolButtonLeft->setObjectName("toolButtonLeft");
+        toolButtonLeft->setObjectName(QString::fromUtf8("toolButtonLeft"));
 
         gridLayout_2->addWidget(toolButtonLeft, 1, 0, 1, 1);
 
         toolButtonRight = new QToolButton(gridLayoutWidget_2);
-        toolButtonRight->setObjectName("toolButtonRight");
+        toolButtonRight->setObjectName(QString::fromUtf8("toolButtonRight"));
 
         gridLayout_2->addWidget(toolButtonRight, 1, 2, 1, 1);
 
         toolButtonUp = new QToolButton(gridLayoutWidget_2);
-        toolButtonUp->setObjectName("toolButtonUp");
+        toolButtonUp->setObjectName(QString::fromUtf8("toolButtonUp"));
 
         gridLayout_2->addWidget(toolButtonUp, 0, 1, 1, 1);
 
         toolButtonDown = new QToolButton(gridLayoutWidget_2);
-        toolButtonDown->setObjectName("toolButtonDown");
+        toolButtonDown->setObjectName(QString::fromUtf8("toolButtonDown"));
 
         gridLayout_2->addWidget(toolButtonDown, 2, 1, 1, 1);
 
         gridLayoutWidget_3 = new QWidget(gimbalControlGroupBox);
-        gridLayoutWidget_3->setObjectName("gridLayoutWidget_3");
+        gridLayoutWidget_3->setObjectName(QString::fromUtf8("gridLayoutWidget_3"));
         gridLayoutWidget_3->setGeometry(QRect(170, 20, 182, 118));
         gridLayout_3 = new QGridLayout(gridLayoutWidget_3);
-        gridLayout_3->setObjectName("gridLayout_3");
+        gridLayout_3->setObjectName(QString::fromUtf8("gridLayout_3"));
         gridLayout_3->setContentsMargins(0, 0, 0, 0);
         toolButtonFocusPlus = new QToolButton(gridLayoutWidget_3);
-        toolButtonFocusPlus->setObjectName("toolButtonFocusPlus");
+        toolButtonFocusPlus->setObjectName(QString::fromUtf8("toolButtonFocusPlus"));
 
         gridLayout_3->addWidget(toolButtonFocusPlus, 1, 0, 1, 1);
 
         toolButtonZoomPlus = new QToolButton(gridLayoutWidget_3);
-        toolButtonZoomPlus->setObjectName("toolButtonZoomPlus");
+        toolButtonZoomPlus->setObjectName(QString::fromUtf8("toolButtonZoomPlus"));
 
         gridLayout_3->addWidget(toolButtonZoomPlus, 0, 0, 1, 1);
 
         toolButtonZoomMinus = new QToolButton(gridLayoutWidget_3);
-        toolButtonZoomMinus->setObjectName("toolButtonZoomMinus");
+        toolButtonZoomMinus->setObjectName(QString::fromUtf8("toolButtonZoomMinus"));
 
         gridLayout_3->addWidget(toolButtonZoomMinus, 0, 1, 1, 1);
 
         switchtokeyboard = new QPushButton(gridLayoutWidget_3);
-        switchtokeyboard->setObjectName("switchtokeyboard");
+        switchtokeyboard->setObjectName(QString::fromUtf8("switchtokeyboard"));
 
         gridLayout_3->addWidget(switchtokeyboard, 2, 0, 1, 3);
 
         focus = new QLabel(gridLayoutWidget_3);
-        focus->setObjectName("focus");
+        focus->setObjectName(QString::fromUtf8("focus"));
 
         gridLayout_3->addWidget(focus, 1, 2, 1, 1);
 
         toolButtonFocusMinus = new QToolButton(gridLayoutWidget_3);
-        toolButtonFocusMinus->setObjectName("toolButtonFocusMinus");
+        toolButtonFocusMinus->setObjectName(QString::fromUtf8("toolButtonFocusMinus"));
 
         gridLayout_3->addWidget(toolButtonFocusMinus, 1, 1, 1, 1);
 
         zoom = new QLabel(gridLayoutWidget_3);
-        zoom->setObjectName("zoom");
+        zoom->setObjectName(QString::fromUtf8("zoom"));
 
         gridLayout_3->addWidget(zoom, 0, 2, 1, 1);
 
         switchtojoystick = new QPushButton(gridLayoutWidget_3);
-        switchtojoystick->setObjectName("switchtojoystick");
+        switchtojoystick->setObjectName(QString::fromUtf8("switchtojoystick"));
 
         gridLayout_3->addWidget(switchtojoystick, 3, 0, 1, 3);
 
         groupBox_4 = new QGroupBox(dockWidgetContents_3);
-        groupBox_4->setObjectName("groupBox_4");
+        groupBox_4->setObjectName(QString::fromUtf8("groupBox_4"));
         groupBox_4->setGeometry(QRect(220, 0, 201, 341));
         lineEditIP = new QLineEdit(groupBox_4);
-        lineEditIP->setObjectName("lineEditIP");
+        lineEditIP->setObjectName(QString::fromUtf8("lineEditIP"));
         lineEditIP->setGeometry(QRect(10, 50, 181, 25));
         lineEditPort = new QLineEdit(groupBox_4);
-        lineEditPort->setObjectName("lineEditPort");
+        lineEditPort->setObjectName(QString::fromUtf8("lineEditPort"));
         lineEditPort->setGeometry(QRect(10, 110, 171, 25));
         lineEditPath = new QLineEdit(groupBox_4);
-        lineEditPath->setObjectName("lineEditPath");
+        lineEditPath->setObjectName(QString::fromUtf8("lineEditPath"));
         lineEditPath->setGeometry(QRect(10, 170, 181, 25));
         pushButtonSaveConfig = new QPushButton(groupBox_4);
-        pushButtonSaveConfig->setObjectName("pushButtonSaveConfig");
+        pushButtonSaveConfig->setObjectName(QString::fromUtf8("pushButtonSaveConfig"));
         pushButtonSaveConfig->setGeometry(QRect(10, 230, 181, 25));
         DefaultConfig = new QPushButton(groupBox_4);
-        DefaultConfig->setObjectName("DefaultConfig");
+        DefaultConfig->setObjectName(QString::fromUtf8("DefaultConfig"));
         DefaultConfig->setGeometry(QRect(10, 270, 181, 25));
         dockWidget_3->setWidget(dockWidgetContents_3);
-        MainWindow->addDockWidget(Qt::DockWidgetArea::RightDockWidgetArea, dockWidget_3);
+        MainWindow->addDockWidget(Qt::RightDockWidgetArea, dockWidget_3);
 
         menubar->addAction(menuHexa_5->menuAction());
         menuHexa_5->addSeparator();

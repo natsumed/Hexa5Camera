@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/JoystickIdentifier_autogen"
   "JoystickIdentifier_autogen/include/ui_mainwindow.h"
   "JoystickIdentifier_autogen/mocs_compilation.cpp"
-  "JoystickIdentifier_autogen/timestamp"
 )
 
 # Per-language clean rules from dependency scanning.

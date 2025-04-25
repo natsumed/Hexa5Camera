@@ -9,8 +9,24 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+
+#set(CMAKE_EXE_LINKER_FLAGS "-static")
+#set(CMAKE_FIND_LIBRARY_SUFFIXES ".a")
+#set(BUILD_SHARED_LIBS OFF)
+#set(CMAKE_POSITION_INDEPENDENT_CODE OFF)
+
+# Qt static configuration
+set(QT6_USE_STATIC ON)
+set(QT_NO_LINK_QTMAIN ON)
+
+# Policy settings
+if(POLICY CMP0079)
+    cmake_policy(SET CMP0079 NEW)
+endif()
+
+
 # Set Qt6 prefix path (adjust if needed)
-set(CMAKE_PREFIX_PATH "/home/med/Qt/6.8.1/gcc_64/lib/cmake")
+#set(CMAKE_PREFIX_PATH "/home/med/Qt/6.8.1/gcc_64/lib/cmake")
 
 # Find Qt6 required components.
 find_package(Qt6 REQUIRED COMPONENTS Widgets Multimedia MultimediaWidgets Core)
@@ -18,8 +34,11 @@ find_package(X11 REQUIRED)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
 #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -D_DEBUG")
 
+
+
+
 # Add QJoysticks as a subdirectory.
-add_subdirectory(../QJoysticks ${CMAKE_BINARY_DIR}/QJoysticks)
+add_subdirectory(QJoysticks ${CMAKE_BINARY_DIR}/QJoysticks)
 
 # Set up project sources.
 set(PROJECT_SOURCES
@@ -54,6 +73,7 @@ target_include_directories(siyi-sdk PUBLIC
 target_link_libraries(JoystickIdentifier PRIVATE
     ${X11_LIBRARIES}
     VideoReceiver
+    Qt6::Core
     Qt6::Widgets
     Qt6::Multimedia
     Qt6::MultimediaWidgets
@@ -90,4 +110,20 @@ install(TARGETS JoystickIdentifier
 )
 
 qt_finalize_executable(JoystickIdentifier)
+
+# after qt_finalize_executable(JoystickIdentifier)
+
+# install the .desktop entry
+install(FILES
+    ${CMAKE_SOURCE_DIR}/JoystickIdentifier.desktop
+    DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/applications
+)
+
+# install a PNG or SVG you put in deploy/icons/
+install(FILES
+    ${CMAKE_SOURCE_DIR}/deploy/icons/joystickidentifier.png
+    DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/icons/hicolor/64x64/apps
+)
+
+
 

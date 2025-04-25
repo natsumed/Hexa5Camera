@@ -105,7 +105,9 @@ MainWindow::MainWindow(QWidget *parent)
         qDebug() << "Requested firmware version. Waiting for response...";
         std::this_thread::sleep_for(std::chrono::seconds(2)); 
         auto [code_version, gimbal_version, zoom_version] = sdk->get_firmware_version();
-        qDebug() <<"Code Board: " << code_version << "  Gimbal: " << gimbal_version << "  Zoom: " << zoom_version ;
+        qDebug() << "Code Board: " << code_version.c_str() 
+                 << "  Gimbal: " << gimbal_version.c_str()
+                 << "  Zoom: " << zoom_version.c_str();
     } else {
         qDebug() << "Failed to request firmware version.";
     }

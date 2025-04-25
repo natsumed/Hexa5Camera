@@ -1,52 +1,45 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'VideoRecorderWidget.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.8.1)
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.2.4)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../VideoRecorderApp/VideoRecorderWidget.h"
-#include <QtCore/qmetatype.h>
-
-#include <QtCore/qtmochelpers.h>
-
 #include <memory>
-
-
-#include <QtCore/qxptype_traits.h>
+#include "../../../VideoRecorderApp/VideoRecorderWidget.h"
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'VideoRecorderWidget.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.8.1. It"
+#error "This file was generated using the moc from 6.2.4. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
-#ifndef Q_CONSTINIT
-#define Q_CONSTINIT
-#endif
-
+QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-QT_WARNING_DISABLE_GCC("-Wuseless-cast")
-namespace {
-struct qt_meta_tag_ZN19VideoRecorderWidgetE_t {};
-} // unnamed namespace
+struct qt_meta_stringdata_VideoRecorderWidget_t {
+    const uint offsetsAndSize[2];
+    char stringdata0[20];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(offsetof(qt_meta_stringdata_VideoRecorderWidget_t, stringdata0) + ofs), len 
+static const qt_meta_stringdata_VideoRecorderWidget_t qt_meta_stringdata_VideoRecorderWidget = {
+    {
+QT_MOC_LITERAL(0, 19) // "VideoRecorderWidget"
 
-
-#ifdef QT_MOC_HAS_STRINGDATA
-static constexpr auto qt_meta_stringdata_ZN19VideoRecorderWidgetE = QtMocHelpers::stringData(
+    },
     "VideoRecorderWidget"
-);
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+};
+#undef QT_MOC_LITERAL
 
-Q_CONSTINIT static const uint qt_meta_data_ZN19VideoRecorderWidgetE[] = {
+static const uint qt_meta_data_VideoRecorderWidget[] = {
 
  // content:
-      12,       // revision
+      10,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -59,27 +52,29 @@ Q_CONSTINIT static const uint qt_meta_data_ZN19VideoRecorderWidgetE[] = {
        0        // eod
 };
 
-Q_CONSTINIT const QMetaObject VideoRecorderWidget::staticMetaObject = { {
+void VideoRecorderWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+const QMetaObject VideoRecorderWidget::staticMetaObject = { {
     QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
-    qt_meta_stringdata_ZN19VideoRecorderWidgetE.offsetsAndSizes,
-    qt_meta_data_ZN19VideoRecorderWidgetE,
+    qt_meta_stringdata_VideoRecorderWidget.offsetsAndSize,
+    qt_meta_data_VideoRecorderWidget,
     qt_static_metacall,
     nullptr,
-    qt_incomplete_metaTypeArray<qt_meta_tag_ZN19VideoRecorderWidgetE_t,
-        // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<VideoRecorderWidget, std::true_type>
-    >,
+qt_incomplete_metaTypeArray<qt_meta_stringdata_VideoRecorderWidget_t
+, QtPrivate::TypeAndForceComplete<VideoRecorderWidget, std::true_type>
+
+
+
+>,
     nullptr
 } };
 
-void VideoRecorderWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
-{
-    auto *_t = static_cast<VideoRecorderWidget *>(_o);
-    (void)_t;
-    (void)_c;
-    (void)_id;
-    (void)_a;
-}
 
 const QMetaObject *VideoRecorderWidget::metaObject() const
 {
@@ -89,7 +84,7 @@ const QMetaObject *VideoRecorderWidget::metaObject() const
 void *VideoRecorderWidget::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_ZN19VideoRecorderWidgetE.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_VideoRecorderWidget.stringdata0))
         return static_cast<void*>(this);
     return QWidget::qt_metacast(_clname);
 }
@@ -100,3 +95,4 @@ int VideoRecorderWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     return _id;
 }
 QT_WARNING_POP
+QT_END_MOC_NAMESPACE

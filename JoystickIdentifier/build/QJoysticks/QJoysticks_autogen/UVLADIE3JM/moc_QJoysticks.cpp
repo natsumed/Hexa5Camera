@@ -1,104 +1,114 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'QJoysticks.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.8.1)
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.2.4)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../../../QJoysticks/src/QJoysticks.h"
-#include <QtCore/qmetatype.h>
-
-#include <QtCore/qtmochelpers.h>
-
 #include <memory>
-
-
-#include <QtCore/qxptype_traits.h>
+#include "../../../../QJoysticks/src/QJoysticks.h"
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'QJoysticks.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.8.1. It"
+#error "This file was generated using the moc from 6.2.4. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
-#ifndef Q_CONSTINIT
-#define Q_CONSTINIT
-#endif
-
+QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-QT_WARNING_DISABLE_GCC("-Wuseless-cast")
-namespace {
-struct qt_meta_tag_ZN10QJoysticksE_t {};
-} // unnamed namespace
+struct qt_meta_stringdata_QJoysticks_t {
+    const uint offsetsAndSize[106];
+    char stringdata0[638];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(offsetof(qt_meta_stringdata_QJoysticks_t, stringdata0) + ofs), len 
+static const qt_meta_stringdata_QJoysticks_t qt_meta_stringdata_QJoysticks = {
+    {
+QT_MOC_LITERAL(0, 10), // "QJoysticks"
+QT_MOC_LITERAL(11, 12), // "countChanged"
+QT_MOC_LITERAL(24, 0), // ""
+QT_MOC_LITERAL(25, 14), // "enabledChanged"
+QT_MOC_LITERAL(40, 7), // "enabled"
+QT_MOC_LITERAL(48, 8), // "POVEvent"
+QT_MOC_LITERAL(57, 17), // "QJoystickPOVEvent"
+QT_MOC_LITERAL(75, 5), // "event"
+QT_MOC_LITERAL(81, 9), // "axisEvent"
+QT_MOC_LITERAL(91, 18), // "QJoystickAxisEvent"
+QT_MOC_LITERAL(110, 11), // "buttonEvent"
+QT_MOC_LITERAL(122, 20), // "QJoystickButtonEvent"
+QT_MOC_LITERAL(143, 10), // "povChanged"
+QT_MOC_LITERAL(154, 2), // "js"
+QT_MOC_LITERAL(157, 3), // "pov"
+QT_MOC_LITERAL(161, 5), // "angle"
+QT_MOC_LITERAL(167, 11), // "axisChanged"
+QT_MOC_LITERAL(179, 4), // "axis"
+QT_MOC_LITERAL(184, 5), // "value"
+QT_MOC_LITERAL(190, 13), // "buttonChanged"
+QT_MOC_LITERAL(204, 6), // "button"
+QT_MOC_LITERAL(211, 7), // "pressed"
+QT_MOC_LITERAL(219, 16), // "updateInterfaces"
+QT_MOC_LITERAL(236, 23), // "setVirtualJoystickRange"
+QT_MOC_LITERAL(260, 5), // "range"
+QT_MOC_LITERAL(266, 25), // "setVirtualJoystickEnabled"
+QT_MOC_LITERAL(292, 33), // "setVirtualJoystickAxisSensibi..."
+QT_MOC_LITERAL(326, 11), // "sensibility"
+QT_MOC_LITERAL(338, 32), // "setSortJoysticksByBlacklistState"
+QT_MOC_LITERAL(371, 4), // "sort"
+QT_MOC_LITERAL(376, 14), // "setBlacklisted"
+QT_MOC_LITERAL(391, 5), // "index"
+QT_MOC_LITERAL(397, 11), // "blacklisted"
+QT_MOC_LITERAL(409, 14), // "resetJoysticks"
+QT_MOC_LITERAL(424, 14), // "addInputDevice"
+QT_MOC_LITERAL(439, 16), // "QJoystickDevice*"
+QT_MOC_LITERAL(456, 6), // "device"
+QT_MOC_LITERAL(463, 10), // "onPOVEvent"
+QT_MOC_LITERAL(474, 1), // "e"
+QT_MOC_LITERAL(476, 11), // "onAxisEvent"
+QT_MOC_LITERAL(488, 13), // "onButtonEvent"
+QT_MOC_LITERAL(502, 6), // "getPOV"
+QT_MOC_LITERAL(509, 7), // "getAxis"
+QT_MOC_LITERAL(517, 9), // "getButton"
+QT_MOC_LITERAL(527, 10), // "getNumAxes"
+QT_MOC_LITERAL(538, 10), // "getNumPOVs"
+QT_MOC_LITERAL(549, 13), // "getNumButtons"
+QT_MOC_LITERAL(563, 13), // "isBlacklisted"
+QT_MOC_LITERAL(577, 14), // "joystickExists"
+QT_MOC_LITERAL(592, 7), // "getName"
+QT_MOC_LITERAL(600, 5), // "count"
+QT_MOC_LITERAL(606, 19), // "nonBlacklistedCount"
+QT_MOC_LITERAL(626, 11) // "deviceNames"
 
-
-#ifdef QT_MOC_HAS_STRINGDATA
-static constexpr auto qt_meta_stringdata_ZN10QJoysticksE = QtMocHelpers::stringData(
-    "QJoysticks",
-    "countChanged",
-    "",
-    "enabledChanged",
-    "enabled",
-    "POVEvent",
-    "QJoystickPOVEvent",
-    "event",
-    "axisEvent",
-    "QJoystickAxisEvent",
-    "buttonEvent",
-    "QJoystickButtonEvent",
-    "povChanged",
-    "js",
-    "pov",
-    "angle",
-    "axisChanged",
-    "axis",
-    "value",
-    "buttonChanged",
-    "button",
-    "pressed",
-    "updateInterfaces",
-    "setVirtualJoystickRange",
-    "range",
-    "setVirtualJoystickEnabled",
-    "setVirtualJoystickAxisSensibility",
-    "sensibility",
-    "setSortJoysticksByBlacklistState",
-    "sort",
-    "setBlacklisted",
-    "index",
-    "blacklisted",
-    "resetJoysticks",
-    "addInputDevice",
-    "QJoystickDevice*",
-    "device",
-    "onPOVEvent",
-    "e",
-    "onAxisEvent",
-    "onButtonEvent",
-    "getPOV",
-    "getAxis",
-    "getButton",
-    "getNumAxes",
-    "getNumPOVs",
-    "getNumButtons",
-    "isBlacklisted",
-    "joystickExists",
-    "getName",
-    "count",
-    "nonBlacklistedCount",
+    },
+    "QJoysticks\0countChanged\0\0enabledChanged\0"
+    "enabled\0POVEvent\0QJoystickPOVEvent\0"
+    "event\0axisEvent\0QJoystickAxisEvent\0"
+    "buttonEvent\0QJoystickButtonEvent\0"
+    "povChanged\0js\0pov\0angle\0axisChanged\0"
+    "axis\0value\0buttonChanged\0button\0pressed\0"
+    "updateInterfaces\0setVirtualJoystickRange\0"
+    "range\0setVirtualJoystickEnabled\0"
+    "setVirtualJoystickAxisSensibility\0"
+    "sensibility\0setSortJoysticksByBlacklistState\0"
+    "sort\0setBlacklisted\0index\0blacklisted\0"
+    "resetJoysticks\0addInputDevice\0"
+    "QJoystickDevice*\0device\0onPOVEvent\0e\0"
+    "onAxisEvent\0onButtonEvent\0getPOV\0"
+    "getAxis\0getButton\0getNumAxes\0getNumPOVs\0"
+    "getNumButtons\0isBlacklisted\0joystickExists\0"
+    "getName\0count\0nonBlacklistedCount\0"
     "deviceNames"
-);
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+};
+#undef QT_MOC_LITERAL
 
-Q_CONSTINIT static const uint qt_meta_data_ZN10QJoysticksE[] = {
+static const uint qt_meta_data_QJoysticks[] = {
 
  // content:
-      12,       // revision
+      10,       // revision
        0,       // classname
        0,    0, // classinfo
       28,   14, // methods
@@ -176,7 +186,7 @@ Q_CONSTINIT static const uint qt_meta_data_ZN10QJoysticksE[] = {
     QMetaType::Bool, QMetaType::Int,   31,
     QMetaType::QString, QMetaType::Int,   31,
 
- // properties: name, type, flags, notifyId, revision
+ // properties: name, type, flags
       50, QMetaType::Int, 0x00015001, uint(0), 0,
       51, QMetaType::Int, 0x00015001, uint(0), 0,
       52, QMetaType::QStringList, 0x00015001, uint(0), 0,
@@ -184,120 +194,11 @@ Q_CONSTINIT static const uint qt_meta_data_ZN10QJoysticksE[] = {
        0        // eod
 };
 
-Q_CONSTINIT const QMetaObject QJoysticks::staticMetaObject = { {
-    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
-    qt_meta_stringdata_ZN10QJoysticksE.offsetsAndSizes,
-    qt_meta_data_ZN10QJoysticksE,
-    qt_static_metacall,
-    nullptr,
-    qt_incomplete_metaTypeArray<qt_meta_tag_ZN10QJoysticksE_t,
-        // property 'count'
-        QtPrivate::TypeAndForceComplete<int, std::true_type>,
-        // property 'nonBlacklistedCount'
-        QtPrivate::TypeAndForceComplete<int, std::true_type>,
-        // property 'deviceNames'
-        QtPrivate::TypeAndForceComplete<QStringList, std::true_type>,
-        // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<QJoysticks, std::true_type>,
-        // method 'countChanged'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'enabledChanged'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const bool, std::false_type>,
-        // method 'POVEvent'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const QJoystickPOVEvent &, std::false_type>,
-        // method 'axisEvent'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const QJoystickAxisEvent &, std::false_type>,
-        // method 'buttonEvent'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const QJoystickButtonEvent &, std::false_type>,
-        // method 'povChanged'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const int, std::false_type>,
-        // method 'axisChanged'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const qreal, std::false_type>,
-        // method 'buttonChanged'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const bool, std::false_type>,
-        // method 'updateInterfaces'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'setVirtualJoystickRange'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<qreal, std::false_type>,
-        // method 'setVirtualJoystickEnabled'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
-        // method 'setVirtualJoystickAxisSensibility'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<qreal, std::false_type>,
-        // method 'setSortJoysticksByBlacklistState'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
-        // method 'setBlacklisted'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
-        // method 'resetJoysticks'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'addInputDevice'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<QJoystickDevice *, std::false_type>,
-        // method 'onPOVEvent'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const QJoystickPOVEvent &, std::false_type>,
-        // method 'onAxisEvent'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const QJoystickAxisEvent &, std::false_type>,
-        // method 'onButtonEvent'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const QJoystickButtonEvent &, std::false_type>,
-        // method 'getPOV'
-        QtPrivate::TypeAndForceComplete<int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const int, std::false_type>,
-        // method 'getAxis'
-        QtPrivate::TypeAndForceComplete<double, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const int, std::false_type>,
-        // method 'getButton'
-        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const int, std::false_type>,
-        // method 'getNumAxes'
-        QtPrivate::TypeAndForceComplete<int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const int, std::false_type>,
-        // method 'getNumPOVs'
-        QtPrivate::TypeAndForceComplete<int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const int, std::false_type>,
-        // method 'getNumButtons'
-        QtPrivate::TypeAndForceComplete<int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const int, std::false_type>,
-        // method 'isBlacklisted'
-        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const int, std::false_type>,
-        // method 'joystickExists'
-        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const int, std::false_type>,
-        // method 'getName'
-        QtPrivate::TypeAndForceComplete<QString, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const int, std::false_type>
-    >,
-    nullptr
-} };
-
 void QJoysticks::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
-    auto *_t = static_cast<QJoysticks *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<QJoysticks *>(_o);
+        (void)_t;
         switch (_id) {
         case 0: _t->countChanged(); break;
         case 1: _t->enabledChanged((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1]))); break;
@@ -338,67 +239,69 @@ void QJoysticks::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
             if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
         default: ;
         }
-    }
-    if (_c == QMetaObject::IndexOfMethod) {
+    } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _q_method_type = void (QJoysticks::*)();
-            if (_q_method_type _q_method = &QJoysticks::countChanged; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+            using _t = void (QJoysticks::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QJoysticks::countChanged)) {
                 *result = 0;
                 return;
             }
         }
         {
-            using _q_method_type = void (QJoysticks::*)(const bool );
-            if (_q_method_type _q_method = &QJoysticks::enabledChanged; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+            using _t = void (QJoysticks::*)(const bool );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QJoysticks::enabledChanged)) {
                 *result = 1;
                 return;
             }
         }
         {
-            using _q_method_type = void (QJoysticks::*)(const QJoystickPOVEvent & );
-            if (_q_method_type _q_method = &QJoysticks::POVEvent; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+            using _t = void (QJoysticks::*)(const QJoystickPOVEvent & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QJoysticks::POVEvent)) {
                 *result = 2;
                 return;
             }
         }
         {
-            using _q_method_type = void (QJoysticks::*)(const QJoystickAxisEvent & );
-            if (_q_method_type _q_method = &QJoysticks::axisEvent; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+            using _t = void (QJoysticks::*)(const QJoystickAxisEvent & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QJoysticks::axisEvent)) {
                 *result = 3;
                 return;
             }
         }
         {
-            using _q_method_type = void (QJoysticks::*)(const QJoystickButtonEvent & );
-            if (_q_method_type _q_method = &QJoysticks::buttonEvent; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+            using _t = void (QJoysticks::*)(const QJoystickButtonEvent & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QJoysticks::buttonEvent)) {
                 *result = 4;
                 return;
             }
         }
         {
-            using _q_method_type = void (QJoysticks::*)(const int , const int , const int );
-            if (_q_method_type _q_method = &QJoysticks::povChanged; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+            using _t = void (QJoysticks::*)(const int , const int , const int );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QJoysticks::povChanged)) {
                 *result = 5;
                 return;
             }
         }
         {
-            using _q_method_type = void (QJoysticks::*)(const int , const int , const qreal );
-            if (_q_method_type _q_method = &QJoysticks::axisChanged; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+            using _t = void (QJoysticks::*)(const int , const int , const qreal );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QJoysticks::axisChanged)) {
                 *result = 6;
                 return;
             }
         }
         {
-            using _q_method_type = void (QJoysticks::*)(const int , const int , const bool );
-            if (_q_method_type _q_method = &QJoysticks::buttonChanged; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+            using _t = void (QJoysticks::*)(const int , const int , const bool );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QJoysticks::buttonChanged)) {
                 *result = 7;
                 return;
             }
         }
     }
-    if (_c == QMetaObject::ReadProperty) {
+#ifndef QT_NO_PROPERTIES
+    else if (_c == QMetaObject::ReadProperty) {
+        auto *_t = static_cast<QJoysticks *>(_o);
+        (void)_t;
         void *_v = _a[0];
         switch (_id) {
         case 0: *reinterpret_cast< int*>(_v) = _t->count(); break;
@@ -406,8 +309,28 @@ void QJoysticks::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 2: *reinterpret_cast< QStringList*>(_v) = _t->deviceNames(); break;
         default: break;
         }
+    } else if (_c == QMetaObject::WriteProperty) {
+    } else if (_c == QMetaObject::ResetProperty) {
+    } else if (_c == QMetaObject::BindableProperty) {
     }
+#endif // QT_NO_PROPERTIES
 }
+
+const QMetaObject QJoysticks::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_QJoysticks.offsetsAndSize,
+    qt_meta_data_QJoysticks,
+    qt_static_metacall,
+    nullptr,
+qt_incomplete_metaTypeArray<qt_meta_stringdata_QJoysticks_t
+, QtPrivate::TypeAndForceComplete<int, std::true_type>, QtPrivate::TypeAndForceComplete<int, std::true_type>, QtPrivate::TypeAndForceComplete<QStringList, std::true_type>, QtPrivate::TypeAndForceComplete<QJoysticks, std::true_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const bool, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QJoystickPOVEvent &, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QJoystickAxisEvent &, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QJoystickButtonEvent &, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const int, std::false_type>, QtPrivate::TypeAndForceComplete<const int, std::false_type>, QtPrivate::TypeAndForceComplete<const int, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const int, std::false_type>, QtPrivate::TypeAndForceComplete<const int, std::false_type>, QtPrivate::TypeAndForceComplete<const qreal, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const int, std::false_type>, QtPrivate::TypeAndForceComplete<const int, std::false_type>, QtPrivate::TypeAndForceComplete<const bool, std::false_type>
+, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<qreal, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<bool, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<qreal, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<bool, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<int, std::false_type>, QtPrivate::TypeAndForceComplete<bool, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<QJoystickDevice *, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QJoystickPOVEvent &, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QJoystickAxisEvent &, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QJoystickButtonEvent &, std::false_type>
+, QtPrivate::TypeAndForceComplete<int, std::false_type>, QtPrivate::TypeAndForceComplete<const int, std::false_type>, QtPrivate::TypeAndForceComplete<const int, std::false_type>, QtPrivate::TypeAndForceComplete<double, std::false_type>, QtPrivate::TypeAndForceComplete<const int, std::false_type>, QtPrivate::TypeAndForceComplete<const int, std::false_type>, QtPrivate::TypeAndForceComplete<bool, std::false_type>, QtPrivate::TypeAndForceComplete<const int, std::false_type>, QtPrivate::TypeAndForceComplete<const int, std::false_type>, QtPrivate::TypeAndForceComplete<int, std::false_type>, QtPrivate::TypeAndForceComplete<const int, std::false_type>, QtPrivate::TypeAndForceComplete<int, std::false_type>, QtPrivate::TypeAndForceComplete<const int, std::false_type>, QtPrivate::TypeAndForceComplete<int, std::false_type>, QtPrivate::TypeAndForceComplete<const int, std::false_type>, QtPrivate::TypeAndForceComplete<bool, std::false_type>, QtPrivate::TypeAndForceComplete<const int, std::false_type>, QtPrivate::TypeAndForceComplete<bool, std::false_type>, QtPrivate::TypeAndForceComplete<const int, std::false_type>, QtPrivate::TypeAndForceComplete<QString, std::false_type>, QtPrivate::TypeAndForceComplete<const int, std::false_type>
+
+>,
+    nullptr
+} };
+
 
 const QMetaObject *QJoysticks::metaObject() const
 {
@@ -417,7 +340,7 @@ const QMetaObject *QJoysticks::metaObject() const
 void *QJoysticks::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_ZN10QJoysticksE.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_QJoysticks.stringdata0))
         return static_cast<void*>(this);
     return QObject::qt_metacast(_clname);
 }
@@ -431,18 +354,19 @@ int QJoysticks::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         if (_id < 28)
             qt_static_metacall(this, _c, _id, _a);
         _id -= 28;
-    }
-    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
         if (_id < 28)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
         _id -= 28;
     }
-    if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+#ifndef QT_NO_PROPERTIES
+    else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
             || _c == QMetaObject::ResetProperty || _c == QMetaObject::BindableProperty
             || _c == QMetaObject::RegisterPropertyMetaType) {
         qt_static_metacall(this, _c, _id, _a);
         _id -= 3;
     }
+#endif // QT_NO_PROPERTIES
     return _id;
 }
 
@@ -501,3 +425,4 @@ void QJoysticks::buttonChanged(const int _t1, const int _t2, const bool _t3)
     QMetaObject::activate(this, &staticMetaObject, 7, _a);
 }
 QT_WARNING_POP
+QT_END_MOC_NAMESPACE

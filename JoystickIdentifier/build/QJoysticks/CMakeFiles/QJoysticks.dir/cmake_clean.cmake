@@ -12,8 +12,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/QJoysticks.dir/src/QJoysticks/SDL_Joysticks.cpp.o.d"
   "CMakeFiles/QJoysticks.dir/src/QJoysticks/VirtualJoystick.cpp.o"
   "CMakeFiles/QJoysticks.dir/src/QJoysticks/VirtualJoystick.cpp.o.d"
-  "QJoysticks_autogen/mocs_compilation.cpp"
-  "QJoysticks_autogen/timestamp"
   "libQJoysticks.a"
   "libQJoysticks.pdb"
 )

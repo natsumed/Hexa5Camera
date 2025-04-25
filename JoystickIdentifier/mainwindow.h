@@ -13,6 +13,7 @@
 #include <QMediaPlayer>
 #include <QVideoWidget>
 #include <mutex>
+#include <QElapsedTimer> 
 
 namespace Ui {
 class MainWindow;

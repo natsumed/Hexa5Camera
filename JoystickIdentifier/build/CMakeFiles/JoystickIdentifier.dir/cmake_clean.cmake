@@ -16,8 +16,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/JoystickIdentifier.dir/signalhandler.cpp.o.d"
   "JoystickIdentifier"
   "JoystickIdentifier.pdb"
-  "JoystickIdentifier_autogen/mocs_compilation.cpp"
-  "JoystickIdentifier_autogen/timestamp"
 )
 
 # Per-language clean rules from dependency scanning.

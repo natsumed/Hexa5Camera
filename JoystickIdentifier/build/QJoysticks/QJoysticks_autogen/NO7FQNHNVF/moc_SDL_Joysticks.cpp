@@ -1,67 +1,65 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'SDL_Joysticks.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.8.1)
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.2.4)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../../../QJoysticks/src/QJoysticks/SDL_Joysticks.h"
-#include <QtCore/qmetatype.h>
-
-#include <QtCore/qtmochelpers.h>
-
 #include <memory>
-
-
-#include <QtCore/qxptype_traits.h>
+#include "../../../../QJoysticks/src/QJoysticks/SDL_Joysticks.h"
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'SDL_Joysticks.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.8.1. It"
+#error "This file was generated using the moc from 6.2.4. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
-#ifndef Q_CONSTINIT
-#define Q_CONSTINIT
-#endif
-
+QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-QT_WARNING_DISABLE_GCC("-Wuseless-cast")
-namespace {
-struct qt_meta_tag_ZN13SDL_JoysticksE_t {};
-} // unnamed namespace
+struct qt_meta_stringdata_SDL_Joysticks_t {
+    const uint offsetsAndSize[32];
+    char stringdata0[196];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(offsetof(qt_meta_stringdata_SDL_Joysticks_t, stringdata0) + ofs), len 
+static const qt_meta_stringdata_SDL_Joysticks_t qt_meta_stringdata_SDL_Joysticks = {
+    {
+QT_MOC_LITERAL(0, 13), // "SDL_Joysticks"
+QT_MOC_LITERAL(14, 12), // "countChanged"
+QT_MOC_LITERAL(27, 0), // ""
+QT_MOC_LITERAL(28, 8), // "POVEvent"
+QT_MOC_LITERAL(37, 17), // "QJoystickPOVEvent"
+QT_MOC_LITERAL(55, 5), // "event"
+QT_MOC_LITERAL(61, 9), // "axisEvent"
+QT_MOC_LITERAL(71, 18), // "QJoystickAxisEvent"
+QT_MOC_LITERAL(90, 11), // "buttonEvent"
+QT_MOC_LITERAL(102, 20), // "QJoystickButtonEvent"
+QT_MOC_LITERAL(123, 6), // "rumble"
+QT_MOC_LITERAL(130, 15), // "QJoystickRumble"
+QT_MOC_LITERAL(146, 7), // "request"
+QT_MOC_LITERAL(154, 6), // "update"
+QT_MOC_LITERAL(161, 17), // "configureJoystick"
+QT_MOC_LITERAL(179, 16) // "const SDL_Event*"
 
-
-#ifdef QT_MOC_HAS_STRINGDATA
-static constexpr auto qt_meta_stringdata_ZN13SDL_JoysticksE = QtMocHelpers::stringData(
-    "SDL_Joysticks",
-    "countChanged",
-    "",
-    "POVEvent",
-    "QJoystickPOVEvent",
-    "event",
-    "axisEvent",
-    "QJoystickAxisEvent",
-    "buttonEvent",
-    "QJoystickButtonEvent",
-    "rumble",
-    "QJoystickRumble",
-    "request",
-    "update",
-    "configureJoystick",
+    },
+    "SDL_Joysticks\0countChanged\0\0POVEvent\0"
+    "QJoystickPOVEvent\0event\0axisEvent\0"
+    "QJoystickAxisEvent\0buttonEvent\0"
+    "QJoystickButtonEvent\0rumble\0QJoystickRumble\0"
+    "request\0update\0configureJoystick\0"
     "const SDL_Event*"
-);
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
+};
+#undef QT_MOC_LITERAL
 
-Q_CONSTINIT static const uint qt_meta_data_ZN13SDL_JoysticksE[] = {
+static const uint qt_meta_data_SDL_Joysticks[] = {
 
  // content:
-      12,       // revision
+      10,       // revision
        0,       // classname
        0,    0, // classinfo
        7,   14, // methods
@@ -96,42 +94,11 @@ Q_CONSTINIT static const uint qt_meta_data_ZN13SDL_JoysticksE[] = {
        0        // eod
 };
 
-Q_CONSTINIT const QMetaObject SDL_Joysticks::staticMetaObject = { {
-    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
-    qt_meta_stringdata_ZN13SDL_JoysticksE.offsetsAndSizes,
-    qt_meta_data_ZN13SDL_JoysticksE,
-    qt_static_metacall,
-    nullptr,
-    qt_incomplete_metaTypeArray<qt_meta_tag_ZN13SDL_JoysticksE_t,
-        // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<SDL_Joysticks, std::true_type>,
-        // method 'countChanged'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'POVEvent'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const QJoystickPOVEvent &, std::false_type>,
-        // method 'axisEvent'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const QJoystickAxisEvent &, std::false_type>,
-        // method 'buttonEvent'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const QJoystickButtonEvent &, std::false_type>,
-        // method 'rumble'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const QJoystickRumble &, std::false_type>,
-        // method 'update'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'configureJoystick'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const SDL_Event *, std::false_type>
-    >,
-    nullptr
-} };
-
 void SDL_Joysticks::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
-    auto *_t = static_cast<SDL_Joysticks *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<SDL_Joysticks *>(_o);
+        (void)_t;
         switch (_id) {
         case 0: _t->countChanged(); break;
         case 1: _t->POVEvent((*reinterpret_cast< std::add_pointer_t<QJoystickPOVEvent>>(_a[1]))); break;
@@ -142,39 +109,54 @@ void SDL_Joysticks::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         case 6: _t->configureJoystick((*reinterpret_cast< std::add_pointer_t<const SDL_Event*>>(_a[1]))); break;
         default: ;
         }
-    }
-    if (_c == QMetaObject::IndexOfMethod) {
+    } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _q_method_type = void (SDL_Joysticks::*)();
-            if (_q_method_type _q_method = &SDL_Joysticks::countChanged; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+            using _t = void (SDL_Joysticks::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&SDL_Joysticks::countChanged)) {
                 *result = 0;
                 return;
             }
         }
         {
-            using _q_method_type = void (SDL_Joysticks::*)(const QJoystickPOVEvent & );
-            if (_q_method_type _q_method = &SDL_Joysticks::POVEvent; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+            using _t = void (SDL_Joysticks::*)(const QJoystickPOVEvent & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&SDL_Joysticks::POVEvent)) {
                 *result = 1;
                 return;
             }
         }
         {
-            using _q_method_type = void (SDL_Joysticks::*)(const QJoystickAxisEvent & );
-            if (_q_method_type _q_method = &SDL_Joysticks::axisEvent; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+            using _t = void (SDL_Joysticks::*)(const QJoystickAxisEvent & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&SDL_Joysticks::axisEvent)) {
                 *result = 2;
                 return;
             }
         }
         {
-            using _q_method_type = void (SDL_Joysticks::*)(const QJoystickButtonEvent & );
-            if (_q_method_type _q_method = &SDL_Joysticks::buttonEvent; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+            using _t = void (SDL_Joysticks::*)(const QJoystickButtonEvent & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&SDL_Joysticks::buttonEvent)) {
                 *result = 3;
                 return;
             }
         }
     }
 }
+
+const QMetaObject SDL_Joysticks::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_SDL_Joysticks.offsetsAndSize,
+    qt_meta_data_SDL_Joysticks,
+    qt_static_metacall,
+    nullptr,
+qt_incomplete_metaTypeArray<qt_meta_stringdata_SDL_Joysticks_t
+, QtPrivate::TypeAndForceComplete<SDL_Joysticks, std::true_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QJoystickPOVEvent &, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QJoystickAxisEvent &, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QJoystickButtonEvent &, std::false_type>
+, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QJoystickRumble &, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const SDL_Event *, std::false_type>
+
+
+>,
+    nullptr
+} };
+
 
 const QMetaObject *SDL_Joysticks::metaObject() const
 {
@@ -184,7 +166,7 @@ const QMetaObject *SDL_Joysticks::metaObject() const
 void *SDL_Joysticks::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_ZN13SDL_JoysticksE.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_SDL_Joysticks.stringdata0))
         return static_cast<void*>(this);
     return QObject::qt_metacast(_clname);
 }
@@ -198,8 +180,7 @@ int SDL_Joysticks::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         if (_id < 7)
             qt_static_metacall(this, _c, _id, _a);
         _id -= 7;
-    }
-    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
         if (_id < 7)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
         _id -= 7;
@@ -234,3 +215,4 @@ void SDL_Joysticks::buttonEvent(const QJoystickButtonEvent & _t1)
     QMetaObject::activate(this, &staticMetaObject, 3, _a);
 }
 QT_WARNING_POP
+QT_END_MOC_NAMESPACE

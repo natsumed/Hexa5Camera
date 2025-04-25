@@ -6,8 +6,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/VideoReceiver.dir/VideoReceiver.cpp.o.d"
   "CMakeFiles/VideoReceiver.dir/VideoReceiver_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/VideoReceiver.dir/VideoReceiver_autogen/mocs_compilation.cpp.o.d"
-  "VideoReceiver_autogen/mocs_compilation.cpp"
-  "VideoReceiver_autogen/timestamp"
   "libVideoReceiver.a"
   "libVideoReceiver.pdb"
 )
