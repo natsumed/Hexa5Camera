@@ -47,6 +47,10 @@ private slots:
     void saveConfig();
     void saveDefaultConfig();
     void handleCommandFeedback(const QString& commandId, bool success);
+    void onCameraStarted();
+    void onCameraError(const QString &msg);
+    void refreshCameraStatus();
+
 
 private:
     Ui::MainWindow *ui;

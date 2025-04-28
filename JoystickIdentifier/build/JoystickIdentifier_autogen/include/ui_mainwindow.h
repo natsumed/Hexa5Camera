@@ -87,6 +87,8 @@ public:
     QLineEdit *lineEditPath;
     QPushButton *pushButtonSaveConfig;
     QPushButton *DefaultConfig;
+    QGroupBox *groupBox_5;
+    QLineEdit *lineEditCameraStatus;
 
     void setupUi(QMainWindow *MainWindow)
     {
@@ -310,6 +312,12 @@ public:
         DefaultConfig = new QPushButton(groupBox_4);
         DefaultConfig->setObjectName(QString::fromUtf8("DefaultConfig"));
         DefaultConfig->setGeometry(QRect(10, 270, 181, 25));
+        groupBox_5 = new QGroupBox(dockWidgetContents_3);
+        groupBox_5->setObjectName(QString::fromUtf8("groupBox_5"));
+        groupBox_5->setGeometry(QRect(60, 510, 341, 80));
+        lineEditCameraStatus = new QLineEdit(groupBox_5);
+        lineEditCameraStatus->setObjectName(QString::fromUtf8("lineEditCameraStatus"));
+        lineEditCameraStatus->setGeometry(QRect(0, 20, 341, 25));
         dockWidget_3->setWidget(dockWidgetContents_3);
         MainWindow->addDockWidget(Qt::RightDockWidgetArea, dockWidget_3);
 
@@ -358,6 +366,7 @@ public:
         lineEditPath->setPlaceholderText(QCoreApplication::translate("MainWindow", "Input Camera Path", nullptr));
         pushButtonSaveConfig->setText(QCoreApplication::translate("MainWindow", "Save Configuration", nullptr));
         DefaultConfig->setText(QCoreApplication::translate("MainWindow", "Default Configuration", nullptr));
+        groupBox_5->setTitle(QCoreApplication::translate("MainWindow", "Camera Status", nullptr));
     } // retranslateUi
 
 };

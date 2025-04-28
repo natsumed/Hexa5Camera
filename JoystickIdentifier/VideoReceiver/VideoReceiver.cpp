@@ -1,174 +1,143 @@
+// VideoReceiver.cpp
 #include "VideoReceiver.h"
-#include <gst/gst.h>
-#include <gst/video/videooverlay.h>
 #include <QDebug>
-#include <QtCore>
+#include <QMetaObject>
 #include <QStandardPaths>
-#include <QDir>
 #include <QFile>
+#include <QDir>
 #include <QJsonDocument>
 #include <QJsonObject>
-
-// Temporarily undefine the "signals" macro to avoid conflicts.
-#ifdef signals
-#  undef signals
-#  define RESTORE_SIGNALS_AFTER_GST_RTSP
-#endif
-
-#include <gst/rtsp/gstrtspconnection.h>
-
-#ifdef RESTORE_SIGNALS_AFTER_GST_RTSP
-#  define signals Q_SIGNALS
-#  undef RESTORE_SIGNALS_AFTER_GST_RTSP
-#endif
+#include <gst/video/videooverlay.h>
 
 
-// Forward declaration for the pad-added callback.
-static void on_pad_added(GstElement *src, GstPad *new_pad, gpointer data);
+// --- pad-added handler -----------------------------------------------------
+static void on_pad_added(GstElement *decodebin,
+                         GstPad     *newPad,
+                         gpointer    user_data)
+{
+    auto *convert = static_cast<GstElement*>(user_data);
+    GstPad *sinkPad = gst_element_get_static_pad(convert, "sink");
+    if (gst_pad_is_linked(sinkPad)) {
+        gst_object_unref(sinkPad);
+        return;
+    }
 
-gboolean VideoReceiver::bus_call(GstBus *bus, GstMessage *msg, gpointer data) {
-    Q_UNUSED(bus);
-    VideoReceiver *self = static_cast<VideoReceiver*>(data);
+    // check caps
+    GstCaps *caps = gst_pad_get_current_caps(newPad);
+    GstStructure *str = gst_caps_get_structure(caps, 0);
+    const char *name = gst_structure_get_name(str);
+    qDebug() << "[VideoReceiver] pad-added type:" << name;
+
+    if (g_str_has_prefix(name, "video/")) {
+        if (gst_pad_link(newPad, sinkPad) != GST_PAD_LINK_OK) {
+            qDebug() << "[VideoReceiver] Failed to link decodebin → convert";
+        } else {
+            qDebug() << "[VideoReceiver] Linked decodebin → convert OK";
+        }
+    }
+
+    gst_caps_unref(caps);
+    gst_object_unref(sinkPad);
+}
+
+gboolean VideoReceiver::bus_call(GstBus * /*bus*/, GstMessage *msg, gpointer data) {
+    auto *self = static_cast<VideoReceiver*>(data);
     switch (GST_MESSAGE_TYPE(msg)) {
-    case GST_MESSAGE_EOS:
-        qDebug() << "End of stream";
-        break;
-    case GST_MESSAGE_ERROR: {
-        gchar *debug;
-        GError *error;
-        gst_message_parse_error(msg, &error, &debug);
-        qDebug() << "Error:" << error->message;
-        g_free(debug);
-        g_error_free(error);
+    case GST_MESSAGE_STATE_CHANGED: {
+        if (GST_MESSAGE_SRC(msg) == GST_OBJECT(self->pipeline)) {
+            GstState oldS, newS, pend;
+            gst_message_parse_state_changed(msg, &oldS, &newS, &pend);
+            if (newS == GST_STATE_PLAYING)
+                emit self->cameraStarted();
+        }
         break;
     }
+    case GST_MESSAGE_ERROR: {
+        GError *err = nullptr;
+        gchar  *dbg = nullptr;
+        gst_message_parse_error(msg, &err, &dbg);
+        QString txt = QString::fromUtf8(err->message);
+        qDebug() << "[VideoReceiver] ERROR:" << txt;
+        emit self->cameraError(txt);
+        gst_element_set_state(self->pipeline, GST_STATE_READY);
+        gst_element_set_state(self->pipeline, GST_STATE_PLAYING);
+        g_error_free(err);
+        g_free(dbg);
+        break;
+    }
+    case GST_MESSAGE_EOS:
+        qDebug() << "[VideoReceiver] End of stream";
+        emit self->cameraError("End of stream");
+        gst_element_set_state(self->pipeline, GST_STATE_READY);
+        gst_element_set_state(self->pipeline, GST_STATE_PLAYING);
+        break;
     default:
         break;
     }
     return TRUE;
 }
 
-VideoReceiver::VideoReceiver(QObject *parent) : QObject(parent) {
+VideoReceiver::VideoReceiver(QObject *parent)
+    : QObject(parent)
+{
     gst_init(nullptr, nullptr);
 
-    QString rtspUri = getRtspUriFromConfig();
-    qDebug() << "Using RTSP URI:" << rtspUri;
-
-    // 1) Create pipeline and elements
-    pipeline       = gst_pipeline_new("video-receiver");
-    GstElement *src = gst_element_factory_make("uridecodebin", "source");
-    GstElement *convert = gst_element_factory_make("videoconvert", "convert");
-    videosink      = gst_element_factory_make("xvimagesink", "videosink");  
-    // xvimagesink supports GstVideoOverlay
+    // 1) create elements
+    pipeline  = gst_pipeline_new("video-receiver");
+    GstElement *src = gst_element_factory_make("uridecodebin", "src");
+    convert   = gst_element_factory_make("videoconvert",  "convert");
+    videosink = gst_element_factory_make("xvimagesink",   "sink");
 
     if (!pipeline || !src || !convert || !videosink) {
-        qDebug() << "Failed to create one or more GStreamer elements.";
+        qCritical() << "Failed to create GStreamer elements";
         return;
     }
 
-    // 2) Configure uridecodebin
-    g_object_set(src, "uri", rtspUri.toStdString().c_str(), nullptr);
-    g_object_set(src, "timeout", (guint)30000000, nullptr);
+    // 2) configure source URI
+    QString uri = getRtspUriFromConfig();
+    g_object_set(src, "uri", uri.toUtf8().constData(), nullptr);
 
-    // 3) Build pipeline: add & link the static parts
+    // 3) add & link static part: convert → videosink
     gst_bin_add_many(GST_BIN(pipeline), src, convert, videosink, nullptr);
     if (!gst_element_link(convert, videosink)) {
-        qDebug() << "Could not link videoconvert → xvimagesink";
-        return;
+        qCritical() << "Could not link convert → sink";
     }
 
-    // 4) Dynamic pad: when uridecodebin has decoded video, link it into videoconvert
-    g_signal_connect(src, "pad-added", G_CALLBACK(+[](
-        GstElement* /*decodebin*/, GstPad* newPad, gpointer user_data) {
-        
-        GstElement *convert = static_cast<GstElement*>(user_data);
-        GstPad *sinkPad = gst_element_get_static_pad(convert, "sink");
-        if (gst_pad_is_linked(sinkPad)) {
-            gst_object_unref(sinkPad);
-            return;
-        }
+    // 4) dynamic pad: when decodebin produces a video pad, hook it to convert
+    g_signal_connect(src, "pad-added", G_CALLBACK(on_pad_added), convert);
 
-        GstCaps *caps = gst_pad_query_caps(newPad, nullptr);
-        GstStructure *str = gst_caps_get_structure(caps, 0);
-        const char *name = gst_structure_get_name(str);
-        qDebug() << "uridecodebin new pad type:" << name;
-
-        // only link video streams
-        if (g_str_has_prefix(name, "video/")) {
-            if (gst_pad_link(newPad, sinkPad) != GST_PAD_LINK_OK)
-                qDebug() << "Failed to link decodebin → videoconvert";
-            else
-                qDebug() << "Linked decodebin → videoconvert OK";
-        }
-        gst_caps_unref(caps);
-        gst_object_unref(sinkPad);
-    }), convert);
-
-    // 5) Set up bus watch
+    // 5) watch the bus for errors/EOS/state
     GstBus *bus = gst_element_get_bus(pipeline);
     gst_bus_add_watch(bus, VideoReceiver::bus_call, this);
     gst_object_unref(bus);
 
-    // 6) Start playing
-    qDebug() << "Setting pipeline to PLAYING";
+    // 6) start playback
     gst_element_set_state(pipeline, GST_STATE_PLAYING);
-    qDebug() << "Pipeline state set";
+    qDebug() << "[VideoReceiver] Pipeline set to PLAYING";
 }
 
-
-
-
 VideoReceiver::~VideoReceiver() {
-    gst_element_set_state(pipeline, GST_STATE_NULL);
-    gst_object_unref(pipeline);
+    if (pipeline) {
+        gst_element_set_state(pipeline, GST_STATE_NULL);
+        gst_object_unref(pipeline);
+    }
 }
 
 void VideoReceiver::setWindowId(WId id) {
     if (videosink) {
-        gst_video_overlay_set_window_handle(GST_VIDEO_OVERLAY(videosink), id);
+        gst_video_overlay_set_window_handle(
+            GST_VIDEO_OVERLAY(videosink),
+            id
+            );
     }
 }
 
-// The pad-added callback to link the dynamic pad from rtspsrc to rtph264depay.
-static void on_pad_added(GstElement *src, GstPad *new_pad, gpointer data) {
-    GstElement *rtph264depay = static_cast<GstElement*>(data);
-    GstPad *sink_pad = gst_element_get_static_pad(rtph264depay, "sink");
-    if (!sink_pad) {
-        qDebug() << "Failed to get static pad for rtph264depay.";
-        return;
-    }
-    if (gst_pad_is_linked(sink_pad)) {
-        gst_object_unref(sink_pad);
-        return;
-    }
-
-    // <-- use query_caps here -->
-    GstCaps *new_pad_caps = gst_pad_query_caps(new_pad, nullptr);
-    GstStructure *new_pad_struct = gst_caps_get_structure(new_pad_caps, 0);
-    const gchar *new_pad_type = gst_structure_get_name(new_pad_struct);
-    qDebug() << "New pad type:" << new_pad_type;
-
-    if (g_str_has_prefix(new_pad_type, "application/x-rtp")) {
-        if (gst_pad_can_link(new_pad, sink_pad)) {
-            GstPadLinkReturn ret = gst_pad_link(new_pad, sink_pad);
-            if (ret == GST_PAD_LINK_OK) {
-                qDebug() << "Pad linked successfully.";
-            } else {
-                qDebug() << "Link failed, code:" << ret;
-            }
-        } else {
-            qDebug() << "Pads cannot be linked.";
-        }
-    } else {
-        qDebug() << "Unsupported pad type:" << new_pad_type;
-    }
-
-    gst_caps_unref(new_pad_caps);
-    gst_object_unref(sink_pad);
+void VideoReceiver::stop() {
+    if (pipeline)
+        gst_element_set_state(pipeline, GST_STATE_NULL);
 }
 
-
-
+// --- read URI from JSON config (unchanged) --------------------------------
 QString VideoReceiver::getRtspUriFromConfig() {
     // Get the standard config location (typically ~/.config)
     QString configDir = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation);
@@ -235,12 +204,14 @@ QString VideoReceiver::getRtspUriFromConfig() {
     }
 }
 
-
-void VideoReceiver::stop() {
-  if (pipeline) {
-    gst_element_set_state(pipeline, GST_STATE_NULL);
-    gst_object_unref(pipeline);
-    pipeline = nullptr;
-  }
+bool VideoReceiver::isPlaying() const {
+    if (!pipeline) return false;
+    GstState cur, pending;
+    // zero timeout means “just query”
+    if (gst_element_get_state(pipeline, &cur, &pending, 0)
+        == GST_STATE_CHANGE_SUCCESS) {
+        return cur == GST_STATE_PLAYING;
+    }
+    return false;
 }
 

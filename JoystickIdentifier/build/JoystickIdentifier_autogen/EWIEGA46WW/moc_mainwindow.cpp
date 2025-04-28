@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
-    const uint offsetsAndSize[44];
-    char stringdata0[278];
+    const uint offsetsAndSize[52];
+    char stringdata0[332];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(offsetof(qt_meta_stringdata_MainWindow_t, stringdata0) + ofs), len 
@@ -50,7 +50,11 @@ QT_MOC_LITERAL(209, 10), // "saveConfig"
 QT_MOC_LITERAL(220, 17), // "saveDefaultConfig"
 QT_MOC_LITERAL(238, 21), // "handleCommandFeedback"
 QT_MOC_LITERAL(260, 9), // "commandId"
-QT_MOC_LITERAL(270, 7) // "success"
+QT_MOC_LITERAL(270, 7), // "success"
+QT_MOC_LITERAL(278, 15), // "onCameraStarted"
+QT_MOC_LITERAL(294, 13), // "onCameraError"
+QT_MOC_LITERAL(308, 3), // "msg"
+QT_MOC_LITERAL(312, 19) // "refreshCameraStatus"
 
     },
     "MainWindow\0updateDeviceList\0\0"
@@ -60,7 +64,9 @@ QT_MOC_LITERAL(270, 7) // "success"
     "QListWidgetItem*\0item\0onSwitchToKeyboard\0"
     "onSwitchToJoystick\0sendGimbalCommands\0"
     "saveConfig\0saveDefaultConfig\0"
-    "handleCommandFeedback\0commandId\0success"
+    "handleCommandFeedback\0commandId\0success\0"
+    "onCameraStarted\0onCameraError\0msg\0"
+    "refreshCameraStatus"
 };
 #undef QT_MOC_LITERAL
 
@@ -70,7 +76,7 @@ static const uint qt_meta_data_MainWindow[] = {
       10,       // revision
        0,       // classname
        0,    0, // classinfo
-      11,   14, // methods
+      14,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -78,17 +84,20 @@ static const uint qt_meta_data_MainWindow[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   80,    2, 0x08,    1 /* Private */,
-       3,    0,   81,    2, 0x08,    2 /* Private */,
-       4,    3,   82,    2, 0x08,    3 /* Private */,
-       8,    3,   89,    2, 0x08,    7 /* Private */,
-      11,    1,   96,    2, 0x08,   11 /* Private */,
-      14,    0,   99,    2, 0x08,   13 /* Private */,
-      15,    0,  100,    2, 0x08,   14 /* Private */,
-      16,    0,  101,    2, 0x08,   15 /* Private */,
-      17,    0,  102,    2, 0x08,   16 /* Private */,
-      18,    0,  103,    2, 0x08,   17 /* Private */,
-      19,    2,  104,    2, 0x08,   18 /* Private */,
+       1,    0,   98,    2, 0x08,    1 /* Private */,
+       3,    0,   99,    2, 0x08,    2 /* Private */,
+       4,    3,  100,    2, 0x08,    3 /* Private */,
+       8,    3,  107,    2, 0x08,    7 /* Private */,
+      11,    1,  114,    2, 0x08,   11 /* Private */,
+      14,    0,  117,    2, 0x08,   13 /* Private */,
+      15,    0,  118,    2, 0x08,   14 /* Private */,
+      16,    0,  119,    2, 0x08,   15 /* Private */,
+      17,    0,  120,    2, 0x08,   16 /* Private */,
+      18,    0,  121,    2, 0x08,   17 /* Private */,
+      19,    2,  122,    2, 0x08,   18 /* Private */,
+      22,    0,  127,    2, 0x08,   21 /* Private */,
+      23,    1,  128,    2, 0x08,   22 /* Private */,
+      25,    0,  131,    2, 0x08,   24 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
@@ -102,6 +111,9 @@ static const uint qt_meta_data_MainWindow[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void, QMetaType::QString, QMetaType::Bool,   20,   21,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,   24,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -123,6 +135,9 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 8: _t->saveConfig(); break;
         case 9: _t->saveDefaultConfig(); break;
         case 10: _t->handleCommandFeedback((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<bool>>(_a[2]))); break;
+        case 11: _t->onCameraStarted(); break;
+        case 12: _t->onCameraError((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 13: _t->refreshCameraStatus(); break;
         default: ;
         }
     }
@@ -136,7 +151,7 @@ const QMetaObject MainWindow::staticMetaObject = { {
     nullptr,
 qt_incomplete_metaTypeArray<qt_meta_stringdata_MainWindow_t
 , QtPrivate::TypeAndForceComplete<MainWindow, std::true_type>
-, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<int, std::false_type>, QtPrivate::TypeAndForceComplete<int, std::false_type>, QtPrivate::TypeAndForceComplete<qreal, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<int, std::false_type>, QtPrivate::TypeAndForceComplete<int, std::false_type>, QtPrivate::TypeAndForceComplete<bool, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<QListWidgetItem *, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QString &, std::false_type>, QtPrivate::TypeAndForceComplete<bool, std::false_type>
+, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<int, std::false_type>, QtPrivate::TypeAndForceComplete<int, std::false_type>, QtPrivate::TypeAndForceComplete<qreal, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<int, std::false_type>, QtPrivate::TypeAndForceComplete<int, std::false_type>, QtPrivate::TypeAndForceComplete<bool, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<QListWidgetItem *, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QString &, std::false_type>, QtPrivate::TypeAndForceComplete<bool, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QString &, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>
 
 
 >,
@@ -163,13 +178,13 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 11)
+        if (_id < 14)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 11;
+        _id -= 14;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 11)
+        if (_id < 14)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 11;
+        _id -= 14;
     }
     return _id;
 }

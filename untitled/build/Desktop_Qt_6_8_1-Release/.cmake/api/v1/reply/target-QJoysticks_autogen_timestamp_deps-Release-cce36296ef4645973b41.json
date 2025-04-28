@@ -1,0 +1,27 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"QJoysticks/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "QJoysticks_autogen_timestamp_deps::@ff67ac2fd1a6a9b16906",
+	"isGeneratorProvided" : true,
+	"name" : "QJoysticks_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "QJoysticks",
+		"source" : "QJoysticks"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

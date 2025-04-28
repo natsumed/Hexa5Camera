@@ -56,6 +56,24 @@ MainWindow::MainWindow(QWidget *parent)
         #endif
     }
 
+    // 1) give an initial “checking” state
+    ui->lineEditCameraStatus->setText("Checking…");
+    ui->lineEditCameraStatus->setStyleSheet(
+        "background-color: lightgray; color: black;");
+
+    // 2) get the receiver and connect
+    auto *vr = videoWidget->getReceiver();
+    connect(vr, &VideoReceiver::cameraStarted,
+            this, &MainWindow::onCameraStarted);
+    connect(vr, &VideoReceiver::cameraError,
+            this, &MainWindow::onCameraError);
+
+    QTimer *cameraPoll = new QTimer(this);
+    connect(cameraPoll, &QTimer::timeout, this, &MainWindow::refreshCameraStatus);
+    cameraPoll->start(2000);
+
+    refreshCameraStatus();
+
     // Connect the Rescan button and joystick signals.
     connect(ui->Rescan, &QPushButton::clicked, this, &MainWindow::updateDeviceList);
     connect(QJoysticks::getInstance(), &QJoysticks::countChanged,
@@ -527,8 +545,20 @@ void MainWindow::showEvent(QShowEvent *event) {
     grabKeyboard();
 }
 
-void MainWindow::closeEvent(QCloseEvent *event) {
-    releaseKeyboard();
+// void MainWindow::closeEvent(QCloseEvent *event) {
+//     releaseKeyboard();
+//     QCoreApplication::quit();
+// }
+
+void MainWindow::closeEvent(QCloseEvent *event)
+{
+    // 1) kill any stray JoystickIdentifier processes
+    killExistingInstances_();
+
+    // 2) let Qt tear down the window
+    event->accept();
+
+    // 3) exit the event loop (and thus the app)
     QCoreApplication::quit();
 }
 
@@ -549,3 +579,22 @@ bool MainWindow::eventFilter(QObject *watched, QEvent *event) {
     return QMainWindow::eventFilter(watched, event);
 }
 
+void MainWindow::onCameraStarted() {
+    ui->lineEditCameraStatus->setText("Camera Working");
+    ui->lineEditCameraStatus->setStyleSheet(
+        "background-color: #ccffcc; color: darkgreen;");
+}
+
+void MainWindow::onCameraError(const QString &msg) {
+    ui->lineEditCameraStatus->setText("Camera Not Working");
+    ui->lineEditCameraStatus->setStyleSheet(
+        "background-color: #ffcccc; color: darkred;");
+    qDebug() << "GStreamer error:" << msg;
+}
+
+
+void MainWindow::refreshCameraStatus() {
+    auto *vr = videoWidget->getReceiver();
+    connect(vr, &VideoReceiver::cameraStarted, this, &MainWindow::onCameraStarted);
+    connect(vr, &VideoReceiver::cameraError,   this, &MainWindow::onCameraError);
+}

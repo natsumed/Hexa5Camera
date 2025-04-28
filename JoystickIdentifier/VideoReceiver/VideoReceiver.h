@@ -15,13 +15,18 @@ public:
     void setWindowId(WId id);
     QString getRtspUriFromConfig();
     static gboolean bus_call(GstBus *bus, GstMessage *msg, gpointer data);
-    void stop(); 
+    static void onPadAdded(GstElement *src, GstPad *new_pad, gpointer user_data);
+    void stop();
+    bool isPlaying() const;
+
+signals:
+    void cameraStarted();
+    void cameraError(const QString &message);
 
 private:
-    GstElement *pipeline;
-    GstElement *videosink;
-
-
+    GstElement *pipeline   = nullptr;
+    GstElement *convert    = nullptr;
+    GstElement *videosink  = nullptr;
 };
 
 #endif // VIDEORECEIVER_H

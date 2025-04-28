@@ -14,6 +14,8 @@ public:
     explicit VideoRecorderWidget(QWidget *parent = nullptr);
     ~VideoRecorderWidget();
     void stopPipeline();
+    VideoReceiver* getReceiver() const { return receiver; }
+
 
 protected:
     void showEvent(QShowEvent *event) override ;
