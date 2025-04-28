@@ -1,4 +1,3 @@
-```markdown
 # JoystickIdentifier
 
 A small Qt6 application that:
