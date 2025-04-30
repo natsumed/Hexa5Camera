@@ -50,6 +50,7 @@ private slots:
     void onCameraStarted();
     void onCameraError(const QString &msg);
     void refreshCameraStatus();
+    void onJoystickAxisChanged(int device, int axis, qreal value);
 
 
 private:

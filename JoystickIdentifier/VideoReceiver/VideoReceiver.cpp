@@ -78,49 +78,50 @@ gboolean VideoReceiver::bus_call(GstBus * /*bus*/, GstMessage *msg, gpointer dat
 }
 
 VideoReceiver::VideoReceiver(QObject *parent)
-    : QObject(parent)
+    : QObject(parent),
+    pipeline(nullptr),
+    videosink(nullptr)
 {
     gst_init(nullptr, nullptr);
 
-    // 1) create elements
-    pipeline  = gst_pipeline_new("video-receiver");
-    GstElement *src = gst_element_factory_make("uridecodebin", "src");
-    convert   = gst_element_factory_make("videoconvert",  "convert");
-    videosink = gst_element_factory_make("xvimagesink",   "sink");
+    QString uri = getRtspUriFromConfig();
+    qDebug() << "[VideoReceiver] Using RTSP URI:" << uri;
 
-    if (!pipeline || !src || !convert || !videosink) {
-        qCritical() << "Failed to create GStreamer elements";
+    // 1) Create playbin
+    pipeline  = gst_element_factory_make("playbin", "player");
+    if (!pipeline) {
+        qCritical() << "[VideoReceiver] Failed to create playbin";
         return;
     }
 
-    // 2) configure source URI
-    QString uri = getRtspUriFromConfig();
-    g_object_set(src, "uri", uri.toUtf8().constData(), nullptr);
+    GstElement* convert = gst_element_factory_make("videoconvert",  "convert");
 
-    // 3) add & link static part: convert → videosink
-    gst_bin_add_many(GST_BIN(pipeline), src, convert, videosink, nullptr);
-    if (!gst_element_link(convert, videosink)) {
-        qCritical() << "Could not link convert → sink";
+    // 2) Create the sink and tell playbin to use it
+    videosink = gst_element_factory_make("xvimagesink", "videosink");
+    if (!videosink) {
+        qCritical() << "[VideoReceiver] Failed to create xvimagesink";
+        gst_object_unref(pipeline);
+        pipeline = nullptr;
+        return;
     }
+    // disable internal clock sync so frames show immediately
+    g_object_set(videosink, "sync", FALSE, nullptr);
 
-    // 4) dynamic pad: when decodebin produces a video pad, hook it to convert
-    g_signal_connect(src, "pad-added", G_CALLBACK(on_pad_added), convert);
+    // 3) Configure playbin: set our RTSP URI, low latency, and video sink
+    g_object_set(pipeline,
+                 "uri",         uri.toUtf8().constData(),
+                 "latency",     100,            // 100 ms jitter buffer
+                 "video-sink",  videosink,
+                 nullptr);
 
-    // 5) watch the bus for errors/EOS/state
+    // 4) Watch the bus for EOS / errors / state changes
     GstBus *bus = gst_element_get_bus(pipeline);
     gst_bus_add_watch(bus, VideoReceiver::bus_call, this);
     gst_object_unref(bus);
 
-    // 6) start playback
+    // 5) Fire it up
     gst_element_set_state(pipeline, GST_STATE_PLAYING);
-    qDebug() << "[VideoReceiver] Pipeline set to PLAYING";
-}
-
-VideoReceiver::~VideoReceiver() {
-    if (pipeline) {
-        gst_element_set_state(pipeline, GST_STATE_NULL);
-        gst_object_unref(pipeline);
-    }
+    qDebug() << "[VideoReceiver] playbin → PLAYING";
 }
 
 void VideoReceiver::setWindowId(WId id) {
@@ -131,6 +132,14 @@ void VideoReceiver::setWindowId(WId id) {
             );
     }
 }
+
+VideoReceiver::~VideoReceiver() {
+    if (pipeline) {
+        gst_element_set_state(pipeline, GST_STATE_NULL);
+        gst_object_unref(pipeline);
+    }
+}
+
 
 void VideoReceiver::stop() {
     if (pipeline)
@@ -214,4 +223,3 @@ bool VideoReceiver::isPlaying() const {
     }
     return false;
 }
-

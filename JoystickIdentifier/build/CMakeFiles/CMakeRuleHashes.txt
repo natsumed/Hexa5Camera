@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+324d17b79dd02a4a588adcaa2802ae2e CMakeFiles/JoystickIdentifier_autogen
+b3a9ba2904aaee0b00ca4ce7b1df9336 CMakeFiles/siyi-sdk_autogen
+20353d2c675813091d585219212355ce QJoysticks/CMakeFiles/QJoysticks_autogen
+ea4a83f5b201424c4c5decf471ebbce5 VideoReceiver/CMakeFiles/VideoReceiver_autogen

@@ -25,9 +25,13 @@
 #include <QApplication>
 #include <QShowEvent>
 #include "thirdparty/SIYI-SDK/src/sdk.h"
-
-
-
+#include <csignal>
+#include <unistd.h>
+#include <cstdio>
+#include <string>
+#include <vector>
+#include <sstream>
+#include <algorithm>
 
 
 static const char *CONTROL_IP = "10.14.11.3";
@@ -43,6 +47,10 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     QApplication::instance()->installEventFilter(this);
+    connect(QJoysticks::getInstance(),
+            &QJoysticks::axisChanged,
+            this,
+            &MainWindow::onJoystickAxisChanged);
     videoWidget = new VideoRecorderWidget(this);
     videoWidget->setFocusPolicy(Qt::NoFocus);
     QVBoxLayout *videoLayout = new QVBoxLayout();
@@ -229,6 +237,9 @@ void MainWindow::updateAxisValues(int js, int axis, qreal value) {
     } else {
         qDebug() << "Unknown axis index:" << axis;
     }
+    if (!useKeyboard && js == cameraJoystickIndex) {
+        onJoystickAxisChanged(js, axis, value);
+    }
 }
 
 void MainWindow::updateButtonState(int js, int button, bool pressed) {
@@ -244,26 +255,53 @@ void MainWindow::updateButtonState(int js, int button, bool pressed) {
     }
 }
 
+void MainWindow::onJoystickAxisChanged(int dev, int axis, qreal value)
+{
+    // only in joystick-mode & correct device
+    if (useKeyboard || dev != cameraJoystickIndex)
+        return;
+
+    int yaw=0, pitch=0;
+    if (axis==0)      yaw   = static_cast<int>(-value * MOVE_SPEED);
+    else if (axis==1) pitch = static_cast<int>( value * MOVE_SPEED);
+    else return;  // ignore other axes
+
+    {
+        QMutexLocker locker(&commandMutex);
+        currentYawSpeed   = yaw;
+        currentPitchSpeed = pitch;
+    }
+    #ifdef _DEBUG
+    qDebug() << "[JS] axis="<<axis
+             << "value="<<value
+             << "→ yaw,pitch ="<<yaw<<","<<pitch
+             << "Axes are moving";
+    #endif
+    if (sdk->set_gimbal_speed(yaw,pitch))
+        sdk->request_autofocus();
+}
+
+
 void MainWindow::onSwitchToKeyboard() {
     QMutexLocker locker(&commandMutex);
+    useKeyboard = true;
     currentYawSpeed = 0;
     currentPitchSpeed = 0;
-    useKeyboard = true;
+    sdk->set_gimbal_speed(0, 0);
     statusBar()->showMessage("Keyboard mode active");
-    #ifdef _DEBUG
-    qDebug() << "Switched to keyboard mode";
-    #endif
+    qDebug() << "[MODE] keyboard";
     ui->switchtokeyboard->setStyleSheet("background-color: green;");
     ui->switchtojoystick->setStyleSheet("");
 }
 
 void MainWindow::onSwitchToJoystick() {
     QMutexLocker locker(&commandMutex);
+    useKeyboard = false;
     currentYawSpeed = 0;
     currentPitchSpeed = 0;
-    useKeyboard = false;
+    sdk->set_gimbal_speed(0, 0);
     statusBar()->showMessage("Joystick mode active");
-    qDebug() << "Switched to joystick mode";
+    qDebug() << "[MODE] joystick";
     ui->switchtojoystick->setStyleSheet("background-color: green;");
     ui->switchtokeyboard->setStyleSheet("");
 }
@@ -375,14 +413,17 @@ void MainWindow::sendGimbalCommands() {
     QMutexLocker locker(&commandMutex); 
     // Always send commands regardless of speed values
     bool success = sdk->set_gimbal_speed(currentYawSpeed, currentPitchSpeed);
+    //sdk->request_autofocus();
     //qDebug() << "Command sent - Yaw:" << currentYawSpeed << "Pitch:" << currentPitchSpeed << "Success:" << success;
     //qDebug() << "Command:" << currentYawSpeed << "," << currentPitchSpeed 
     //         << (success ? "Succeeded" : "Failed");
     //#ifdef _DEBUG
     //qDebug() << "Command sent - Yaw:" << currentYawSpeed << "Pitch:" << currentPitchSpeed << "Success:" << success;
     //#endif
-    currentYawSpeed = 0;
-    currentPitchSpeed = 0;
+    if (useKeyboard) {
+        currentYawSpeed   = 0;
+        currentPitchSpeed = 0;
+    }
 }
 
 
@@ -492,13 +533,6 @@ void MainWindow::handleCommandFeedback(const QString& commandId, bool success) {
     statusBar()->showMessage(QString("%1: %2").arg(cmdName).arg(success ? "Success" : "Failed"), 3000);
 }
 
-#include <csignal>
-#include <unistd.h>
-#include <cstdio>
-#include <string>
-#include <vector>
-#include <sstream>
-#include <algorithm>
 
 void killExistingInstances_() {
     FILE* pipe = popen("ps -aux | grep JoystickIdentifier | grep -v grep", "r");
