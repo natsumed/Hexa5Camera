@@ -32,7 +32,7 @@
 #include <vector>
 #include <sstream>
 #include <algorithm>
-
+#include <QProcess>
 
 static const char *CONTROL_IP = "10.14.11.3";
 static const int CONTROL_PORT = 37260;
@@ -688,6 +688,8 @@ void MainWindow::onCameraStarted() {
     ui->lineEditCameraStatus->setText("Camera Working");
     ui->lineEditCameraStatus->setStyleSheet(
         "background-color: #ccffcc; color: darkgreen;");
+    auto *vr = videoWidget->getReceiver();
+    vr->setWindowId(videoWidget->winId());
 }
 
 void MainWindow::onCameraError(const QString &msg) {
@@ -698,8 +700,36 @@ void MainWindow::onCameraError(const QString &msg) {
 }
 
 
+// void MainWindow::refreshCameraStatus() {
+//     auto *vr = videoWidget->getReceiver();
+//     connect(vr, &VideoReceiver::cameraStarted, this, &MainWindow::onCameraStarted);
+//     connect(vr, &VideoReceiver::cameraError,   this, &MainWindow::onCameraError);
+// }
+
+#include <QProcess>    // at top of mainwindow.cpp
+
+// …
+
 void MainWindow::refreshCameraStatus() {
+    // 1) First, a quick ping test
+    const QString camIp = QString::fromUtf8(CONTROL_IP);  // e.g. “10.14.11.3”
+    QProcess ping;
+    //  send exactly 1 ping, wait max 1s
+    ping.start("ping", { "-c", "1", "-W", "1", camIp });
+    ping.waitForFinished(1500); // give it up to 1.5s
+    bool alive = (ping.exitCode() == 0);
+
+    if (!alive) {
+        // camera host is unreachable
+        onCameraError(QStringLiteral("Camera unreachable (ping failed)"));
+        return;
+    }
+
+    // 2) Fallback to your existing GStreamer‐stream check
     auto *vr = videoWidget->getReceiver();
-    connect(vr, &VideoReceiver::cameraStarted, this, &MainWindow::onCameraStarted);
-    connect(vr, &VideoReceiver::cameraError,   this, &MainWindow::onCameraError);
+    if (vr && vr->isPlaying()) {
+        onCameraStarted();
+    } else {
+        onCameraError(QStringLiteral("Stream not playing"));
+    }
 }
