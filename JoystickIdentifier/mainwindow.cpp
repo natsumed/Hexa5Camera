@@ -42,7 +42,6 @@ MainWindow::MainWindow(QWidget *parent)
       ui(new Ui::MainWindow),
       keepRunning(true),
       sdk(nullptr),
-      useKeyboard(false),
       currentZoom(1.0f)
 {
     ui->setupUi(this);
@@ -206,7 +205,7 @@ void MainWindow::updateDeviceList() {
 
 void MainWindow::pollAxisValues() {
 #ifdef SDL_SUPPORTED
-    if (!useKeyboard) {
+    if (inputMode != InputMode::Keyboard) {
         SDL_PumpEvents();
         SDL_Joystick *sdl_joystick = SDL_JoystickOpen(cameraJoystickIndex);
         if (sdl_joystick) {
@@ -229,15 +228,16 @@ void MainWindow::updateAxisValues(int js, int axis, qreal value) {
         else if (axis == 1)
             ui->progressBar_2->setValue(percent);
     } else if (axis == 2) {
-        int zoomValue = static_cast<int>(value * 3);  // maps [-1,1] to roughly [-3,3]
-        ui->progressBar_3->setRange(-3, 3);
+        int steps = static_cast<int>((currentZoom - MIN_ZOOM)/ZOOM_STEP_CONSTANT + 0.5f);
+        int maxSteps = static_cast<int>((MAX_ZOOM - MIN_ZOOM)/ZOOM_STEP_CONSTANT + 0.5f);
+        ui->progressBar_3->setRange(0, maxSteps);
         ui->progressBar_3->setTextVisible(true);
         ui->progressBar_3->setFormat("%v");
-        ui->progressBar_3->setValue(zoomValue);
+        ui->progressBar_3->setValue(steps);
     } else {
         qDebug() << "Unknown axis index:" << axis;
     }
-    if (!useKeyboard && js == cameraJoystickIndex) {
+    if (inputMode != InputMode::Keyboard && js == cameraJoystickIndex) {
         onJoystickAxisChanged(js, axis, value);
     }
 }
@@ -257,34 +257,99 @@ void MainWindow::updateButtonState(int js, int button, bool pressed) {
 
 void MainWindow::onJoystickAxisChanged(int dev, int axis, qreal value)
 {
-    // only in joystick-mode & correct device
-    if (useKeyboard || dev != cameraJoystickIndex)
+    // Only when in joystick‐mode and on the selected device
+    if (inputMode != InputMode::Joystick || dev != cameraJoystickIndex)
         return;
 
-    int yaw=0, pitch=0;
-    if (axis==0)      yaw   = static_cast<int>(-value * MOVE_SPEED);
-    else if (axis==1) pitch = static_cast<int>( value * MOVE_SPEED);
-    else return;  // ignore other axes
+    // 1) Dead-zone and cubic mapping
+    constexpr qreal DEAD_ZONE = 0.05;
+    auto applyCurve = [&](qreal v) {
+        if (qAbs(v) < DEAD_ZONE) return 0.0;
+        qreal sign = v < 0 ? -1.0 : 1.0;
+        qreal m = (qAbs(v) - DEAD_ZONE) / (1.0 - DEAD_ZONE);
+        return sign * (m * m * m);
+    };
+    qreal curved = applyCurve(value);
 
-    {
+    // 2) Handle the three axes
+    if (axis == 0) {
+        // Left/right → yaw
+        int yaw = static_cast<int>(curved * MOVE_SPEED);
         QMutexLocker locker(&commandMutex);
-        currentYawSpeed   = yaw;
+        currentYawSpeed = yaw;
+    }
+    else if (axis == 1) {
+        // Up/down → pitch
+        int pitch = static_cast<int>(curved * MOVE_SPEED);
+        QMutexLocker locker(&commandMutex);
         currentPitchSpeed = pitch;
     }
-    #ifdef _DEBUG
+    // else if (axis == 2) {
+    //     // Third axis → zoom
+    //     float target = currentZoom + curved * ZOOM_SPEED;
+    //     // Clamp to your min/max
+    //     float clamped = qBound(MIN_ZOOM, target, MAX_ZOOM);
+    //     if (!qFuzzyCompare(clamped, currentZoom)) {
+    //         currentZoom = clamped;
+    //         sdk->set_absolute_zoom(currentZoom, 1);
+    //         sdk->request_autofocus();
+    //     }
+    //     return;   // don’t also send a gimbal‐move
+    // }
+    else if (axis == 2) {
+        // 1) ignore all “pull back” (negative) values so center=0
+        qreal v = qMax<qreal>(value, 0.0);
+
+        // 2) choose how many steps you want: e.g. 7 steps → levels 0..7
+        constexpr int ZOOM_STEPS = 5;
+        //int ZOOM_STEPS = int((MAX_ZOOM - MIN_ZOOM) / ZOOM_STEP_CONSTANT + 0.5f);
+        // 3) map [0..1] → [0..ZOOM_STEPS], rounding to nearest integer
+        int level = int(v * ZOOM_STEPS + 0.5);
+        level = qBound(0, level, ZOOM_STEPS);
+
+        // 4) only change zoom when we actually cross into a new step
+        if (level != lastZoomLevel) {
+            // compute the actual zoom value for this step
+            float newZoom = MIN_ZOOM + level * ZOOM_STEP_CONSTANT;
+            newZoom = qBound(MIN_ZOOM, newZoom, MAX_ZOOM);
+
+            currentZoom = newZoom;
+            sdk->set_absolute_zoom(currentZoom, 1);
+            sdk->request_autofocus();
+
+            lastZoomLevel = level;
+        }
+
+        // update your little UI slider (if you like):
+        ui->progressBar_3->setRange(0, ZOOM_STEPS);
+        ui->progressBar_3->setFormat("%v");
+        ui->progressBar_3->setValue(level);
+
+        return;   // don't send any yaw/pitch
+    }
+
+    else {
+        // Other axes: ignore
+        return;
+    }
+
+// 3) (Optional) fire autofocus immediately
+// sdk->request_autofocus();
+
+#ifdef _DEBUG
     qDebug() << "[JS] axis="<<axis
-             << "value="<<value
-             << "→ yaw,pitch ="<<yaw<<","<<pitch
-             << "Axes are moving";
-    #endif
-    if (sdk->set_gimbal_speed(yaw,pitch))
-        sdk->request_autofocus();
+             << "raw="<<value
+             << "curved="<<curved
+             << " → YawSpeed="<<currentYawSpeed
+             << " PitchSpeed="<<currentPitchSpeed
+        ;
+#endif
 }
 
 
 void MainWindow::onSwitchToKeyboard() {
     QMutexLocker locker(&commandMutex);
-    useKeyboard = true;
+    inputMode = InputMode::Keyboard;
     currentYawSpeed = 0;
     currentPitchSpeed = 0;
     sdk->set_gimbal_speed(0, 0);
@@ -296,7 +361,7 @@ void MainWindow::onSwitchToKeyboard() {
 
 void MainWindow::onSwitchToJoystick() {
     QMutexLocker locker(&commandMutex);
-    useKeyboard = false;
+    inputMode = InputMode::Joystick;
     currentYawSpeed = 0;
     currentPitchSpeed = 0;
     sdk->set_gimbal_speed(0, 0);
@@ -307,7 +372,7 @@ void MainWindow::onSwitchToJoystick() {
 }
 
 void MainWindow::keyPressEvent(QKeyEvent *event) {
-    if (!useKeyboard) {
+    if (inputMode != InputMode::Keyboard) {
         QMainWindow::keyPressEvent(event);
         return;
     }
@@ -372,7 +437,7 @@ void MainWindow::keyPressEvent(QKeyEvent *event) {
 }
 
 void MainWindow::keyReleaseEvent(QKeyEvent *event) {
-    if (!useKeyboard) {
+    if (inputMode != InputMode::Keyboard) {
         QMainWindow::keyReleaseEvent(event);
         return;
     }
@@ -410,6 +475,8 @@ void MainWindow::keyReleaseEvent(QKeyEvent *event) {
 
 void MainWindow::sendGimbalCommands() {
 
+    if (inputMode == InputMode::None)
+        return;
     QMutexLocker locker(&commandMutex); 
     // Always send commands regardless of speed values
     bool success = sdk->set_gimbal_speed(currentYawSpeed, currentPitchSpeed);
@@ -420,7 +487,11 @@ void MainWindow::sendGimbalCommands() {
     //#ifdef _DEBUG
     //qDebug() << "Command sent - Yaw:" << currentYawSpeed << "Pitch:" << currentPitchSpeed << "Success:" << success;
     //#endif
-    if (useKeyboard) {
+    if (inputMode != InputMode::Joystick) {
+        currentYawSpeed   = 0;
+        currentPitchSpeed = 0;
+    }
+    if (inputMode != InputMode::Keyboard) {
         currentYawSpeed   = 0;
         currentPitchSpeed = 0;
     }
@@ -598,7 +669,7 @@ void MainWindow::closeEvent(QCloseEvent *event)
 
 bool MainWindow::eventFilter(QObject *watched, QEvent *event) {
 
-    if (useKeyboard) {
+    if (inputMode != InputMode::Joystick) {
         if (event->type() == QEvent::KeyPress) {
             auto *ke = static_cast<QKeyEvent*>(event);
             keyPressEvent(ke);

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libVideoReceiver.a CMakeFiles/VideoReceiver.dir/VideoReceiver_autogen/mocs_compilation.cpp.o CMakeFiles/VideoReceiver.dir/VideoReceiver.cpp.o
-/usr/bin/ranlib libVideoReceiver.a

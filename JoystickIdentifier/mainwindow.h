@@ -57,7 +57,8 @@ private:
     Ui::MainWindow *ui;
 
     // Mode and joystick selection:
-    bool useKeyboard;
+    enum class InputMode { None, Keyboard, Joystick };
+    InputMode inputMode = InputMode::None;
     int cameraJoystickIndex;
 
     // Gimbal control shared state:
@@ -93,7 +94,12 @@ private:
     static constexpr float MIN_ZOOM = 1.0f;
     static constexpr float MAX_ZOOM = 30.0f;
     static constexpr float ZOOM_SPEED = 1.0f;
-
+    int lastZoomAxis = 0;
+    //const int   ZOOM_LEVELS = 5;
+    int ZOOM_LEVELS = int((MAX_ZOOM - MIN_ZOOM) / ZOOM_STEP_CONSTANT + 0.5f);
+    int lastZoomSign = 0;
+    int lastZoomIndex = -1;
+    int lastZoomLevel = -1;
 
 };
 

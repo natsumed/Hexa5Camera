@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsiyi-sdk.a CMakeFiles/siyi-sdk.dir/siyi-sdk_autogen/mocs_compilation.cpp.o CMakeFiles/siyi-sdk.dir/thirdparty/SIYI-SDK/src/sdk.cpp.o CMakeFiles/siyi-sdk.dir/thirdparty/SIYI-SDK/src/message.cpp.o CMakeFiles/siyi-sdk.dir/thirdparty/SIYI-SDK/src/crc16.cpp.o
-/usr/bin/ranlib libsiyi-sdk.a
