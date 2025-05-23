@@ -8,6 +8,10 @@
 #include <QJsonDocument>
 #include <QJsonObject>
 #include <gst/video/videooverlay.h>
+#include <QElapsedTimer>
+#include <gst/app/gstappsink.h>
+#include <QImage>
+
 
 
 // --- pad-added handler -----------------------------------------------------
@@ -40,42 +44,98 @@ static void on_pad_added(GstElement *decodebin,
     gst_object_unref(sinkPad);
 }
 
-gboolean VideoReceiver::bus_call(GstBus * /*bus*/, GstMessage *msg, gpointer data) {
+// gboolean VideoReceiver::bus_call(GstBus * /*bus*/, GstMessage *msg, gpointer data) {
+//     auto *self = static_cast<VideoReceiver*>(data);
+//     switch (GST_MESSAGE_TYPE(msg)) {
+//     case GST_MESSAGE_STATE_CHANGED: {
+//         if (GST_MESSAGE_SRC(msg) == GST_OBJECT(self->pipeline)) {
+//             GstState oldS, newS, pend;
+//             gst_message_parse_state_changed(msg, &oldS, &newS, &pend);
+//             if (newS == GST_STATE_PLAYING)
+//                 emit self->cameraStarted();
+//         }
+//         break;
+//     }
+//     case GST_MESSAGE_ERROR: {
+//         GError *err = nullptr;
+//         gchar  *dbg = nullptr;
+//         gst_message_parse_error(msg, &err, &dbg);
+//         QString txt = QString::fromUtf8(err->message);
+//         qDebug() << "[VideoReceiver] ERROR:" << txt;
+//         emit self->cameraError(txt);
+//         gst_element_set_state(self->pipeline, GST_STATE_READY);
+//         gst_element_set_state(self->pipeline, GST_STATE_PLAYING);
+//         g_error_free(err);
+//         g_free(dbg);
+//         break;
+//     }
+//     case GST_MESSAGE_EOS:
+//         qDebug() << "[VideoReceiver] End of stream";
+//         emit self->cameraError("End of stream");
+//         gst_element_set_state(self->pipeline, GST_STATE_READY);
+//         gst_element_set_state(self->pipeline, GST_STATE_PLAYING);
+//         break;
+//     default:
+//         break;
+//     }
+//     return TRUE;
+// }
+
+
+gboolean VideoReceiver::bus_call(GstBus* /*bus*/, GstMessage* msg, gpointer data) {
     auto *self = static_cast<VideoReceiver*>(data);
+    static bool wasPlaying = false;               // remember last known state
+    static QElapsedTimer errorTimer;              // throttle restarts
+    if (!errorTimer.isValid()) errorTimer.start();
+
     switch (GST_MESSAGE_TYPE(msg)) {
     case GST_MESSAGE_STATE_CHANGED: {
+        GstState oldS, newS, pend;
+        gst_message_parse_state_changed(msg, &oldS, &newS, &pend);
         if (GST_MESSAGE_SRC(msg) == GST_OBJECT(self->pipeline)) {
-            GstState oldS, newS, pend;
-            gst_message_parse_state_changed(msg, &oldS, &newS, &pend);
-            if (newS == GST_STATE_PLAYING)
-                emit self->cameraStarted();
+            bool nowPlaying = (newS == GST_STATE_PLAYING);
+            if (nowPlaying != wasPlaying) {
+                wasPlaying = nowPlaying;
+                if (nowPlaying)
+                    emit self->cameraStarted();
+                else
+                    emit self->cameraError("Stream stopped");
+            }
         }
         break;
     }
     case GST_MESSAGE_ERROR: {
-        GError *err = nullptr;
-        gchar  *dbg = nullptr;
-        gst_message_parse_error(msg, &err, &dbg);
-        QString txt = QString::fromUtf8(err->message);
-        qDebug() << "[VideoReceiver] ERROR:" << txt;
-        emit self->cameraError(txt);
-        gst_element_set_state(self->pipeline, GST_STATE_READY);
-        gst_element_set_state(self->pipeline, GST_STATE_PLAYING);
-        g_error_free(err);
-        g_free(dbg);
+        if (errorTimer.elapsed() > 2000) {        // at most once every 2 s
+            GError *err = nullptr;
+            gchar  *dbg = nullptr;
+            gst_message_parse_error(msg, &err, &dbg);
+            QString what = QString::fromUtf8(err->message);
+            g_error_free(err);
+            g_free(dbg);
+
+            emit self->cameraError(what);
+            // try to recover
+            gst_element_set_state(self->pipeline, GST_STATE_READY);
+            gst_element_set_state(self->pipeline, GST_STATE_PLAYING);
+            errorTimer.restart();
+        }
         break;
     }
-    case GST_MESSAGE_EOS:
-        qDebug() << "[VideoReceiver] End of stream";
-        emit self->cameraError("End of stream");
-        gst_element_set_state(self->pipeline, GST_STATE_READY);
-        gst_element_set_state(self->pipeline, GST_STATE_PLAYING);
+    case GST_MESSAGE_EOS: {
+        if (errorTimer.elapsed() > 2000) {
+            emit self->cameraError("End of stream");
+            gst_element_set_state(self->pipeline, GST_STATE_READY);
+            gst_element_set_state(self->pipeline, GST_STATE_PLAYING);
+            errorTimer.restart();
+        }
         break;
+    }
     default:
         break;
     }
     return TRUE;
 }
+
 
 VideoReceiver::VideoReceiver(QObject *parent)
     : QObject(parent),
@@ -114,6 +174,14 @@ VideoReceiver::VideoReceiver(QObject *parent)
                  "video-sink",  videosink,
                  nullptr);
 
+    //Using PC camera for testing purposes:
+    // temporarily use the laptop camera:
+    // const char *webcamUri = "v4l2:///dev/video0";
+    // g_object_set(pipeline,
+    //              "uri",       webcamUri,
+    //              "video-sink", videosink,
+    //              nullptr);
+
     // 4) Watch the bus for EOS / errors / state changes
     GstBus *bus = gst_element_get_bus(pipeline);
     gst_bus_add_watch(bus, VideoReceiver::bus_call, this);
@@ -124,19 +192,117 @@ VideoReceiver::VideoReceiver(QObject *parent)
     qDebug() << "[VideoReceiver] playbin → PLAYING";
 }
 
+
+
+// VideoReceiver::VideoReceiver(QObject *parent)
+//     : QObject(parent),
+//     pipeline(nullptr),
+//     videosink(nullptr),
+//     appsink(nullptr)
+// {
+//     gst_init(nullptr, nullptr);
+
+//     // 1) Create all elements
+//     auto* src      = gst_element_factory_make("rtspsrc",      "src");
+//     auto* depay    = gst_element_factory_make("rtph264depay", "depay");
+//     auto* parser   = gst_element_factory_make("h264parse",    "parser");
+//     auto* decoder  = gst_element_factory_make("avdec_h264",   "decoder");
+//     auto* tee      = gst_element_factory_make("tee",          "tee");
+//     auto* q1       = gst_element_factory_make("queue",        "q1");
+//     auto* q2       = gst_element_factory_make("queue",        "q2");
+//     auto* convert1 = gst_element_factory_make("videoconvert","convert1");
+//     videosink      = gst_element_factory_make("xvimagesink",  "videosink");
+//     auto* convert2 = gst_element_factory_make("videoconvert","convert2");
+//     appsink        = gst_element_factory_make("appsink",       "appsink");
+
+//     if (!src||!depay||!parser||!decoder||!tee||!q1||!q2
+//         ||!convert1||!videosink||!convert2||!appsink)
+//     {
+//         qCritical() << "[VideoReceiver] failed to create elements";
+//         return;
+//     }
+
+//     // ── **HERE** ──
+//     // 2) Configure RTSP source with low‐latency
+//     QString uri = getRtspUriFromConfig().trimmed();
+//     g_object_set(src,
+//                  "location", uri.toUtf8().constData(),
+//                  "latency",   (guint)100,    // 100 ms jitter buffer
+//                  nullptr);
+
+//     // appsink wants raw RGB
+//     GstCaps* caps = gst_caps_new_simple("video/x-raw",
+//                                         "format", G_TYPE_STRING, "RGB",
+//                                         nullptr);
+//     g_object_set(appsink,
+//                  "caps",         caps,
+//                  "emit-signals", FALSE,
+//                  "sync",         FALSE,
+//                  nullptr);
+//     gst_caps_unref(caps);
+
+//     // 3) Build pipeline
+//     pipeline = gst_pipeline_new("video-receiver");
+//     gst_bin_add_many(GST_BIN(pipeline),
+//                      src,
+//                      depay, parser, decoder,
+//                      tee,
+//                      q1, convert1, videosink,
+//                      q2, convert2, appsink,
+//                      nullptr);
+
+//     gst_element_link_many(depay, parser, decoder, tee, nullptr);
+//     gst_element_link_many(tee, q1, convert1, videosink, nullptr);
+//     gst_element_link_many(tee, q2, convert2, appsink,     nullptr);
+
+//     // 4) Dynamic pad from rtspsrc → depay
+//     g_signal_connect(src, "pad-added",
+//                      G_CALLBACK(+[](
+//                                      GstElement* /*rtspsrc*/,
+//                                      GstPad*      newPad,
+//                                      gpointer     data)
+//                                 {
+//                                     GstPad* sink = gst_element_get_static_pad(
+//                                         static_cast<GstElement*>(data),
+//                                         "sink");
+//                                     if (!GST_PAD_IS_LINKED(sink))
+//                                         gst_pad_link(newPad, sink);
+//                                     gst_object_unref(sink);
+//                                 }),
+//                      depay);
+
+//     // 5) Bus watch, start playing, etc.…
+//     GstBus* bus = gst_element_get_bus(pipeline);
+//     gst_bus_add_watch(bus, VideoReceiver::bus_call, this);
+//     gst_object_unref(bus);
+
+//     gst_element_set_state(pipeline, GST_STATE_PLAYING);
+//     qDebug() << "[VideoReceiver] Pipeline set to PLAYING";
+// }
+
+
 void VideoReceiver::setWindowId(WId id) {
     if (videosink) {
         gst_video_overlay_set_window_handle(
             GST_VIDEO_OVERLAY(videosink),
-            id
+            (guintptr)id
             );
     }
 }
+
 
 VideoReceiver::~VideoReceiver() {
     if (pipeline) {
         gst_element_set_state(pipeline, GST_STATE_NULL);
         gst_object_unref(pipeline);
+    }
+}
+
+void VideoReceiver::start() {
+    if (pipeline) {
+        // If already playing, this is a no-op
+        gst_element_set_state(pipeline, GST_STATE_PLAYING);
+        qDebug() << "[VideoReceiver] Pipeline set back to PLAYING";
     }
 }
 
@@ -222,4 +388,36 @@ bool VideoReceiver::isPlaying() const {
         return cur == GST_STATE_PLAYING;
     }
     return false;
+}
+
+QImage VideoReceiver::grabFrame()
+{
+    if (!appsink) return {};
+
+    // Pull the most recent sample (non-blocking)
+    GstSample *sample = gst_app_sink_try_pull_sample(GST_APP_SINK(appsink), 0);
+    if (!sample) return {};
+
+    GstBuffer *buf = gst_sample_get_buffer(sample);
+    GstMapInfo info;
+    if (!gst_buffer_map(buf, &info, GST_MAP_READ)) {
+        gst_sample_unref(sample);
+        return {};
+    }
+
+    GstCaps *caps = gst_sample_get_caps(sample);
+    auto *s      = gst_caps_get_structure(caps, 0);
+    int width, height;
+    gst_structure_get_int(s, "width",  &width);
+    gst_structure_get_int(s, "height", &height);
+
+    // appsink caps forced us to RGB
+    QImage img((uchar*)info.data, width, height, QImage::Format_RGB888);
+
+    // copy before we unmap/unref
+    QImage copy = img.copy();
+
+    gst_buffer_unmap(buf, &info);
+    gst_sample_unref(sample);
+    return copy;
 }

@@ -3,6 +3,7 @@
 #include <QDateTime>
 #include <QDebug>
 #include <QTimer>
+#include <QTime>
 #ifdef SDL_SUPPORTED
 #include <SDL.h>
 #endif
@@ -32,9 +33,11 @@
 #include <vector>
 #include <sstream>
 #include <algorithm>
+#include <QMessageBox>
 #include <QProcess>
+#include <gst/video/videooverlay.h>
 
-static const char *CONTROL_IP = "10.14.11.3";
+//static const char *CONTROL_IP = "10.14.11.3";
 static const int CONTROL_PORT = 37260;
 
 MainWindow::MainWindow(QWidget *parent)
@@ -52,6 +55,7 @@ MainWindow::MainWindow(QWidget *parent)
             &MainWindow::onJoystickAxisChanged);
     videoWidget = new VideoRecorderWidget(this);
     videoWidget->setFocusPolicy(Qt::NoFocus);
+    videoWidget->getReceiver()->setWindowId(videoWidget->winId());
     QVBoxLayout *videoLayout = new QVBoxLayout();
     videoLayout->setContentsMargins(0, 0, 0, 0);
     videoLayout->addWidget(videoWidget);
@@ -63,6 +67,8 @@ MainWindow::MainWindow(QWidget *parent)
         #endif
     }
 
+    rtspUri = videoWidget->getReceiver()->getRtspUriFromConfig();
+
     // 1) give an initial “checking” state
     ui->lineEditCameraStatus->setText("Checking…");
     ui->lineEditCameraStatus->setStyleSheet(
@@ -70,6 +76,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     // 2) get the receiver and connect
     auto *vr = videoWidget->getReceiver();
+    vr->setWindowId(videoWidget->winId());
     connect(vr, &VideoReceiver::cameraStarted,
             this, &MainWindow::onCameraStarted);
     connect(vr, &VideoReceiver::cameraError,
@@ -93,6 +100,19 @@ MainWindow::MainWindow(QWidget *parent)
     // Mode switch buttons.
     connect(ui->switchtokeyboard, &QPushButton::clicked, this, &MainWindow::onSwitchToKeyboard);
     connect(ui->switchtojoystick, &QPushButton::clicked, this, &MainWindow::onSwitchToJoystick);
+
+    // in MainWindow::MainWindow(...)
+    connect(ui->toolButtonUp,    &QToolButton::clicked, this, &MainWindow::onFullUp);
+    connect(ui->toolButtonDown,  &QToolButton::clicked, this, &MainWindow::onFullDown);
+    connect(ui->toolButtonLeft,  &QToolButton::clicked, this, &MainWindow::onFullLeft);
+    connect(ui->toolButtonRight, &QToolButton::clicked, this, &MainWindow::onFullRight);
+    connect(ui->toolButtonStop, &QToolButton::clicked, this, &MainWindow::onStop);
+
+    // and your zoom buttons:
+    connect(ui->toolButtonZoomPlus,  &QToolButton::clicked, this, &MainWindow::onZoomMaxIn);
+    connect(ui->toolButtonZoomMinus, &QToolButton::clicked, this, &MainWindow::onZoomMaxOut);
+
+
     connect(ui->pushButtonSaveConfig, &QPushButton::clicked, this, &MainWindow::saveConfig);
     connect(ui->DefaultConfig, &QPushButton::clicked, this, &MainWindow::saveDefaultConfig);
 
@@ -150,6 +170,39 @@ MainWindow::MainWindow(QWidget *parent)
     #ifdef _DEBUG
     qDebug() << "Camera control initialized";
     #endif
+
+    //Recording Video Section
+    useLocalCamera = true;
+    // Recording overlay + timer
+    recordOverlay = new QLabel(videoWidget);
+    recordOverlay->setStyleSheet(R"(
+  background-color: rgba(0,0,0,128);
+  color: red;
+  font: bold 16px;
+)");
+    recordOverlay->setAlignment(Qt::AlignCenter);
+    recordOverlay->setFixedHeight(30);
+    recordOverlay->setFixedWidth(videoWidget->width());
+    recordOverlay->move(0,0);
+    recordOverlay->hide();
+    recordOverlay->raise();
+
+    // Create the timer for updating the overlay clock
+    recordUiTimer = new QTimer(this);
+    recordUiTimer->setInterval(500);
+    connect(recordUiTimer, &QTimer::timeout,
+            this,         &MainWindow::updateRecordTime);
+
+    // Button hookup
+    // connect(ui->RecordButton, &QPushButton::clicked,
+    //         this,            &MainWindow::on_RecordButton_clicked);
+    recordState = RecordState::Idle;
+    ui->RecordButton->setText("Start Recording");
+
+    //Screenshot
+    connect(ui->ScreenshotButton, &QPushButton::clicked,
+            this,               &MainWindow::on_ScreenshotButton_clicked);
+
 }
 
 
@@ -710,26 +763,425 @@ void MainWindow::onCameraError(const QString &msg) {
 
 // …
 
+
+QString MainWindow::loadControlIp() const
+{
+    // where VideoReceiver already looks:
+    QString configDir = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation);
+    QString subFolder = "Haxa5Camera";
+    QDir dir(configDir);
+    QString cfgFile = dir.filePath(subFolder + "/Hexa5CameraConfig.json");
+
+    // defaults in case JSON is missing or invalid
+    const QString defaultIp = QString::fromUtf8("10.14.11.3");
+
+    QFile f(cfgFile);
+    if (!f.open(QIODevice::ReadOnly))
+        return defaultIp;
+
+    auto data = f.readAll();
+    f.close();
+
+    auto doc = QJsonDocument::fromJson(data);
+    if (!doc.isObject())
+        return defaultIp;
+
+    auto obj = doc.object();
+    return obj.value("ip").toString(defaultIp);
+}
+
 void MainWindow::refreshCameraStatus() {
-    // 1) First, a quick ping test
-    const QString camIp = QString::fromUtf8(CONTROL_IP);  // e.g. “10.14.11.3”
+    // 1) Ping the control IP from your JSON
+    QString camIp = loadControlIp();
     QProcess ping;
-    //  send exactly 1 ping, wait max 1s
     ping.start("ping", { "-c", "1", "-W", "1", camIp });
-    ping.waitForFinished(1500); // give it up to 1.5s
+    ping.waitForFinished(1500);
     bool alive = (ping.exitCode() == 0);
 
     if (!alive) {
-        // camera host is unreachable
         onCameraError(QStringLiteral("Camera unreachable (ping failed)"));
         return;
     }
 
-    // 2) Fallback to your existing GStreamer‐stream check
+    // 2) Fallback to the existing stream-check
     auto *vr = videoWidget->getReceiver();
-    if (vr && vr->isPlaying()) {
+    if (vr && vr->isPlaying())
         onCameraStarted();
-    } else {
+    else
         onCameraError(QStringLiteral("Stream not playing"));
+}
+
+
+#include <signal.h>  // for SIGINT
+#include <unistd.h>  // for ::kill
+
+void MainWindow::on_RecordButton_clicked()
+{
+    // Trim any stray newline
+    QString uri = rtspUri.trimmed();
+
+    if (recordState == RecordState::Idle) {
+        // ── START RECORDING ──
+
+        // 1) prepare path
+        QString dir = QDir::homePath() + "/Hexa5CameraRecordedVideos";
+        QDir().mkpath(dir);
+        QString fn = QDateTime::currentDateTime()
+                         .toString("yyyyMMdd_hhmmss") + ".mp4";
+        lastRecordPath = dir + "/" + fn;
+
+        // 2) launch ffmpeg
+        QStringList args = {
+            "-rtsp_transport", "tcp",
+            "-i",              uri,
+            "-c",              "copy",
+            "-y",
+            lastRecordPath
+        };
+        qDebug() << "[Record] will run: ffmpeg" << args;
+
+        delete recordProcess;
+        recordProcess = new QProcess(this);
+        recordProcess->setProcessChannelMode(QProcess::MergedChannels);
+        connect(recordProcess, &QProcess::readyReadStandardError, [this]() {
+            auto err = recordProcess->readAllStandardError();
+            qDebug() << "[ffmpeg]" << err.trimmed();
+        });
+        recordProcess->start("ffmpeg", args);
+
+        // 3) wait up to 2 s for it to actually start
+        if (!recordProcess->waitForStarted(2000) ||
+            recordProcess->state() != QProcess::Running)
+        {
+            QMessageBox::warning(this, "Recording",
+                                 "Could not start ffmpeg — check your URI and network.");
+            delete recordProcess;
+            recordProcess = nullptr;
+            return;
+        }
+
+        // 4) update UI
+        recordState = RecordState::Recording;
+        ui->RecordButton->setText("Stop Recording");
+        recordClock.start();
+        recordOverlay->setText("● REC   00:00");
+        recordOverlay->show();
+        recordUiTimer->start();
+        statusBar()->showMessage("🔴 Recording started", 2000);
     }
+    else {
+        // ── STOP RECORDING ──
+
+        // stop the overlay timer
+        recordUiTimer->stop();
+
+        if (recordProcess) {
+            // ask ffmpeg to finish cleanly (SIGINT == Ctrl+C)
+            qint64 pid = recordProcess->processId();
+            if (pid > 0) {
+                ::kill(pid, SIGINT);
+            }
+
+            // give it up to 5 s to write the trailer
+            if (!recordProcess->waitForFinished(5000)) {
+                // if it’s still alive, force-kill
+                recordProcess->kill();
+                recordProcess->waitForFinished();
+            }
+
+            delete recordProcess;
+            recordProcess = nullptr;
+        }
+
+        // restore UI
+        recordOverlay->hide();
+        recordState = RecordState::Idle;
+        ui->RecordButton->setText("Start Recording");
+        statusBar()->showMessage(
+            QString("Recording saved to:\n%1").arg(lastRecordPath),
+            5000
+            );
+    }
+}
+
+
+// void MainWindow::on_RecordButton_clicked()
+// {
+//     // Trim any stray newline
+//     QString uri = rtspUri.trimmed();
+
+//     if (recordState == RecordState::Idle) {
+//         // ── START RECORDING ──
+
+//         // 1) prepare path
+//         QString dir = QDir::homePath() + "/Hexa5CameraRecordedVideos";
+//         QDir().mkpath(dir);
+//         QString fn = QDateTime::currentDateTime()
+//                          .toString("yyyyMMdd_hhmmss") + ".mp4";
+//         lastRecordPath = dir + "/" + fn;
+
+//         // 2) launch ffmpeg
+//         QStringList args = {
+//             "-rtsp_transport", "tcp",
+//             "-i",              uri,
+//             "-c",              "copy",
+//             "-y",
+//             lastRecordPath
+//         };
+//         qDebug() << "[Record] will run: ffmpeg" << args;
+
+//         delete recordProcess;
+//         recordProcess = new QProcess(this);
+//         recordProcess->setProcessChannelMode(QProcess::MergedChannels);
+//         connect(recordProcess, &QProcess::readyReadStandardError, [this]() {
+//             auto err = recordProcess->readAllStandardError();
+//             qDebug() << "[ffmpeg]" << err.trimmed();
+//         });
+//         recordProcess->start("ffmpeg", args);
+
+//         // 3) wait up to 2 s for it to actually start
+//         if (!recordProcess->waitForStarted(2000) ||
+//             recordProcess->state() != QProcess::Running)
+//         {
+//             QMessageBox::warning(this, "Recording",
+//                                  "Could not start ffmpeg — check your URI and network.");
+//             delete recordProcess;
+//             recordProcess = nullptr;
+//             return;
+//         }
+
+//         // 4) update UI
+//         recordState = RecordState::Recording;
+//         ui->RecordButton->setText("Stop Recording");
+//         recordClock.start();
+//         recordOverlay->setText("● REC   00:00");
+//         recordOverlay->show();
+//         recordUiTimer->start();
+//         statusBar()->showMessage("🔴 Recording started", 2000);
+//     }
+//     else {
+//         // ── STOP RECORDING ──
+
+//         // stop the overlay timer
+//         recordUiTimer->stop();
+
+//         if (recordProcess) {
+//             // ask ffmpeg to finish cleanly (SIGINT == Ctrl+C)
+//             qint64 pid = recordProcess->processId();
+//             if (pid > 0) {
+//                 ::kill(pid, SIGINT);
+//             }
+
+//             // give it up to 5 s to write the trailer
+//             if (!recordProcess->waitForFinished(5000)) {
+//                 // if it’s still alive, force-kill
+//                 recordProcess->kill();
+//                 recordProcess->waitForFinished();
+//             }
+
+//             delete recordProcess;
+//             recordProcess = nullptr;
+//         }
+
+//         // restore UI
+//         recordOverlay->hide();
+//         recordState = RecordState::Idle;
+//         ui->RecordButton->setText("Start Recording");
+//         statusBar()->showMessage(
+//             QString("Recording saved to:\n%1").arg(lastRecordPath),
+//             5000
+//             );
+//     }
+// }
+
+//Test with PC camera
+// void MainWindow::on_RecordButton_clicked()
+// {
+//     // shorthand
+//     auto *rcvr = videoWidget->getReceiver();
+
+//     if (recordState == RecordState::Idle) {
+//         // ── STOP THE PREVIEW ──
+//         rcvr->stop();
+
+//         // ── START RECORDING ──
+//         QString dir = QDir::homePath() + "/Hexa5CameraRecordedVideos";
+//         QDir().mkpath(dir);
+//         QString fn = QDateTime::currentDateTime().toString("yyyyMMdd_hhmmss") + ".mp4";
+//         lastRecordPath = dir + "/" + fn;
+
+//         QStringList args = {
+//             "-f",       "v4l2",
+//             "-framerate","30",
+//             "-video_size","640x480",
+//             "-i",       "/dev/video0",
+//             "-c:v",     "libx264",
+//             "-preset",  "veryfast",
+//             "-y",
+//             lastRecordPath
+//         };
+
+//         delete recordProcess;
+//         recordProcess = new QProcess(this);
+//         recordProcess->setProcessChannelMode(QProcess::MergedChannels);
+
+//         qDebug() << "[Recording] starting ffmpeg" << args;
+//         recordProcess->start("ffmpeg", args);
+
+//         if (!recordProcess->waitForStarted(2000) ||
+//             recordProcess->state() != QProcess::Running)
+//         {
+//             QMessageBox::warning(this, "Recording",
+//                                  "Could not start ffmpeg — /dev/video0 busy or missing.");
+//             // if ffmpeg failed, restart preview:
+//             rcvr->start();
+//             return;
+//         }
+
+//         // UI
+//         recordState = RecordState::Recording;
+//         ui->RecordButton->setText("Stop Recording");
+//         recordClock.start();
+//         recordOverlay->setText("● REC   00:00");
+//         recordOverlay->show();
+//         recordUiTimer->start();
+//         statusBar()->showMessage("🔴 Recording started");
+
+//     } else {
+//         // ── STOP RECORDING ──
+//         recordUiTimer->stop();
+
+//         if (recordProcess) {
+//             recordProcess->terminate();
+//             if (!recordProcess->waitForFinished(3000))
+//                 recordProcess->kill();
+//             delete recordProcess;
+//             recordProcess = nullptr;
+//         }
+
+//         recordOverlay->hide();
+//         recordState = RecordState::Idle;
+//         ui->RecordButton->setText("Start Recording");
+//         statusBar()->showMessage(
+//             QString("Recording saved to:\n%1").arg(lastRecordPath),
+//             5000
+//             );
+
+//         // ── RESTART THE PREVIEW ──
+//         rcvr->start();
+//     }
+// }
+
+
+void MainWindow::updateRecordTime()
+{
+    int total = recordClock.elapsed() / 1000;
+    int m = (total / 60) % 60;
+    int s = total % 60;
+    recordOverlay->setText(
+        QString("● REC   %1:%2")
+            .arg(m, 2, 10, QChar('0'))
+            .arg(s, 2, 10, QChar('0')));
+}
+
+
+
+void MainWindow::onRecordingFinished(int exitCode,
+                                     QProcess::ExitStatus status)
+{
+    Q_UNUSED(exitCode);
+    Q_UNUSED(status);
+
+    // Clean up the process object
+    recProcess->deleteLater();
+    recProcess = nullptr;
+
+    isRecording = false;
+    ui->RecordButton->setEnabled(true);
+    ui->RecordButton->setText("Start Recording");
+    recordOverlay->hide();
+
+    QMessageBox::information(
+        this,
+        "Recording Complete",
+        QString("Saved to:\n%1").arg(currentRecordPath));
+}
+
+
+#include <QGuiApplication>
+#include <QScreen>
+
+
+void MainWindow::on_ScreenshotButton_clicked()
+{
+    // 1) prepare directory & filename
+    QString dir = QDir::homePath() + "/Hexa5CameraScreenshots";
+    QDir().mkpath(dir);
+    QString fn = QDateTime::currentDateTime()
+                     .toString("yyyyMMdd_hhmmss") + ".png";
+    QString fullPath = dir + "/" + fn;
+
+    // 2) grab the X11 window that xvimagesink is drawing into
+    QScreen *screen = QGuiApplication::primaryScreen();
+    if (!screen) {
+        statusBar()->showMessage("📸 No screen available!", 3000);
+        return;
+    }
+
+    // videoWidget is your VideoRecorderWidget* embedded in the UI
+    WId videoXid = this->videoWidget->winId();
+    QPixmap pix = screen->grabWindow(videoXid);
+
+    // 3) save to disk
+    if (!pix.save(fullPath, "PNG")) {
+        statusBar()->showMessage("📸 Screenshot failed!", 3000);
+        return;
+    }
+
+    // 4) feedback
+    statusBar()->showMessage(
+        QString("📸 Screenshot saved to:\n%1").arg(fullPath),
+        5000
+        );
+}
+
+
+// Slam‐to‐end moves.  MOVE_SPEED is your max gimbal speed constant.
+void MainWindow::onFullUp() {
+    // negative pitch is “up” (tweak if your axes are reversed)
+    sdk->set_gimbal_speed(0, -MOVE_SPEED);
+    sdk->request_autofocus();
+}
+
+void MainWindow::onFullDown() {
+    sdk->set_gimbal_speed(0, MOVE_SPEED);
+    sdk->request_autofocus();
+}
+
+void MainWindow::onFullLeft() {
+    sdk->set_gimbal_speed(-MOVE_SPEED, 0);
+    sdk->request_autofocus();
+}
+
+void MainWindow::onFullRight() {
+    sdk->set_gimbal_speed(MOVE_SPEED, 0);
+    sdk->request_autofocus();
+}
+
+// Zoom - jump straight to min/max
+void MainWindow::onZoomMaxIn() {
+    currentZoom = MAX_ZOOM;
+    sdk->set_absolute_zoom(currentZoom, 1);
+    sdk->request_autofocus();
+}
+
+void MainWindow::onZoomMaxOut() {
+    currentZoom = MIN_ZOOM;
+    sdk->set_absolute_zoom(currentZoom, 1);
+    sdk->request_autofocus();
+}
+
+void MainWindow::onStop() {
+    sdk->set_gimbal_speed(0, 0);
+    sdk->request_autofocus();
 }

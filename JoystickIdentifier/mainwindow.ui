@@ -257,7 +257,7 @@
       </property>
       <layout class="QGridLayout" name="gridLayout_2">
        <item row="1" column="1">
-        <widget class="QToolButton" name="toolButton_7">
+        <widget class="QToolButton" name="toolButtonStop">
          <property name="text">
           <string>O</string>
          </property>
@@ -303,10 +303,17 @@
        </rect>
       </property>
       <layout class="QGridLayout" name="gridLayout_3">
-       <item row="1" column="0">
-        <widget class="QToolButton" name="toolButtonFocusPlus">
+       <item row="0" column="2">
+        <widget class="QLabel" name="zoom">
          <property name="text">
-          <string>*</string>
+          <string>Zoom</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="3">
+        <widget class="QPushButton" name="switchtokeyboard">
+         <property name="text">
+          <string>Switch to Keyboard</string>
          </property>
         </widget>
        </item>
@@ -317,45 +324,17 @@
          </property>
         </widget>
        </item>
+       <item row="2" column="0" colspan="3">
+        <widget class="QPushButton" name="switchtojoystick">
+         <property name="text">
+          <string>Switch to Joystick</string>
+         </property>
+        </widget>
+       </item>
        <item row="0" column="1">
         <widget class="QToolButton" name="toolButtonZoomMinus">
          <property name="text">
           <string>-</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="0" colspan="3">
-        <widget class="QPushButton" name="switchtokeyboard">
-         <property name="text">
-          <string>Switch to Keyboard</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="2">
-        <widget class="QLabel" name="focus">
-         <property name="text">
-          <string>Focus</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1">
-        <widget class="QToolButton" name="toolButtonFocusMinus">
-         <property name="text">
-          <string>/</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="2">
-        <widget class="QLabel" name="zoom">
-         <property name="text">
-          <string>Zoom</string>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="0" colspan="3">
-        <widget class="QPushButton" name="switchtojoystick">
-         <property name="text">
-          <string>Switch to Joystick</string>
          </property>
         </widget>
        </item>
@@ -368,7 +347,7 @@
        <x>220</x>
        <y>0</y>
        <width>201</width>
-       <height>341</height>
+       <height>301</height>
       </rect>
      </property>
      <property name="title">
@@ -471,6 +450,32 @@
        </rect>
       </property>
      </widget>
+    </widget>
+    <widget class="QPushButton" name="RecordButton">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>310</y>
+       <width>201</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Start Recording</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ScreenshotButton">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>340</y>
+       <width>201</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Screenshot</string>
+     </property>
     </widget>
    </widget>
   </widget>

@@ -18,6 +18,8 @@ public:
     static void onPadAdded(GstElement *src, GstPad *new_pad, gpointer user_data);
     void stop();
     bool isPlaying() const;
+    void start();
+    QImage grabFrame();
 
 signals:
     void cameraStarted();
@@ -27,6 +29,7 @@ private:
     GstElement *pipeline   = nullptr;
     GstElement *convert    = nullptr;
     GstElement *videosink  = nullptr;
+    GstElement *appsink    = nullptr;
 };
 
 #endif // VIDEORECEIVER_H

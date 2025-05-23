@@ -56,6 +56,16 @@ qt_add_executable(JoystickIdentifier
     mainwindow.ui
 )
 
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(GSTAPP REQUIRED
+    gstreamer-app-1.0
+)
+pkg_check_modules(GST REQUIRED
+    gstreamer-1.0
+    gstreamer-video-1.0
+)
+
+
 # Add subdirectory for VideoReceiver.
 add_subdirectory(VideoReceiver)
 
@@ -80,6 +90,17 @@ target_link_libraries(JoystickIdentifier PRIVATE
     QJoysticks
     #${CMAKE_SOURCE_DIR}/thirdparty/SIYI-SDK/build/libsiyi-sdk-static.a
     siyi-sdk
+)
+
+target_link_libraries(VideoReceiver
+  PRIVATE
+    ${GSTAPP_LIBRARIES}
+    ${GST_LIBRARIES}        # if you need core/video too
+)
+target_include_directories(VideoReceiver
+  PRIVATE
+    ${GSTAPP_INCLUDE_DIRS}
+    ${GST_INCLUDE_DIRS}     # if you pulled in core/video above
 )
 
 # Additional video recorder sources.

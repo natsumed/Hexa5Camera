@@ -4,6 +4,8 @@
 #include <QMainWindow>
 #include <QMutex>
 #include <QTimer>
+#include <QTime>
+#include <QLabel>
 #include <QListWidgetItem>
 #include <memory>
 #include <thread>
@@ -13,7 +15,9 @@
 #include <QMediaPlayer>
 #include <QVideoWidget>
 #include <mutex>
-#include <QElapsedTimer> 
+#include <QElapsedTimer>
+#include <gst/gst.h>
+#include <QProcess>
 
 namespace Ui {
 class MainWindow;
@@ -51,7 +55,17 @@ private slots:
     void onCameraError(const QString &msg);
     void refreshCameraStatus();
     void onJoystickAxisChanged(int device, int axis, qreal value);
-
+    void on_RecordButton_clicked();
+    void updateRecordTime();
+    void onRecordingFinished(int exitCode, QProcess::ExitStatus status);
+    void on_ScreenshotButton_clicked();
+    void onFullUp();
+    void onFullDown();
+    void onFullLeft();
+    void onFullRight();
+    void onZoomMaxIn();
+    void onZoomMaxOut();
+    void onStop();
 
 private:
     Ui::MainWindow *ui;
@@ -100,6 +114,28 @@ private:
     int lastZoomSign = 0;
     int lastZoomIndex = -1;
     int lastZoomLevel = -1;
+    GstElement *recordPipeline = nullptr;
+    QString     rtspUri;
+
+    // For the on‐screen timer:
+    QProcess         *recProcess    = nullptr;
+    QElapsedTimer     recordTimer;
+    //QTimer           *recordUiTimer = nullptr;
+    //QLabel           *recordOverlay = nullptr;
+    bool              isRecording   = false;
+    QString           currentRecordPath;
+
+
+    // in MainWindow private:
+    enum class RecordState { Idle, Recording };
+    RecordState recordState{RecordState::Idle};
+    QProcess*   recordProcess = nullptr;
+    QElapsedTimer       recordClock;
+    QTimer*     recordUiTimer = nullptr;
+    QLabel*     recordOverlay = nullptr;
+    QString     lastRecordPath;
+    bool useLocalCamera = false;
+    QString loadControlIp() const;
 
 };
 
