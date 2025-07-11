@@ -34,6 +34,9 @@ find_package(X11 REQUIRED)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
 #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -D_DEBUG")
 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsanitize=address -fno-omit-frame-pointer")
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -fsanitize=address")
+
 
 
 
@@ -55,6 +58,12 @@ qt_add_executable(JoystickIdentifier
     ${PROJECT_SOURCES}
     mainwindow.ui
 )
+
+#--- bundle resources into the binary
+qt_add_resources(RESOURCES_ADDED resources.qrc)
+# add the generated list of qrc files to your target
+target_sources(JoystickIdentifier PRIVATE ${RESOURCES_ADDED})
+
 
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(GSTAPP REQUIRED

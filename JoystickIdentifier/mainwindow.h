@@ -18,6 +18,8 @@
 #include <QElapsedTimer>
 #include <gst/gst.h>
 #include <QProcess>
+#include <QToolButton>
+#include <QPropertyAnimation>
 
 namespace Ui {
 class MainWindow;
@@ -31,6 +33,8 @@ class MainWindow : public QMainWindow {
 public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    void playIntro(const QString& splashUrl, const QString& css);
+
 
 protected:
     void keyPressEvent(QKeyEvent *event) override;
@@ -38,6 +42,7 @@ protected:
     void closeEvent(QCloseEvent *event) override;
     bool eventFilter(QObject *watched, QEvent *event) override;
     void showEvent(QShowEvent *event) override;
+    void resizeEvent(QResizeEvent *event) override;
 
 private slots:
     void updateDeviceList();
@@ -66,6 +71,8 @@ private slots:
     void onZoomMaxIn();
     void onZoomMaxOut();
     void onStop();
+    void handlePingFinished(int exitCode, QProcess::ExitStatus status);
+    //void onTabClicked(int index);
 
 private:
     Ui::MainWindow *ui;
@@ -126,7 +133,6 @@ private:
     QString           currentRecordPath;
 
 
-    // in MainWindow private:
     enum class RecordState { Idle, Recording };
     RecordState recordState{RecordState::Idle};
     QProcess*   recordProcess = nullptr;
@@ -136,6 +142,19 @@ private:
     QString     lastRecordPath;
     bool useLocalCamera = false;
     QString loadControlIp() const;
+
+
+    bool controlsCollapsed = true;
+    bool controlsMeasured = false;
+    int  controlsFullWidth = 0;
+    QPropertyAnimation* controlsAnim = nullptr;
+    QToolButton*        toggleControlsBtn = nullptr;
+    QWidget*            controlsContainer = nullptr;
+    QProcess *pingProcess = nullptr;
+
+
+    QVideoWidget  *splashVideo   = nullptr;
+    QMediaPlayer  *splashPlayer  = nullptr;
 
 };
 

@@ -13,22 +13,39 @@ RUN apt-get update && apt-get install -y \
     libgl1-mesa-dev \
     libgstreamer1.0-dev \
     libgstreamer-plugins-base1.0-dev \
+    gstreamer1.0-plugins-base \
     gstreamer1.0-plugins-good \
     gstreamer1.0-plugins-bad \
     gstreamer1.0-plugins-ugly \
     gstreamer1.0-libav \
+    gstreamer1.0-alsa \
+    gstreamer1.0-pulseaudio \
     libxcb-xinerama0 \
     libxkbcommon-x11-0 \
     libvulkan1 \
     mesa-vulkan-drivers \
     wget \
+    curl \
+    ca-certificates \
     fuse \
     file \
+    libqt6svg6-dev \
+    gdb \
+    valgrind \
+    libasan6 \
     && rm -rf /var/lib/apt/lists/*
 
-# Install linuxdeploy for AppImage creation
+# Create symbolic links for Qt tools
+RUN rm -f /usr/bin/qmake && \
+    ln -s /usr/lib/qt6/bin/qmake /usr/bin/qmake
+
+# Install linuxdeploy and plugin
 RUN wget https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage \
     && chmod +x linuxdeploy-x86_64.AppImage \
     && mv linuxdeploy-x86_64.AppImage /usr/local/bin/linuxdeploy
+
+RUN wget https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/continuous/linuxdeploy-plugin-qt-x86_64.AppImage \
+    && chmod +x linuxdeploy-plugin-qt-x86_64.AppImage \
+    && mv linuxdeploy-plugin-qt-x86_64.AppImage /usr/local/bin/linuxdeploy-plugin-qt
 
 WORKDIR /project

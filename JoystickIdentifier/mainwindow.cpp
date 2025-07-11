@@ -36,6 +36,8 @@
 #include <QMessageBox>
 #include <QProcess>
 #include <gst/video/videooverlay.h>
+#include <QPropertyAnimation>
+#include <QEasingCurve>
 
 //static const char *CONTROL_IP = "10.14.11.3";
 static const int CONTROL_PORT = 37260;
@@ -46,14 +48,301 @@ MainWindow::MainWindow(QWidget *parent)
       keepRunning(true),
       sdk(nullptr),
       currentZoom(1.0f)
+
 {
     ui->setupUi(this);
+
+    ui->toggleButton->setFocusPolicy(Qt::NoFocus);
+
+    // allow children to get focus again
+    this->setFocusPolicy(Qt::StrongFocus);
+    // and ensure our central widget can accept focus too
+    ui->centralwidget->setFocusPolicy(Qt::StrongFocus);
+
+    ui->lineEditIP  ->setFocusPolicy(Qt::StrongFocus);
+    ui->lineEditPort->setFocusPolicy(Qt::StrongFocus);
+    ui->lineEditPath->setFocusPolicy(Qt::StrongFocus);
+
+
+    // ui->centralwidget->hide();
+    // statusBar()->hide();
+
+    // // --- 1) HIDE YOUR SIDE PANEL & TOGGLE BUTTON ---
+    // ui->controlsContainer->hide();
+    // ui->toggleButton->hide();
+
+    // // (If you also hid your status‑bar during splash:)
+    // statusBar()->hide();
+
+    // // --- 2) INSTANTIATE THE SPLASH INSIDE VideoRecorderSection ---
+    // splashVideo = new QVideoWidget(ui->centralwidget);
+    // splashVideo->setGeometry(ui->centralwidget->rect());
+    // splashVideo->setAspectRatioMode(Qt::IgnoreAspectRatio);
+    // splashVideo->show();
+    // splashVideo->raise();
+
+    // // 2) hook the player as before
+    // splashPlayer = new QMediaPlayer(this);
+    // splashPlayer->setVideoOutput(splashVideo);
+    // splashPlayer->setSource(QUrl("qrc:/intro.mp4"));
+    // splashPlayer->play();
+
+    // // --- 4) WHEN THE CLIP ENDS, TEAR DOWN & REVEAL ---
+    // connect(splashPlayer, &QMediaPlayer::mediaStatusChanged,
+    //         this, [this](QMediaPlayer::MediaStatus status){
+    //             if (status == QMediaPlayer::EndOfMedia ||
+    //                 splashPlayer->playbackState() != QMediaPlayer::PlayingState)
+    //             {
+    //                 // slight delay to let the last frame linger
+    //                 QTimer::singleShot(100, this, [this]() {
+    //                     splashVideo->hide();
+    //                     //splashPlayer->stop();
+    //                     splashPlayer->deleteLater();
+    //                     splashVideo->deleteLater();
+
+    //                     this->releaseKeyboard();
+    //                     ui->centralwidget->show();
+
+    //                     // now un‑hide your real UI:
+    //                     ui->controlsContainer->show();
+    //                     ui->toggleButton->show();
+    //                     statusBar()->show();
+    //                 });
+    //             }
+    //         });
+
+
+    //this->centralWidget()->setStyleSheet("background-color: magenta;");
+    // Apply stylesheet to central widget to inherit to children
+    // QFile ff(":/hexa5.css");
+    // if (ff.open(QFile::ReadOnly | QFile::Text)) {
+    //     QString css = QString::fromUtf8(ff.readAll());
+    //     centralWidget()->setStyleSheet(css);
+    // }
+
+    QStatusBar* statusBarr = new QStatusBar();
+    statusBarr->setStyleSheet("background-color: #2d2d44; color: #aaaaaa;");
+    setStatusBar(statusBarr);
+
+    // // Add status indicators
+    // QLabel* connectionStatus = new QLabel("Camera: Disconnected");
+    // connectionStatus->setProperty("status", "inactive");
+    // statusBarr->addWidget(connectionStatus);
+
+    // QLabel* recStatus = new QLabel("Recording: Inactive");
+    // recStatus->setProperty("status", "inactive");
+    // statusBarr->addPermanentWidget(recStatus);
+
+
+
+    /////////////////////////////////////////////////////
+    /// \brief setWindowTitle
+    /// Main styling
+    setWindowTitle("Hexa5Camera");
+    // if you have an application icon
+    setWindowIcon(QIcon(":/hexa5.png"));
+
+
+    QFont f = font();
+    f.setPointSize(10);
+    setFont(f);
+
+    // Add some internal margins around your main layout
+    // ui->centralwidget->layout()->setContentsMargins(8,8,8,8);
+    // ui->centralwidget->layout()->setSpacing(6);
+
+    ui->VideoRecorderSection->setFlat(true);
+
+
+    /////////////////////////////////////////////////////
+
+    /////////////////////////////////////////////////////
+    /// controlsContainer Creation
+
+    // 1) Create a horizontal layout to replace the absolute geometry
+    auto *hl = new QHBoxLayout(ui->centralwidget);
+    hl->setContentsMargins(0,0,0,0);
+    hl->setSpacing(0);
+    hl->addWidget(ui->VideoRecorderSection, 1);
+    hl->addWidget(ui->toggleButton,         0);
+    hl->addWidget(ui->controlsContainer,    0);
+
+    // 2) completely kill any padding inside controlsContainer itself
+    if (auto *inner = qobject_cast<QBoxLayout*>(ui->controlsContainer->layout())) {
+        inner->setContentsMargins(0,0,0,0);
+        inner->setSpacing(0);
+    }
+
+    // 3) make the container truly Fixed‐width so 0px is honored
+    ui->controlsContainer->setSizePolicy(
+        QSizePolicy::Fixed,
+        ui->controlsContainer->sizePolicy().verticalPolicy()
+        );
+    ui->controlsContainer->setMinimumWidth(0);
+    ui->controlsContainer->setMaximumWidth(0);
+    ui->controlsContainer->hide();  // start fully hidden
+
+    // 4) measure its “full” width
+    int fullW = ui->controlsContainer->sizeHint().width();
+    if (fullW < 10) fullW = 320; // fallback
+
+    // 5) build a single animation on its maximumWidth
+    auto *anim = new QPropertyAnimation(ui->controlsContainer, "maximumWidth", this);
+    anim->setDuration(250);
+    anim->setStartValue(0);
+    anim->setEndValue(fullW);
+
+    // 6) wire up the toggle button
+    ui->toggleButton->setArrowType(Qt::RightArrow);
+    connect(anim, &QPropertyAnimation::finished, this, [this, anim]() {
+        auto *ctr  = ui->controlsContainer;
+        auto *lay   = ui->centralwidget->layout();
+
+        if (anim->direction() == QAbstractAnimation::Backward) {
+            // fully collapse
+            ctr->hide();
+            ctr->setMaximumWidth(0);
+            ctr->setFixedWidth(0);
+        } else {
+            // ensure it’s back to its full size
+            int fullW = anim->endValue().toInt();
+            ctr->show();
+            ctr->setMaximumWidth(fullW);
+            ctr->setFixedWidth(fullW);
+            ui->lineEditIP->setFocus();
+        }
+
+        // Force the parent layout to re‐do its math
+        if (lay) {
+            lay->invalidate();
+            lay->activate();
+        }
+        ui->centralwidget->updateGeometry();
+    });
+
+
+    // 7) once a “close” animation finishes, hide it completely
+    connect(ui->toggleButton, &QToolButton::clicked, this, [this, anim]() {
+        bool closed = (ui->controlsContainer->maximumWidth() == 0);
+        if (closed) {
+            ui->controlsContainer->show();          // ← bring it back into view
+            anim->setDirection(QAbstractAnimation::Forward);
+            ui->toggleButton->setArrowType(Qt::LeftArrow);
+        } else {
+            anim->setDirection(QAbstractAnimation::Backward);
+            ui->toggleButton->setArrowType(Qt::RightArrow);
+        }
+        anim->start();
+    });
+
+
+
+
+    ////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////
+    /// Style
+    ui->tabWidget->setStyleSheet(R"(
+  /* overall pane */
+  QTabWidget::pane {
+    border: 1px solid #4A4A4A;
+    background: #2B2B2B;
+    top: -1px;              /* overlap tabs’ bottom border */
+  }
+  /* the tabs */
+  QTabBar::tab {
+    background: #3C3F41;
+    color: #A9B7C6;
+    padding: 6px 12px;
+    margin-right: 2px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    min-width: 80px;
+  }
+  QTabBar::tab:selected {
+    background: #4E5254;
+    color: #FFF;
+  }
+  QTabBar::tab:hover {
+    background: #505354;
+  }
+  /* remove focus outline */
+  QTabBar::tab:focus { outline: none; }
+)");
+
+
+    qApp->setStyleSheet(R"(
+  QPushButton {
+    background: #3C3F41;
+    border: 1px solid #5A5A5A;
+    padding: 6px 12px;
+    color: #DDD;
+    border-radius: 3px;
+  }
+  QPushButton:hover {
+    background: #505354;
+  }
+  QPushButton:pressed {
+    background: #2A2D2F;
+  }
+)");
+
+    qApp->setStyleSheet(R"(
+QDockWidget {
+  background: #2b2b2b;
+  titlebar-close-icon: none;  /* just in case */
+}
+
+/* style its title bar */
+QDockWidget::title {
+  text-align: left;
+  padding: 4px 8px;
+  background: qlineargradient(
+      x1:0, y1:0, x2:0, y2:1,
+      stop:0 #393939, stop:1 #2b2b2b
+  );
+  color: #ffffff;
+  font-weight: bold;
+  border-bottom: 1px solid #444444;
+}
+
+/* when floating, give it a thin border */
+QDockWidget[floating="true"] {
+  border: 1px solid #555555;
+}
+
+)");
+
+
+
+    // Joystick button: switch mode *and* select tab 0
+    connect(ui->switchtojoystick, &QPushButton::clicked, this, [this]() {
+        onSwitchToJoystick();                // existing logic to flip into JOYSTICK mode
+        ui->tabWidget->setCurrentIndex(0);   // show the “Joystick” tab
+    });
+
+    // Keyboard button: switch mode *and* select tab 1
+    connect(ui->switchtokeyboard, &QPushButton::clicked, this, [this]() {
+        onSwitchToKeyboard();                // existing logic to flip into KEYBOARD mode
+        ui->tabWidget->setCurrentIndex(1);   // show the “Keyboard” tab
+    });
+
+    // Camera-Config button: flip into CONFIG mode *and* select tab 2
+    connect(ui->pushButtonConfiguration, &QPushButton::clicked, this, [this]() {
+        // If you have a function for config-mode, call it here.
+        // e.g. onSwitchToConfig();
+        ui->tabWidget->setCurrentIndex(2);   // show the “Camera Configuration” tab
+    });
+
+
+
     QApplication::instance()->installEventFilter(this);
     connect(QJoysticks::getInstance(),
             &QJoysticks::axisChanged,
             this,
             &MainWindow::onJoystickAxisChanged);
     videoWidget = new VideoRecorderWidget(this);
+    videoWidget->installEventFilter(this);
     videoWidget->setFocusPolicy(Qt::NoFocus);
     videoWidget->getReceiver()->setWindowId(videoWidget->winId());
     QVBoxLayout *videoLayout = new QVBoxLayout();
@@ -84,7 +373,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     QTimer *cameraPoll = new QTimer(this);
     connect(cameraPoll, &QTimer::timeout, this, &MainWindow::refreshCameraStatus);
-    cameraPoll->start(2000);
+    cameraPoll->start(5000);
 
     refreshCameraStatus();
 
@@ -207,6 +496,10 @@ MainWindow::MainWindow(QWidget *parent)
 
 
 MainWindow::~MainWindow() {
+
+    if (videoWidget && videoWidget->getReceiver())
+        videoWidget->getReceiver()->stop();
+
     // 1. Stop command timer
     commandTimer->stop();
     
@@ -410,6 +703,12 @@ void MainWindow::onSwitchToKeyboard() {
     qDebug() << "[MODE] keyboard";
     ui->switchtokeyboard->setStyleSheet("background-color: green;");
     ui->switchtojoystick->setStyleSheet("");
+    QWidget* w = ui->tabWidget->currentWidget();
+    QPropertyAnimation* fade = new QPropertyAnimation(w, "windowOpacity", this);
+    fade->setDuration(200);
+    fade->setStartValue(0.0);
+    fade->setEndValue(1.0);
+    fade->start(QAbstractAnimation::DeleteWhenStopped);
 }
 
 void MainWindow::onSwitchToJoystick() {
@@ -699,43 +998,92 @@ void killExistingInstances_() {
 }
 
 void MainWindow::showEvent(QShowEvent *event) {
+    // 1) always forward to base
     QMainWindow::showEvent(event);
+
+    // 2) your existing grabKeyboard()
     grabKeyboard();
+
 }
 
-// void MainWindow::closeEvent(QCloseEvent *event) {
-//     releaseKeyboard();
-//     QCoreApplication::quit();
-// }
+void MainWindow::resizeEvent(QResizeEvent *ev) {
+    QMainWindow::resizeEvent(ev);
+    // always keep the splash sized to fill:
+    if (splashVideo && splashVideo->isVisible()) {
+        splashVideo->setGeometry(ui->centralwidget->rect());
+    }
+}
 
-void MainWindow::closeEvent(QCloseEvent *event)
+void MainWindow::closeEvent(QCloseEvent* ev)
 {
-    // 1) kill any stray JoystickIdentifier processes
-    killExistingInstances_();
+    // 1) gracefully shut down the stream
+    if (videoWidget && videoWidget->getReceiver())
+        videoWidget->getReceiver()->stop();
 
-    // 2) let Qt tear down the window
-    event->accept();
+    // 2) (optional) kill any *other* instances—but do NOT SIGKILL your own PID
+    killExistingInstances_(); // ← drop this
 
-    // 3) exit the event loop (and thus the app)
+    // 3) Finish closing
+    QMainWindow::closeEvent(ev);
     QCoreApplication::quit();
 }
 
-bool MainWindow::eventFilter(QObject *watched, QEvent *event) {
+// bool MainWindow::eventFilter(QObject *watched, QEvent *event) {
 
-    if (inputMode != InputMode::Joystick) {
+//     if (inputMode != InputMode::Joystick) {
+//         if (event->type() == QEvent::KeyPress) {
+//             auto *ke = static_cast<QKeyEvent*>(event);
+//             keyPressEvent(ke);
+//             return true;
+//         }
+//         if (event->type() == QEvent::KeyRelease) {
+//             auto *ke = static_cast<QKeyEvent*>(event);
+//             keyReleaseEvent(ke);
+//             return true;
+//         }
+//     }
+//     if (watched == videoWidget && event->type() == QEvent::Resize) {
+//         // keep your overlay full-width and pinned at top
+//         recordOverlay->setFixedWidth(videoWidget->width());
+//         recordOverlay->move(0,0);
+//         return false;  // allow default handling too
+//     }
+//     return QMainWindow::eventFilter(watched, event);
+// }
+
+bool MainWindow::eventFilter(QObject *watched, QEvent *event) {
+    // 1) If it's a key event, and the focus widget is a QLineEdit,
+    if ((event->type() == QEvent::KeyPress ||
+         event->type() == QEvent::KeyRelease))
+    {
+        if (qobject_cast<QLineEdit*>(QApplication::focusWidget())) {
+            return false;
+        }
+    }
+
+    // 2) Only when we're in Keyboard‐mode do we intercept keys:
+    if (inputMode == InputMode::Keyboard) {
         if (event->type() == QEvent::KeyPress) {
-            auto *ke = static_cast<QKeyEvent*>(event);
-            keyPressEvent(ke);
-            return true; 
+            keyPressEvent(static_cast<QKeyEvent*>(event));
+            return true;
         }
         if (event->type() == QEvent::KeyRelease) {
-            auto *ke = static_cast<QKeyEvent*>(event);
-            keyReleaseEvent(ke);
+            keyReleaseEvent(static_cast<QKeyEvent*>(event));
             return true;
         }
     }
+
+    // 3) Keep your video‐resize handling:
+    if (watched == videoWidget && event->type() == QEvent::Resize) {
+        recordOverlay->setFixedWidth(videoWidget->width());
+        recordOverlay->move(0,0);
+        return false;
+    }
+
     return QMainWindow::eventFilter(watched, event);
 }
+
+
 
 void MainWindow::onCameraStarted() {
     ui->lineEditCameraStatus->setText("Camera Working");
@@ -773,7 +1121,7 @@ QString MainWindow::loadControlIp() const
     QString cfgFile = dir.filePath(subFolder + "/Hexa5CameraConfig.json");
 
     // defaults in case JSON is missing or invalid
-    const QString defaultIp = QString::fromUtf8("10.14.11.3");
+    const QString defaultIp = QString::fromUtf8("192.168.1.64");
 
     QFile f(cfgFile);
     if (!f.open(QIODevice::ReadOnly))
@@ -791,24 +1139,40 @@ QString MainWindow::loadControlIp() const
 }
 
 void MainWindow::refreshCameraStatus() {
-    // 1) Ping the control IP from your JSON
+    // Don’t start a new ping if one is already running
+    if (pingProcess && pingProcess->state() != QProcess::NotRunning)
+        return;
+
     QString camIp = loadControlIp();
-    QProcess ping;
-    ping.start("ping", { "-c", "1", "-W", "1", camIp });
-    ping.waitForFinished(1500);
-    bool alive = (ping.exitCode() == 0);
+    if (!pingProcess) {
+        pingProcess = new QProcess(this);
+        connect(pingProcess, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished),
+                this, &MainWindow::handlePingFinished);
+    }
+
+    // Fire off one ping; we won’t wait() here:
+    pingProcess->start("ping", { "-c", "1", "-W", "1", camIp });
+}
+
+void MainWindow::handlePingFinished(int exitCode, QProcess::ExitStatus status) {
+    Q_UNUSED(status);
+    bool alive = (exitCode == 0);
 
     if (!alive) {
         onCameraError(QStringLiteral("Camera unreachable (ping failed)"));
-        return;
+    } else {
+        // Now that ping is good, check your stream
+        auto *vr = videoWidget->getReceiver();
+        if (vr && vr->isPlaying())
+            onCameraStarted();
+        else
+            onCameraError(QStringLiteral("Stream not playing"));
     }
 
-    // 2) Fallback to the existing stream-check
-    auto *vr = videoWidget->getReceiver();
-    if (vr && vr->isPlaying())
-        onCameraStarted();
-    else
-        onCameraError(QStringLiteral("Stream not playing"));
+    // Clean up so future pings can fire
+    // (or leave it around if you want to throttle)
+    // pingProcess->deleteLater();
+    // pingProcess = nullptr;
 }
 
 
@@ -1185,3 +1549,65 @@ void MainWindow::onStop() {
     sdk->set_gimbal_speed(0, 0);
     sdk->request_autofocus();
 }
+
+
+void MainWindow::playIntro(const QString& splashUrl, const QString& css) {
+    QUrl videoUrl;
+
+    // Always try local file first
+    if (QFile::exists(splashUrl)) {
+        videoUrl = QUrl::fromLocalFile(splashUrl);
+        qDebug() << "Using local file:" << splashUrl;
+    }
+    // Then try resource path
+    else if (splashUrl.startsWith("qrc:") || QFile::exists(":" + splashUrl)) {
+        videoUrl = QUrl(splashUrl);
+        qDebug() << "Using resource path:" << splashUrl;
+    }
+    // Fallback to embedded resource
+    else {
+        videoUrl = QUrl("qrc:/intro.mp4");
+        qWarning() << "Using fallback resource video";
+    }
+
+    qDebug() << "Final video URL:" << videoUrl;
+    qDebug() << "Video exists:" << QFile::exists(videoUrl.toLocalFile());
+
+    // 1) overlay video widget
+    auto* vw = new QVideoWidget(this);
+    vw->setWindowFlags(Qt::Widget | Qt::FramelessWindowHint);
+    vw->setGeometry(this->rect());
+    vw->show();
+
+    // 2) player
+    auto* player = new QMediaPlayer(this);
+    player->setVideoOutput(vw);
+    player->setSource(videoUrl);  // Use the validated URL
+
+    // 3) when it’s done...
+    connect(player, &QMediaPlayer::mediaStatusChanged, this,
+            [this, vw, player, css](auto st){
+                if (st == QMediaPlayer::EndOfMedia) {
+                    player->stop();
+                    vw->deleteLater();
+                    player->deleteLater();
+
+                    // now reveal and style
+                    this->showMaximized();
+                    this->setStyleSheet(css);
+                    ui->controlsContainer->show();
+                    ui->toggleButton     ->show();
+                    statusBar()         ->show();
+                    this->releaseKeyboard();
+                }
+            });
+
+    // 4) kick it off
+    player->play();
+
+    //Error Handling
+    connect(player, &QMediaPlayer::errorOccurred, this, [](auto error, auto errorString) {
+        qWarning() << "Media player error:" << error << "-" << errorString;
+    });
+}
+

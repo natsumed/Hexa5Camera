@@ -21,13 +21,20 @@ static void on_pad_added(GstElement *decodebin,
 {
     auto *convert = static_cast<GstElement*>(user_data);
     GstPad *sinkPad = gst_element_get_static_pad(convert, "sink");
+
     if (gst_pad_is_linked(sinkPad)) {
         gst_object_unref(sinkPad);
         return;
     }
 
-    // check caps
+    // Check caps safely
     GstCaps *caps = gst_pad_get_current_caps(newPad);
+    if (!caps) {
+        qWarning() << "[VideoReceiver] Failed to get caps for new pad";
+        gst_object_unref(sinkPad);
+        return;
+    }
+
     GstStructure *str = gst_caps_get_structure(caps, 0);
     const char *name = gst_structure_get_name(str);
     qDebug() << "[VideoReceiver] pad-added type:" << name;
@@ -35,15 +42,12 @@ static void on_pad_added(GstElement *decodebin,
     if (g_str_has_prefix(name, "video/")) {
         if (gst_pad_link(newPad, sinkPad) != GST_PAD_LINK_OK) {
             qDebug() << "[VideoReceiver] Failed to link decodebin → convert";
-        } else {
-            qDebug() << "[VideoReceiver] Linked decodebin → convert OK";
         }
     }
 
     gst_caps_unref(caps);
     gst_object_unref(sinkPad);
 }
-
 // gboolean VideoReceiver::bus_call(GstBus * /*bus*/, GstMessage *msg, gpointer data) {
 //     auto *self = static_cast<VideoReceiver*>(data);
 //     switch (GST_MESSAGE_TYPE(msg)) {
@@ -84,6 +88,7 @@ static void on_pad_added(GstElement *decodebin,
 
 gboolean VideoReceiver::bus_call(GstBus* /*bus*/, GstMessage* msg, gpointer data) {
     auto *self = static_cast<VideoReceiver*>(data);
+    if (!self || !self->pipeline) return TRUE;
     static bool wasPlaying = false;               // remember last known state
     static QElapsedTimer errorTimer;              // throttle restarts
     if (!errorTimer.isValid()) errorTimer.start();
@@ -105,22 +110,29 @@ gboolean VideoReceiver::bus_call(GstBus* /*bus*/, GstMessage* msg, gpointer data
         break;
     }
     case GST_MESSAGE_ERROR: {
-        if (errorTimer.elapsed() > 2000) {        // at most once every 2 s
+        if (errorTimer.elapsed() > 2000) {
             GError *err = nullptr;
             gchar  *dbg = nullptr;
             gst_message_parse_error(msg, &err, &dbg);
-            QString what = QString::fromUtf8(err->message);
-            g_error_free(err);
-            g_free(dbg);
 
-            emit self->cameraError(what);
-            // try to recover
-            gst_element_set_state(self->pipeline, GST_STATE_READY);
-            gst_element_set_state(self->pipeline, GST_STATE_PLAYING);
+            if (err) {
+                QString what = QString::fromUtf8(err->message);
+                emit self->cameraError(what);
+                g_error_free(err);
+            }
+
+            if (dbg) g_free(dbg);
+
+            // Try to recover
+            if (self->pipeline) {
+                gst_element_set_state(self->pipeline, GST_STATE_READY);
+                gst_element_set_state(self->pipeline, GST_STATE_PLAYING);
+            }
             errorTimer.restart();
         }
         break;
     }
+
     case GST_MESSAGE_EOS: {
         if (errorTimer.elapsed() > 2000) {
             emit self->cameraError("End of stream");
@@ -136,149 +148,149 @@ gboolean VideoReceiver::bus_call(GstBus* /*bus*/, GstMessage* msg, gpointer data
     return TRUE;
 }
 
-
-VideoReceiver::VideoReceiver(QObject *parent)
-    : QObject(parent),
-    pipeline(nullptr),
-    videosink(nullptr)
-{
-    gst_init(nullptr, nullptr);
-
-    QString uri = getRtspUriFromConfig();
-    qDebug() << "[VideoReceiver] Using RTSP URI:" << uri;
-
-    // 1) Create playbin
-    pipeline  = gst_element_factory_make("playbin", "player");
-    if (!pipeline) {
-        qCritical() << "[VideoReceiver] Failed to create playbin";
-        return;
-    }
-
-    GstElement* convert = gst_element_factory_make("videoconvert",  "convert");
-
-    // 2) Create the sink and tell playbin to use it
-    videosink = gst_element_factory_make("xvimagesink", "videosink");
-    if (!videosink) {
-        qCritical() << "[VideoReceiver] Failed to create xvimagesink";
-        gst_object_unref(pipeline);
-        pipeline = nullptr;
-        return;
-    }
-    // disable internal clock sync so frames show immediately
-    g_object_set(videosink, "sync", FALSE, nullptr);
-
-    // 3) Configure playbin: set our RTSP URI, low latency, and video sink
-    g_object_set(pipeline,
-                 "uri",         uri.toUtf8().constData(),
-                 "latency",     100,            // 100 ms jitter buffer
-                 "video-sink",  videosink,
-                 nullptr);
-
-    //Using PC camera for testing purposes:
-    // temporarily use the laptop camera:
-    // const char *webcamUri = "v4l2:///dev/video0";
-    // g_object_set(pipeline,
-    //              "uri",       webcamUri,
-    //              "video-sink", videosink,
-    //              nullptr);
-
-    // 4) Watch the bus for EOS / errors / state changes
-    GstBus *bus = gst_element_get_bus(pipeline);
-    gst_bus_add_watch(bus, VideoReceiver::bus_call, this);
-    gst_object_unref(bus);
-
-    // 5) Fire it up
-    gst_element_set_state(pipeline, GST_STATE_PLAYING);
-    qDebug() << "[VideoReceiver] playbin → PLAYING";
-}
-
-
-
+//For SIYI camera
 // VideoReceiver::VideoReceiver(QObject *parent)
 //     : QObject(parent),
 //     pipeline(nullptr),
-//     videosink(nullptr),
-//     appsink(nullptr)
+//     videosink(nullptr)
 // {
 //     gst_init(nullptr, nullptr);
 
-//     // 1) Create all elements
-//     auto* src      = gst_element_factory_make("rtspsrc",      "src");
-//     auto* depay    = gst_element_factory_make("rtph264depay", "depay");
-//     auto* parser   = gst_element_factory_make("h264parse",    "parser");
-//     auto* decoder  = gst_element_factory_make("avdec_h264",   "decoder");
-//     auto* tee      = gst_element_factory_make("tee",          "tee");
-//     auto* q1       = gst_element_factory_make("queue",        "q1");
-//     auto* q2       = gst_element_factory_make("queue",        "q2");
-//     auto* convert1 = gst_element_factory_make("videoconvert","convert1");
-//     videosink      = gst_element_factory_make("xvimagesink",  "videosink");
-//     auto* convert2 = gst_element_factory_make("videoconvert","convert2");
-//     appsink        = gst_element_factory_make("appsink",       "appsink");
+//     QString uri = getRtspUriFromConfig();
+//     qDebug() << "[VideoReceiver] Using RTSP URI:" << uri;
 
-//     if (!src||!depay||!parser||!decoder||!tee||!q1||!q2
-//         ||!convert1||!videosink||!convert2||!appsink)
-//     {
-//         qCritical() << "[VideoReceiver] failed to create elements";
+//     // 1) Create playbin
+//     pipeline  = gst_element_factory_make("playbin", "player");
+//     if (!pipeline) {
+//         qCritical() << "[VideoReceiver] Failed to create playbin";
 //         return;
 //     }
 
-//     // ── **HERE** ──
-//     // 2) Configure RTSP source with low‐latency
-//     QString uri = getRtspUriFromConfig().trimmed();
-//     g_object_set(src,
-//                  "location", uri.toUtf8().constData(),
-//                  "latency",   (guint)100,    // 100 ms jitter buffer
+//     GstElement* convert = gst_element_factory_make("videoconvert",  "convert");
+
+//     // 2) Create the sink and tell playbin to use it
+//     videosink = gst_element_factory_make("xvimagesink", "videosink");
+//     if (!videosink) {
+//         qCritical() << "[VideoReceiver] Failed to create xvimagesink";
+//         gst_object_unref(pipeline);
+//         pipeline = nullptr;
+//         return;
+//     }
+//     // disable internal clock sync so frames show immediately
+//     g_object_set(videosink, "sync", FALSE, nullptr);
+
+//     // 3) Configure playbin: set our RTSP URI, low latency, and video sink
+//     g_object_set(pipeline,
+//                  "uri",         uri.toUtf8().constData(),
+//                  "latency",     100,            // 100 ms jitter buffer
+//                  "video-sink",  videosink,
 //                  nullptr);
 
-//     // appsink wants raw RGB
-//     GstCaps* caps = gst_caps_new_simple("video/x-raw",
-//                                         "format", G_TYPE_STRING, "RGB",
-//                                         nullptr);
-//     g_object_set(appsink,
-//                  "caps",         caps,
-//                  "emit-signals", FALSE,
-//                  "sync",         FALSE,
-//                  nullptr);
-//     gst_caps_unref(caps);
+//     //Using PC camera for testing purposes:
+//     // temporarily use the laptop camera:
+//     // const char *webcamUri = "v4l2:///dev/video0";
+//     // g_object_set(pipeline,
+//     //              "uri",       webcamUri,
+//     //              "video-sink", videosink,
+//     //              nullptr);
 
-//     // 3) Build pipeline
-//     pipeline = gst_pipeline_new("video-receiver");
-//     gst_bin_add_many(GST_BIN(pipeline),
-//                      src,
-//                      depay, parser, decoder,
-//                      tee,
-//                      q1, convert1, videosink,
-//                      q2, convert2, appsink,
-//                      nullptr);
-
-//     gst_element_link_many(depay, parser, decoder, tee, nullptr);
-//     gst_element_link_many(tee, q1, convert1, videosink, nullptr);
-//     gst_element_link_many(tee, q2, convert2, appsink,     nullptr);
-
-//     // 4) Dynamic pad from rtspsrc → depay
-//     g_signal_connect(src, "pad-added",
-//                      G_CALLBACK(+[](
-//                                      GstElement* /*rtspsrc*/,
-//                                      GstPad*      newPad,
-//                                      gpointer     data)
-//                                 {
-//                                     GstPad* sink = gst_element_get_static_pad(
-//                                         static_cast<GstElement*>(data),
-//                                         "sink");
-//                                     if (!GST_PAD_IS_LINKED(sink))
-//                                         gst_pad_link(newPad, sink);
-//                                     gst_object_unref(sink);
-//                                 }),
-//                      depay);
-
-//     // 5) Bus watch, start playing, etc.…
-//     GstBus* bus = gst_element_get_bus(pipeline);
+//     // 4) Watch the bus for EOS / errors / state changes
+//     GstBus *bus = gst_element_get_bus(pipeline);
 //     gst_bus_add_watch(bus, VideoReceiver::bus_call, this);
 //     gst_object_unref(bus);
 
+//     // 5) Fire it up
 //     gst_element_set_state(pipeline, GST_STATE_PLAYING);
-//     qDebug() << "[VideoReceiver] Pipeline set to PLAYING";
+//     qDebug() << "[VideoReceiver] playbin → PLAYING";
 // }
+
+
+//For second camera
+VideoReceiver::VideoReceiver(QObject *parent)
+    : QObject(parent),
+    pipeline(nullptr),
+    videosink(nullptr),
+    appsink(nullptr)
+{
+    gst_init(nullptr, nullptr);
+
+    // 1) Create all elements
+    auto* src      = gst_element_factory_make("rtspsrc",      "src");
+    auto* depay    = gst_element_factory_make("rtph264depay", "depay");
+    auto* parser   = gst_element_factory_make("h264parse",    "parser");
+    auto* decoder  = gst_element_factory_make("avdec_h264",   "decoder");
+    auto* tee      = gst_element_factory_make("tee",          "tee");
+    auto* q1       = gst_element_factory_make("queue",        "q1");
+    auto* q2       = gst_element_factory_make("queue",        "q2");
+    auto* convert1 = gst_element_factory_make("videoconvert","convert1");
+    videosink      = gst_element_factory_make("xvimagesink",  "videosink");
+    auto* convert2 = gst_element_factory_make("videoconvert","convert2");
+    appsink        = gst_element_factory_make("appsink",       "appsink");
+
+    if (!src||!depay||!parser||!decoder||!tee||!q1||!q2
+        ||!convert1||!videosink||!convert2||!appsink)
+    {
+        qCritical() << "[VideoReceiver] failed to create elements";
+        return;
+    }
+
+    // ── **HERE** ──
+    // 2) Configure RTSP source with low‐latency
+    QString uri = getRtspUriFromConfig().trimmed();
+    g_object_set(src,
+                 "location", uri.toUtf8().constData(),
+                 "latency",   (guint)100,    // 100 ms jitter buffer
+                 nullptr);
+
+    // appsink wants raw RGB
+    GstCaps* caps = gst_caps_new_simple("video/x-raw",
+                                        "format", G_TYPE_STRING, "RGB",
+                                        nullptr);
+    g_object_set(appsink,
+                 "caps",         caps,
+                 "emit-signals", FALSE,
+                 "sync",         FALSE,
+                 nullptr);
+    gst_caps_unref(caps);
+
+    // 3) Build pipeline
+    pipeline = gst_pipeline_new("video-receiver");
+    gst_bin_add_many(GST_BIN(pipeline),
+                     src,
+                     depay, parser, decoder,
+                     tee,
+                     q1, convert1, videosink,
+                     q2, convert2, appsink,
+                     nullptr);
+
+    gst_element_link_many(depay, parser, decoder, tee, nullptr);
+    gst_element_link_many(tee, q1, convert1, videosink, nullptr);
+    gst_element_link_many(tee, q2, convert2, appsink,     nullptr);
+
+    // 4) Dynamic pad from rtspsrc → depay
+    g_signal_connect(src, "pad-added",
+                     G_CALLBACK(+[](
+                                     GstElement* /*rtspsrc*/,
+                                     GstPad*      newPad,
+                                     gpointer     data)
+                                {
+                                    GstPad* sink = gst_element_get_static_pad(
+                                        static_cast<GstElement*>(data),
+                                        "sink");
+                                    if (!GST_PAD_IS_LINKED(sink))
+                                        gst_pad_link(newPad, sink);
+                                    gst_object_unref(sink);
+                                }),
+                     depay);
+
+    // 5) Bus watch, start playing, etc.…
+    GstBus* bus = gst_element_get_bus(pipeline);
+    gst_bus_add_watch(bus, VideoReceiver::bus_call, this);
+    gst_object_unref(bus);
+
+    gst_element_set_state(pipeline, GST_STATE_PLAYING);
+    qDebug() << "[VideoReceiver] Pipeline set to PLAYING";
+}
 
 
 void VideoReceiver::setWindowId(WId id) {
@@ -293,11 +305,23 @@ void VideoReceiver::setWindowId(WId id) {
 
 VideoReceiver::~VideoReceiver() {
     if (pipeline) {
+        // Stop pipeline first
         gst_element_set_state(pipeline, GST_STATE_NULL);
-        gst_object_unref(pipeline);
-    }
-}
 
+        // Remove bus watch
+        GstBus* bus = gst_element_get_bus(pipeline);
+        gst_bus_remove_watch(bus);
+        gst_object_unref(bus);
+
+        // Unreference pipeline
+        gst_object_unref(pipeline);
+        pipeline = nullptr;
+    }
+
+    // Don't unref individual elements - they're owned by the pipeline
+    videosink = nullptr;
+    appsink = nullptr;
+}
 void VideoReceiver::start() {
     if (pipeline) {
         // If already playing, this is a no-op
@@ -307,10 +331,28 @@ void VideoReceiver::start() {
 }
 
 
-void VideoReceiver::stop() {
-    if (pipeline)
-        gst_element_set_state(pipeline, GST_STATE_NULL);
+void VideoReceiver::stop()
+{
+    if (!pipeline) return;
+
+    // 1) Take the pipeline to NULL (this sends RTSP TEARDOWN)
+    gst_element_set_state(pipeline, GST_STATE_NULL);
+
+    // 2) Remove our bus watch callback
+    if (auto bus = gst_element_get_bus(pipeline)) {
+        gst_bus_remove_watch(bus);
+        gst_object_unref(bus);
+    }
+
+    // 3) Unref the pipeline itself and clear our pointer
+    gst_object_unref(pipeline);
+    pipeline = nullptr;
+
+    // 4) Drop your xvimagesink & appsink references, if you held any
+    videosink = nullptr;
+    appsink   = nullptr;
 }
+
 
 // --- read URI from JSON config (unchanged) --------------------------------
 QString VideoReceiver::getRtspUriFromConfig() {
@@ -333,8 +375,8 @@ QString VideoReceiver::getRtspUriFromConfig() {
     QString configFile = configDirectory.filePath(subFolder + "/Hexa5CameraConfig.json");
 
     // Default values
-    QString defaultIP = "10.14.11.3";
-    int defaultPort = 8554;
+    QString defaultIP = "192.168.1.64";
+    int defaultPort = 554;
     QString defaultPath = "/main.264";
     QString defaultUri = QString("rtsp://%1:%2%3\n").arg(defaultIP).arg(defaultPort).arg(defaultPath);
 
@@ -420,4 +462,17 @@ QImage VideoReceiver::grabFrame()
     gst_buffer_unmap(buf, &info);
     gst_sample_unref(sample);
     return copy;
+
+    if (sample) {
+        // Always unref sample when done
+        QImage result;
+        GstBuffer *buf = gst_sample_get_buffer(sample);
+        if (buf && gst_buffer_map(buf, &info, GST_MAP_READ)) {
+            // ... image creation code ...
+            gst_buffer_unmap(buf, &info);
+        }
+        gst_sample_unref(sample);
+        return result;
+    }
+    return {};
 }
