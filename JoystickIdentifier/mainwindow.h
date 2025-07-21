@@ -20,7 +20,11 @@
 #include <QProcess>
 #include <QToolButton>
 #include <QPropertyAnimation>
+#include "servo_client.hpp"
+#include "ServoWorker.h"
 
+
+using ServoControl::ServoClient;
 namespace Ui {
 class MainWindow;
 }
@@ -73,6 +77,9 @@ private slots:
     void onStop();
     void handlePingFinished(int exitCode, QProcess::ExitStatus status);
     //void onTabClicked(int index);
+
+signals:
+    void servoPositionChanged(int newPosition);
 
 private:
     Ui::MainWindow *ui;
@@ -156,7 +163,12 @@ private:
     QVideoWidget  *splashVideo   = nullptr;
     QMediaPlayer  *splashPlayer  = nullptr;
 
+    std::unique_ptr<ServoControl::ServoClient> _servo;
+    int _servoPosition = 0;
+
 };
+
+
 
 #endif // MAINWINDOW_H
 

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(JoystickIdentifier VERSION 0.1 LANGUAGES CXX)
+project(JoystickIdentifier VERSION 0.1 LANGUAGES C CXX)
 
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
@@ -29,7 +29,7 @@ endif()
 #set(CMAKE_PREFIX_PATH "/home/med/Qt/6.8.1/gcc_64/lib/cmake")
 
 # Find Qt6 required components.
-find_package(Qt6 REQUIRED COMPONENTS Widgets Multimedia MultimediaWidgets Core)
+find_package(Qt6 REQUIRED COMPONENTS Widgets Multimedia MultimediaWidgets Core Concurrent)
 find_package(X11 REQUIRED)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
 #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -D_DEBUG")
@@ -50,6 +50,12 @@ set(PROJECT_SOURCES
     mainwindow.h
     signalhandler.cpp
     signalhandler.h
+    cJSON.c
+    cJSON.h
+    servo_client.cpp
+    servo_client.hpp
+    ServoWorker.h
+    
 )
 
 # Create executable using Qt6.
@@ -99,6 +105,7 @@ target_link_libraries(JoystickIdentifier PRIVATE
     QJoysticks
     #${CMAKE_SOURCE_DIR}/thirdparty/SIYI-SDK/build/libsiyi-sdk-static.a
     siyi-sdk
+    Qt6::Concurrent
 )
 
 target_link_libraries(VideoReceiver

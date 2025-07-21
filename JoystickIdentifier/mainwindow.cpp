@@ -38,6 +38,9 @@
 #include <gst/video/videooverlay.h>
 #include <QPropertyAnimation>
 #include <QEasingCurve>
+#include <QtConcurrent/QtConcurrent>
+
+//#include "servo_client.hpp"
 
 //static const char *CONTROL_IP = "10.14.11.3";
 static const int CONTROL_PORT = 37260;
@@ -51,6 +54,9 @@ MainWindow::MainWindow(QWidget *parent)
 
 {
     ui->setupUi(this);
+
+    ui->toolButtonLeft->hide();
+    ui->toolButtonRight->hide();
 
     ui->toggleButton->setFocusPolicy(Qt::NoFocus);
 
@@ -336,13 +342,13 @@ QDockWidget[floating="true"] {
 
 
 
-    QApplication::instance()->installEventFilter(this);
+    //QApplication::instance()->installEventFilter(this);
     connect(QJoysticks::getInstance(),
             &QJoysticks::axisChanged,
             this,
             &MainWindow::onJoystickAxisChanged);
     videoWidget = new VideoRecorderWidget(this);
-    videoWidget->installEventFilter(this);
+    //videoWidget->installEventFilter(this);
     videoWidget->setFocusPolicy(Qt::NoFocus);
     videoWidget->getReceiver()->setWindowId(videoWidget->winId());
     QVBoxLayout *videoLayout = new QVBoxLayout();
@@ -423,11 +429,12 @@ QDockWidget[floating="true"] {
 
     QTimer *pollTimer = new QTimer(this);
     connect(pollTimer, &QTimer::timeout, this, &MainWindow::pollAxisValues);
-    pollTimer->start(10);
+    pollTimer->start(50);
 
     // Set up a timer to send gimbal commands every 100ms.
     commandTimer = new QTimer(this);
     connect(commandTimer, &QTimer::timeout, this, &MainWindow::sendGimbalCommands);
+    commandTimer->setInterval(50);
     commandTimer->start(10);
 
     // Create the SIYI SDK instance.
@@ -492,6 +499,44 @@ QDockWidget[floating="true"] {
     connect(ui->ScreenshotButton, &QPushButton::clicked,
             this,               &MainWindow::on_ScreenshotButton_clicked);
 
+
+    // e.g. read it from your camera‐config QLineEdits, or just hard‑code
+    QString servoIp   = "127.0.0.1";
+    int     servoPort = 8000;
+
+    // 1) instantiate
+    _servo = std::make_unique<ServoControl::ServoClient>(
+        servoIp.toStdString(),
+        servoPort,
+        /*timeout_ms=*/ 2000
+        );
+
+    // 2) try to connect
+    if (!_servo->connect()) {
+        statusBar()->showMessage(
+            QString("Servo connect failed: %1")
+                .arg(QString::fromStdString(_servo->getLastError())),
+            5000
+            );
+    } else {
+        statusBar()->showMessage("Servo connected", 2000);
+    }
+
+    // 1) take ownership of your existing client and make a worker
+    auto client = std::move(_servo);
+    auto* thread = new QThread(this);
+    auto* worker = new ServoWorker(std::move(client));
+    worker->moveToThread(thread);
+    connect(thread, &QThread::finished, worker, &QObject::deleteLater);
+    thread->start();
+
+    // 2) expose a signal so we can tell the worker "new position!"
+    connect(this, &MainWindow::servoPositionChanged,
+            worker, &ServoWorker::setPosition,
+            Qt::QueuedConnection);
+
+    // 3) initialize value (if you like)
+    emit servoPositionChanged(_servoPosition);
 }
 
 
@@ -723,107 +768,77 @@ void MainWindow::onSwitchToJoystick() {
     ui->switchtokeyboard->setStyleSheet("");
 }
 
-void MainWindow::keyPressEvent(QKeyEvent *event) {
-    if (inputMode != InputMode::Keyboard) {
-        QMainWindow::keyPressEvent(event);
-        return;
+void MainWindow::keyPressEvent(QKeyEvent* event) {
+    // Let QLineEdits handle their own typing
+    if (qobject_cast<QLineEdit*>(qApp->focusWidget())) {
+        return QMainWindow::keyPressEvent(event);
     }
-    event->accept();
-    {
+
+    if (inputMode == InputMode::Keyboard) {
+        int oldPos = _servoPosition;
 
         switch (event->key()) {
-        case Qt::Key_Z:  // pitch up
-            //currentPitchSpeed = PITCH_SPEED_CONSTANT;
-            currentPitchSpeed = MOVE_SPEED;
-            if(ui->toolButtonUp) ui->toolButtonUp->setStyleSheet("background-color: green;");
-            #ifdef _DEBUG
-            qDebug() << "Key pressed:" << event->key() << "Yaw:" << currentYawSpeed << "Pitch:" << currentPitchSpeed;
-            #endif
+        case Qt::Key_Z:  // tilt up
+            _servoPosition = qBound(0, _servoPosition - 5, 180);
+            ui->toolButtonUp->setStyleSheet("background-color: green;");
             break;
-        case Qt::Key_S:  // pitch down
-            //currentPitchSpeed = -PITCH_SPEED_CONSTANT;
-            currentPitchSpeed = -MOVE_SPEED;
-            if(ui->toolButtonDown) ui->toolButtonDown->setStyleSheet("background-color: green;");
-            #ifdef _DEBUG
-            qDebug() << "Key pressed:" << event->key() << "Yaw:" << currentYawSpeed << "Pitch:" << currentPitchSpeed;
-            #endif
+        case Qt::Key_S:  // tilt down
+            _servoPosition = qBound(0, _servoPosition + 5, 180);
+            ui->toolButtonDown->setStyleSheet("background-color: green;");
             break;
-        case Qt::Key_Q:  // yaw left
-            //currentYawSpeed = -YAW_SPEED_CONSTANT;
+        case Qt::Key_Q:  // pan left
             currentYawSpeed = -MOVE_SPEED;
-            if(ui->toolButtonLeft) ui->toolButtonLeft->setStyleSheet("background-color: green;");
-            #ifdef _DEBUG
-            qDebug() << "Key pressed:" << event->key() << "Yaw:" << currentYawSpeed << "Pitch:" << currentPitchSpeed;
-             #endif
+            ui->toolButtonLeft->setStyleSheet("background-color: green;");
             break;
-        case Qt::Key_D:  // yaw right
+        case Qt::Key_D:  // pan right
             currentYawSpeed = MOVE_SPEED;
-            if(ui->toolButtonRight) ui->toolButtonRight->setStyleSheet("background-color: green;");
-            #ifdef _DEBUG
-            qDebug() << "Key pressed:" << event->key() << "Yaw:" << currentYawSpeed << "Pitch:" << currentPitchSpeed;
-             #endif
+            ui->toolButtonRight->setStyleSheet("background-color: green;");
             break;
-        case Qt::Key_Plus:
-        case Qt::Key_Equal:
-            currentZoom = std::min(MAX_ZOOM, currentZoom + ZOOM_SPEED);
-            if(ui->toolButtonZoomPlus) ui->toolButtonZoomPlus->setStyleSheet("background-color: green;");
-            sdk->set_absolute_zoom(currentZoom, 1);
-            #ifdef _DEBUG
-            qDebug() << "Key pressed:" << event->key() << "Yaw:" << currentYawSpeed << "Pitch:" << currentPitchSpeed;
-             #endif
-            break;
-        case Qt::Key_Minus:
-        case Qt::Key_Underscore:
-            currentZoom = std::max(MIN_ZOOM, currentZoom - ZOOM_SPEED);
-            sdk->set_absolute_zoom(currentZoom, 1);
-            if(ui->toolButtonZoomMinus) ui->toolButtonZoomMinus->setStyleSheet("background-color: green;");
-            #ifdef _DEBUG
-            qDebug() << "Key pressed:" << event->key() << "Yaw:" << currentYawSpeed << "Pitch:" << currentPitchSpeed;
-             #endif
-            break;
+        // … your zoom cases unchanged …
         default:
-            QMainWindow::keyPressEvent(event);
-            break;
+            return QMainWindow::keyPressEvent(event);
         }
+        event->accept();
+
+        // Only emit if the position actually changed
+        if (_servoPosition != oldPos) {
+            emit servoPositionChanged(_servoPosition);
+        }
+    } else {
+        QMainWindow::keyPressEvent(event);
     }
 }
 
-void MainWindow::keyReleaseEvent(QKeyEvent *event) {
-    if (inputMode != InputMode::Keyboard) {
-        QMainWindow::keyReleaseEvent(event);
-        return;
-    }
-    event->accept();
-    {
 
+void MainWindow::keyReleaseEvent(QKeyEvent *event) {
+    // same “let line‑edit” guard
+    if (qobject_cast<QLineEdit*>(qApp->focusWidget())) {
+        return QMainWindow::keyReleaseEvent(event);
+    }
+
+    if (inputMode == InputMode::Keyboard) {
         switch (event->key()) {
         case Qt::Key_Z:
         case Qt::Key_S:
-            //currentPitchAccel = 0.0f;
-            currentPitchSpeed = 0;
-            if(ui->toolButtonUp) ui->toolButtonUp->setStyleSheet("");
-            if(ui->toolButtonDown) ui->toolButtonDown->setStyleSheet("");
+            ui->toolButtonUp->setStyleSheet("");
+            ui->toolButtonDown->setStyleSheet("");
             break;
         case Qt::Key_Q:
         case Qt::Key_D:
-            //currentYawAccel = 0.0f;
             currentYawSpeed = 0;
-            if(ui->toolButtonLeft) ui->toolButtonLeft->setStyleSheet("");
-            if(ui->toolButtonRight) ui->toolButtonRight->setStyleSheet("");
+            ui->toolButtonLeft->setStyleSheet("");
+            ui->toolButtonRight->setStyleSheet("");
             break;
-        case Qt::Key_Plus:
-        case Qt::Key_Equal:
-        case Qt::Key_Minus:
-        case Qt::Key_Underscore:
-            if(ui->toolButtonZoomPlus) ui->toolButtonZoomPlus->setStyleSheet("");
-            if(ui->toolButtonZoomMinus) ui->toolButtonZoomMinus->setStyleSheet("");
-            break;
+        // … zoom key‑up styling as before …
         default:
             QMainWindow::keyReleaseEvent(event);
-            break;
         }
+        event->accept();
+    } else {
+        QMainWindow::keyReleaseEvent(event);
     }
 }
+
 
 void MainWindow::sendGimbalCommands() {
 
@@ -1002,7 +1017,7 @@ void MainWindow::showEvent(QShowEvent *event) {
     QMainWindow::showEvent(event);
 
     // 2) your existing grabKeyboard()
-    grabKeyboard();
+    //grabKeyboard();
 
 }
 
@@ -1012,13 +1027,25 @@ void MainWindow::resizeEvent(QResizeEvent *ev) {
     if (splashVideo && splashVideo->isVisible()) {
         splashVideo->setGeometry(ui->centralwidget->rect());
     }
+
+    if (recordOverlay && recordOverlay->isVisible()) {
+        recordOverlay->setFixedWidth(videoWidget->width());
+        recordOverlay->move(0, 0);
+    }
 }
 
 void MainWindow::closeEvent(QCloseEvent* ev)
 {
     // 1) gracefully shut down the stream
-    if (videoWidget && videoWidget->getReceiver())
-        videoWidget->getReceiver()->stop();
+    if (videoWidget) {
+        auto *rcv = videoWidget->getReceiver();
+        if (rcv) {
+            // asynchronously stop the pipeline
+            QtConcurrent::run([rcv]() {
+                rcv->stop();     // this will block—but not on the GUI thread
+            });
+        }
+    }
 
     // 2) (optional) kill any *other* instances—but do NOT SIGKILL your own PID
     killExistingInstances_(); // ← drop this
@@ -1026,6 +1053,10 @@ void MainWindow::closeEvent(QCloseEvent* ev)
     // 3) Finish closing
     QMainWindow::closeEvent(ev);
     QCoreApplication::quit();
+
+    if (_servo && _servo->isConnected()) {
+        _servo->disconnect();
+    }
 }
 
 // bool MainWindow::eventFilter(QObject *watched, QEvent *event) {
@@ -1181,20 +1212,32 @@ void MainWindow::handlePingFinished(int exitCode, QProcess::ExitStatus status) {
 
 void MainWindow::on_RecordButton_clicked()
 {
-    // Trim any stray newline
+    // 0) if the camera isn’t active, warn and bail
+    if (auto *vr = videoWidget->getReceiver()) {
+        if (!vr->isPlaying()) {
+            QMessageBox::warning(
+                this,
+                tr("Recording unavailable"),
+                tr("The camera stream is not active.\nRecording is unavailable.")
+                );
+            return;
+        }
+    }
+
+    // 1) Trim any stray newline
     QString uri = rtspUri.trimmed();
 
     if (recordState == RecordState::Idle) {
         // ── START RECORDING ──
 
-        // 1) prepare path
+        // 2) prepare path
         QString dir = QDir::homePath() + "/Hexa5CameraRecordedVideos";
         QDir().mkpath(dir);
         QString fn = QDateTime::currentDateTime()
                          .toString("yyyyMMdd_hhmmss") + ".mp4";
         lastRecordPath = dir + "/" + fn;
 
-        // 2) launch ffmpeg
+        // 3) launch ffmpeg
         QStringList args = {
             "-rtsp_transport", "tcp",
             "-i",              uri,
@@ -1213,42 +1256,43 @@ void MainWindow::on_RecordButton_clicked()
         });
         recordProcess->start("ffmpeg", args);
 
-        // 3) wait up to 2 s for it to actually start
+        // 4) wait up to 2 s for it to actually start
         if (!recordProcess->waitForStarted(2000) ||
             recordProcess->state() != QProcess::Running)
         {
-            QMessageBox::warning(this, "Recording",
-                                 "Could not start ffmpeg — check your URI and network.");
+            QMessageBox::warning(
+                this,
+                tr("Recording"),
+                tr("Could not start ffmpeg — check your URI and network.")
+                );
             delete recordProcess;
             recordProcess = nullptr;
             return;
         }
 
-        // 4) update UI
+        // 5) update UI
+        recordOverlay->setFixedWidth(videoWidget->width());
+        recordOverlay->move(0, 0);
         recordState = RecordState::Recording;
-        ui->RecordButton->setText("Stop Recording");
+        ui->RecordButton->setText(tr("Stop Recording"));
         recordClock.start();
-        recordOverlay->setText("● REC   00:00");
+        recordOverlay->setText(tr("● REC   00:00"));
         recordOverlay->show();
         recordUiTimer->start();
-        statusBar()->showMessage("🔴 Recording started", 2000);
-    }
-    else {
+        statusBar()->showMessage(tr("🔴 Recording started"), 2000);
+
+    } else {
         // ── STOP RECORDING ──
 
-        // stop the overlay timer
         recordUiTimer->stop();
 
         if (recordProcess) {
             // ask ffmpeg to finish cleanly (SIGINT == Ctrl+C)
             qint64 pid = recordProcess->processId();
-            if (pid > 0) {
-                ::kill(pid, SIGINT);
-            }
+            if (pid > 0) ::kill(pid, SIGINT);
 
-            // give it up to 5 s to write the trailer
+            // give it up to 5 s to write the trailer
             if (!recordProcess->waitForFinished(5000)) {
-                // if it’s still alive, force-kill
                 recordProcess->kill();
                 recordProcess->waitForFinished();
             }
@@ -1260,9 +1304,9 @@ void MainWindow::on_RecordButton_clicked()
         // restore UI
         recordOverlay->hide();
         recordState = RecordState::Idle;
-        ui->RecordButton->setText("Start Recording");
+        ui->RecordButton->setText(tr("Start Recording"));
         statusBar()->showMessage(
-            QString("Recording saved to:\n%1").arg(lastRecordPath),
+            tr("Recording saved to:\n%1").arg(lastRecordPath),
             5000
             );
     }

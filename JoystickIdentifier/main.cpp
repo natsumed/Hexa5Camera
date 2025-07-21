@@ -43,10 +43,10 @@ int main(int argc, char *argv[])
         qDebug() << "Using AppImage video path:" << videoPath;
     }
     // Second try: Development resource path
-    else if (QFile::exists(":/intro.mp4")) {
-        videoPath = "qrc:/intro.mp4";
-        qDebug() << "Using resource video path";
-    }
+    // else if (QFile::exists(":/intro.mp4")) {
+    //     videoPath = "qrc:/intro.mp4";
+    //     qDebug() << "Using resource video path";
+    // }
     // Fallback: Absolute path
     else {
         videoPath = "/usr/share/videos/hexa5camera.mp4";

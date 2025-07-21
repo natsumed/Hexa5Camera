@@ -218,12 +218,14 @@ VideoReceiver::VideoReceiver(QObject *parent)
     auto* src      = gst_element_factory_make("rtspsrc",      "src");
     auto* depay    = gst_element_factory_make("rtph264depay", "depay");
     auto* parser   = gst_element_factory_make("h264parse",    "parser");
-    auto* decoder  = gst_element_factory_make("avdec_h264",   "decoder");
+    //auto* decoder  = gst_element_factory_make("avdec_h264",   "decoder");
+    auto* decoder = gst_element_factory_make("vaapih264dec", "hwdec");
     auto* tee      = gst_element_factory_make("tee",          "tee");
     auto* q1       = gst_element_factory_make("queue",        "q1");
     auto* q2       = gst_element_factory_make("queue",        "q2");
     auto* convert1 = gst_element_factory_make("videoconvert","convert1");
-    videosink      = gst_element_factory_make("xvimagesink",  "videosink");
+    //videosink      = gst_element_factory_make("xvimagesink",  "videosink");
+    auto* videosink = gst_element_factory_make("glimagesink",   "glsink");
     auto* convert2 = gst_element_factory_make("videoconvert","convert2");
     appsink        = gst_element_factory_make("appsink",       "appsink");
 
