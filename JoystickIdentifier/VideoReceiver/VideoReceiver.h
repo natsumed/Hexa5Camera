@@ -20,6 +20,8 @@ public:
     bool isPlaying() const;
     void start();
     QImage grabFrame();
+    void setRtspUri(const QString &uri);
+    void createPipeline(const QString& uri);
 
 signals:
     void cameraStarted();
@@ -30,6 +32,8 @@ private:
     GstElement *convert    = nullptr;
     GstElement *videosink  = nullptr;
     GstElement *appsink    = nullptr;
+    GstElement *rtspSrc    = nullptr;
+    WId savedWindowId = 0;
 };
 
 #endif // VIDEORECEIVER_H

@@ -22,6 +22,8 @@
 #include <QPropertyAnimation>
 #include "servo_client.hpp"
 #include "ServoWorker.h"
+#include "CameraController.h"
+
 
 
 using ServoControl::ServoClient;
@@ -56,6 +58,7 @@ private slots:
     void onJoystickItemClicked(QListWidgetItem *item);
     void onSwitchToKeyboard();
     void onSwitchToJoystick();
+    void onSwitchToConfiguration();
     void sendGimbalCommands();
     void saveConfig();
     void saveDefaultConfig();
@@ -77,6 +80,18 @@ private slots:
     void onStop();
     void handlePingFinished(int exitCode, QProcess::ExitStatus status);
     //void onTabClicked(int index);
+    QString loadServoIp() const;
+    int loadServoPort() const;
+    void applyConfig();
+    void createCameraControllerFromConfig();
+    void onSelectSiyiClicked();
+    void onSelectServoClicked();
+    void onCameraChooseBack();
+    void populateConfigFields();
+    void onSiyiDefaultClicked();
+    void onServoDefaultClicked();
+    void initializeCameraController();
+
 
 signals:
     void servoPositionChanged(int newPosition);
@@ -85,7 +100,7 @@ private:
     Ui::MainWindow *ui;
 
     // Mode and joystick selection:
-    enum class InputMode { None, Keyboard, Joystick };
+    enum class InputMode { None, Keyboard, Joystick, Configuration};
     InputMode inputMode = InputMode::None;
     int cameraJoystickIndex;
 
@@ -109,7 +124,7 @@ private:
     QTimer *commandTimer;
 
     // Pointer to the SIYI SDK instance
-    SIYI_SDK* sdk;
+    //SIYI_SDK* sdk;
 
     std::thread receiveThread;
     std::atomic<bool> keepRunning;
@@ -163,8 +178,10 @@ private:
     QVideoWidget  *splashVideo   = nullptr;
     QMediaPlayer  *splashPlayer  = nullptr;
 
-    std::unique_ptr<ServoControl::ServoClient> _servo;
+    //std::unique_ptr<ServoControl::ServoClient> _servo;
     int _servoPosition = 0;
+    std::unique_ptr<CameraController> cameraController;
+
 
 };
 

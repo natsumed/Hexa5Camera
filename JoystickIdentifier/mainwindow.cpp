@@ -39,6 +39,15 @@
 #include <QPropertyAnimation>
 #include <QEasingCurve>
 #include <QtConcurrent/QtConcurrent>
+#include <QStandardPaths>
+#include <QDir>
+#include <QFile>
+#include <QJsonDocument>
+#include <QJsonObject>
+#include <QMetaObject>
+#include "SiyiCameraController.h"
+#include "ServoCameraController.h"
+
 
 //#include "servo_client.hpp"
 
@@ -49,14 +58,30 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent),
       ui(new Ui::MainWindow),
       keepRunning(true),
-      sdk(nullptr),
+      //sdk(nullptr),
       currentZoom(1.0f)
 
 {
     ui->setupUi(this);
+#ifdef _DEBUG
+    QPushButton *dbg = new QPushButton("DBG: pan+50", this);
+    dbg->setToolTip("Sends a single setGimbalSpeed(50,0) to see if gimbal moves");
+    dbg->setFixedSize(110,24);
+    dbg->move(10, 10); // move somewhere unobtrusive
+    connect(dbg, &QPushButton::clicked, this, [this]() {
+        if (cameraController && cameraController->isRunning()) {
+            qDebug() << "[DBG] sending single gimbal speed 50,0";
+            cameraController->setGimbalSpeed(50,0);
+            QTimer::singleShot(300, this, [this]() { // stop after 300 ms
+                if (cameraController) cameraController->setGimbalSpeed(0,0);
+            });
+        } else {
+            qWarning() << "[DBG] controller not ready";
+        }
+    });
+#endif
 
-    ui->toolButtonLeft->hide();
-    ui->toolButtonRight->hide();
+    qApp->installEventFilter(this);
 
     ui->toggleButton->setFocusPolicy(Qt::NoFocus);
 
@@ -65,81 +90,64 @@ MainWindow::MainWindow(QWidget *parent)
     // and ensure our central widget can accept focus too
     ui->centralwidget->setFocusPolicy(Qt::StrongFocus);
 
-    ui->lineEditIP  ->setFocusPolicy(Qt::StrongFocus);
-    ui->lineEditPort->setFocusPolicy(Qt::StrongFocus);
-    ui->lineEditPath->setFocusPolicy(Qt::StrongFocus);
+    // ui->lineEditIP  ->setFocusPolicy(Qt::StrongFocus);
+    // ui->lineEditPort->setFocusPolicy(Qt::StrongFocus);
+    // ui->lineEditPath->setFocusPolicy(Qt::StrongFocus);
+
+    // Ensure cameraTypeStack starts on chooser page:
+    if (ui->cameraTypeStack) {
+        ui->cameraTypeStack->setCurrentIndex(0); // chooser page
+
+        // Connect chooser buttons
+        connect(ui->btnSelectSiyi, &QPushButton::clicked, this, &MainWindow::onSelectSiyiClicked);
+        connect(ui->btnSelectServo, &QPushButton::clicked, this, &MainWindow::onSelectServoClicked);
+
+        // Connect back buttons (both pages call same back slot)
+        connect(ui->btnSiyiBack, &QPushButton::clicked, this, &MainWindow::onCameraChooseBack);
+        connect(ui->btnServoBack, &QPushButton::clicked, this, &MainWindow::onCameraChooseBack);
+
+        if (ui->btnSiyiSave)
+            connect(ui->btnSiyiSave, &QPushButton::clicked, this, &MainWindow::saveConfig);
+        if (ui->btnServoSave)
+            connect(ui->btnServoSave, &QPushButton::clicked, this, &MainWindow::saveConfig);
+        if (ui->btnSiyiDefault) {
+            connect(ui->btnSiyiDefault, &QPushButton::clicked, this, &MainWindow::onSiyiDefaultClicked);
+        }
+        if (ui->btnServoDefault) {
+            connect(ui->btnServoDefault, &QPushButton::clicked, this, &MainWindow::onServoDefaultClicked);
+        }
+    }
+
+    // Ensure port fields only accept numbers
+    auto setPortValidator = [this](QLineEdit* le){
+        if (!le) return;
+        le->setValidator(new QIntValidator(1, 65535, this));
+    };
+
+    // SIYI ports
+    setPortValidator(ui->siyi_lineEditPort);
+
+    // Servo ports
+    setPortValidator(ui->servo_lineEditPort);
+    setPortValidator(ui->servo_lineEditServoPort);
+
+    // When the user opens the Camera Configuration tab, populate fields
+    connect(ui->tabWidget, &QTabWidget::currentChanged, this, [this](int index){
+        // find tab index for Camera Configuration. If you know it's 2, check equality.
+        // Here we simply check if the currently visible widget is the camera config page
+        QWidget* current = ui->tabWidget->widget(index);
+        if (current == ui->tabWidget /* replace with actual page widget pointer if present */) {
+            populateConfigFields();
+        } else {
+            // Alternatively, call populateConfigFields when the user clicks the Camera Configuration button
+        }
+    });
 
 
-    // ui->centralwidget->hide();
-    // statusBar()->hide();
-
-    // // --- 1) HIDE YOUR SIDE PANEL & TOGGLE BUTTON ---
-    // ui->controlsContainer->hide();
-    // ui->toggleButton->hide();
-
-    // // (If you also hid your status‑bar during splash:)
-    // statusBar()->hide();
-
-    // // --- 2) INSTANTIATE THE SPLASH INSIDE VideoRecorderSection ---
-    // splashVideo = new QVideoWidget(ui->centralwidget);
-    // splashVideo->setGeometry(ui->centralwidget->rect());
-    // splashVideo->setAspectRatioMode(Qt::IgnoreAspectRatio);
-    // splashVideo->show();
-    // splashVideo->raise();
-
-    // // 2) hook the player as before
-    // splashPlayer = new QMediaPlayer(this);
-    // splashPlayer->setVideoOutput(splashVideo);
-    // splashPlayer->setSource(QUrl("qrc:/intro.mp4"));
-    // splashPlayer->play();
-
-    // // --- 4) WHEN THE CLIP ENDS, TEAR DOWN & REVEAL ---
-    // connect(splashPlayer, &QMediaPlayer::mediaStatusChanged,
-    //         this, [this](QMediaPlayer::MediaStatus status){
-    //             if (status == QMediaPlayer::EndOfMedia ||
-    //                 splashPlayer->playbackState() != QMediaPlayer::PlayingState)
-    //             {
-    //                 // slight delay to let the last frame linger
-    //                 QTimer::singleShot(100, this, [this]() {
-    //                     splashVideo->hide();
-    //                     //splashPlayer->stop();
-    //                     splashPlayer->deleteLater();
-    //                     splashVideo->deleteLater();
-
-    //                     this->releaseKeyboard();
-    //                     ui->centralwidget->show();
-
-    //                     // now un‑hide your real UI:
-    //                     ui->controlsContainer->show();
-    //                     ui->toggleButton->show();
-    //                     statusBar()->show();
-    //                 });
-    //             }
-    //         });
-
-
-    //this->centralWidget()->setStyleSheet("background-color: magenta;");
-    // Apply stylesheet to central widget to inherit to children
-    // QFile ff(":/hexa5.css");
-    // if (ff.open(QFile::ReadOnly | QFile::Text)) {
-    //     QString css = QString::fromUtf8(ff.readAll());
-    //     centralWidget()->setStyleSheet(css);
-    // }
 
     QStatusBar* statusBarr = new QStatusBar();
     statusBarr->setStyleSheet("background-color: #2d2d44; color: #aaaaaa;");
     setStatusBar(statusBarr);
-
-    // // Add status indicators
-    // QLabel* connectionStatus = new QLabel("Camera: Disconnected");
-    // connectionStatus->setProperty("status", "inactive");
-    // statusBarr->addWidget(connectionStatus);
-
-    // QLabel* recStatus = new QLabel("Recording: Inactive");
-    // recStatus->setProperty("status", "inactive");
-    // statusBarr->addPermanentWidget(recStatus);
-
-
 
     /////////////////////////////////////////////////////
     /// \brief setWindowTitle
@@ -215,7 +223,7 @@ MainWindow::MainWindow(QWidget *parent)
             ctr->show();
             ctr->setMaximumWidth(fullW);
             ctr->setFixedWidth(fullW);
-            ui->lineEditIP->setFocus();
+            //ui->lineEditIP->setFocus();
         }
 
         // Force the parent layout to re‐do its math
@@ -335,8 +343,7 @@ QDockWidget[floating="true"] {
 
     // Camera-Config button: flip into CONFIG mode *and* select tab 2
     connect(ui->pushButtonConfiguration, &QPushButton::clicked, this, [this]() {
-        // If you have a function for config-mode, call it here.
-        // e.g. onSwitchToConfig();
+        onSwitchToConfiguration();
         ui->tabWidget->setCurrentIndex(2);   // show the “Camera Configuration” tab
     });
 
@@ -363,6 +370,8 @@ QDockWidget[floating="true"] {
     }
 
     rtspUri = videoWidget->getReceiver()->getRtspUriFromConfig();
+    qDebug() << "[VideoReceiver] opening RTSP URI:" << rtspUri;
+
 
     // 1) give an initial “checking” state
     ui->lineEditCameraStatus->setText("Checking…");
@@ -395,6 +404,7 @@ QDockWidget[floating="true"] {
     // Mode switch buttons.
     connect(ui->switchtokeyboard, &QPushButton::clicked, this, &MainWindow::onSwitchToKeyboard);
     connect(ui->switchtojoystick, &QPushButton::clicked, this, &MainWindow::onSwitchToJoystick);
+    connect(ui->pushButtonConfiguration, &QPushButton::clicked, this, &MainWindow::onSwitchToConfiguration);
 
     // in MainWindow::MainWindow(...)
     connect(ui->toolButtonUp,    &QToolButton::clicked, this, &MainWindow::onFullUp);
@@ -408,12 +418,15 @@ QDockWidget[floating="true"] {
     connect(ui->toolButtonZoomMinus, &QToolButton::clicked, this, &MainWindow::onZoomMaxOut);
 
 
-    connect(ui->pushButtonSaveConfig, &QPushButton::clicked, this, &MainWindow::saveConfig);
-    connect(ui->DefaultConfig, &QPushButton::clicked, this, &MainWindow::saveDefaultConfig);
+    // connect(ui->pushButtonSaveConfig, &QPushButton::clicked, this, &MainWindow::saveConfig);
+    // connect(ui->DefaultConfig, &QPushButton::clicked, this, &MainWindow::saveDefaultConfig);
 
     // Set focus policy so that key events arrive at the main window.
     setFocusPolicy(Qt::StrongFocus);
     setFocus();
+
+    qApp->installEventFilter(this);
+
 
     updateDeviceList();
     statusBar()->showMessage("Ready");
@@ -434,38 +447,44 @@ QDockWidget[floating="true"] {
     // Set up a timer to send gimbal commands every 100ms.
     commandTimer = new QTimer(this);
     connect(commandTimer, &QTimer::timeout, this, &MainWindow::sendGimbalCommands);
-    commandTimer->setInterval(50);
-    commandTimer->start(10);
+    //commandTimer->setInterval(50);
+    commandTimer->start(50);
+    qDebug() << "[MainWindow] gimbalTimer started (50ms)";
 
-    // Create the SIYI SDK instance.
 
-    std::string ip = "10.14.11.3";
-    int port = 37260;
-    sdk = new SIYI_SDK(ip.c_str(), 37260);
-    if (sdk->request_firmware_version()) {
-        qDebug() << "Requested firmware version. Waiting for response...";
-        std::this_thread::sleep_for(std::chrono::seconds(2)); 
-        auto [code_version, gimbal_version, zoom_version] = sdk->get_firmware_version();
-        qDebug() << "Code Board: " << code_version.c_str() 
-                 << "  Gimbal: " << gimbal_version.c_str()
-                 << "  Zoom: " << zoom_version.c_str();
-    } else {
-        qDebug() << "Failed to request firmware version.";
-    }
-    if (sdk->request_gimbal_center()){
-        qDebug() << "Requested gimbal center . Waiting for response...";
-    }
-    if(sdk->request_autofocus()){
-        qDebug() << "Requested autofocus. Waiting for response...";
-    }
+    // // Create the SIYI SDK instance.
 
-    receiveThread = std::thread([this]() {
-        bool keepRunningLocal = keepRunning.load();
-        sdk->receive_message_loop(keepRunningLocal);
-    });
-    #ifdef _DEBUG
-    qDebug() << "Camera control initialized";
-    #endif
+    // std::string ip = "10.14.11.3";
+    // int port = 37260;
+    // sdk = new SIYI_SDK(ip.c_str(), 37260);
+    // if (sdk->request_firmware_version()) {
+    //     qDebug() << "Requested firmware version. Waiting for response...";
+    //     std::this_thread::sleep_for(std::chrono::seconds(2));
+    //     auto [code_version, gimbal_version, zoom_version] = sdk->get_firmware_version();
+    //     qDebug() << "Code Board: " << code_version.c_str()
+    //              << "  Gimbal: " << gimbal_version.c_str()
+    //              << "  Zoom: " << zoom_version.c_str();
+    // } else {
+    //     qDebug() << "Failed to request firmware version.";
+    // }
+    // if (sdk->request_gimbal_center()){
+    //     qDebug() << "Requested gimbal center . Waiting for response...";
+    // }
+    // if(sdk->request_autofocus()){
+    //     qDebug() << "Requested autofocus. Waiting for response...";
+    // }
+
+    // receiveThread = std::thread([this]() {
+    //     bool keepRunningLocal = keepRunning.load();
+    //     sdk->receive_message_loop(keepRunningLocal);
+    // });
+    // #ifdef _DEBUG
+    // qDebug() << "Camera control initialized";
+    // #endif
+
+    QTimer::singleShot(100, this, &MainWindow::initializeCameraController);
+    createCameraControllerFromConfig();
+
 
     //Recording Video Section
     useLocalCamera = true;
@@ -501,42 +520,42 @@ QDockWidget[floating="true"] {
 
 
     // e.g. read it from your camera‐config QLineEdits, or just hard‑code
-    QString servoIp   = "127.0.0.1";
-    int     servoPort = 8000;
+    QString servoIp   = loadServoIp();
+    int     servoPort = loadServoPort();
 
-    // 1) instantiate
-    _servo = std::make_unique<ServoControl::ServoClient>(
-        servoIp.toStdString(),
-        servoPort,
-        /*timeout_ms=*/ 2000
-        );
+    // // 1) instantiate
+    // _servo = std::make_unique<ServoControl::ServoClient>(
+    //     servoIp.toStdString(),
+    //     servoPort,
+    //     /*timeout_ms=*/ 2000
+    //     );
 
-    // 2) try to connect
-    if (!_servo->connect()) {
-        statusBar()->showMessage(
-            QString("Servo connect failed: %1")
-                .arg(QString::fromStdString(_servo->getLastError())),
-            5000
-            );
-    } else {
-        statusBar()->showMessage("Servo connected", 2000);
-    }
+    // // 2) try to connect
+    // if (!_servo->connect()) {
+    //     statusBar()->showMessage(
+    //         QString("Servo connect failed: %1")
+    //             .arg(QString::fromStdString(_servo->getLastError())),
+    //         5000
+    //         );
+    // } else {
+    //     statusBar()->showMessage("Servo connected", 2000);
+    // }
 
-    // 1) take ownership of your existing client and make a worker
-    auto client = std::move(_servo);
-    auto* thread = new QThread(this);
-    auto* worker = new ServoWorker(std::move(client));
-    worker->moveToThread(thread);
-    connect(thread, &QThread::finished, worker, &QObject::deleteLater);
-    thread->start();
+    // // 1) take ownership of your existing client and make a worker
+    // auto client = std::move(_servo);
+    // auto* thread = new QThread(this);
+    // auto* worker = new ServoWorker(std::move(client));
+    // worker->moveToThread(thread);
+    // connect(thread, &QThread::finished, worker, &QObject::deleteLater);
+    // thread->start();
 
-    // 2) expose a signal so we can tell the worker "new position!"
-    connect(this, &MainWindow::servoPositionChanged,
-            worker, &ServoWorker::setPosition,
-            Qt::QueuedConnection);
+    // // 2) expose a signal so we can tell the worker "new position!"
+    // connect(this, &MainWindow::servoPositionChanged,
+    //         worker, &ServoWorker::setPosition,
+    //         Qt::QueuedConnection);
 
-    // 3) initialize value (if you like)
-    emit servoPositionChanged(_servoPosition);
+    // // 3) initialize value (if you like)
+    // emit servoPositionChanged(_servoPosition);
 }
 
 
@@ -557,7 +576,11 @@ MainWindow::~MainWindow() {
     }
     
     // 4. Delete SDK instance
-    delete sdk;
+    //delete sdk;
+    if (cameraController) {
+        cameraController->stop();
+        cameraController.reset();
+    }
 }
 
 void MainWindow::onJoystickItemClicked(QListWidgetItem *item) {
@@ -705,8 +728,9 @@ void MainWindow::onJoystickAxisChanged(int dev, int axis, qreal value)
             newZoom = qBound(MIN_ZOOM, newZoom, MAX_ZOOM);
 
             currentZoom = newZoom;
-            sdk->set_absolute_zoom(currentZoom, 1);
-            sdk->request_autofocus();
+            //sdk->set_absolute_zoom(currentZoom, 1);
+            if (cameraController) cameraController->setAbsoluteZoom(currentZoom, 1);
+            //sdk->request_autofocus();
 
             lastZoomLevel = level;
         }
@@ -740,14 +764,46 @@ void MainWindow::onJoystickAxisChanged(int dev, int axis, qreal value)
 
 void MainWindow::onSwitchToKeyboard() {
     QMutexLocker locker(&commandMutex);
+
+    if (!cameraController) {
+        statusBar()->showMessage("No camera controller: cannot enter keyboard mode", 3000);
+        qWarning() << "[onSwitchToKeyboard] no controller";
+        return;
+    }
+
+    if (!cameraController->isRunning()) {
+        qDebug() << "[onSwitchToKeyboard] controller not running; attempting start()";
+        if (!cameraController->start()) {
+            statusBar()->showMessage("Failed to start camera controller", 3000);
+            qWarning() << "[onSwitchToKeyboard] failed to start controller";
+            return;
+        }
+        // short, non-blocking wait for the controller to spin up
+        QElapsedTimer t; t.start();
+        while (t.elapsed() < 300) {
+            QCoreApplication::processEvents();
+            if (cameraController->isRunning()) break;
+            QThread::msleep(10);
+        }
+        if (!cameraController->isRunning()) {
+            statusBar()->showMessage("Controller did not become ready", 3000);
+            qWarning() << "[onSwitchToKeyboard] controller not running after start attempt";
+            return;
+        }
+    }
     inputMode = InputMode::Keyboard;
     currentYawSpeed = 0;
     currentPitchSpeed = 0;
-    sdk->set_gimbal_speed(0, 0);
+    //sdk->set_gimbal_speed(0, 0);
+    if (cameraController) cameraController->setGimbalSpeed(currentYawSpeed, currentPitchSpeed);
+    this->setFocus(Qt::OtherFocusReason);
+    if (ui->tabWidget) ui->tabWidget->setFocus(Qt::OtherFocusReason);
+    this->grabKeyboard();
     statusBar()->showMessage("Keyboard mode active");
     qDebug() << "[MODE] keyboard";
     ui->switchtokeyboard->setStyleSheet("background-color: green;");
     ui->switchtojoystick->setStyleSheet("");
+    ui->pushButtonConfiguration->setStyleSheet("");
     QWidget* w = ui->tabWidget->currentWidget();
     QPropertyAnimation* fade = new QPropertyAnimation(w, "windowOpacity", this);
     fade->setDuration(200);
@@ -761,40 +817,125 @@ void MainWindow::onSwitchToJoystick() {
     inputMode = InputMode::Joystick;
     currentYawSpeed = 0;
     currentPitchSpeed = 0;
-    sdk->set_gimbal_speed(0, 0);
+    //sdk->set_gimbal_speed(0, 0);
+    if (cameraController) cameraController->setGimbalSpeed(currentYawSpeed, currentPitchSpeed);
+    this->releaseKeyboard();
     statusBar()->showMessage("Joystick mode active");
     qDebug() << "[MODE] joystick";
     ui->switchtojoystick->setStyleSheet("background-color: green;");
     ui->switchtokeyboard->setStyleSheet("");
+    ui->pushButtonConfiguration->setStyleSheet("");
 }
 
+void MainWindow::onSwitchToConfiguration()
+{
+    QMutexLocker locker(&commandMutex);
+    inputMode = InputMode::Configuration;
+    this->releaseKeyboard();
+    statusBar()->showMessage("Configuration mode active");
+    qDebug() << "[MODE] Configuration";
+    ui->pushButtonConfiguration->setStyleSheet("background-color: green;");
+    ui->switchtojoystick->setStyleSheet("");
+    ui->switchtokeyboard->setStyleSheet("");
+
+}
 void MainWindow::keyPressEvent(QKeyEvent* event) {
+    qDebug() << "[keyPressEvent] Detailed debug -"
+             << "key:" << event->key()
+             << "text:" << event->text()
+             << "autoRepeat:" << event->isAutoRepeat()
+             << "inputMode:" << static_cast<int>(inputMode)
+             << "cameraController:" << (cameraController ? "exists" : "null")
+             << "controllerRunning:" << (cameraController ? cameraController->isRunning() : false)
+             << "focusWidget:" << (qApp->focusWidget() ? qApp->focusWidget()->metaObject()->className() : "null");
+
     // Let QLineEdits handle their own typing
     if (qobject_cast<QLineEdit*>(qApp->focusWidget())) {
+        qDebug() << "[keyPressEvent] Ignoring - QLineEdit has focus";
         return QMainWindow::keyPressEvent(event);
     }
 
     if (inputMode == InputMode::Keyboard) {
         int oldPos = _servoPosition;
 
+        bool isServo = false;
+        if (cameraController) {
+            isServo = (dynamic_cast<ServoCameraController*>(cameraController.get()) != nullptr);
+        }
+
         switch (event->key()) {
         case Qt::Key_Z:  // tilt up
-            _servoPosition = qBound(0, _servoPosition - 5, 180);
-            ui->toolButtonUp->setStyleSheet("background-color: green;");
+            if (isServo) {
+                // servo: change absolute position
+                _servoPosition = qBound(0, _servoPosition - 5, 180);
+                emit servoPositionChanged(_servoPosition);
+                ui->toolButtonUp->setStyleSheet("background-color: green;");
+            } else {
+                // gimbal: set pitch speed (negative for up)
+                QMutexLocker locker(&commandMutex);
+                currentPitchSpeed = -MOVE_SPEED;
+                if (cameraController) {
+                    bool okImmediate = cameraController->setGimbalSpeed(currentYawSpeed, currentPitchSpeed);
+                    qDebug() << "[keyPressEvent] immediate setGimbalSpeed returned:" << (okImmediate ? "OK" : "FAIL");
+                }
+                ui->toolButtonUp->setStyleSheet("background-color: green;");
+            }
             break;
         case Qt::Key_S:  // tilt down
-            _servoPosition = qBound(0, _servoPosition + 5, 180);
-            ui->toolButtonDown->setStyleSheet("background-color: green;");
+            if (isServo) {
+                _servoPosition = qBound(0, _servoPosition + 5, 180);
+                emit servoPositionChanged(_servoPosition);
+                ui->toolButtonDown->setStyleSheet("background-color: green;");
+            } else {
+                QMutexLocker locker(&commandMutex);
+                currentPitchSpeed = MOVE_SPEED;
+                if (cameraController) {
+                    bool okImmediate = cameraController->setGimbalSpeed(currentYawSpeed, currentPitchSpeed);
+                    qDebug() << "[keyPressEvent] immediate setGimbalSpeed returned:" << (okImmediate ? "OK" : "FAIL");
+                }
+                ui->toolButtonDown->setStyleSheet("background-color: green;");
+            }
             break;
         case Qt::Key_Q:  // pan left
+        {
+            QMutexLocker locker(&commandMutex);
             currentYawSpeed = -MOVE_SPEED;
+            if (cameraController) {
+                bool okImmediate = cameraController->setGimbalSpeed(currentYawSpeed, currentPitchSpeed);
+                qDebug() << "[keyPressEvent] immediate setGimbalSpeed returned:" << (okImmediate ? "OK" : "FAIL");
+            }
             ui->toolButtonLeft->setStyleSheet("background-color: green;");
-            break;
+        }
+        break;
         case Qt::Key_D:  // pan right
+        {
+            QMutexLocker locker(&commandMutex);
             currentYawSpeed = MOVE_SPEED;
+            if (cameraController) {
+                bool okImmediate = cameraController->setGimbalSpeed(currentYawSpeed, currentPitchSpeed);
+                qDebug() << "[keyPressEvent] immediate setGimbalSpeed returned:" << (okImmediate ? "OK" : "FAIL");
+            }
             ui->toolButtonRight->setStyleSheet("background-color: green;");
+        }
+        break;
+        case Qt::Key_Plus:
+        case Qt::Key_Equal:
+        {
+            QMutexLocker locker(&commandMutex);
+            currentZoom = std::min(MAX_ZOOM, currentZoom + ZOOM_SPEED);
+            if(ui->toolButtonZoomPlus) ui->toolButtonZoomPlus->setStyleSheet("background-color: green;");
+            cameraController->setAbsoluteZoom(currentZoom, 1);
+        }
             break;
-        // … your zoom cases unchanged …
+        case Qt::Key_Minus:
+        case Qt::Key_Underscore:
+        {
+            QMutexLocker locker(&commandMutex);
+            currentZoom = std::max(MIN_ZOOM, currentZoom - ZOOM_SPEED);
+            if(ui->toolButtonZoomMinus) ui->toolButtonZoomMinus->setStyleSheet("background-color: green;");
+            cameraController->setAbsoluteZoom(currentZoom, 1);
+        }
+            break;
         default:
             return QMainWindow::keyPressEvent(event);
         }
@@ -811,25 +952,63 @@ void MainWindow::keyPressEvent(QKeyEvent* event) {
 
 
 void MainWindow::keyReleaseEvent(QKeyEvent *event) {
+
+    qDebug() << "[keyReleaseEvent]"
+             << "key:" << event->key()
+             << "text:" << event->text()
+             << "autoRepeat:" << event->isAutoRepeat()
+             << "inputMode:" << static_cast<int>(inputMode)
+             << "focusWidget:" << (qApp->focusWidget()? qApp->focusWidget()->metaObject()->className() : "null");
+
     // same “let line‑edit” guard
     if (qobject_cast<QLineEdit*>(qApp->focusWidget())) {
         return QMainWindow::keyReleaseEvent(event);
     }
 
     if (inputMode == InputMode::Keyboard) {
+
+        bool isServo = false;
+        if (cameraController) {
+            isServo = (dynamic_cast<ServoCameraController*>(cameraController.get()) != nullptr);
+        }
         switch (event->key()) {
         case Qt::Key_Z:
         case Qt::Key_S:
             ui->toolButtonUp->setStyleSheet("");
             ui->toolButtonDown->setStyleSheet("");
+            if (!isServo) {
+                QMutexLocker locker(&commandMutex);
+                if (!isServo) currentPitchSpeed = 0;
+                if (cameraController) {
+                    bool ok = cameraController->setGimbalSpeed(currentYawSpeed, currentPitchSpeed);
+                    qDebug() << "[keyReleaseEvent] immediate stop setGimbalSpeed returned:" << (ok ? "OK" : "FAIL");
+                }
+            }
             break;
         case Qt::Key_Q:
         case Qt::Key_D:
+        {
+            QMutexLocker locker(&commandMutex);
+            if (!isServo) currentYawSpeed = 0;
+            if (cameraController) {
+                bool ok = cameraController->setGimbalSpeed(currentYawSpeed, currentPitchSpeed);
+                qDebug() << "[keyReleaseEvent] immediate stop setGimbalSpeed returned:" << (ok ? "OK" : "FAIL");
+            }
+        }
             currentYawSpeed = 0;
             ui->toolButtonLeft->setStyleSheet("");
             ui->toolButtonRight->setStyleSheet("");
             break;
-        // … zoom key‑up styling as before …
+        case Qt::Key_Plus:
+        case Qt::Key_Equal:
+        case Qt::Key_Minus:
+        case Qt::Key_Underscore:
+        {
+            QMutexLocker locker(&commandMutex);
+        }
+            if(ui->toolButtonZoomPlus) ui->toolButtonZoomPlus->setStyleSheet("");
+            if(ui->toolButtonZoomMinus) ui->toolButtonZoomMinus->setStyleSheet("");
+            break;
         default:
             QMainWindow::keyReleaseEvent(event);
         }
@@ -839,95 +1018,370 @@ void MainWindow::keyReleaseEvent(QKeyEvent *event) {
     }
 }
 
-
-void MainWindow::sendGimbalCommands() {
-
-    if (inputMode == InputMode::None)
-        return;
-    QMutexLocker locker(&commandMutex); 
-    // Always send commands regardless of speed values
-    bool success = sdk->set_gimbal_speed(currentYawSpeed, currentPitchSpeed);
-    //sdk->request_autofocus();
-    //qDebug() << "Command sent - Yaw:" << currentYawSpeed << "Pitch:" << currentPitchSpeed << "Success:" << success;
-    //qDebug() << "Command:" << currentYawSpeed << "," << currentPitchSpeed 
-    //         << (success ? "Succeeded" : "Failed");
-    //#ifdef _DEBUG
-    //qDebug() << "Command sent - Yaw:" << currentYawSpeed << "Pitch:" << currentPitchSpeed << "Success:" << success;
-    //#endif
-    if (inputMode != InputMode::Joystick) {
-        currentYawSpeed   = 0;
-        currentPitchSpeed = 0;
-    }
-    if (inputMode != InputMode::Keyboard) {
-        currentYawSpeed   = 0;
-        currentPitchSpeed = 0;
-    }
+void MainWindow::onFullUp() {
+    currentYawSpeed = 0;
+    currentPitchSpeed = -MOVE_SPEED;
+    if (cameraController) cameraController->setGimbalSpeed(currentYawSpeed, currentPitchSpeed);
 }
 
+void MainWindow::onFullDown() {
+    currentYawSpeed = 0;
+    currentPitchSpeed = MOVE_SPEED;
+    if (cameraController) cameraController->setGimbalSpeed(currentYawSpeed, currentPitchSpeed);
+}
 
+void MainWindow::onFullLeft() {
+    currentYawSpeed = -MOVE_SPEED;
+    currentPitchSpeed = 0;
+    if (cameraController) cameraController->setGimbalSpeed(currentYawSpeed, currentPitchSpeed);
+}
 
+void MainWindow::onFullRight() {
+    currentYawSpeed = MOVE_SPEED;
+    currentPitchSpeed = 0;
+    if (cameraController) cameraController->setGimbalSpeed(currentYawSpeed, currentPitchSpeed);
+}
 
-void MainWindow::saveConfig() {
-    // Retrieve user input from QLineEdits.
-    QString ip = ui->lineEditIP->text();
-    QString portStr = ui->lineEditPort->text();
-    QString path = ui->lineEditPath->text();
+// Zoom - jump straight to min/max
+void MainWindow::onZoomMaxIn() {
+    currentZoom = MAX_ZOOM;
+    // sdk->set_absolute_zoom(currentZoom, 1);
+    // sdk->request_autofocus();
+    if (cameraController) cameraController->setAbsoluteZoom(currentZoom, 1);
+}
 
-    // Validate that port is numeric.
-    bool ok;
-    int port = portStr.toInt(&ok);
-    if (!ok) {
-        statusBar()->showMessage("Invalid port number", 3000);
+void MainWindow::onZoomMaxOut() {
+    currentZoom = MIN_ZOOM;
+    // sdk->set_absolute_zoom(currentZoom, 1);
+    // sdk->request_autofocus();
+    if (cameraController) cameraController->setAbsoluteZoom(currentZoom, 1);
+}
+
+void MainWindow::onStop() {
+    currentYawSpeed = 0;
+    currentPitchSpeed = 0;
+    if (cameraController) cameraController->setGimbalSpeed(0, 0);
+}
+
+void MainWindow::sendGimbalCommands() {
+    qDebug().nospace() << "[sendGimbalCommands] invoked; inputMode=" << static_cast<int>(inputMode);
+
+    if ((inputMode == InputMode::None) || (inputMode == InputMode::Configuration)) {
+        qDebug() << "[sendGimbalCommands] skipping — mode not active";
         return;
     }
 
-    // Build the config object.
-    QJsonObject obj;
-    obj["ip"] = ip;
-    obj["port"] = port;
-    obj["path"] = path;
-    QJsonDocument doc(obj);
+    int yaw, pitch;
+    {
+        QMutexLocker locker(&commandMutex);
+        yaw = currentYawSpeed;
+        pitch = currentPitchSpeed;
+    }
 
-    // Get the standard config location (usually ~/.config)
-    QString configDir = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation);
-    QString subFolder = "Haxa5Camera";  // our desired subfolder name
+    if (!cameraController) {
+        qDebug() << "[sendGimbalCommands] no cameraController";
+        return;
+    }
 
-    // Build the full directory path.
-    QDir configDirectory(configDir);
-    if (!configDirectory.exists(subFolder)) {
-        if (!configDirectory.mkdir(subFolder)) {
-            statusBar()->showMessage("Failed to create config subdirectory", 3000);
-            return;
+    static int lastYaw = INT_MIN;
+    static int lastPitch = INT_MIN;
+
+    // Always send the command, but log only when changed
+    bool ok = cameraController->setGimbalSpeed(yaw, pitch);
+    if (!ok) {
+        qWarning() << "[sendGimbalCommands] controller rejected gimbal speed:" << yaw << pitch;
+    } else {
+        if (yaw != lastYaw || pitch != lastPitch) {
+            qDebug() << "[sendGimbalCommands] cmd -> yaw:" << yaw << " pitch:" << pitch;
+            lastYaw = yaw;
+            lastPitch = pitch;
         }
     }
 
-    // Build the full path for the configuration file.
-    QString configFile = configDirectory.filePath(subFolder + "/Hexa5CameraConfig.json");
-
-    // Write JSON to the file.
-    QFile file(configFile);
-    if (file.open(QIODevice::WriteOnly)) {
-        file.write(doc.toJson(QJsonDocument::Indented));
-        file.close();
-        statusBar()->showMessage("Configuration saved successfully", 3000);
-        qDebug() << "Saved config to " << configFile;
-    } else {
-        statusBar()->showMessage("Failed to open config file for writing", 3000);
-        qDebug() << "Failed to open file " << configFile;
+    if (inputMode != InputMode::Joystick && inputMode != InputMode::Keyboard) {
+        QMutexLocker locker(&commandMutex);
+        currentYawSpeed = 0;
+        currentPitchSpeed = 0;
     }
 }
 
+
+// void MainWindow::sendGimbalCommands() {
+
+//     if (inputMode == InputMode::None)
+//         return;
+//     QMutexLocker locker(&commandMutex);
+//     // Always send commands regardless of speed values
+//     bool success = cameraController->setGimbalSpeed(currentYawSpeed, currentPitchSpeed);
+//     //sdk->request_autofocus();
+//     //qDebug() << "Command sent - Yaw:" << currentYawSpeed << "Pitch:" << currentPitchSpeed << "Success:" << success;
+//     //qDebug() << "Command:" << currentYawSpeed << "," << currentPitchSpeed
+//     //         << (success ? "Succeeded" : "Failed");
+//     //#ifdef _DEBUG
+//     //qDebug() << "Command sent - Yaw:" << currentYawSpeed << "Pitch:" << currentPitchSpeed << "Success:" << success;
+//     //#endif
+//     if (inputMode != InputMode::Joystick) {
+//         currentYawSpeed   = 0;
+//         currentPitchSpeed = 0;
+//     }
+//     if (inputMode != InputMode::Keyboard) {
+//         currentYawSpeed   = 0;
+//         currentPitchSpeed = 0;
+//     }
+// }
+
+
+void MainWindow::onSelectSiyiClicked()
+{
+    if (!ui->cameraTypeStack) return;
+    ui->cameraTypeStack->setCurrentWidget(ui->page_siyi);
+}
+
+void MainWindow::onSelectServoClicked()
+{
+    if (!ui->cameraTypeStack) return;
+    ui->cameraTypeStack->setCurrentWidget(ui->page_servo);
+}
+
+void MainWindow::onCameraChooseBack()
+{
+    if (!ui->cameraTypeStack) return;
+    ui->cameraTypeStack->setCurrentWidget(ui->page_choose_type);
+}
+
+void MainWindow::populateConfigFields()
+{
+    QString configDir = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation);
+    QDir dir(configDir);
+    QString cfgFile = dir.filePath("Haxa5Camera/Hexa5CameraConfig.json");
+
+    // defaults
+    QString ipDefault("192.168.1.64");
+    int portDefault = 554;
+    QString pathDefault("/main.264");
+    QString servoIpDefault("10.14.11.1");
+    int servoPortDefault = 8000;
+
+    QFile f(cfgFile);
+    if (!f.open(QIODevice::ReadOnly)) {
+        // set UI defaults
+        if (ui->siyi_lineEditIP) ui->siyi_lineEditIP->setText(ipDefault);
+        if (ui->siyi_lineEditPort) ui->siyi_lineEditPort->setText(QString::number(portDefault));
+        if (ui->siyi_lineEditPath) ui->siyi_lineEditPath->setText(pathDefault);
+
+        if (ui->servo_lineEditIP) ui->servo_lineEditIP->setText(ipDefault);
+        if (ui->servo_lineEditPort) ui->servo_lineEditPort->setText(QString::number(portDefault));
+        if (ui->servo_lineEditPath) ui->servo_lineEditPath->setText(pathDefault);
+        if (ui->servo_lineEditServoIP) ui->servo_lineEditServoIP->setText(servoIpDefault);
+        if (ui->servo_lineEditServoPort) ui->servo_lineEditServoPort->setText(QString::number(servoPortDefault));
+        return;
+    }
+
+    QByteArray data = f.readAll();
+    f.close();
+
+    QJsonDocument doc = QJsonDocument::fromJson(data);
+    QString cameraType = "siyi";
+    QString ip = ipDefault;
+    int port = portDefault;
+    QString path = pathDefault;
+    QString servoIp = servoIpDefault;
+    int servoPort = servoPortDefault;
+
+    if (doc.isObject()) {
+        QJsonObject obj = doc.object();
+        cameraType = obj.value("cameraType").toString(cameraType).toLower();
+        ip = obj.value("ip").toString(ip);
+        port = obj.value("port").toInt(port);
+        path = obj.value("path").toString(path);
+        servoIp = obj.value("servoIP").toString(servoIp);
+        servoPort = obj.value("servoPort").toInt(servoPort);
+    }
+
+    // Fill fields for SIYI page
+    if (ui->siyi_lineEditIP)   ui->siyi_lineEditIP->setText(ip);
+    if (ui->siyi_lineEditPort) ui->siyi_lineEditPort->setText(QString::number(port));
+    if (ui->siyi_lineEditPath) ui->siyi_lineEditPath->setText(path);
+
+    // Fill fields for Servo page
+    if (ui->servo_lineEditIP)      ui->servo_lineEditIP->setText(ip);
+    if (ui->servo_lineEditPort)    ui->servo_lineEditPort->setText(QString::number(port));
+    if (ui->servo_lineEditPath)    ui->servo_lineEditPath->setText(path);
+    if (ui->servo_lineEditServoIP) ui->servo_lineEditServoIP->setText(servoIp);
+    if (ui->servo_lineEditServoPort) ui->servo_lineEditServoPort->setText(QString::number(servoPort));
+
+    // Show the page matching the saved type so user sees the right form
+    if (ui->cameraTypeStack) {
+        if (cameraType == "servo") ui->cameraTypeStack->setCurrentWidget(ui->page_servo);
+        else ui->cameraTypeStack->setCurrentWidget(ui->page_siyi);
+    }
+}
+
+
+void MainWindow::saveConfig() {
+    QString cameraType = "siyi";
+    QString ip;
+    int port = 0;
+    QString path;
+    QString servoIP;
+    int servoPort = 0;
+
+    // Decide which page is currently visible in the stack:
+    int idx = ui->cameraTypeStack ? ui->cameraTypeStack->currentIndex() : 0;
+    QWidget *current = ui->cameraTypeStack->currentWidget();
+
+    // If current is SIYI page or we default to it
+    if (current == ui->page_siyi) {
+        cameraType = "siyi";
+        ip = ui->siyi_lineEditIP->text().trimmed();
+        port = ui->siyi_lineEditPort->text().toInt();
+        path = ui->siyi_lineEditPath->text().trimmed();
+    }
+    // Servo page
+    else if (current == ui->page_servo) {
+        cameraType = "servo";
+        ip = ui->servo_lineEditIP->text().trimmed();
+        port = ui->servo_lineEditPort->text().toInt();
+        path = ui->servo_lineEditPath->text().trimmed();
+        servoIP = ui->servo_lineEditServoIP->text().trimmed();
+        servoPort = ui->servo_lineEditServoPort->text().toInt();
+    } else {
+        // fallback to siyi fields if you had legacy fields
+        ip = ui->siyi_lineEditIP->text().trimmed();
+        port = ui->siyi_lineEditPort->text().toInt();
+        path = ui->siyi_lineEditPath->text().trimmed();
+    }
+
+    // Basic validation
+    if (ip.isEmpty() || port <= 0 || path.isEmpty()) {
+        statusBar()->showMessage("Invalid camera configuration — fill in IP, Port and Path", 3000);
+        return;
+    }
+
+    QJsonObject obj;
+    obj["cameraType"] = cameraType;
+    obj["ip"] = ip;
+    obj["port"] = port;
+    obj["path"] = path;
+    if (cameraType == "servo") {
+        obj["servoIP"] = servoIP;
+        obj["servoPort"] = servoPort;
+    }
+
+    QJsonDocument doc(obj);
+    QString configDir = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation);
+    QString subFolder = "Haxa5Camera";
+    QDir d(configDir);
+    d.mkpath(subFolder);
+    QString cfgFile = d.filePath(subFolder + "/Hexa5CameraConfig.json");
+
+    QFile file(cfgFile);
+    if (!file.open(QIODevice::WriteOnly)) {
+        statusBar()->showMessage("Failed to open config file for writing", 3000);
+        qWarning() << "Failed to write config to" << cfgFile;
+        return;
+    }
+    file.write(doc.toJson(QJsonDocument::Indented));
+    file.close();
+
+    statusBar()->showMessage("Configuration saved", 3000);
+    qDebug() << "Saved config to" << cfgFile;
+
+    // Re-apply config (restart VideoReceiver and recreate camera controller)
+    applyConfig();
+    // Also re-create controller specifically (ensure createCameraControllerFromConfig reads cameraType)
+    //createCameraControllerFromConfig();
+    return;
+}
+
+
+void MainWindow::onSiyiDefaultClicked()
+{
+    // Default SIYI values:
+    const QString defaultIP = QStringLiteral("192.168.144.25");
+    const int     defaultPort = 8554;
+    const QString defaultPath = QStringLiteral("/main.264");
+
+    if (ui->siyi_lineEditIP)   ui->siyi_lineEditIP->setText(defaultIP);
+    if (ui->siyi_lineEditPort) ui->siyi_lineEditPort->setText(QString::number(defaultPort));
+    if (ui->siyi_lineEditPath) ui->siyi_lineEditPath->setText(defaultPath);
+
+    // Ensure we show the SIYI page
+    if (ui->cameraTypeStack) ui->cameraTypeStack->setCurrentWidget(ui->page_siyi);
+
+    // Persist defaults and apply them
+    saveDefaultConfig();
+}
+
+void MainWindow::onServoDefaultClicked()
+{
+    // Default Servo + Camera values:
+    const QString defaultIP = QStringLiteral("192.168.144.25");
+    const int     defaultPort = 8554;
+    const QString defaultPath = QStringLiteral("/main.264");
+    const QString defaultServoIP = QStringLiteral("10.14.11.1");
+    const int     defaultServoPort = 8000;
+
+    if (ui->servo_lineEditIP)      ui->servo_lineEditIP->setText(defaultIP);
+    if (ui->servo_lineEditPort)    ui->servo_lineEditPort->setText(QString::number(defaultPort));
+    if (ui->servo_lineEditPath)    ui->servo_lineEditPath->setText(defaultPath);
+    if (ui->servo_lineEditServoIP) ui->servo_lineEditServoIP->setText(defaultServoIP);
+    if (ui->servo_lineEditServoPort) ui->servo_lineEditServoPort->setText(QString::number(defaultServoPort));
+
+    // Ensure we show the Servo page
+    if (ui->cameraTypeStack) ui->cameraTypeStack->setCurrentWidget(ui->page_servo);
+
+    // Persist defaults and apply them
+    saveDefaultConfig();
+}
 
 
 void MainWindow::saveDefaultConfig() {
     // Default configuration values:
-    QString defaultIP = "192.168.144.25";
-    int defaultPort = 8554;
-    QString defaultPath = "/main.264";
+    const QString defaultIP = QStringLiteral("192.168.144.25");
+    const int defaultPort = 8554;
+    const QString defaultPath = QStringLiteral("/main.264");
+    const QString defaultServoIP = QStringLiteral("10.14.11.1");
+    const int defaultServoPort = 8000;
+
+    // Determine which page is currently active so we can set cameraType properly
+    QString cameraType = "siyi"; // default
+
+    if (ui->cameraTypeStack) {
+        QWidget* cur = ui->cameraTypeStack->currentWidget();
+        if (cur == ui->page_servo) cameraType = "servo";
+        else cameraType = "siyi";
+    }
+
+    // Build JSON object using values from the UI (if present) or the defaults
     QJsonObject obj;
-    obj["ip"] = defaultIP;
-    obj["port"] = defaultPort;
-    obj["path"] = defaultPath;
+
+    if (cameraType == "servo") {
+        // Use servo page values if available, otherwise use defaults
+        QString ip = (ui->servo_lineEditIP && !ui->servo_lineEditIP->text().isEmpty()) ? ui->servo_lineEditIP->text().trimmed() : defaultIP;
+        int port = (ui->servo_lineEditPort && ui->servo_lineEditPort->text().toInt() > 0) ? ui->servo_lineEditPort->text().toInt() : defaultPort;
+        QString path = (ui->servo_lineEditPath && !ui->servo_lineEditPath->text().isEmpty()) ? ui->servo_lineEditPath->text().trimmed() : defaultPath;
+        QString sIP = (ui->servo_lineEditServoIP && !ui->servo_lineEditServoIP->text().isEmpty()) ? ui->servo_lineEditServoIP->text().trimmed() : defaultServoIP;
+        int sPort = (ui->servo_lineEditServoPort && ui->servo_lineEditServoPort->text().toInt() > 0) ? ui->servo_lineEditServoPort->text().toInt() : defaultServoPort;
+
+        obj["cameraType"] = cameraType;
+        obj["ip"] = ip;
+        obj["port"] = port;
+        obj["path"] = path;
+        obj["servoIP"] = sIP;
+        obj["servoPort"] = sPort;
+    } else {
+        // SIYI defaults
+        QString ip = (ui->siyi_lineEditIP && !ui->siyi_lineEditIP->text().isEmpty()) ? ui->siyi_lineEditIP->text().trimmed() : defaultIP;
+        int port = (ui->siyi_lineEditPort && ui->siyi_lineEditPort->text().toInt() > 0) ? ui->siyi_lineEditPort->text().toInt() : defaultPort;
+        QString path = (ui->siyi_lineEditPath && !ui->siyi_lineEditPath->text().isEmpty()) ? ui->siyi_lineEditPath->text().trimmed() : defaultPath;
+
+        obj["cameraType"] = cameraType;
+        obj["ip"] = ip;
+        obj["port"] = port;
+        obj["path"] = path;
+        // ensure servo fields removed so config matches SIYI-only
+    }
 
     QJsonDocument doc(obj);
 
@@ -955,6 +1409,12 @@ void MainWindow::saveDefaultConfig() {
         statusBar()->showMessage("Failed to open config file for writing", 3000);
         qWarning() << "Failed to open file" << configFile;
     }
+
+    // Apply config (video & controller will be restarted)
+    applyConfig();
+    // Recreate controller to pick up cameraType immediately
+    //createCameraControllerFromConfig();
+    return;
 }
 
 
@@ -1054,61 +1514,32 @@ void MainWindow::closeEvent(QCloseEvent* ev)
     QMainWindow::closeEvent(ev);
     QCoreApplication::quit();
 
-    if (_servo && _servo->isConnected()) {
-        _servo->disconnect();
-    }
+    // if (_servo && _servo->isConnected()) {
+    //     _servo->disconnect();
+    // }
 }
 
-// bool MainWindow::eventFilter(QObject *watched, QEvent *event) {
 
-//     if (inputMode != InputMode::Joystick) {
-//         if (event->type() == QEvent::KeyPress) {
-//             auto *ke = static_cast<QKeyEvent*>(event);
-//             keyPressEvent(ke);
-//             return true;
-//         }
-//         if (event->type() == QEvent::KeyRelease) {
-//             auto *ke = static_cast<QKeyEvent*>(event);
-//             keyReleaseEvent(ke);
-//             return true;
-//         }
-//     }
-//     if (watched == videoWidget && event->type() == QEvent::Resize) {
-//         // keep your overlay full-width and pinned at top
-//         recordOverlay->setFixedWidth(videoWidget->width());
-//         recordOverlay->move(0,0);
-//         return false;  // allow default handling too
-//     }
-//     return QMainWindow::eventFilter(watched, event);
-// }
-
-bool MainWindow::eventFilter(QObject *watched, QEvent *event) {
-    // 1) If it's a key event, and the focus widget is a QLineEdit,
-    if ((event->type() == QEvent::KeyPress ||
-         event->type() == QEvent::KeyRelease))
+bool MainWindow::eventFilter(QObject *watched, QEvent *event)
+{
+    // Let focused QLineEdit handle typing
+    if ((event->type() == QEvent::KeyPress || event->type() == QEvent::KeyRelease) &&
+        qobject_cast<QLineEdit*>(qApp->focusWidget()))
     {
-        if (qobject_cast<QLineEdit*>(QApplication::focusWidget())) {
-            return false;
-        }
+        return QMainWindow::eventFilter(watched, event);
     }
 
-    // 2) Only when we're in Keyboard‐mode do we intercept keys:
-    if (inputMode == InputMode::Keyboard) {
+    // Only intercept keys when in keyboard mode
+    if ((event->type() == QEvent::KeyPress || event->type() == QEvent::KeyRelease)
+        && inputMode == InputMode::Keyboard)
+    {
         if (event->type() == QEvent::KeyPress) {
             keyPressEvent(static_cast<QKeyEvent*>(event));
             return true;
-        }
-        if (event->type() == QEvent::KeyRelease) {
+        } else {
             keyReleaseEvent(static_cast<QKeyEvent*>(event));
             return true;
         }
-    }
-
-    // 3) Keep your video‐resize handling:
-    if (watched == videoWidget && event->type() == QEvent::Resize) {
-        recordOverlay->setFixedWidth(videoWidget->width());
-        recordOverlay->move(0,0);
-        return false;
     }
 
     return QMainWindow::eventFilter(watched, event);
@@ -1132,16 +1563,9 @@ void MainWindow::onCameraError(const QString &msg) {
 }
 
 
-// void MainWindow::refreshCameraStatus() {
-//     auto *vr = videoWidget->getReceiver();
-//     connect(vr, &VideoReceiver::cameraStarted, this, &MainWindow::onCameraStarted);
-//     connect(vr, &VideoReceiver::cameraError,   this, &MainWindow::onCameraError);
-// }
 
-#include <QProcess>    // at top of mainwindow.cpp
 
-// …
-
+#include <QProcess>
 
 QString MainWindow::loadControlIp() const
 {
@@ -1152,7 +1576,7 @@ QString MainWindow::loadControlIp() const
     QString cfgFile = dir.filePath(subFolder + "/Hexa5CameraConfig.json");
 
     // defaults in case JSON is missing or invalid
-    const QString defaultIp = QString::fromUtf8("192.168.1.64");
+    const QString defaultIp = QString::fromUtf8("192.168.144.25");
 
     QFile f(cfgFile);
     if (!f.open(QIODevice::ReadOnly))
@@ -1199,11 +1623,6 @@ void MainWindow::handlePingFinished(int exitCode, QProcess::ExitStatus status) {
         else
             onCameraError(QStringLiteral("Stream not playing"));
     }
-
-    // Clean up so future pings can fire
-    // (or leave it around if you want to throttle)
-    // pingProcess->deleteLater();
-    // pingProcess = nullptr;
 }
 
 
@@ -1313,174 +1732,6 @@ void MainWindow::on_RecordButton_clicked()
 }
 
 
-// void MainWindow::on_RecordButton_clicked()
-// {
-//     // Trim any stray newline
-//     QString uri = rtspUri.trimmed();
-
-//     if (recordState == RecordState::Idle) {
-//         // ── START RECORDING ──
-
-//         // 1) prepare path
-//         QString dir = QDir::homePath() + "/Hexa5CameraRecordedVideos";
-//         QDir().mkpath(dir);
-//         QString fn = QDateTime::currentDateTime()
-//                          .toString("yyyyMMdd_hhmmss") + ".mp4";
-//         lastRecordPath = dir + "/" + fn;
-
-//         // 2) launch ffmpeg
-//         QStringList args = {
-//             "-rtsp_transport", "tcp",
-//             "-i",              uri,
-//             "-c",              "copy",
-//             "-y",
-//             lastRecordPath
-//         };
-//         qDebug() << "[Record] will run: ffmpeg" << args;
-
-//         delete recordProcess;
-//         recordProcess = new QProcess(this);
-//         recordProcess->setProcessChannelMode(QProcess::MergedChannels);
-//         connect(recordProcess, &QProcess::readyReadStandardError, [this]() {
-//             auto err = recordProcess->readAllStandardError();
-//             qDebug() << "[ffmpeg]" << err.trimmed();
-//         });
-//         recordProcess->start("ffmpeg", args);
-
-//         // 3) wait up to 2 s for it to actually start
-//         if (!recordProcess->waitForStarted(2000) ||
-//             recordProcess->state() != QProcess::Running)
-//         {
-//             QMessageBox::warning(this, "Recording",
-//                                  "Could not start ffmpeg — check your URI and network.");
-//             delete recordProcess;
-//             recordProcess = nullptr;
-//             return;
-//         }
-
-//         // 4) update UI
-//         recordState = RecordState::Recording;
-//         ui->RecordButton->setText("Stop Recording");
-//         recordClock.start();
-//         recordOverlay->setText("● REC   00:00");
-//         recordOverlay->show();
-//         recordUiTimer->start();
-//         statusBar()->showMessage("🔴 Recording started", 2000);
-//     }
-//     else {
-//         // ── STOP RECORDING ──
-
-//         // stop the overlay timer
-//         recordUiTimer->stop();
-
-//         if (recordProcess) {
-//             // ask ffmpeg to finish cleanly (SIGINT == Ctrl+C)
-//             qint64 pid = recordProcess->processId();
-//             if (pid > 0) {
-//                 ::kill(pid, SIGINT);
-//             }
-
-//             // give it up to 5 s to write the trailer
-//             if (!recordProcess->waitForFinished(5000)) {
-//                 // if it’s still alive, force-kill
-//                 recordProcess->kill();
-//                 recordProcess->waitForFinished();
-//             }
-
-//             delete recordProcess;
-//             recordProcess = nullptr;
-//         }
-
-//         // restore UI
-//         recordOverlay->hide();
-//         recordState = RecordState::Idle;
-//         ui->RecordButton->setText("Start Recording");
-//         statusBar()->showMessage(
-//             QString("Recording saved to:\n%1").arg(lastRecordPath),
-//             5000
-//             );
-//     }
-// }
-
-//Test with PC camera
-// void MainWindow::on_RecordButton_clicked()
-// {
-//     // shorthand
-//     auto *rcvr = videoWidget->getReceiver();
-
-//     if (recordState == RecordState::Idle) {
-//         // ── STOP THE PREVIEW ──
-//         rcvr->stop();
-
-//         // ── START RECORDING ──
-//         QString dir = QDir::homePath() + "/Hexa5CameraRecordedVideos";
-//         QDir().mkpath(dir);
-//         QString fn = QDateTime::currentDateTime().toString("yyyyMMdd_hhmmss") + ".mp4";
-//         lastRecordPath = dir + "/" + fn;
-
-//         QStringList args = {
-//             "-f",       "v4l2",
-//             "-framerate","30",
-//             "-video_size","640x480",
-//             "-i",       "/dev/video0",
-//             "-c:v",     "libx264",
-//             "-preset",  "veryfast",
-//             "-y",
-//             lastRecordPath
-//         };
-
-//         delete recordProcess;
-//         recordProcess = new QProcess(this);
-//         recordProcess->setProcessChannelMode(QProcess::MergedChannels);
-
-//         qDebug() << "[Recording] starting ffmpeg" << args;
-//         recordProcess->start("ffmpeg", args);
-
-//         if (!recordProcess->waitForStarted(2000) ||
-//             recordProcess->state() != QProcess::Running)
-//         {
-//             QMessageBox::warning(this, "Recording",
-//                                  "Could not start ffmpeg — /dev/video0 busy or missing.");
-//             // if ffmpeg failed, restart preview:
-//             rcvr->start();
-//             return;
-//         }
-
-//         // UI
-//         recordState = RecordState::Recording;
-//         ui->RecordButton->setText("Stop Recording");
-//         recordClock.start();
-//         recordOverlay->setText("● REC   00:00");
-//         recordOverlay->show();
-//         recordUiTimer->start();
-//         statusBar()->showMessage("🔴 Recording started");
-
-//     } else {
-//         // ── STOP RECORDING ──
-//         recordUiTimer->stop();
-
-//         if (recordProcess) {
-//             recordProcess->terminate();
-//             if (!recordProcess->waitForFinished(3000))
-//                 recordProcess->kill();
-//             delete recordProcess;
-//             recordProcess = nullptr;
-//         }
-
-//         recordOverlay->hide();
-//         recordState = RecordState::Idle;
-//         ui->RecordButton->setText("Start Recording");
-//         statusBar()->showMessage(
-//             QString("Recording saved to:\n%1").arg(lastRecordPath),
-//             5000
-//             );
-
-//         // ── RESTART THE PREVIEW ──
-//         rcvr->start();
-//     }
-// }
-
-
 void MainWindow::updateRecordTime()
 {
     int total = recordClock.elapsed() / 1000;
@@ -1554,45 +1805,6 @@ void MainWindow::on_ScreenshotButton_clicked()
 }
 
 
-// Slam‐to‐end moves.  MOVE_SPEED is your max gimbal speed constant.
-void MainWindow::onFullUp() {
-    // negative pitch is “up” (tweak if your axes are reversed)
-    sdk->set_gimbal_speed(0, -MOVE_SPEED);
-    sdk->request_autofocus();
-}
-
-void MainWindow::onFullDown() {
-    sdk->set_gimbal_speed(0, MOVE_SPEED);
-    sdk->request_autofocus();
-}
-
-void MainWindow::onFullLeft() {
-    sdk->set_gimbal_speed(-MOVE_SPEED, 0);
-    sdk->request_autofocus();
-}
-
-void MainWindow::onFullRight() {
-    sdk->set_gimbal_speed(MOVE_SPEED, 0);
-    sdk->request_autofocus();
-}
-
-// Zoom - jump straight to min/max
-void MainWindow::onZoomMaxIn() {
-    currentZoom = MAX_ZOOM;
-    sdk->set_absolute_zoom(currentZoom, 1);
-    sdk->request_autofocus();
-}
-
-void MainWindow::onZoomMaxOut() {
-    currentZoom = MIN_ZOOM;
-    sdk->set_absolute_zoom(currentZoom, 1);
-    sdk->request_autofocus();
-}
-
-void MainWindow::onStop() {
-    sdk->set_gimbal_speed(0, 0);
-    sdk->request_autofocus();
-}
 
 
 void MainWindow::playIntro(const QString& splashUrl, const QString& css) {
@@ -1655,3 +1867,225 @@ void MainWindow::playIntro(const QString& splashUrl, const QString& css) {
     });
 }
 
+QString MainWindow::loadServoIp() const
+{
+    // same config file as camera
+    QString configDir = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation);
+    QDir dir(configDir);
+    QString cfgFile = dir.filePath(QStringLiteral("Haxa5Camera/Hexa5CameraConfig.json"));
+
+    const QString defaultIp = QStringLiteral("10.14.11.1");
+    QFile f(cfgFile);
+    if (!f.open(QIODevice::ReadOnly)) return defaultIp;
+    auto doc = QJsonDocument::fromJson(f.readAll());
+    if (!doc.isObject())    return defaultIp;
+    return doc.object().value(QStringLiteral("servoIP")).toString(defaultIp);
+}
+
+int MainWindow::loadServoPort() const
+{
+    QString configDir = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation);
+    QDir dir(configDir);
+    QString cfgFile = dir.filePath(QStringLiteral("Haxa5Camera/Hexa5CameraConfig.json"));
+
+    const int defaultPort = 8000;
+    QFile f(cfgFile);
+    if (!f.open(QIODevice::ReadOnly)) return defaultPort;
+    auto doc = QJsonDocument::fromJson(f.readAll());
+    if (!doc.isObject())    return defaultPort;
+    return doc.object().value(QStringLiteral("servoPort")).toInt(defaultPort);
+}
+
+
+// Synchronous, safe apply: do everything on the GUI thread in a deterministic order.
+void MainWindow::applyConfig()
+{
+    // Simple guard to avoid re-entrancy
+    static bool applying = false;
+    if (applying) {
+        statusBar()->showMessage("Apply already in progress", 2000);
+        return;
+    }
+    applying = true;
+
+    // Disable UI save/default buttons while applying to prevent concurrent clicks
+    if (ui->btnSiyiDefault)      ui->btnSiyiDefault->setEnabled(false);
+    if (ui->btnServoDefault)     ui->btnServoDefault->setEnabled(false);
+    if (ui->btnSiyiSave)         ui->btnSiyiSave->setEnabled(false);
+    if (ui->btnServoSave)        ui->btnServoSave->setEnabled(false);
+
+    statusBar()->showMessage("Applying configuration...", 2000);
+    qDebug() << "[CONFIG] applyConfig: starting";
+
+    if (commandTimer && commandTimer->isActive()) {
+        commandTimer->stop();
+        qDebug() << "[CONFIG] applyConfig: commandTimer stopped";
+    }
+
+    // 1) Stop VideoReceiver synchronously (safe on main thread)
+    if (videoWidget) {
+        if (auto *rcv = videoWidget->getReceiver()) {
+            qDebug() << "[CONFIG] applyConfig: stopping VideoReceiver";
+            // This is synchronous; it sets pipeline to NULL and unrefs elements.
+            rcv->stop();
+
+            // Give a short breathing room for GStreamer threads to tear down;
+            // this reduces races when we immediately create a new pipeline.
+            QThread::msleep(100);
+        }
+    }
+
+    // 2) Stop and destroy existing camera controller (if any)
+    if (cameraController) {
+        qDebug() << "[CONFIG] applyConfig: stopping existing cameraController";
+        try {
+            cameraController->stop();
+        } catch (...) {
+            qWarning() << "[CONFIG] applyConfig: exception while stopping cameraController";
+        }
+        cameraController.reset();
+    }
+
+    // 3) Recreate the controller from persisted config
+    qDebug() << "[CONFIG] applyConfig: creating new cameraController from config";
+    try {
+        createCameraControllerFromConfig();
+    } catch (const std::exception &ex) {
+        qWarning() << "[CONFIG] createCameraControllerFromConfig threw:" << ex.what();
+        QMessageBox::warning(this, tr("Camera Error"),
+                             tr("Failed to create camera controller:\n%1").arg(ex.what()));
+    } catch (...) {
+        qWarning() << "[CONFIG] createCameraControllerFromConfig unknown exception";
+        QMessageBox::warning(this, tr("Camera Error"),
+                             tr("Failed to create camera controller (unknown error)."));
+    }
+
+    // 4) Restart VideoReceiver synchronously with new RTSP URI
+    if (videoWidget) {
+        if (auto *rcv = videoWidget->getReceiver()) {
+            QString newUri = rcv->getRtspUriFromConfig().trimmed();
+            qDebug() << "[CONFIG] applyConfig: setting RTSP URI to" << newUri;
+            // set the new URI and start pipeline
+            rcv->setRtspUri(newUri);
+
+            qDebug() << "[CONFIG] applyConfig: starting VideoReceiver";
+            rcv->start();
+        }
+    }
+
+    // Re-enable UI buttons
+    if (ui->btnSiyiDefault)      ui->btnSiyiDefault->setEnabled(true);
+    if (ui->btnServoDefault)     ui->btnServoDefault->setEnabled(true);
+    if (ui->btnSiyiSave)         ui->btnSiyiSave->setEnabled(true);
+    if (ui->btnServoSave)        ui->btnServoSave->setEnabled(true);
+
+    // Restart command timer if controller present
+    if (commandTimer && !commandTimer->isActive()) {
+        commandTimer->start(50);
+        qDebug() << "[CONFIG] applyConfig: commandTimer restarted";
+    }
+
+
+    statusBar()->showMessage("Configuration applied", 3000);
+    qDebug() << "[CONFIG] applyConfig: finished";
+
+    applying = false;
+}
+
+
+
+void MainWindow::createCameraControllerFromConfig()
+{
+    // config file path (same folder VideoReceiver used)
+    QString configDir = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation);
+    QDir dir(configDir);
+    dir.mkpath("Haxa5Camera");
+    QString cfgFile = dir.filePath("Haxa5Camera/Hexa5CameraConfig.json");
+
+    QString chosenType = "siyi"; // default
+    QString ip = "10.14.11.3";
+    int port = 8554;
+    QString servoIP;
+    int servoPort = 0;
+
+    QFile f(cfgFile);
+    if (f.open(QIODevice::ReadOnly)) {
+        QByteArray data = f.readAll();
+        f.close();
+        QJsonDocument doc = QJsonDocument::fromJson(data);
+        if (doc.isObject()) {
+            QJsonObject obj = doc.object();
+
+            // If there's an explicit cameraType key, prefer it
+            if (obj.contains("cameraType")) {
+                chosenType = obj.value("cameraType").toString("siyi").toLower();
+            } else {
+                // Detect by presence of servoIP key in your servo config
+                if (obj.contains("servoIP") || obj.contains("servoPort")) {
+                    chosenType = "servo";
+                } else {
+                    chosenType = "siyi";
+                }
+            }
+
+            // read IP/port for chosen controller (config examples you gave)
+            ip = obj.value("ip").toString(ip);
+            port = obj.value("port").toInt(port);
+
+            servoIP   = obj.value("servoIP").toString();
+            servoPort = obj.value("servoPort").toInt();
+        }
+    } else {
+        qWarning() << "Could not open config file:" << cfgFile << "; using defaults";
+    }
+
+    // Tear down existing controller
+    if (cameraController) {
+        cameraController->stop();
+        cameraController.reset();
+    }
+
+    if (chosenType == "servo" && !servoIP.isEmpty()) {
+        cameraController = std::make_unique<ServoCameraController>(servoIP.toStdString(), servoPort ? servoPort : port);
+    } else {
+        // default to SIYI
+        cameraController = std::make_unique<SiyiCameraController>(ip.toStdString(), 37260);
+    }
+
+    if (!cameraController->start()) {
+        qWarning() << "Failed to start cameraController";
+        // keep it null to avoid using a half-started controller
+        cameraController.reset();
+        statusBar()->showMessage("Camera controller failed to start", 3000);
+    }
+
+    // wire callbacks into MainWindow slots
+    cameraController->onStarted = [this]() {
+        QMetaObject::invokeMethod(this, "onCameraStarted", Qt::QueuedConnection);
+    };
+    cameraController->onError = [this](const QString &msg) {
+        QMetaObject::invokeMethod(this, [this, msg]() { onCameraError(msg); }, Qt::QueuedConnection);
+    };
+
+    // wire servoPositionChanged -> controller absolute position (if supported)
+    connect(this, &MainWindow::servoPositionChanged, this, [this](int newPos) {
+        if (cameraController && cameraController->supportsAbsolutePosition()) {
+            cameraController->setGimbalPosition(0, newPos);
+        }
+    }, Qt::QueuedConnection);
+
+}
+
+void MainWindow::initializeCameraController()
+{
+    createCameraControllerFromConfig();
+
+    // Verify controller started successfully
+    if (cameraController && cameraController->isRunning()) {
+        qDebug() << "Camera controller started successfully";
+        statusBar()->showMessage("Camera controller ready", 3000);
+    } else {
+        qWarning() << "Failed to start camera controller";
+        statusBar()->showMessage("Camera controller failed to start", 3000);
+    }
+}

@@ -39,13 +39,15 @@ RUN apt-get update && apt-get install -y \
 RUN rm -f /usr/bin/qmake && \
     ln -s /usr/lib/qt6/bin/qmake /usr/bin/qmake
 
-# Install linuxdeploy and plugin
-RUN wget https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage \
-    && chmod +x linuxdeploy-x86_64.AppImage \
-    && mv linuxdeploy-x86_64.AppImage /usr/local/bin/linuxdeploy
+# Install linuxdeploy core
+RUN wget -qO /usr/local/bin/linuxdeploy \
+     https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage \
+    && chmod +x /usr/local/bin/linuxdeploy
 
-RUN wget https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/continuous/linuxdeploy-plugin-qt-x86_64.AppImage \
-    && chmod +x linuxdeploy-plugin-qt-x86_64.AppImage \
-    && mv linuxdeploy-plugin-qt-x86_64.AppImage /usr/local/bin/linuxdeploy-plugin-qt
+# Install the Qt plugin
+RUN wget -qO /usr/local/bin/linuxdeploy-plugin-qt \
+     https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/continuous/linuxdeploy-plugin-qt-x86_64.AppImage \
+    && chmod +x /usr/local/bin/linuxdeploy-plugin-qt
+
 
 WORKDIR /project

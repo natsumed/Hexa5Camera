@@ -54,12 +54,18 @@ int main(int argc, char *argv[])
     }
 
     MainWindow w;
+    w.setWindowFlags(w.windowFlags()
+                     | Qt::WindowMinimizeButtonHint
+                     | Qt::WindowMaximizeButtonHint
+                     | Qt::WindowCloseButtonHint
+                     | Qt::WindowSystemMenuHint
+                     );
     //w.show();
     w.showMaximized();
-    //w.setStyleSheet(css);
+    w.setStyleSheet(css);
 
     // in–place splash → UI
-    w.playIntro(videoPath, css);
+    //w.playIntro(videoPath, css);
 
     return app.exec();
 }

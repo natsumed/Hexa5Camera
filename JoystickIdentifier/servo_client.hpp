@@ -78,7 +78,7 @@ namespace ServoControl {
          * @param port Server port (default: 8000)
          * @param timeout_ms Timeout in milliseconds for UDP operations (default: 5000)
          */
-        ServoClient(const std::string& ip = "127.0.0.1", int port = 8000, int timeout_ms = 5000);
+        ServoClient(const std::string& ip = "10.14.11.1", int port = 8000, int timeout_ms = 5000);
         
         /**
          * Destructor - cleanup resources

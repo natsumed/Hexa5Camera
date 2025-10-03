@@ -310,257 +310,99 @@
           <property name="title">
            <string>Change Camera Flow</string>
           </property>
-          <widget class="QStackedWidget" name="cameraTypeStack">
+          <widget class="QWidget" name="layoutWidget">
            <property name="geometry">
             <rect>
-             <x>0</x>
-             <y>30</y>
-             <width>281</width>
-             <height>461</height>
+             <x>10</x>
+             <y>80</y>
+             <width>261</width>
+             <height>301</height>
             </rect>
            </property>
-           <property name="currentIndex">
-            <number>2</number>
-           </property>
-           <widget class="QWidget" name="page_choose_type">
-            <widget class="QWidget" name="verticalLayoutWidget_3">
-             <property name="geometry">
-              <rect>
-               <x>10</x>
-               <y>30</y>
-               <width>251</width>
-               <height>181</height>
-              </rect>
-             </property>
-             <layout class="QVBoxLayout" name="verticalLayout_4">
-              <item>
-               <widget class="QLabel" name="labelChooseCamera">
-                <property name="text">
-                 <string>Choose Camera Type</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QPushButton" name="btnSelectSiyi">
-                <property name="text">
-                 <string>SIYI Camera</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <spacer name="horizontalSpacer">
-                <property name="orientation">
-                 <enum>Qt::Orientation::Horizontal</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>40</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item>
-               <widget class="QPushButton" name="btnSelectServo">
-                <property name="text">
-                 <string>Servo Camera</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </widget>
-           </widget>
-           <widget class="QWidget" name="page_siyi">
-            <widget class="QWidget" name="verticalLayoutWidget_4">
-             <property name="geometry">
-              <rect>
-               <x>9</x>
-               <y>29</y>
-               <width>251</width>
-               <height>311</height>
-              </rect>
-             </property>
-             <layout class="QVBoxLayout" name="verticalLayout_5">
-              <item>
-               <widget class="QLineEdit" name="siyi_lineEditIP">
-                <property name="placeholderText">
-                 <string>Camera IP</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLineEdit" name="siyi_lineEditPort">
-                <property name="placeholderText">
-                 <string>Camera Port</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLineEdit" name="siyi_lineEditPath">
-                <property name="placeholderText">
-                 <string>Camera Path(ex:/main.246)</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <spacer name="horizontalSpacer_3">
-                <property name="orientation">
-                 <enum>Qt::Orientation::Horizontal</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>40</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item>
-               <widget class="QPushButton" name="btnSiyiSave">
-                <property name="text">
-                 <string>Save Configuration</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <spacer name="horizontalSpacer_6">
-                <property name="orientation">
-                 <enum>Qt::Orientation::Horizontal</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>40</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item>
-               <widget class="QPushButton" name="btnSiyiDefault">
-                <property name="text">
-                 <string>Default Configuration</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <spacer name="horizontalSpacer_7">
-                <property name="orientation">
-                 <enum>Qt::Orientation::Horizontal</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>40</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item>
-               <widget class="QPushButton" name="btnSiyiBack">
-                <property name="text">
-                 <string>Return</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </widget>
-           </widget>
-           <widget class="QWidget" name="page_servo">
-            <widget class="QWidget" name="formLayoutWidget">
-             <property name="geometry">
-              <rect>
-               <x>0</x>
-               <y>30</y>
-               <width>271</width>
-               <height>401</height>
-              </rect>
-             </property>
-             <layout class="QFormLayout" name="formLayout">
-              <item row="0" column="0" colspan="2">
-               <widget class="QLineEdit" name="servo_lineEditIP">
-                <property name="placeholderText">
-                 <string>Camera IP</string>
-                </property>
-               </widget>
-              </item>
-              <item row="1" column="0" colspan="2">
-               <widget class="QLineEdit" name="servo_lineEditPort">
-                <property name="placeholderText">
-                 <string>Camera Port</string>
-                </property>
-               </widget>
-              </item>
-              <item row="2" column="0" colspan="2">
-               <widget class="QLineEdit" name="servo_lineEditPath">
-                <property name="placeholderText">
-                 <string>Camera Path</string>
-                </property>
-               </widget>
-              </item>
-              <item row="3" column="0" colspan="2">
-               <widget class="QLineEdit" name="servo_lineEditServoIP">
-                <property name="placeholderText">
-                 <string>Servo IP</string>
-                </property>
-               </widget>
-              </item>
-              <item row="4" column="0" colspan="2">
-               <widget class="QLineEdit" name="servo_lineEditServoPort">
-                <property name="placeholderText">
-                 <string>Servo Port</string>
-                </property>
-               </widget>
-              </item>
-              <item row="5" column="0" colspan="2">
-               <widget class="QPushButton" name="btnServoSave">
-                <property name="text">
-                 <string>Save Configuration</string>
-                </property>
-               </widget>
-              </item>
-              <item row="6" column="0" colspan="2">
-               <spacer name="horizontalSpacer_4">
-                <property name="orientation">
-                 <enum>Qt::Orientation::Horizontal</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>40</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="7" column="0" colspan="2">
-               <widget class="QPushButton" name="btnServoDefault">
-                <property name="text">
-                 <string>Default Configuration</string>
-                </property>
-               </widget>
-              </item>
-              <item row="8" column="0" colspan="2">
-               <spacer name="horizontalSpacer_5">
-                <property name="orientation">
-                 <enum>Qt::Orientation::Horizontal</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>40</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="9" column="0" colspan="2">
-               <widget class="QPushButton" name="btnServoBack">
-                <property name="text">
-                 <string>Return</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </widget>
-           </widget>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item>
+             <widget class="QLineEdit" name="comboCameraType">
+              <property name="text">
+               <string/>
+              </property>
+              <property name="placeholderText">
+               <string>Input Camera Type</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEditIP">
+              <property name="text">
+               <string/>
+              </property>
+              <property name="placeholderText">
+               <string>Input Camera IP Address</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEditPort">
+              <property name="text">
+               <string/>
+              </property>
+              <property name="placeholderText">
+               <string>Input Camera Port</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEditPath">
+              <property name="text">
+               <string/>
+              </property>
+              <property name="placeholderText">
+               <string>Input Camera Path</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEditIPServo">
+              <property name="text">
+               <string/>
+              </property>
+              <property name="placeholderText">
+               <string>Input ServoMotor IP Address</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEditPortServo">
+              <property name="text">
+               <string/>
+              </property>
+              <property name="placeholderText">
+               <string>Input ServoMotor Port</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButtonSaveConfig">
+              <property name="text">
+               <string>Save Configuration</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="DefaultConfig">
+              <property name="text">
+               <string>Default Configuration</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+           <zorder>pushButtonSaveConfig</zorder>
+           <zorder>DefaultConfig</zorder>
+           <zorder>lineEditIP</zorder>
+           <zorder>lineEditPort</zorder>
+           <zorder>lineEditPath</zorder>
+           <zorder>lineEditIPServo</zorder>
+           <zorder>lineEditPortServo</zorder>
+           <zorder>comboCameraType</zorder>
           </widget>
          </widget>
         </widget>

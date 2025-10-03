@@ -50,16 +50,22 @@ docker run --rm --privileged \
       chmod +x AppDir/AppRun;
       
       # Bundle GStreamer plugins
-      cp -r /usr/lib/x86_64-linux-gnu/gstreamer-1.0 AppDir/usr/lib/;
+        mkdir -p AppDir/usr/lib/gstreamer-1.0
+	cp -r /usr/lib/x86_64-linux-gnu/gstreamer-1.0/* AppDir/usr/lib/gstreamer-1.0/
+
+	# Also bundle essential GST libraries
+	mkdir -p AppDir/usr/lib/x86_64-linux-gnu/
+	cp -r /usr/lib/x86_64-linux-gnu/libgst* AppDir/usr/lib/x86_64-linux-gnu/
+	cp -r /usr/lib/x86_64-linux-gnu/libglib* AppDir/usr/lib/x86_64-linux-gnu/
       
       # Bundle AppImage
-      linuxdeploy \
-        --appdir AppDir \
-        --executable AppDir/usr/bin/JoystickIdentifier \
-        --desktop-file AppDir/usr/share/applications/JoystickIdentifier.desktop \
-        --icon-file AppDir/usr/share/icons/hicolor/64x64/apps/joystickidentifier.png \
-        --plugin qt \
-        --output appimage;
+	linuxdeploy \
+	  --appdir AppDir \
+	  --executable AppDir/usr/bin/JoystickIdentifier \
+	  --desktop-file AppDir/usr/share/applications/JoystickIdentifier.desktop \
+	  --icon-file    AppDir/usr/share/icons/hicolor/64x64/apps/joystickidentifier.png \
+	  --plugin qt \
+	  --output appimage
       
       mv *.AppImage /project/build/JoystickIdentifier.AppImage
     "

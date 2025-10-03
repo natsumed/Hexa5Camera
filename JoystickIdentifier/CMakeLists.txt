@@ -8,6 +8,8 @@ set(CMAKE_AUTORCC ON)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+add_compile_options(-fsanitize=address -fno-omit-frame-pointer)
+add_link_options(   -fsanitize=address)
 
 
 #set(CMAKE_EXE_LINKER_FLAGS "-static")
@@ -54,8 +56,7 @@ set(PROJECT_SOURCES
     cJSON.h
     servo_client.cpp
     servo_client.hpp
-    ServoWorker.h
-    
+    ServoWorker.h   
 )
 
 # Create executable using Qt6.
@@ -63,6 +64,13 @@ qt_add_executable(JoystickIdentifier
     MANUAL_FINALIZATION
     ${PROJECT_SOURCES}
     mainwindow.ui
+    CameraController.h
+    SiyiCameraController.h SiyiCameraController.cpp
+    ServoCameraController.h ServoCameraController.cpp
+    mainwindow.ui.bak
+
+
+
 )
 
 #--- bundle resources into the binary
